@@ -87,7 +87,9 @@ jobs:
           echo "Running in mode: $(cat $GITHUB_OUTPUT | grep mode | cut -d= -f2)"
 
       - name: Write GitHub App private key
-        run: echo "${{ secrets.APP_PRIVATE_KEY }}" > /tmp/app-private-key.pem
+        env:
+          APP_PRIVATE_KEY: ${{ secrets.APP_PRIVATE_KEY }}
+        run: echo "$APP_PRIVATE_KEY" > /tmp/app-private-key.pem
 
       - name: Run update
         if: steps.mode.outputs.mode == 'update'
