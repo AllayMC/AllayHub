@@ -1,0 +1,23 @@
+diff --git a/index.js b/index.js
+index fb62dea2001ddadc6367e781f1236e9524601816..d8dc4594c2315917ecdb8b2ebcfd9c89128228ff 100644
+--- a/index.js
++++ b/index.js
+@@ -1,11 +1,15 @@
+ /*
+ DPack - Fast, compact object structure encoding.
++Browser-compatible version: removed stream dependencies
+ */
+ 
+-exports.createSerializeStream = require('./lib/serialize-stream').createSerializeStream
+-exports.createParseStream = require('./lib/parse-stream').createParseStream
++// Browser-compatible stubs for stream functions
++exports.createSerializeStream = () => { throw new Error('createSerializeStream is not supported in browser') }
++exports.createParseStream = () => { throw new Error('createParseStream is not supported in browser') }
++
+ const serialize = require('./lib/serialize')
+-serialize.nodeCharEncoder = require('./lib/node-encoder').nodeCharEncoder
++// Skip node-encoder which may have Node.js dependencies
++// serialize.nodeCharEncoder = require('./lib/node-encoder').nodeCharEncoder
+ const parse = require('./lib/parse')
+ const Options = require('./lib/Options').Options
+ 

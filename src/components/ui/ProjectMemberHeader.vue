@@ -1,0 +1,190 @@
+<template>
+  <div v-if="showInvitation" class="universal-card information invited my-4">
+    <h2>{{ getFormattedMessage(messages.invitationTitle) }}</h2>
+    <p v-if="currentMember?.project_role">
+      {{
+        formatMessage(messages.invitationWithRole, {
+          role: currentMember.project_role,
+        })
+      }}
+    </p>
+    <p v-else>{{ getFormattedMessage(messages.invitationNoRole) }}</p>
+    <div class="input-group">
+      <ButtonStyled color="brand">
+        <button class="brand-button" @click="acceptInvite()">
+          <CheckIcon />
+          {{ getFormattedMessage(messages.accept) }}
+        </button>
+      </ButtonStyled>
+      <ButtonStyled color="red">
+        <button @click="declineInvite">
+          <XIcon />
+          {{ getFormattedMessage(messages.decline) }}
+        </button>
+      </ButtonStyled>
+    </div>
+  </div>
+</template>
+
+<script setup lang="ts">
+import { CheckIcon, XIcon } from '@modrinth/assets'
+import {
+  ButtonStyled,
+  defineMessages,
+  type MessageDescriptor,
+  useVIntl,
+} from '@modrinth/ui'
+import type { Project, User, Version } from '@modrinth/utils'
+import { computed } from 'vue'
+
+interface Tags {
+  rejectedStatuses: string[]
+}
+
+interface Auth {
+  user: {
+    id: string
+  }
+}
+
+interface Member {
+  accepted?: boolean
+  project_role?: string
+  user?: Partial<User>
+}
+
+interface Props {
+  project: Project
+  versions?: Version[]
+  currentMember?: Member | null
+  allMembers?: Member[] | null
+  isSettings?: boolean
+  auth: Auth
+  tags: Tags
+  setProcessing?: (processing: boolean) => void
+  updateMembers?: () => void | Promise<void>
+}
+
+const messages = defineMessages({
+  invitationTitle: {
+    id: 'project-member-header.invitation-title',
+    defaultMessage: 'Invitation to join project',
+  },
+  invitationWithRole: {
+    id: 'project-member-header.invitation-with-role',
+    defaultMessage:
+      "You've been invited to be a member of this project with the role of ''{role}''.",
+  },
+  invitationNoRole: {
+    id: 'project-member-header.invitation-no-role',
+    defaultMessage:
+      "You've been invited to join this project. Please accept or decline the invitation.",
+  },
+  accept: {
+    id: 'project-member-header.accept',
+    defaultMessage: 'Accept',
+  },
+  decline: {
+    id: 'project-member-header.decline',
+    defaultMessage: 'Decline',
+  },
+  successJoin: {
+    id: 'project-member-header.success-join',
+    defaultMessage: 'You have joined the project team',
+  },
+  errorJoin: {
+    id: 'project-member-header.error-join',
+    defaultMessage: 'Failed to accept team invitation',
+  },
+  successDecline: {
+    id: 'project-member-header.success-decline',
+    defaultMessage: 'You have declined the team invitation',
+  },
+  errorDecline: {
+    id: 'project-member-header.error-decline',
+    defaultMessage: 'Failed to decline team invitation',
+  },
+  success: {
+    id: 'project-member-header.success',
+    defaultMessage: 'Success',
+  },
+  error: {
+    id: 'project-member-header.error',
+    defaultMessage: 'Error',
+  },
+})
+
+const { formatMessage } = useVIntl()
+
+function getFormattedMessage(message: string | MessageDescriptor): string {
+  if (typeof message === 'string') {
+    return message
+  }
+  return formatMessage(message)
+}
+
+const props = withDefaults(defineProps<Props>(), {
+  versions: () => [],
+  currentMember: null,
+  allMembers: null,
+  isSettings: false,
+  collapsed: false,
+  setProcessing: () => {},
+  toggleCollapsed: () => {},
+  updateMembers: async () => {},
+})
+
+const emit = defineEmits<{
+  toggleCollapsed: []
+  updateMembers: []
+  setProcessing: [processing: boolean]
+}>()
+
+const showInvitation = computed<boolean>(() => {
+  if (props.allMembers && props.auth) {
+    const member = props.allMembers.find(
+      (x) => x?.user?.id === props.auth.user.id,
+    )
+    return !!member && !member.accepted
+  }
+  return false
+})
+
+async function handleUpdateMembers(): Promise<void> {
+  if (props.updateMembers) {
+    await props.updateMembers()
+  } else {
+    emit('updateMembers')
+  }
+}
+
+function handleSetProcessing(processing: boolean): void {
+  if (props.setProcessing) {
+    props.setProcessing(processing)
+  } else {
+    emit('setProcessing', processing)
+  }
+}
+
+async function acceptInvite(): Promise<void> {
+  try {
+    handleSetProcessing(true)
+    await handleUpdateMembers()
+  } catch {
+    // Error handling removed - notification manager not available
+  } finally {
+    handleSetProcessing(false)
+  }
+}
+
+async function declineInvite(): Promise<void> {
+  try {
+    handleSetProcessing(true)
+    await handleUpdateMembers()
+  } catch {
+    // Error handling removed - notification manager not available
+  } finally {
+    handleSetProcessing(false)
+  }
+}
+</script>

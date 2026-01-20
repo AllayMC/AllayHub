@@ -1,0 +1,71 @@
+name: Deploy
+
+on:
+  push:
+    branches: [master]
+    paths:
+      - 'src/**'
+      - 'packages/**'
+      - 'patches/**'
+      - 'i18n/**'
+      - 'nuxt.config.ts'
+      - 'package.json'
+      - 'tailwind.config.ts'
+      - 'tsconfig.json'
+  repository_dispatch:
+    types: [index-updated]
+  workflow_dispatch:
+
+concurrency:
+  group: deploy
+  cancel-in-progress: true
+
+jobs:
+  deploy:
+    name: Deploy to GitHub Pages
+    runs-on: ubuntu-latest
+    permissions:
+      pages: write
+      id-token: write
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - uses: actions/checkout@v6
+
+      - name: Checkout AllayHubIndex
+        uses: actions/checkout@v6
+        with:
+          repository: AllayMC/AllayHubIndex
+          path: AllayHubIndex
+
+      - name: Setup Bun
+        uses: oven-sh/setup-bun@v2
+
+      - name: Cache Bun dependencies
+        uses: actions/cache@v4
+        with:
+          path: ~/.bun/install/cache
+          key: ${{ runner.os }}-bun-${{ hashFiles('bun.lock') }}
+          restore-keys: |
+            ${{ runner.os }}-bun-
+
+      - name: Download indexer
+        run: |
+          curl -sL https://github.com/${{ github.repository }}/releases/download/indexer-latest/allayindexer -o allayindexer
+          chmod +x allayindexer
+
+      - name: Install dependencies
+        run: bun install
+
+      - name: Generate static site
+        run: bun run generate
+
+      - name: Upload Pages artifact
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: .output/public
+
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4

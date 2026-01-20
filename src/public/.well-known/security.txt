@@ -1,0 +1,4 @@
+Contact: https://github.com/AllayMC/AllayHub/issues
+Expires: 2026-12-31T00:00:00.000Z
+Preferred-Languages: en, zh
+Canonical: https://allayhub.org/.well-known/security.txt

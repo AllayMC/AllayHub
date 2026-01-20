@@ -1,0 +1,65 @@
+# Dependencies
+**/node_modules/
+**/target/
+**/.claude
+
+# Nuxt
+**/.nuxt/
+**/.output/
+**/.data/
+**/.nitro/
+**/.cache/
+
+# Build
+**/dist/
+*.local
+
+# Logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Editor
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Environment
+**/.env
+**/.env.*
+!**/.env.example
+
+# Search index (generated at build time)
+**/public/search/
+**/public/index/
+**/generated
+**/.orama-hash
+**/.tinysearch-hash
+
+# Test output
+**/coverage/
+
+# Bun
+bun.lockb
+
+**/__pycache__/
+
+# Python virtual environment
+**/.venv/
+**/venv/
+
+!.gitkeep
+
+# AllayHubIndex
+/AllayHubIndex
+**/orama-index.bin
+allayindexer
+.last_sync

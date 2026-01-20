@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<OpenSearchDescription
+  xmlns="http://a9.com/-/spec/opensearch/1.1/"
+  xmlns:moz="http://www.mozilla.org/2006/browser/search/"
+>
+  <ShortName>AllayHub plugins</ShortName>
+  <Description>
+    Search for plugins on AllayHub, the plugin hub for Allay Minecraft Bedrock
+    server.
+  </Description>
+  <InputEncoding>UTF-8</InputEncoding>
+  <Image width="16" height="16" type="image/x-icon">
+    https://hub.allaymc.org/favicon.ico
+  </Image>
+  <Url
+    type="text/html"
+    method="get"
+    template="https://hub.allaymc.org/discover/plugins?q={searchTerms}"
+  />
+  <Developer>AllayMC</Developer>
+  <Attribution>AllayMC</Attribution>
+  <moz:SearchForm>https://hub.allaymc.org/discover/plugins</moz:SearchForm>
+</OpenSearchDescription>

@@ -1,0 +1,602 @@
+{
+  "action.cancel": {
+    "message": "Avbryt"
+  },
+  "action.continue": {
+    "message": "Fortsett"
+  },
+  "admin.billing.error.not-found": {
+    "message": "Bruker ikke funnet"
+  },
+  "app-marketing.download.description": {
+    "message": "Våres applikasjon er tilgjengelig på alle platformer, velg din ønsket versjon."
+  },
+  "app-marketing.download.download-appimage": {
+    "message": "Last ned AppImage"
+  },
+  "app-marketing.download.download-beta": {
+    "message": "Last ned betaversjon"
+  },
+  "app-marketing.download.download-deb": {
+    "message": "Last ned DEB"
+  },
+  "app-marketing.download.download-rpm": {
+    "message": "Last ned RPM"
+  },
+  "app-marketing.download.linux": {
+    "message": "Linux"
+  },
+  "app-marketing.download.linux-disclaimer": {
+    "message": "De linux-baserte versjonene av Modrinth App er <issues-link>kjent for å ha problemer</issues-link> på visse systemer og konfigurasjoner. Hvis Modrinth App er ustabil på ditt system, oppfordrer vi deg til å prøve andre apper som <prism-link>Prism Launcher</prism-link> for å enkelt installere Modrinth-innhold."
+  },
+  "app-marketing.download.mac": {
+    "message": "Mac"
+  },
+  "app-marketing.download.options-title": {
+    "message": "Nedlastingsalternativer"
+  },
+  "app-marketing.download.terms": {
+    "message": "Ved å laste ned Modrinth-appen godtar du våre <terms-link>Brukervilkår</terms-link> og <privacy-link>Personvernerklæring</privacy-link>."
+  },
+  "app-marketing.download.third-party-packages": {
+    "message": "Tredjepartspakker"
+  },
+  "app-marketing.download.title": {
+    "message": "Last ned Modrinth-appen (Beta)"
+  },
+  "app-marketing.download.windows": {
+    "message": "Windows"
+  },
+  "app-marketing.features.follow.description": {
+    "message": "Lagre innhold du liker og motta oppdateringer med ett klikk."
+  },
+  "app-marketing.features.follow.title": {
+    "message": "Følg prosjekter"
+  },
+  "app-marketing.features.importing.description": {
+    "message": "Importer alle dine favorittprofiler fra launcheren du brukte tidligere, og kom i gang med Modrinth-appen på noen sekunder!"
+  },
+  "app-marketing.features.importing.gdlauncher-alt": {
+    "message": "GDLauncher"
+  },
+  "app-marketing.features.importing.multimc-alt": {
+    "message": "MultiMC"
+  },
+  "app-marketing.features.importing.title": {
+    "message": "Importer profiler"
+  },
+  "app-marketing.features.mod-management.actions": {
+    "message": "Handlinger"
+  },
+  "app-marketing.features.mod-management.byAuthor": {
+    "message": "av {author}"
+  },
+  "app-marketing.features.mod-management.description": {
+    "message": "Modrinth gjør det enkelt å administrere alle moddene dine på ett sted. Du kan installere, avinstallere og oppdatere mods med ett enkelt klikk."
+  },
+  "app-marketing.features.mod-management.installed-mods": {
+    "message": "Installerte mods"
+  },
+  "app-marketing.features.mod-management.name": {
+    "message": "Navn"
+  },
+  "app-marketing.features.mod-management.search-mods": {
+    "message": "Søk mods"
+  },
+  "app-marketing.features.mod-management.title": {
+    "message": "Administrere mods"
+  },
+  "app-marketing.features.mod-management.version": {
+    "message": "Versjon"
+  },
+  "app-marketing.features.offline.description": {
+    "message": "Spill moddene dine, enten du er tilkoblet internett eller ikke."
+  },
+  "app-marketing.features.offline.title": {
+    "message": "Offlinemodus"
+  },
+  "app-marketing.features.open-source.description": {
+    "message": "Modrinths launcher er helt åpen kildekode. Du kan se kildekoden på vår <github-link>GitHub</github-link>!"
+  },
+  "app-marketing.features.open-source.title": {
+    "message": "Åpen kildekode"
+  },
+  "app-marketing.features.performance.activity-monitor": {
+    "message": "Aktivitetsovervåking"
+  },
+  "app-marketing.features.performance.cpu-percent": {
+    "message": "% CPU"
+  },
+  "app-marketing.features.performance.description": {
+    "message": "Modrinth-appen yter bedre enn mange av de ledende mod-launcherne og bruker kun 150MB med RAM!"
+  },
+  "app-marketing.features.performance.discord": {
+    "message": "Discord"
+  },
+  "app-marketing.features.performance.good-performance": {
+    "message": "God ytelse"
+  },
+  "app-marketing.features.performance.google-chrome": {
+    "message": "Google Chrome"
+  },
+  "app-marketing.features.performance.infinite-mb": {
+    "message": "∞ MB"
+  },
+  "app-marketing.features.performance.infinite-times-infinite-mb": {
+    "message": "∞ * ∞ MB"
+  },
+  "app-marketing.features.performance.less-than-150mb": {
+    "message": "< 150 MB"
+  },
+  "app-marketing.features.performance.modrinth-app": {
+    "message": "Modrinth App"
+  },
+  "app-marketing.features.performance.one-billion-percent": {
+    "message": "1 milliard %"
+  },
+  "app-marketing.features.performance.process-name": {
+    "message": "Prosessnavn"
+  },
+  "app-marketing.features.performance.ram": {
+    "message": "RAM"
+  },
+  "app-marketing.features.performance.small": {
+    "message": "Lite"
+  },
+  "app-marketing.features.performance.title": {
+    "message": "Ytelsessterk"
+  },
+  "app-marketing.features.play.description": {
+    "message": "Bruk Modrinth-appen for å laste ned og spille med dine favoritt-mods og modpakker."
+  },
+  "app-marketing.features.play.title": {
+    "message": "Spill med dine favoritt-mods"
+  },
+  "app-marketing.features.sharing.description": {
+    "message": "Bygg, del og spill med tusenvis av mods og modpakker som er tilgjengelige her på Modrinth."
+  },
+  "app-marketing.features.sharing.modpack": {
+    "message": "Modpakke"
+  },
+  "app-marketing.features.sharing.share-button": {
+    "message": "Del"
+  },
+  "app-marketing.features.sharing.title": {
+    "message": "Del modpakker"
+  },
+  "app-marketing.features.unlike-any-launcher": {
+    "message": "Ulik noen andre launchere"
+  },
+  "app-marketing.features.website.description": {
+    "message": "Modrinth-appen er fullt integrert med nettsiden, så du kan få tilgang til alle dine favorittprosjekter direkte fra appen!"
+  },
+  "app-marketing.features.website.title": {
+    "message": "Nettsideintegrering"
+  },
+  "app-marketing.features.youve-used-before": {
+    "message": "du har brukt før"
+  },
+  "app-marketing.hero.app-screenshot-alt": {
+    "message": "Skjermbilde av Modrinth-appen med en Cobblemon instans åpnet på 'Innhold' siden."
+  },
+  "app-marketing.hero.description": {
+    "message": "Modrinth-appen er en unik, åpen kildekode-launcher som lar deg spille dine favoritt-mods og holde dem oppdatert – alt samlet i én ryddig pakke."
+  },
+  "app-marketing.hero.download-button": {
+    "message": "Last ned Modrinth Appen"
+  },
+  "app-marketing.hero.download-modrinth-app": {
+    "message": "Last ned Modrinth Appen"
+  },
+  "app-marketing.hero.download-modrinth-app-for-os": {
+    "message": "Last ned Modrinth App for {os}"
+  },
+  "app-marketing.hero.minecraft-screenshot-alt": {
+    "message": "Skjermbilde av hovedmenyen til en Cobblemon instans."
+  },
+  "app-marketing.hero.more-download-options": {
+    "message": "Flere nedlastingsalternativer"
+  },
+  "auth.authorize.action.authorize": {
+    "message": "Godkjenn"
+  },
+  "auth.authorize.action.decline": {
+    "message": "Avslå"
+  },
+  "auth.authorize.app-info": {
+    "message": "<strong>{appName}</strong> av <creator-link>{creator}</creator-link> vil kunne:"
+  },
+  "auth.authorize.authorize-app-name": {
+    "message": "Autoriser {appName}"
+  },
+  "auth.authorize.error.no-redirect-url": {
+    "message": "Kunne ikke finne omdirigeringslenke"
+  },
+  "auth.authorize.redirect-url": {
+    "message": "Du vil bli videresendt til <redirect-url>{url}</redirect-url>"
+  },
+  "auth.reset-password.method-choice.action": {
+    "message": "Send gjenopprettings-e-post"
+  },
+  "auth.reset-password.method-choice.description": {
+    "message": "Skriv inn e-posten din nedenfor, så sender vi en gjenopprettingslenke som lar deg gjenopprette kontoen din."
+  },
+  "auth.reset-password.method-choice.email-username.label": {
+    "message": "E-post eller brukernavn"
+  },
+  "auth.reset-password.method-choice.email-username.placeholder": {
+    "message": "E-post"
+  },
+  "auth.reset-password.notification.email-sent.text": {
+    "message": "En e-post med instruksjoner er sendt til deg hvis e-posten tidligere var lagret på kontoen din."
+  },
+  "auth.reset-password.notification.email-sent.title": {
+    "message": "E-post sendt"
+  },
+  "auth.reset-password.notification.password-reset.text": {
+    "message": "Du kan nå logge inn på kontoen din med det nye passordet ditt."
+  },
+  "auth.reset-password.notification.password-reset.title": {
+    "message": "Passordet er tilbakestilt"
+  },
+  "auth.reset-password.post-challenge.action": {
+    "message": "Tilbakestill passord"
+  },
+  "auth.reset-password.post-challenge.confirm-password.label": {
+    "message": "Bekreft passord"
+  },
+  "auth.reset-password.post-challenge.description": {
+    "message": "Skriv inn ditt nye passord nedenfor for å få tilgang til kontoen din."
+  },
+  "auth.reset-password.title": {
+    "message": "Tilbakestill passord"
+  },
+  "auth.reset-password.title.long": {
+    "message": "Tilbakestill passordet dit"
+  },
+  "auth.sign-in.2fa.description": {
+    "message": "Vennligst skriv inn en tofaktor-kode for å fortsette."
+  },
+  "auth.sign-in.2fa.label": {
+    "message": "Skriv inn tofaktor-kode"
+  },
+  "auth.sign-in.2fa.placeholder": {
+    "message": "Skriv inn kode..."
+  },
+  "auth.sign-in.additional-options": {
+    "message": "<forgot-password-link>Glemt passord?</forgot-password-link> • <create-account-link>Opprett en konto</create-account-link>"
+  },
+  "auth.sign-in.email-username.label": {
+    "message": "E-post eller brukernavn"
+  },
+  "auth.sign-in.password.label": {
+    "message": "Passord"
+  },
+  "auth.sign-in.sign-in-with": {
+    "message": "Logg inn med"
+  },
+  "auth.sign-in.title": {
+    "message": "Logg inn"
+  },
+  "auth.sign-in.use-password": {
+    "message": "Eller bruk et passord"
+  },
+  "auth.sign-up.action.create-account": {
+    "message": "Opprett konto"
+  },
+  "auth.sign-up.confirm-password.label": {
+    "message": "Bekreft passord"
+  },
+  "auth.sign-up.email.label": {
+    "message": "E-post"
+  },
+  "auth.sign-up.label.username": {
+    "message": "Brukernavn"
+  },
+  "auth.sign-up.legal-dislaimer": {
+    "message": "Ved å opprette en konto godtar du Modrinths <terms-link>Vilkår</terms-link> og <privacy-policy-link>Personvernpolicy</privacy-policy-link>."
+  },
+  "auth.sign-up.notification.password-mismatch.text": {
+    "message": "Passordene stemmer ikke overens!"
+  },
+  "auth.sign-up.password.label": {
+    "message": "Passord"
+  },
+  "auth.sign-up.sign-in-option.title": {
+    "message": "Har du allerede en konto?"
+  },
+  "auth.sign-up.subscribe.label": {
+    "message": "Abonner på oppdateringer om Modrinth"
+  },
+  "auth.sign-up.title": {
+    "message": "Registrer deg"
+  },
+  "auth.sign-up.title.create-account": {
+    "message": "Eller lag en konko selv"
+  },
+  "auth.sign-up.title.sign-up-with": {
+    "message": "Registrer deg med"
+  },
+  "auth.verify-email.action.account-settings": {
+    "message": "Kontoinstillinger"
+  },
+  "auth.verify-email.action.sign-in": {
+    "message": "Logg inn"
+  },
+  "auth.verify-email.already-verified.description": {
+    "message": "E-posten din er allerede bekreftet!"
+  },
+  "auth.verify-email.already-verified.title": {
+    "message": "E-posten er allerede bekreftet"
+  },
+  "auth.verify-email.failed-verification.action": {
+    "message": "Send brekreftelsesepost på nytt"
+  },
+  "auth.verify-email.failed-verification.description": {
+    "message": "Vi kunne ikke bekrefte e-posten din. Prøv å send verifikasjons e-posten på nytt via kontrollpanelet ditt ved å logge inn."
+  },
+  "auth.verify-email.failed-verification.description.logged-in": {
+    "message": "Vi kunne ikke bekrefte e-posten din. Prøv å send verifikasjons e-posten på nytt ved å bruke knappen nedenfor."
+  },
+  "auth.verify-email.failed-verification.title": {
+    "message": "Emailverifisering mislykkes"
+  },
+  "auth.verify-email.post-verification.description": {
+    "message": "E-postadressen din er nå bekreftet!"
+  },
+  "auth.verify-email.post-verification.title": {
+    "message": "Email verifisering"
+  },
+  "auth.verify-email.title": {
+    "message": "Verifiser Email"
+  },
+  "auth.welcome.checkbox.subscribe": {
+    "message": "Abonner på oppdateringer om Modrinth"
+  },
+  "auth.welcome.description": {
+    "message": "Nå er du med i det fantastiske fellesskapet av skapere og utforskere som bygger, laster ned og holder seg oppdatert på fantastiske mods."
+  },
+  "auth.welcome.label.tos": {
+    "message": "Ved å opprette en konto godtar du Modrinths <terms-link>Vilkår</terms-link> og <privacy-policy-link>Personvernpolicy</privacy-policy-link>."
+  },
+  "auth.welcome.long-title": {
+    "message": "Velkommen til Modrinth!"
+  },
+  "auth.welcome.title": {
+    "message": "Velkommen"
+  },
+  "collection.button.edit-icon": {
+    "message": "Rediger ikon"
+  },
+  "collection.button.remove-icon": {
+    "message": "Fjern ikon"
+  },
+  "collection.button.remove-project": {
+    "message": "Fjern prosjekt"
+  },
+  "collection.button.replace-icon": {
+    "message": "Erstatt ikon"
+  },
+  "collection.button.select-icon": {
+    "message": "Velg ikon"
+  },
+  "collection.button.unfollow-project": {
+    "message": "Slutt å følge prosjektet"
+  },
+  "collection.label.updated-at": {
+    "message": "Oppdatert {ago}"
+  },
+  "create.project.cancel": {
+    "message": "Avbryt"
+  },
+  "create.project.create-project": {
+    "message": "Lag et prosjekt"
+  },
+  "create.project.error-title": {
+    "message": "En feil oppstod"
+  },
+  "create.project.name-label": {
+    "message": "Navn"
+  },
+  "create.project.name-placeholder": {
+    "message": "Skriv inn prosjektnavn..."
+  },
+  "create.project.summary-description": {
+    "message": "En eller to setninger som beskriver prosjektet ditt."
+  },
+  "create.project.summary-label": {
+    "message": "Oppsummering"
+  },
+  "create.project.summary-placeholder": {
+    "message": "Dette prosjektet legger til..."
+  },
+  "create.project.title": {
+    "message": "Lag et prosjekt"
+  },
+  "create.project.url-label": {
+    "message": "URL"
+  },
+  "create.project.visibility-description": {
+    "message": "Synligheten til prosjektet ditt etter at det er godkjent."
+  },
+  "create.project.visibility-label": {
+    "message": "Synlighet"
+  },
+  "create.project.visibility-private": {
+    "message": "Privat"
+  },
+  "create.project.visibility-public": {
+    "message": "Offentlig"
+  },
+  "create.project.visibility-unlisted": {
+    "message": "Uoppført"
+  },
+  "dashboard.affiliate-links.create.button": {
+    "message": "Opprett tilknytningslenke"
+  },
+  "dashboard.affiliate-links.error.title": {
+    "message": "Feil ved lasting av tilknytningslenker"
+  },
+  "dashboard.affiliate-links.header": {
+    "message": "Dine tilknytningslenker"
+  },
+  "dashboard.affiliate-links.revoke-confirm.body": {
+    "message": "Dette vil fjerne tilknytningskoden {id} permanent, og alle delte lenker med denne koden vil slutte å virke."
+  },
+  "dashboard.affiliate-links.revoke-confirm.button": {
+    "message": "Slett"
+  },
+  "dashboard.affiliate-links.revoke-confirm.title": {
+    "message": "Er du sikker på at du vil slette tilknytningslenken ''{title}''?"
+  },
+  "dashboard.affiliate-links.search": {
+    "message": "Søk i tilknytningslenker..."
+  },
+  "dashboard.collections.button.create-new": {
+    "message": "Lag ny"
+  },
+  "dashboard.collections.label.projects-count": {
+    "message": "{count, plural, one {{count} prosjekt} other {{count} prosjekter}}"
+  },
+  "dashboard.collections.label.search-input": {
+    "message": "Søk i samlingene dine"
+  },
+  "dashboard.collections.long-title": {
+    "message": "Dine samlinger"
+  },
+  "dashboard.creator-tax-form-modal.confirmation.download-button": {
+    "message": "Last ned {formType}"
+  },
+  "dashboard.creator-tax-form-modal.confirmation.success": {
+    "message": "Ditt skatteskjema {formType} er sendt inn!"
+  },
+  "dashboard.creator-tax-form-modal.confirmation.support-text": {
+    "message": "Du kan nå fritt ta ut beløpet. Har du spørsmål eller trenger å oppdatere opplysningene dine, <support-link>ta kontakt med support</support-link>."
+  },
+  "dashboard.creator-tax-form-modal.confirmation.title": {
+    "message": "Alt er klart! 🎉"
+  },
+  "dashboard.creator-tax-form-modal.entity.description": {
+    "message": "En utenlandsk enhet betyr en virksomhet som er registrert utenfor USA (for eksempel et aksjeselskap, ansvarlig selskap eller LLC som ikke er amerikansk)."
+  },
+  "dashboard.creator-tax-form-modal.entity.foreign-entity": {
+    "message": "Utenlandsk enhet"
+  },
+  "dashboard.creator-tax-form-modal.entity.private-individual": {
+    "message": "Privatperson"
+  },
+  "dashboard.creator-tax-form-modal.entity.question": {
+    "message": "Er du en privatperson eller en del av en utenlandsk enhet?"
+  },
+  "dashboard.creator-tax-form-modal.header": {
+    "message": "Skatteskjema"
+  },
+  "dashboard.creator-tax-form-modal.security.description": {
+    "message": "Modrinth bruker den uavhengige leverandøren Track1099 for å trygt innhente og lagre skatteskjemaene dine. <security-link>Les mer her.</security-link>"
+  },
+  "dashboard.creator-tax-form-modal.security.header": {
+    "message": "Sikkerhetspraksis"
+  },
+  "dashboard.creator-tax-form-modal.us-citizen.question": {
+    "message": "Er du amerikansk statsborger?"
+  },
+  "dashboard.creator-withdraw-modal.complete-tax-form": {
+    "message": "Fyll ut skatteskjema"
+  },
+  "dashboard.creator-withdraw-modal.continue-with-limit": {
+    "message": "Fortsett med begrensning"
+  },
+  "dashboard.creator-withdraw-modal.details-label": {
+    "message": "Detaljer"
+  },
+  "dashboard.creator-withdraw-modal.fee-breakdown-amount": {
+    "message": "Beløp"
+  },
+  "dashboard.creator-withdraw-modal.fee-breakdown-exchange-rate": {
+    "message": "Valutakurs"
+  },
+  "dashboard.creator-withdraw-modal.fee-breakdown-fee": {
+    "message": "Gebyr"
+  },
+  "dashboard.creator-withdraw-modal.fee-breakdown-gift-card-value": {
+    "message": "Verdien på gavekortet"
+  },
+  "dashboard.creator-withdraw-modal.fee-breakdown-net-amount": {
+    "message": "Nettobeløp"
+  },
+  "dashboard.creator-withdraw-modal.fee-breakdown-usd-equivalent": {
+    "message": "Verdi i USD"
+  },
+  "dashboard.creator-withdraw-modal.kyc.business-entity": {
+    "message": "Foretaksenhet"
+  },
+  "dashboard.creator-withdraw-modal.kyc.entity-description": {
+    "message": "En virksomhet (eller foretak) refererer til en registrert organisasjon, som for eksempel et aksjeselskap, ansvarlig selskap eller et selskap med begrenset ansvar."
+  },
+  "dashboard.creator-withdraw-modal.kyc.entity-question": {
+    "message": "Trekker du ut midler som privatperson eller som virksomhet?"
+  },
+  "dashboard.creator-withdraw-modal.kyc.private-individual": {
+    "message": "Privatperson"
+  },
+  "dashboard.creator-withdraw-modal.tremendous-details.reward-placeholder": {
+    "message": "Velg belønning"
+  },
+  "dashboard.creator-withdraw-modal.tremendous-details.reward-plural": {
+    "message": "Belønninger"
+  },
+  "dashboard.creator-withdraw-modal.tremendous-details.search-amount-label": {
+    "message": "Søk på beløp"
+  },
+  "dashboard.creator-withdraw-modal.tremendous-details.select-denomination-hint": {
+    "message": "Velg en valør:"
+  },
+  "dashboard.creator-withdraw-modal.tremendous-details.select-denomination-required": {
+    "message": "Vennligst velg en valør for å fortsette"
+  },
+  "dashboard.creator-withdraw-modal.tremendous-details.unverified-email-header": {
+    "message": "Ubekreftet e-post"
+  },
+  "dashboard.creator-withdraw-modal.tremendous-details.unverified-email-message": {
+    "message": "E-posten du har oppgitt for levering er ikke knyttet til din Modrinth-konto. Modrinth kan ikke gjenopprette belønninger sendt til feil e-postadresse."
+  },
+  "error.collection.404.list_title": {
+    "message": "Hvorfor?"
+  },
+  "error.organization.404.list_title": {
+    "message": "Hvorfor?"
+  },
+  "error.user.404.list_title": {
+    "message": "Hvorfor?"
+  },
+  "frog.title": {
+    "message": "Frosk"
+  },
+  "landing.button.discover-mods": {
+    "message": "Oppdag mods"
+  },
+  "landing.button.go-to-dashboard": {
+    "message": "Gå til dashbord"
+  },
+  "landing.launcher.modrinth-app-label": {
+    "message": "Modrinth App"
+  },
+  "landing.launcher.prism-launcher-label": {
+    "message": "Prism Launcher"
+  },
+  "landing.search.label": {
+    "message": "Søk"
+  },
+  "landing.search.placeholder": {
+    "message": "Søk..."
+  },
+  "landing.search.sort-by.label": {
+    "message": "Sorter etter"
+  },
+  "layout.footer.products.plus": {
+    "message": "Modrinth+"
+  },
+  "layout.footer.resources.api-docs": {
+    "message": "API dokumentasjon"
+  }
+}

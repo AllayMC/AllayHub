@@ -1,0 +1,52 @@
+name: Build Indexer
+
+on:
+  push:
+    branches: [master]
+    paths:
+      - 'indexer/src/**'
+      - 'indexer/data/**'
+      - 'indexer/Cargo.toml'
+  workflow_dispatch:
+
+concurrency:
+  group: build-indexer
+  cancel-in-progress: true
+
+jobs:
+  build:
+    name: Build Indexer
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - uses: actions/checkout@v6
+
+      - name: Setup Rust
+        uses: actions-rust-lang/setup-rust-toolchain@v1
+
+      - name: Cache Rust dependencies
+        uses: actions/cache@v4
+        with:
+          path: |
+            ~/.cargo/bin/
+            ~/.cargo/registry/index/
+            ~/.cargo/registry/cache/
+            ~/.cargo/git/db/
+            indexer/target/
+          key: ${{ runner.os }}-cargo-${{ hashFiles('indexer/Cargo.lock') }}
+          restore-keys: |
+            ${{ runner.os }}-cargo-
+
+      - name: Build indexer
+        run: cargo build --release --manifest-path indexer/Cargo.toml
+
+      - name: Upload to release
+        uses: softprops/action-gh-release@v2
+        with:
+          tag_name: indexer-latest
+          name: Indexer Binary
+          files: indexer/target/release/allayindexer
+          body: Auto-built indexer binary
+          prerelease: true
+          make_latest: false

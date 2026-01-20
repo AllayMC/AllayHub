@@ -1,0 +1,135 @@
+name: Update Plugin Index
+
+on:
+  schedule:
+    - cron: '0 * * * *'
+  workflow_dispatch:
+    inputs:
+      mode:
+        description: 'Run mode'
+        required: false
+        default: 'auto'
+        type: choice
+        options:
+          - auto
+          - update
+          - discover
+
+concurrency:
+  group: sync-index
+  cancel-in-progress: false
+
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v6
+
+      - name: Checkout AllayHubIndex
+        uses: actions/checkout@v6
+        with:
+          repository: AllayMC/AllayHubIndex
+          path: AllayHubIndex
+          token: ${{ secrets.REPO_TOKEN }}
+
+      - name: Setup Bun
+        uses: oven-sh/setup-bun@v2
+
+      - name: Cache Bun dependencies
+        uses: actions/cache@v4
+        with:
+          path: ~/.bun/install/cache
+          key: ${{ runner.os }}-bun-${{ hashFiles('bun.lock') }}
+          restore-keys: |
+            ${{ runner.os }}-bun-
+
+      - name: Download indexer
+        run: |
+          curl -sL https://github.com/${{ github.repository }}/releases/download/indexer-latest/allayindexer -o allayindexer
+          chmod +x allayindexer
+
+      - name: Install dependencies
+        run: bun install
+
+      - name: Get current date
+        id: date
+        run: echo "today=$(date -u +%Y-%m-%d)" >> $GITHUB_OUTPUT
+
+      - name: Restore update progress
+        uses: actions/cache/restore@v4
+        with:
+          path: AllayHubIndex/.update_progress
+          key: update-progress-${{ steps.date.outputs.today }}-${{ github.run_id }}
+          restore-keys: |
+            update-progress-${{ steps.date.outputs.today }}-
+
+      - name: Restore last sync
+        uses: actions/cache/restore@v4
+        with:
+          path: AllayHubIndex/.last_sync
+          key: last-sync-${{ github.run_id }}
+          restore-keys: |
+            last-sync-
+
+      - name: Determine run mode
+        id: mode
+        run: |
+          if [ "${{ github.event_name }}" = "workflow_dispatch" ] && [ "${{ inputs.mode }}" != "auto" ]; then
+            echo "mode=${{ inputs.mode }}" >> $GITHUB_OUTPUT
+          else
+            HOUR=$(date -u +%H)
+            if [ "$HOUR" = "00" ]; then
+              echo "mode=discover" >> $GITHUB_OUTPUT
+            else
+              echo "mode=update" >> $GITHUB_OUTPUT
+            fi
+          fi
+          echo "Running in mode: $(cat $GITHUB_OUTPUT | grep mode | cut -d= -f2)"
+
+      - name: Write GitHub App private key
+        run: echo "${{ secrets.APP_PRIVATE_KEY }}" > /tmp/app-private-key.pem
+
+      - name: Run update
+        if: steps.mode.outputs.mode == 'update'
+        run: |
+          ./allayindexer update \
+            --app-id ${{ vars.APP_ID }} \
+            --installation-id ${{ vars.APP_INSTALLATION_ID }} \
+            --private-key-file /tmp/app-private-key.pem \
+            --debug
+
+      - name: Run discover
+        if: steps.mode.outputs.mode == 'discover'
+        run: |
+          ./allayindexer discover \
+            --app-id ${{ vars.APP_ID }} \
+            --installation-id ${{ vars.APP_INSTALLATION_ID }} \
+            --private-key-file /tmp/app-private-key.pem \
+            --debug
+
+      - name: Cleanup private key
+        if: always()
+        run: rm -f /tmp/app-private-key.pem
+
+      - name: Save update progress
+        if: always()
+        uses: actions/cache/save@v4
+        with:
+          path: AllayHubIndex/.update_progress
+          key: update-progress-${{ steps.date.outputs.today }}-${{ github.run_id }}
+
+      - name: Save last sync
+        if: always()
+        uses: actions/cache/save@v4
+        with:
+          path: AllayHubIndex/.last_sync
+          key: last-sync-${{ github.run_id }}
+
+      - name: Commit changes to AllayHubIndex
+        run: |
+          cd AllayHubIndex
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add -A
+          git diff --staged --quiet || git commit -m "chore: sync plugin index"
+          git push

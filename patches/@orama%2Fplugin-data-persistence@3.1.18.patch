@@ -1,0 +1,271 @@
+diff --git a/node_modules/@orama/plugin-data-persistence/.bun-tag-2205c21800e0328f b/.bun-tag-2205c21800e0328f
+new file mode 100644
+index 0000000000000000000000000000000000000000..e69de29bb2d1d6434b8b29ae775ad8c2e48c5391
+diff --git a/node_modules/@orama/plugin-data-persistence/.bun-tag-354bd401be5710e4 b/.bun-tag-354bd401be5710e4
+new file mode 100644
+index 0000000000000000000000000000000000000000..e69de29bb2d1d6434b8b29ae775ad8c2e48c5391
+diff --git a/node_modules/@orama/plugin-data-persistence/.bun-tag-925d4b15ce727a2a b/.bun-tag-925d4b15ce727a2a
+new file mode 100644
+index 0000000000000000000000000000000000000000..e69de29bb2d1d6434b8b29ae775ad8c2e48c5391
+diff --git a/node_modules/@orama/plugin-data-persistence/.bun-tag-cb978dfb6f9d855f b/.bun-tag-cb978dfb6f9d855f
+new file mode 100644
+index 0000000000000000000000000000000000000000..e69de29bb2d1d6434b8b29ae775ad8c2e48c5391
+diff --git a/node_modules/@orama/plugin-data-persistence/.bun-tag-e3ad0b1da71d3059 b/.bun-tag-e3ad0b1da71d3059
+new file mode 100644
+index 0000000000000000000000000000000000000000..e69de29bb2d1d6434b8b29ae775ad8c2e48c5391
+diff --git a/dist/index.d.ts b/dist/index.d.ts
+index edbe51d28e7c39557d689d3080e2d6d820b8dbcb..54481557f444b6dced70e0caf491854b080a4453 100644
+--- a/dist/index.d.ts
++++ b/dist/index.d.ts
+@@ -1,6 +1,6 @@
+ import type { AnyOrama } from '@orama/orama';
+ import type { PersistenceFormat, Runtime } from './types.js';
+ export declare function persist<T extends AnyOrama>(db: T, format?: PersistenceFormat, runtime?: Runtime): Promise<string | Buffer | ArrayBuffer>;
+-export declare function restore<T extends AnyOrama>(format: PersistenceFormat, data: string | Buffer | ArrayBuffer, runtime?: Runtime): Promise<T>;
++export declare function restore<T extends AnyOrama>(format: PersistenceFormat, data: string | Buffer | ArrayBuffer, runtime?: Runtime, options?: Record<string, unknown>): Promise<T>;
+ export declare function persistToFile<T extends AnyOrama>(db: T, format?: PersistenceFormat, path?: string, runtime?: Runtime): Promise<never>;
+ export declare function restoreFromFile<T extends AnyOrama>(format?: PersistenceFormat, path?: string, runtime?: Runtime): Promise<never>;
+diff --git a/dist/index.js b/dist/index.js
+index a2ff889f7e536cc4f11b22562d89e08319015aac..24f0affc88a7ebe52c019abf79d93c2d458c9f5f 100644
+--- a/dist/index.js
++++ b/dist/index.js
+@@ -72,14 +72,15 @@ export async function persist(db, format = 'binary', runtime) {
+     }
+     return serialized;
+ }
+-export async function restore(format, data, runtime) {
++export async function restore(format, data, runtime, options = {}) {
+     if (!runtime) {
+         runtime = detectRuntime();
+     }
+     const db = create({
+         schema: {
+             __placeholder: 'string'
+-        }
++        },
++        ...options
+     });
+     let deserialized;
+     switch(format){
+diff --git a/dist/seqproto.js b/dist/seqproto.js
+index 66e3fb80d6786f2beedcdd0ee38491c0d834809b..519073fc042cae79d52dd37903a4d28adba4dbbd 100644
+--- a/dist/seqproto.js
++++ b/dist/seqproto.js
+@@ -29,6 +29,36 @@ function deserializeNumberArray(des) {
+     }
+     return arr;
+ }
++function serializeAVLNode(ser, node) {
++    if (node === null) {
++        ser.serializeBoolean(false);
++        return;
++    }
++    ser.serializeBoolean(true);
++    ser.serializeNumber(node.k);
++    const ids = Array.isArray(node.v) ? node.v : [];
++    ser.serializeUInt32(ids.length);
++    for (let i = 0; i < ids.length; i++) {
++        ser.serializeNumber(ids[i]);
++    }
++    ser.serializeNumber(node.h);
++    serializeAVLNode(ser, node.l);
++    serializeAVLNode(ser, node.r);
++}
++function deserializeAVLNode(des) {
++    const exists = des.deserializeBoolean();
++    if (!exists) return null;
++    const k = des.deserializeNumber();
++    const vLen = des.deserializeUInt32();
++    const v = new Array(vLen);
++    for (let i = 0; i < vLen; i++) {
++        v[i] = des.deserializeNumber();
++    }
++    const h = des.deserializeNumber();
++    const l = deserializeAVLNode(des);
++    const r = deserializeAVLNode(des);
++    return { k, v, l, r, h };
++}
+ function serializeIndexNode(ser, type, node) {
+     if (type === 'Radix') {
+         ser.serializeUInt32(1); // Radix marker
+@@ -293,16 +323,7 @@ function deserializeValue(des) {
+             for(let j = 0; j < docFields.length; j++){
+                 const field = docFields[j];
+                 ser.serializeString(field);
+-                const value = doc[field];
+-                if (Array.isArray(value)) {
+-                    ser.serializeUInt32(value.length | 0x80000000); // high bit = array
+-                    for(let k = 0; k < value.length; k++){
+-                        ser.serializeString(value[k]);
+-                    }
+-                } else {
+-                    ser.serializeUInt32(0); // non-array
+-                    ser.serializeString(String(value));
+-                }
++                serializeValue(ser, doc[field]);
+             }
+         }
+     } else {
+@@ -345,12 +366,16 @@ function deserializeValue(des) {
+                 for(let j = 0; j < ntdi.length; j++){
+                     const [key, ids] = ntdi[j];
+                     ser.serializeString(String(key));
+-                    const stringIds = Array.isArray(ids) ? ids.map((id)=>String(id)) : [];
+-                    ser.serializeUInt32(stringIds.length);
+-                    for(let k = 0; k < stringIds.length; k++){
+-                        ser.serializeString(stringIds[k]);
++                    const numIds = Array.isArray(ids) ? ids : [];
++                    ser.serializeUInt32(numIds.length);
++                    for(let k = 0; k < numIds.length; k++){
++                        ser.serializeNumber(Number(numIds[k]));
+                     }
+                 }
++            } else if (index.type === 'AVL') {
++                ser.serializeUInt32(3);
++                ser.serializeNumber(node.insertCount || 0);
++                serializeAVLNode(ser, node.root);
+             } else {
+                 ser.serializeUInt32(0);
+             }
+@@ -410,6 +435,48 @@ function deserializeValue(des) {
+         ser.serializeString(ruleId);
+         serializeValue(ser, rule);
+     }
++    // Serialize sorting data
++    const sorting = raw.sorting || {};
++    ser.serializeBoolean(sorting.enabled ?? true);
++    ser.serializeBoolean(sorting.isSorted ?? false);
++    ser.serializeString(sorting.language || '');
++    const sortableProps = sorting.sortableProperties || [];
++    ser.serializeUInt32(sortableProps.length);
++    for(let i = 0; i < sortableProps.length; i++){
++        ser.serializeString(sortableProps[i]);
++    }
++    const sortablePropsWithTypes = sorting.sortablePropertiesWithTypes || {};
++    const sortablePropsKeys = Object.keys(sortablePropsWithTypes);
++    ser.serializeUInt32(sortablePropsKeys.length);
++    for(let i = 0; i < sortablePropsKeys.length; i++){
++        const key = sortablePropsKeys[i];
++        ser.serializeString(key);
++        ser.serializeString(sortablePropsWithTypes[key]);
++    }
++    const sorts = sorting.sorts || {};
++    const sortsKeys = Object.keys(sorts);
++    ser.serializeUInt32(sortsKeys.length);
++    for(let i = 0; i < sortsKeys.length; i++){
++        const prop = sortsKeys[i];
++        ser.serializeString(prop);
++        const sortData = sorts[prop];
++        ser.serializeString(sortData.type || 'string');
++        const docs = sortData.docs || {};
++        const docsKeys = Object.keys(docs);
++        ser.serializeUInt32(docsKeys.length);
++        for(let j = 0; j < docsKeys.length; j++){
++            const docKey = docsKeys[j];
++            ser.serializeString(docKey);
++            ser.serializeNumber(docs[docKey]);
++        }
++        const orderedDocs = sortData.orderedDocs || [];
++        ser.serializeUInt32(orderedDocs.length);
++        for(let j = 0; j < orderedDocs.length; j++){
++            const [docId, value] = orderedDocs[j];
++            ser.serializeNumber(docId);
++            serializeValue(ser, value);
++        }
++    }
+     return ser.getBuffer();
+ }
+ /**
+@@ -446,18 +513,7 @@ function deserializeValue(des) {
+         const fieldCount = des.deserializeUInt32();
+         for(let j = 0; j < fieldCount; j++){
+             const field = des.deserializeString();
+-            const arrayInfo = des.deserializeUInt32();
+-            if (arrayInfo & 0x80000000) {
+-                // High bit set = array
+-                const len = arrayInfo & 0x7fffffff;
+-                const arr = new Array(len);
+-                for(let k = 0; k < len; k++){
+-                    arr[k] = des.deserializeString();
+-                }
+-                doc[field] = arr;
+-            } else {
+-                doc[field] = des.deserializeString();
+-            }
++            doc[field] = deserializeValue(des);
+         }
+         docs[docId] = doc;
+     }
+@@ -514,7 +570,7 @@ function deserializeValue(des) {
+                 const idsLen = des.deserializeUInt32();
+                 const ids = new Array(idsLen);
+                 for(let k = 0; k < idsLen; k++){
+-                    ids[k] = des.deserializeString();
++                    ids[k] = des.deserializeNumber();
+                 }
+                 numberToDocumentId[j] = [
+                     key,
+@@ -524,6 +580,11 @@ function deserializeValue(des) {
+             node = {
+                 numberToDocumentId
+             };
++        } else if (nodeType === 3) {
++            // AVL node
++            const insertCount = des.deserializeNumber();
++            const root = deserializeAVLNode(des);
++            node = { root, insertCount };
+         } else {
+             node = {};
+         }
+@@ -596,8 +657,49 @@ function deserializeValue(des) {
+     raw.pinning = {
+         rules: pinningRules
+     };
+-    // Set empty sorting - it will be reconstructed by Orama when needed
+-    raw.sorting = {};
++    // Deserialize sorting data
++    const sortEnabled = des.deserializeBoolean();
++    const sortIsSorted = des.deserializeBoolean();
++    const sortLanguage = des.deserializeString();
++    const sortablePropsLen = des.deserializeUInt32();
++    const sortableProperties = new Array(sortablePropsLen);
++    for(let i = 0; i < sortablePropsLen; i++){
++        sortableProperties[i] = des.deserializeString();
++    }
++    const sortablePropsWithTypesLen = des.deserializeUInt32();
++    const sortablePropertiesWithTypes = {};
++    for(let i = 0; i < sortablePropsWithTypesLen; i++){
++        const key = des.deserializeString();
++        sortablePropertiesWithTypes[key] = des.deserializeString();
++    }
++    const sortsLen = des.deserializeUInt32();
++    const sorts = {};
++    for(let i = 0; i < sortsLen; i++){
++        const prop = des.deserializeString();
++        const type = des.deserializeString();
++        const docsLen = des.deserializeUInt32();
++        const docs = {};
++        for(let j = 0; j < docsLen; j++){
++            const docKey = des.deserializeString();
++            docs[docKey] = des.deserializeNumber();
++        }
++        const orderedDocsLen = des.deserializeUInt32();
++        const orderedDocs = new Array(orderedDocsLen);
++        for(let j = 0; j < orderedDocsLen; j++){
++            const docId = des.deserializeNumber();
++            const value = deserializeValue(des);
++            orderedDocs[j] = [docId, value];
++        }
++        sorts[prop] = { docs, orderedDocs, type };
++    }
++    raw.sorting = {
++        enabled: sortEnabled,
++        isSorted: sortIsSorted,
++        language: sortLanguage,
++        sortableProperties,
++        sortablePropertiesWithTypes,
++        sorts
++    };
+     return raw;
+ }
+ /**
