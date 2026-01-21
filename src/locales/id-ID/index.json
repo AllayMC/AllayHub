@@ -27,7 +27,7 @@
     "message": "Linux"
   },
   "app-marketing.download.linux-disclaimer": {
-    "message": "Modrinth App untuk Linux <issues-link>diketahui memiliki masalah</issues-link> pada sistem dan konfigurasi tertentu. Bila Modrinth App tidak stabil pada sistem Anda, kami menyarankan Anda untuk mencoba aplikasi lain seperti <prism-link>Prism Launcher</prism-link> untuk mengunduh konten Modrinth dengan mudah."
+    "message": "AllayLauncher untuk Linux <issues-link>diketahui memiliki masalah</issues-link> pada sistem dan konfigurasi tertentu. Bila AllayLauncher tidak stabil pada sistem Anda, kami menyarankan Anda untuk mencoba aplikasi lain seperti <prism-link>Prism Launcher</prism-link> untuk mengunduh konten AllayHub dengan mudah."
   },
   "app-marketing.download.mac": {
     "message": "Mac"
@@ -36,13 +36,13 @@
     "message": "Pilihan pengunduhan"
   },
   "app-marketing.download.terms": {
-    "message": "Dengan mengunduh Modrinth App, Anda menyetujui <terms-link>Syarat</terms-link> dan <privacy-link>Kebijakan Privasi</privacy-link> kami."
+    "message": "Dengan mengunduh AllayLauncher, Anda menyetujui <terms-link>Syarat</terms-link> dan <privacy-link>Kebijakan Privasi</privacy-link> kami."
   },
   "app-marketing.download.third-party-packages": {
     "message": "Paket pihak ketiga"
   },
   "app-marketing.download.title": {
-    "message": "Unduh Modrinth App (Beta)"
+    "message": "Unduh AllayLauncher (Beta)"
   },
   "app-marketing.download.windows": {
     "message": "Windows"
@@ -54,7 +54,7 @@
     "message": "Ikuti proyek"
   },
   "app-marketing.features.importing.description": {
-    "message": "Impor semua profil favorit Anda dari launcher yang telah Anda gunakan sebelumnya, dan mulai menggunakan Modrinth App dalam hitungan detik!"
+    "message": "Impor semua profil favorit Anda dari launcher yang telah Anda gunakan sebelumnya, dan mulai menggunakan AllayLauncher dalam hitungan detik!"
   },
   "app-marketing.features.importing.gdlauncher-alt": {
     "message": "GDLauncher"
@@ -72,7 +72,7 @@
     "message": "oleh {author}"
   },
   "app-marketing.features.mod-management.description": {
-    "message": "Modrinth mempermudah pengurusan seluruh mod Anda dalam satu tempat. Anda dapat memasang, menghapus, dan memperbarui mod dalam satu klik."
+    "message": "AllayHub mempermudah pengurusan seluruh mod Anda dalam satu tempat. Anda dapat memasang, menghapus, dan memperbarui mod dalam satu klik."
   },
   "app-marketing.features.mod-management.installed-mods": {
     "message": "Mod terpasang"
@@ -96,7 +96,7 @@
     "message": "Mode luring"
   },
   "app-marketing.features.open-source.description": {
-    "message": "Peluncur Modrinth sepenuhnya bersumber terbuka. Anda dapat melihat kode sumber pada <github-link>GitHub</github-link> kami!"
+    "message": "Peluncur AllayHub sepenuhnya bersumber terbuka. Anda dapat melihat kode sumber pada <github-link>GitHub</github-link> kami!"
   },
   "app-marketing.features.open-source.title": {
     "message": "Sumber terbuka"
@@ -108,7 +108,7 @@
     "message": "% CPU"
   },
   "app-marketing.features.performance.description": {
-    "message": "Modrinth App bekerja lebih baik daripada pengurus mod ternama lainnya, dengan menggunakan hanya 150 MB RAM!"
+    "message": "AllayLauncher bekerja lebih baik daripada pengurus mod ternama lainnya, dengan menggunakan hanya 150 MB RAM!"
   },
   "app-marketing.features.performance.discord": {
     "message": "Discord"
@@ -129,7 +129,7 @@
     "message": "< 150 MB"
   },
   "app-marketing.features.performance.modrinth-app": {
-    "message": "Modrinth App"
+    "message": "AllayLauncher"
   },
   "app-marketing.features.performance.one-billion-percent": {
     "message": "1 miliar %"
@@ -147,13 +147,13 @@
     "message": "Berkinerja"
   },
   "app-marketing.features.play.description": {
-    "message": "Gunakan Modrinth App untuk mengunduh dan memainkan mod dan paket mod favorit Anda."
+    "message": "Gunakan AllayLauncher untuk mengunduh dan memainkan mod dan paket mod favorit Anda."
   },
   "app-marketing.features.play.title": {
     "message": "Mainkan mod favorit Anda"
   },
   "app-marketing.features.sharing.description": {
-    "message": "Buat, bagikan, dan mainkan paket mod dengan berbagai pilihan mod dan paket mod yang dibagikan di Modrinth."
+    "message": "Buat, bagikan, dan mainkan paket mod dengan berbagai pilihan mod dan paket mod yang dibagikan di AllayHub."
   },
   "app-marketing.features.sharing.modpack": {
     "message": "Paket Mod"
@@ -168,7 +168,7 @@
     "message": "Tidak seperti launcher lain"
   },
   "app-marketing.features.website.description": {
-    "message": "Modrinth App berintegrasi penuh dengan situs web, sehingga Anda dapat mengakses semua proyek favorit Anda dari aplikasi!"
+    "message": "AllayLauncher berintegrasi penuh dengan situs web, sehingga Anda dapat mengakses semua proyek favorit Anda dari aplikasi!"
   },
   "app-marketing.features.website.title": {
     "message": "Integrasi situs web"
@@ -177,19 +177,19 @@
     "message": "yang pernah Anda gunakan"
   },
   "app-marketing.hero.app-screenshot-alt": {
-    "message": "Tangkapan layar dari Modrinth App dengan pemasangan Cobblemon dibuka pada halaman 'Konten'."
+    "message": "Tangkapan layar dari AllayLauncher dengan pemasangan Cobblemon dibuka pada halaman 'Konten'."
   },
   "app-marketing.hero.description": {
-    "message": "Modrinth App adalah launcher unik dan bersumber terbuka yang memperbolehkan Anda untuk memainkan mod-mod favorit Anda dan memastikannya diperbarui, semuanya dalam satu kemasan ringkas."
+    "message": "AllayLauncher adalah launcher unik dan bersumber terbuka yang memperbolehkan Anda untuk memainkan mod-mod favorit Anda dan memastikannya diperbarui, semuanya dalam satu kemasan ringkas."
   },
   "app-marketing.hero.download-button": {
-    "message": "Unduh Modrinth App"
+    "message": "Unduh AllayLauncher"
   },
   "app-marketing.hero.download-modrinth-app": {
-    "message": "Unduh Modrinth App"
+    "message": "Unduh AllayLauncher"
   },
   "app-marketing.hero.download-modrinth-app-for-os": {
-    "message": "Unduh Modrinth App untuk {os}"
+    "message": "Unduh AllayLauncher untuk {os}"
   },
   "app-marketing.hero.minecraft-screenshot-alt": {
     "message": "Tangkapan layar menu utama pemasangan Cobblemon."
@@ -294,7 +294,7 @@
     "message": "Nama pengguna"
   },
   "auth.sign-up.legal-dislaimer": {
-    "message": "Dengan membuat sebuah akun, Anda menyetujui <terms-link>Ketentuan</terms-link> dan <privacy-policy-link>Kebijakan Privasi</privacy-policy-link> Modrinth."
+    "message": "Dengan membuat sebuah akun, Anda menyetujui <terms-link>Ketentuan</terms-link> dan <privacy-policy-link>Kebijakan Privasi</privacy-policy-link> AllayHub."
   },
   "auth.sign-up.notification.password-mismatch.text": {
     "message": "Kata sandi tidak cocok!"
@@ -306,7 +306,7 @@
     "message": "Sudah memiliki akun?"
   },
   "auth.sign-up.subscribe.label": {
-    "message": "Berlangganan pembaruan tentang Modrinth"
+    "message": "Berlangganan pembaruan tentang AllayHub"
   },
   "auth.sign-up.title": {
     "message": "Daftar"
@@ -351,16 +351,16 @@
     "message": "Verifikasi Sur-el"
   },
   "auth.welcome.checkbox.subscribe": {
-    "message": "Berlangganan pembaruan tentang Modrinth"
+    "message": "Berlangganan pembaruan tentang AllayHub"
   },
   "auth.welcome.description": {
     "message": "Anda kini menjadi bagian dari komunitas kreator dan penjelajah hebat yang sudah membangun, mengunduh, dan terus mengikuti perkembangan terkini dari mod-mod yang luar biasa."
   },
   "auth.welcome.label.tos": {
-    "message": "Dengan membuat sebuah akun, Anda telah menyetujui <terms-link>Ketentuan</terms-link> dan <privacy-policy-link>Kebijakan Privasi</privacy-policy-link> Modrinth."
+    "message": "Dengan membuat sebuah akun, Anda telah menyetujui <terms-link>Ketentuan</terms-link> dan <privacy-policy-link>Kebijakan Privasi</privacy-policy-link> AllayHub."
   },
   "auth.welcome.long-title": {
-    "message": "Selamat datang di Modrinth!"
+    "message": "Selamat datang di AllayHub!"
   },
   "auth.welcome.title": {
     "message": "Selamat Datang"
@@ -390,7 +390,7 @@
     "message": "Apakah Anda yakin ingin menghapus koleksi ini?"
   },
   "collection.description": {
-    "message": "{description} - Lihat koleksi {name} oleh {username} di Modrinth"
+    "message": "{description} - Lihat koleksi {name} oleh {username} di AllayHub"
   },
   "collection.description.following": {
     "message": "Koleksi semua proyek yang Anda ikuti yang dibuat secara otomatis."
@@ -642,7 +642,7 @@
     "message": "Formulir pajak"
   },
   "dashboard.creator-tax-form-modal.security.description": {
-    "message": "Modrinth menggunakan penyedia pihak ketiga Track1099 untuk mengumpulkan dan menyimpan formulir pajak Anda dengan aman. <security-link>Pelajari lebih lanjut di sini.</security-link>"
+    "message": "AllayHub menggunakan penyedia pihak ketiga Track1099 untuk mengumpulkan dan menyimpan formulir pajak Anda dengan aman. <security-link>Pelajari lebih lanjut di sini.</security-link>"
   },
   "dashboard.creator-tax-form-modal.security.header": {
     "message": "Praktik keamanan"
@@ -822,7 +822,7 @@
     "message": "Untuk menarik <b>{available}</b> Anda yang tersedia secara penuh, silakan lengkapi formulir di bawah ini. Hal ini diperlukan untuk pelaporan pajak dan hanya perlu dilakukan sekali saja."
   },
   "dashboard.creator-withdraw-modal.tax-form-required.body-with-limit": {
-    "message": "Anda wajib melengkapi formulir W-9 atau W-8 untuk catatan pajak Modrinth sehingga kami tetap memenuhi peraturan perpajakan."
+    "message": "Anda wajib melengkapi formulir W-9 atau W-8 untuk catatan pajak AllayHub sehingga kami tetap memenuhi peraturan perpajakan."
   },
   "dashboard.creator-withdraw-modal.tax-form-required.header": {
     "message": "Formulir pajak wajib"
@@ -864,7 +864,7 @@
     "message": "Sur-el belum terverifikasi"
   },
   "dashboard.creator-withdraw-modal.tremendous-details.unverified-email-message": {
-    "message": "Alamat sur-el pengiriman yang Anda masukkan tidak terikat dengan akun Modrinth Anda. Modrinth tidak dapat memulihkan ganjaran yang dikirim ke alamat sur-el yang salah."
+    "message": "Alamat sur-el pengiriman yang Anda masukkan tidak terikat dengan akun AllayHub Anda. AllayHub tidak dapat memulihkan ganjaran yang dikirim ke alamat sur-el yang salah."
   },
   "dashboard.creator-withdraw-modal.tremendous-details.usd-paypal-warning-header": {
     "message": "Biaya lebih rendah tersedia"
@@ -891,7 +891,7 @@
     "message": "Estimasi pendapatan dapat berubah sewaktu-waktu hingga data tersebut tersedia."
   },
   "dashboard.revenue.estimated-tooltip.msg2": {
-    "message": "Klik untuk membaca tentang bagaimana Modrinth menangani pendapatan Anda."
+    "message": "Klik untuk membaca tentang bagaimana AllayHub menangani pendapatan Anda."
   },
   "dashboard.revenue.estimated-with-date": {
     "message": "Perkiraan {date}"
@@ -912,7 +912,7 @@
     "message": "Ditarik"
   },
   "dashboard.revenue.tos": {
-    "message": "Dengan mengunggah proyek ke Modrinth dan menarik uang dari rekening Anda, Anda menyetujui <terms-link>Syarat dan Ketentuan Program Ganjaran</terms-link> kami. Pelajari lebih lanjut tentang <info-link>Program Hadiah</info-link>."
+    "message": "Dengan mengunggah proyek ke AllayHub dan menarik uang dari rekening Anda, Anda menyetujui <terms-link>Syarat dan Ketentuan Program Ganjaran</terms-link> kami. Pelajari lebih lanjut tentang <info-link>Program Hadiah</info-link>."
   },
   "dashboard.revenue.transactions.btn.download-csv": {
     "message": "Unduh sebagai CSV"
@@ -1023,7 +1023,7 @@
     "message": "Koleksi tersebut mungkin bersifat pribadi."
   },
   "error.collection.404.list_item.3": {
-    "message": "Koleksi tersebut mungkin telah dihapus oleh tim moderasi Modrinth karena melanggar <tou-link>Ketentuan Penggunaan</tou-link> kami."
+    "message": "Koleksi tersebut mungkin telah dihapus oleh tim moderasi AllayHub karena melanggar <tou-link>Ketentuan Penggunaan</tou-link> kami."
   },
   "error.collection.404.list_title": {
     "message": "Mengapa?"
@@ -1044,10 +1044,10 @@
     "message": "Konten tidak tersedia karena alasan hukum"
   },
   "error.generic.default.list_item.1": {
-    "message": "Periksa apakah Modrinth sedang mengalami gangguan di <status-link>halaman Status</status-link>."
+    "message": "Periksa apakah AllayHub sedang mengalami gangguan di <status-link>halaman Status</status-link>."
   },
   "error.generic.default.list_item.2": {
-    "message": "Bila hal ini terus terjadi, Anda mungkin ingin memberi tahu Tim Modrinth dengan bergabung ke <discord-link>peladen Discord</discord-link> kami."
+    "message": "Bila hal ini terus terjadi, Anda mungkin ingin memberi tahu Tim AllayHub dengan bergabung ke <discord-link>peladen Discord</discord-link> kami."
   },
   "error.generic.default.list_title": {
     "message": "Silakan coba lagi dalam beberapa menit."
@@ -1065,7 +1065,7 @@
     "message": "Pemilik organisasi mungkin telah mengubah URL atau menghapusnya."
   },
   "error.organization.404.list_item.3": {
-    "message": "Organisasi tersebut mungkin telah dihapus oleh tim moderasi Modrinth karena melanggar <tou-link>Ketentuan Penggunaan</tou-link> kami."
+    "message": "Organisasi tersebut mungkin telah dihapus oleh tim moderasi AllayHub karena melanggar <tou-link>Ketentuan Penggunaan</tou-link> kami."
   },
   "error.organization.404.list_title": {
     "message": "Mengapa?"
@@ -1080,7 +1080,7 @@
     "message": "Pemilik proyek mungkin telah mengubah URL, menjadikan proyek tersebut bersifat pribadi, atau menghapusnya."
   },
   "error.project.404.list_item.3": {
-    "message": "Proyek tersebut mungkin telah dihapus oleh tim moderasi Modrinth karena melanggar <tou-link>Ketentuan Penggunaan</tou-link> kami."
+    "message": "Proyek tersebut mungkin telah dihapus oleh tim moderasi AllayHub karena melanggar <tou-link>Ketentuan Penggunaan</tou-link> kami."
   },
   "error.project.404.list_title": {
     "message": "Mengapa?"
@@ -1095,7 +1095,7 @@
     "message": "Pengguna mungkin telah mengubah nama penggunanya atau menghapus akunnya."
   },
   "error.user.404.list_item.3": {
-    "message": "Akun pengguna mungkin telah dihentikan karena melanggar <tou-link>Ketentuan Penggunaan</tou-link> Modrinth."
+    "message": "Akun pengguna mungkin telah dihentikan karena melanggar <tou-link>Ketentuan Penggunaan</tou-link> AllayHub."
   },
   "error.user.404.list_title": {
     "message": "Mengapa?"
@@ -1125,7 +1125,7 @@
     "message": "Buka dasbor"
   },
   "landing.creator.feature.constantly-evolving.description": {
-    "message": "Dapatkan pengalaman pengemodan terbaik dengan pembaruan terus-menerus dari tim Modrinth"
+    "message": "Dapatkan pengalaman pengemodan terbaik dengan pembaruan terus-menerus dari tim AllayHub"
   },
   "landing.creator.feature.constantly-evolving.title": {
     "message": "Terus Berkembang"
@@ -1209,10 +1209,10 @@
     "message": "ATLauncher"
   },
   "landing.launcher.graphic-alt": {
-    "message": "Representasi sederhana dari jendela Minecraft, dengan logo Mojang Studios berwarna hijau Modrinth."
+    "message": "Representasi sederhana dari jendela Minecraft, dengan logo Mojang Studios berwarna hijau AllayHub."
   },
   "landing.launcher.modrinth-app-label": {
-    "message": "Modrinth App"
+    "message": "AllayLauncher"
   },
   "landing.launcher.prism-launcher-label": {
     "message": "Prism Launcher"
@@ -1305,19 +1305,19 @@
     "message": "Kunjungi pengaturan akun"
   },
   "layout.banner.add-email.description": {
-    "message": "Demi alasan keamanan, Modrinth mengharuskan Anda untuk mendaftarkan alamat sur-el ke akun Anda."
+    "message": "Demi alasan keamanan, AllayHub mengharuskan Anda untuk mendaftarkan alamat sur-el ke akun Anda."
   },
   "layout.banner.build-fail.description": {
-    "message": "Penyebaran bagian depan Modrinth ini gagal menghasilkan keadaan dari API. Hal ini mungkin disebabkan oleh gangguan atau kesalahan konfigurasi. Bangun ulang saat API tersedia. Kode kesalahan: {errors}; URL API saat ini adalah: {url}"
+    "message": "Penyebaran bagian depan AllayHub ini gagal menghasilkan keadaan dari API. Hal ini mungkin disebabkan oleh gangguan atau kesalahan konfigurasi. Bangun ulang saat API tersedia. Kode kesalahan: {errors}; URL API saat ini adalah: {url}"
   },
   "layout.banner.build-fail.title": {
     "message": "Terjadi kesalahan saat menghasilkan keadaan dari API saat membangun."
   },
   "layout.banner.staging.description": {
-    "message": "Lingkungan pementasan sepenuhnya terpisah dari basis data Modrinth produksi. Lingkungan ini digunakan untuk tujuan pengujian dan pengawakutuan, dan mungkin menjalankan versi pengembangan dari bagian belakang atau depan Modrinth yang lebih baru daripada wujud produksi."
+    "message": "Lingkungan pementasan sepenuhnya terpisah dari basis data AllayHub produksi. Lingkungan ini digunakan untuk tujuan pengujian dan pengawakutuan, dan mungkin menjalankan versi pengembangan dari bagian belakang atau depan AllayHub yang lebih baru daripada wujud produksi."
   },
   "layout.banner.staging.title": {
-    "message": "Anda sedang melihat lingkungan pementasan Modrinth"
+    "message": "Anda sedang melihat lingkungan pementasan AllayHub"
   },
   "layout.banner.subscription-payment-failed.button": {
     "message": "Perbarui informasi penagihan"
@@ -1332,7 +1332,7 @@
     "message": "Lengkapi formulir pajak"
   },
   "layout.banner.tax.description": {
-    "message": "Anda telah menarik lebih dari $600 dari Modrinth tahun ini. Untuk mematuhi peraturan perpajakan, Anda harus melengkapi formulir pajak. Penarikan dana Anda dihentikan sementara hingga formulir diajukan."
+    "message": "Anda telah menarik lebih dari $600 dari AllayHub tahun ini. Untuk mematuhi peraturan perpajakan, Anda harus melengkapi formulir pajak. Penarikan dana Anda dihentikan sementara hingga formulir diajukan."
   },
   "layout.banner.tax.title": {
     "message": "Formulir pajak diperlukan"
@@ -1350,7 +1350,7 @@
     "message": "Kirim ulang sur-el verifikasi"
   },
   "layout.banner.verify-email.description": {
-    "message": "Demi alasan keamanan, Modrinth mengharuskan Anda untuk memverifikasi alamat sur-el yang terkait dengan akun Anda."
+    "message": "Demi alasan keamanan, AllayHub mengharuskan Anda untuk memverifikasi alamat sur-el yang terkait dengan akun Anda."
   },
   "layout.footer.about": {
     "message": "Tentang"
@@ -1392,22 +1392,22 @@
     "message": "Ketentuan Penggunaan"
   },
   "layout.footer.modrinth-information": {
-    "message": "Informasi Modrinth"
+    "message": "Informasi AllayHub"
   },
   "layout.footer.open-source": {
-    "message": "Modrinth adalah proyek <github-link>bersumber terbuka</github-link>."
+    "message": "AllayHub adalah proyek <github-link>bersumber terbuka</github-link>."
   },
   "layout.footer.products": {
     "message": "Produk"
   },
   "layout.footer.products.app": {
-    "message": "Modrinth App"
+    "message": "AllayLauncher"
   },
   "layout.footer.products.plus": {
-    "message": "Modrinth+"
+    "message": "AllayHub+"
   },
   "layout.footer.products.servers": {
-    "message": "Modrinth Hosting"
+    "message": "AllayHub Hosting"
   },
   "layout.footer.resources": {
     "message": "Sumber Daya"
@@ -1443,7 +1443,7 @@
     "message": "Hidup/matikan menu"
   },
   "layout.meta.description": {
-    "message": "Unduh mod, pasang-masuk, paket data, pencorak, paket sumber, dan paket mod untuk Minecraft di Modrinth. Temukan dan terbitkan proyek di Modrinth dengan antarmuka dan API yang modern dan mudah digunakan."
+    "message": "Unduh mod, pasang-masuk, paket data, pencorak, paket sumber, dan paket mod untuk Minecraft di AllayHub. Temukan dan terbitkan proyek di AllayHub dengan antarmuka dan API yang modern dan mudah digunakan."
   },
   "layout.meta.og-description": {
     "message": "Temukan dan terbitkan konten Minecraft!"
@@ -1479,10 +1479,10 @@
     "message": "Jalankan peladen"
   },
   "layout.nav.modrinth-app": {
-    "message": "Modrinth App"
+    "message": "AllayLauncher"
   },
   "layout.nav.modrinth-home-page": {
-    "message": "Beranda Modrinth"
+    "message": "Beranda AllayHub"
   },
   "layout.nav.my-servers": {
     "message": "Peladen saya"
@@ -1506,7 +1506,7 @@
     "message": "Cari"
   },
   "layout.nav.upgrade-to-modrinth-plus": {
-    "message": "Tingkatkan ke Modrinth+"
+    "message": "Tingkatkan ke AllayHub+"
   },
   "moderation.filter.by": {
     "message": "Saring berdasarkan"
@@ -1797,10 +1797,10 @@
     "message": "Periksa ulang alamat dompet Anda. Dana yang terkirim ke alamat yang salah tidak dapat dipulihkan."
   },
   "profile.bio.fallback.creator": {
-    "message": "Seorang kreator Modrinth."
+    "message": "Seorang kreator AllayHub."
   },
   "profile.bio.fallback.user": {
-    "message": "Seorang pengguna Modrinth."
+    "message": "Seorang pengguna AllayHub."
   },
   "profile.button.billing": {
     "message": "Kelola penagihan pengguna"
@@ -1893,10 +1893,10 @@
     "message": "Ya"
   },
   "profile.meta.description": {
-    "message": "Unduh proyek milik {username} di Modrinth"
+    "message": "Unduh proyek milik {username} di AllayHub"
   },
   "profile.meta.description-with-bio": {
-    "message": "{bio} - Unduh proyek milik {username} di Modrinth"
+    "message": "{bio} - Unduh proyek milik {username} di AllayHub"
   },
   "profile.stats.projects-followers": {
     "message": "{count, plural, other {<stat>{count}</stat> pengikut proyek}}"
@@ -1947,7 +1947,7 @@
     "message": "Kirim ulang untuk peninjauan"
   },
   "project-moderation-nags.resubmit-for-review-desc": {
-    "message": "Proyek Anda telah {status, select, rejected {ditolak} withheld {ditahan} other {{status}}} oleh staf Modrinth. Umumnya, Anda dapat mengirim ulang proyek ini untuk ditinjau kembali setelah menangani masalah yang tertulis pada pesan staf."
+    "message": "Proyek Anda telah {status, select, rejected {ditolak} withheld {ditahan} other {{status}}} oleh staf AllayHub. Umumnya, Anda dapat mengirim ulang proyek ini untuk ditinjau kembali setelah menangani masalah yang tertulis pada pesan staf."
   },
   "project-moderation-nags.submit-checklist-tooltip": {
     "message": "Anda harus menyelesaikan langkah-langkah yang diperlukan pada daftar centang penerbitan!"
@@ -2037,10 +2037,10 @@
     "message": "{title} tidak mendukung {gameVersion} untuk {platform}"
   },
   "project.download.install-with-app": {
-    "message": "Pasang dengan Modrinth App"
+    "message": "Pasang dengan AllayLauncher"
   },
   "project.download.no-app": {
-    "message": "Tidak memiliki Modrinth App?"
+    "message": "Tidak memiliki AllayLauncher?"
   },
   "project.download.no-versions-available": {
     "message": "Tidak ada versi tersedia untuk {gameVersion} dan {platform}."
@@ -2115,7 +2115,7 @@
     "message": "Bio"
   },
   "settings.profile.description": {
-    "message": "Informasi profil Anda dapat dilihat secara publik di Modrinth dan melalui <docs-link>Modrinth API</docs-link>."
+    "message": "Informasi profil Anda dapat dilihat secara publik di AllayHub dan melalui <docs-link>AllayHub API</docs-link>."
   },
   "settings.profile.profile-info": {
     "message": "Informasi profil"
@@ -2148,7 +2148,7 @@
     "message": "Platform tidak dikenal"
   },
   "ui.latest-news-row.latest-news": {
-    "message": "Berita terkini dari Modrinth"
+    "message": "Berita terkini dari AllayHub"
   },
   "ui.latest-news-row.view-all": {
     "message": "Lihat semua berita"

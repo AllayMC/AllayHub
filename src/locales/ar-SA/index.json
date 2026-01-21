@@ -27,7 +27,7 @@
     "message": "لينكس"
   },
   "app-marketing.download.linux-disclaimer": {
-    "message": "الإصدارات الخاصة بـ Linux من Modrinth App <issues-link>معروفة بوجود مشاكل</issues-link> على بعض الأنظمة والتكوينات. إذا كان Modrinth App غير مستقر على نظامك، فننصحك بتجربة تطبيقات أخرى مثل <prism-link>Prism Launcher</prism-link> لتثبيت محتوى Modrinth بسهولة."
+    "message": "الإصدارات الخاصة بـ Linux من AllayLauncher <issues-link>معروفة بوجود مشاكل</issues-link> على بعض الأنظمة والتكوينات. إذا كان AllayLauncher غير مستقر على نظامك، فننصحك بتجربة تطبيقات أخرى مثل <prism-link>Prism Launcher</prism-link> لتثبيت محتوى AllayHub بسهولة."
   },
   "app-marketing.download.mac": {
     "message": "ماك"
@@ -36,13 +36,13 @@
     "message": "خيارات التنزيل"
   },
   "app-marketing.download.terms": {
-    "message": "خلال تنزيل Modrinth App فإنك توافق على <terms-link>الشروط</terms-link> و <privacy-link>سياسة الخصوصية</privacy-link>."
+    "message": "خلال تنزيل AllayLauncher فإنك توافق على <terms-link>الشروط</terms-link> و <privacy-link>سياسة الخصوصية</privacy-link>."
   },
   "app-marketing.download.third-party-packages": {
     "message": "حزم الطرف الثالث"
   },
   "app-marketing.download.title": {
-    "message": "تنزيل Modrinth App (النسخة التجريبية)"
+    "message": "تنزيل AllayLauncher (النسخة التجريبية)"
   },
   "app-marketing.download.windows": {
     "message": "ويندوز"
@@ -54,7 +54,7 @@
     "message": "تابع المشروعات"
   },
   "app-marketing.features.importing.description": {
-    "message": "استورد جميع ملفاتك الشخصية المفضلة من المشغل الذي كنت تستخدمه من قبل، وابدأ باستخدام Modrinth App في ثوانٍ!"
+    "message": "استورد جميع ملفاتك الشخصية المفضلة من المشغل الذي كنت تستخدمه من قبل، وابدأ باستخدام AllayLauncher في ثوانٍ!"
   },
   "app-marketing.features.importing.gdlauncher-alt": {
     "message": "GDLauncher"
@@ -108,7 +108,7 @@
     "message": "% CPU"
   },
   "app-marketing.features.performance.description": {
-    "message": "يعمل Modrinth App بشكل أفضل من العديد من مديري المودات الرائدين، باستخدام 150 ميغابايت فقط من الذاكرة العشوائية!"
+    "message": "يعمل AllayLauncher بشكل أفضل من العديد من مديري المودات الرائدين، باستخدام 150 ميغابايت فقط من الذاكرة العشوائية!"
   },
   "app-marketing.features.performance.discord": {
     "message": "ديسكورد"
@@ -129,7 +129,7 @@
     "message": "< 150 ميغابايت"
   },
   "app-marketing.features.performance.modrinth-app": {
-    "message": "Modrinth App"
+    "message": "AllayLauncher"
   },
   "app-marketing.features.performance.one-billion-percent": {
     "message": "% 1 مليار"
@@ -147,7 +147,7 @@
     "message": "أداء قوي"
   },
   "app-marketing.features.play.description": {
-    "message": "استخدم Modrinth App لتنزيل ولعب موداتك وحزم المودات المفضلة لديك."
+    "message": "استخدم AllayLauncher لتنزيل ولعب موداتك وحزم المودات المفضلة لديك."
   },
   "app-marketing.features.play.title": {
     "message": "العب مع موداتك المفضلة"
@@ -168,7 +168,7 @@
     "message": "مختلف عن أي مشغل آخر"
   },
   "app-marketing.features.website.description": {
-    "message": "تم دمج Modrinth App بالكامل مع الموقع، بحيث يمكنك الوصول إلى جميع مشاريعك المفضلة بواسطة التطبيق!"
+    "message": "تم دمج AllayLauncher بالكامل مع الموقع، بحيث يمكنك الوصول إلى جميع مشاريعك المفضلة بواسطة التطبيق!"
   },
   "app-marketing.features.website.title": {
     "message": "تكامل مع الموقع"
@@ -177,19 +177,19 @@
     "message": "الذي استخدمته من قبل"
   },
   "app-marketing.hero.app-screenshot-alt": {
-    "message": "لقطة شاشة لـ Modrinth App مع نسخة Cobblemon مفتوحة في صفحة \"المحتوى\"."
+    "message": "لقطة شاشة لـ AllayLauncher مع نسخة Cobblemon مفتوحة في صفحة \"المحتوى\"."
   },
   "app-marketing.hero.description": {
-    "message": "Modrinth App هو مشغل فريد ومفتوح المصدر يتيح لك لعب موداتك المفضلة والحفاظ عليها محدثة، وكل ذلك في حزمة واحدة بسيطة ومنظمة."
+    "message": "AllayLauncher هو مشغل فريد ومفتوح المصدر يتيح لك لعب موداتك المفضلة والحفاظ عليها محدثة، وكل ذلك في حزمة واحدة بسيطة ومنظمة."
   },
   "app-marketing.hero.download-button": {
-    "message": "تنزيل Modrinth App"
+    "message": "تنزيل AllayLauncher"
   },
   "app-marketing.hero.download-modrinth-app": {
-    "message": "تنزيل Modrinth App"
+    "message": "تنزيل AllayLauncher"
   },
   "app-marketing.hero.download-modrinth-app-for-os": {
-    "message": "تنزيل Modrinth App لـ {os}"
+    "message": "تنزيل AllayLauncher لـ {os}"
   },
   "app-marketing.hero.minecraft-screenshot-alt": {
     "message": "لقطة شاشة لقائمة Cobblemon الرئيسية."
@@ -558,7 +558,7 @@
     "message": "تمثيل مبسط لنافذة ماين كرافت، مع شعار Mojang Studios باللون الأخضر الخاص بمودرنث."
   },
   "landing.launcher.modrinth-app-label": {
-    "message": "Modrinth App"
+    "message": "AllayLauncher"
   },
   "layout.banner.add-email.description": {
     "message": "لأسباب أمنية، يحتاج مودرنث منك تسجيل عنوان بريد إلكتروني في حسابك."
@@ -582,7 +582,7 @@
     "message": "مودرنث <github-link>مفتوح المصدر</github-link>."
   },
   "layout.footer.products.app": {
-    "message": "Modrinth App"
+    "message": "AllayLauncher"
   },
   "layout.footer.products.plus": {
     "message": "مودرنث+"

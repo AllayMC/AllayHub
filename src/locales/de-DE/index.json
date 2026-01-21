@@ -27,7 +27,7 @@
     "message": "Linux"
   },
   "app-marketing.download.linux-disclaimer": {
-    "message": "Die Linuxversionen der Modrinth App <issues-link>haben auf bestimmten Systemen und Konfigurationen bekannte Probleme</issues-link>. Wenn die Modrinth App auf deinem System instabil läuft, empfehlen wir, andere Apps wie <prism-link>Prism Launcher</prism-link> auszuprobieren, um Modrinth-Inhalte einfach zu installieren."
+    "message": "Die Linuxversionen der AllayLauncher <issues-link>haben auf bestimmten Systemen und Konfigurationen bekannte Probleme</issues-link>. Wenn die AllayLauncher auf deinem System instabil läuft, empfehlen wir, andere Apps wie <prism-link>Prism Launcher</prism-link> auszuprobieren, um AllayHub-Inhalte einfach zu installieren."
   },
   "app-marketing.download.mac": {
     "message": "Mac"
@@ -36,13 +36,13 @@
     "message": "Downloadoptionen"
   },
   "app-marketing.download.terms": {
-    "message": "Mit dem Herunterladen der Modrinth App stimmst du unseren <terms-link>Nutzungsbedingungen</terms-link> und der <privacy-link>Datenschutzrichtlinie</privacy-link> zu."
+    "message": "Mit dem Herunterladen der AllayLauncher stimmst du unseren <terms-link>Nutzungsbedingungen</terms-link> und der <privacy-link>Datenschutzrichtlinie</privacy-link> zu."
   },
   "app-marketing.download.third-party-packages": {
     "message": "Pakete von Drittanbietern"
   },
   "app-marketing.download.title": {
-    "message": "Modrinth App (Beta) herunterladen"
+    "message": "AllayLauncher (Beta) herunterladen"
   },
   "app-marketing.download.windows": {
     "message": "Windows"
@@ -54,7 +54,7 @@
     "message": "Folge Projekten"
   },
   "app-marketing.features.importing.description": {
-    "message": "Importiere alle deine Lieblingsprofile aus dem Launcher, den du bisher verwendet hast, und starte in Sekundenschnelle mit der Modrinth App!"
+    "message": "Importiere alle deine Lieblingsprofile aus dem Launcher, den du bisher verwendet hast, und starte in Sekundenschnelle mit der AllayLauncher!"
   },
   "app-marketing.features.importing.gdlauncher-alt": {
     "message": "GDLauncher"
@@ -72,7 +72,7 @@
     "message": "von {author}"
   },
   "app-marketing.features.mod-management.description": {
-    "message": "Mit Modrinth kannst du alle deine Mods ganz einfach an einem Ort verwalten. Mit nur einem Klick kannst du Mods installieren, deinstallieren und aktualisieren."
+    "message": "Mit AllayHub kannst du alle deine Mods ganz einfach an einem Ort verwalten. Mit nur einem Klick kannst du Mods installieren, deinstallieren und aktualisieren."
   },
   "app-marketing.features.mod-management.installed-mods": {
     "message": "Installierte Mods"
@@ -96,7 +96,7 @@
     "message": "Offline-Modus"
   },
   "app-marketing.features.open-source.description": {
-    "message": "Der Modrinth-Launcher ist vollständig quelloffen. Den Quellcode kannst du auf unserem <github-link>GitHub</github-link> einsehen!"
+    "message": "Der AllayHub-Launcher ist vollständig quelloffen. Den Quellcode kannst du auf unserem <github-link>GitHub</github-link> einsehen!"
   },
   "app-marketing.features.open-source.title": {
     "message": "Open Source"
@@ -108,7 +108,7 @@
     "message": "% CPU"
   },
   "app-marketing.features.performance.description": {
-    "message": "Die Modrinth App läuft besser als viele führende Mod-Manager und benötigt dabei nur 150 MB RAM!"
+    "message": "Die AllayLauncher läuft besser als viele führende Mod-Manager und benötigt dabei nur 150 MB RAM!"
   },
   "app-marketing.features.performance.discord": {
     "message": "Discord"
@@ -129,7 +129,7 @@
     "message": "< 150 MB"
   },
   "app-marketing.features.performance.modrinth-app": {
-    "message": "Modrinth App"
+    "message": "AllayLauncher"
   },
   "app-marketing.features.performance.one-billion-percent": {
     "message": "1 Milliarde %"
@@ -147,13 +147,13 @@
     "message": "Performant"
   },
   "app-marketing.features.play.description": {
-    "message": "Nutze die Modrinth-App, um mit deinen Lieblings-Mods und Modpacks zu spielen."
+    "message": "Nutze die AllayHub-App, um mit deinen Lieblings-Mods und Modpacks zu spielen."
   },
   "app-marketing.features.play.title": {
     "message": "Spiele mit den Mods, die du liebst"
   },
   "app-marketing.features.sharing.description": {
-    "message": "Erstelle, teile und spiele Modpacks mit Tausenden von Mods und Modpacks, die hier auf Modrinth gehostet werden."
+    "message": "Erstelle, teile und spiele Modpacks mit Tausenden von Mods und Modpacks, die hier auf AllayHub gehostet werden."
   },
   "app-marketing.features.sharing.modpack": {
     "message": "Modpack"
@@ -168,7 +168,7 @@
     "message": "Anders als jeder andere Launcher"
   },
   "app-marketing.features.website.description": {
-    "message": "Die Modrinth App ist vollständig mit der Website integriert, sodass du von der App aus auf all deine Lieblingsprojekte zugreifen kannst!"
+    "message": "Die AllayLauncher ist vollständig mit der Website integriert, sodass du von der App aus auf all deine Lieblingsprojekte zugreifen kannst!"
   },
   "app-marketing.features.website.title": {
     "message": "Webseitenintegration"
@@ -177,10 +177,10 @@
     "message": "den du zuvor verwendet hast"
   },
   "app-marketing.hero.app-screenshot-alt": {
-    "message": "Screenshot der Modrinth App mit einer geöffneten Cobblemon-Instanz auf der 'Inhalt' Seite."
+    "message": "Screenshot der AllayLauncher mit einer geöffneten Cobblemon-Instanz auf der 'Inhalt' Seite."
   },
   "app-marketing.hero.description": {
-    "message": "Die Modrinth App ist ein einzigartiger, quelloffener Launcher, mit dem du deine Lieblingsmods spielen und stets aktuell halten kannst. Alles in einem praktischen Paket."
+    "message": "Die AllayLauncher ist ein einzigartiger, quelloffener Launcher, mit dem du deine Lieblingsmods spielen und stets aktuell halten kannst. Alles in einem praktischen Paket."
   },
   "app-marketing.hero.download-button": {
     "message": "Allay herunterladen"
@@ -189,7 +189,7 @@
     "message": "Allay herunterladen"
   },
   "app-marketing.hero.download-modrinth-app-for-os": {
-    "message": "Modrinth App für {os} herunterladen"
+    "message": "AllayLauncher für {os} herunterladen"
   },
   "app-marketing.hero.minecraft-screenshot-alt": {
     "message": "Screenshot des Hauptmenüs der Cobblemon Instanz."
@@ -294,7 +294,7 @@
     "message": "Benutzername"
   },
   "auth.sign-up.legal-dislaimer": {
-    "message": "Durch die Erstellung eines Kontos stimmst du den <terms-link>Nutzungsbedingungen</terms-link> und der <privacy-policy-link>Datenschutzerklärung</privacy-policy-link> von Modrinth zu."
+    "message": "Durch die Erstellung eines Kontos stimmst du den <terms-link>Nutzungsbedingungen</terms-link> und der <privacy-policy-link>Datenschutzerklärung</privacy-policy-link> von AllayHub zu."
   },
   "auth.sign-up.notification.password-mismatch.text": {
     "message": "Passwörter stimmen nicht überein!"
@@ -306,7 +306,7 @@
     "message": "Du hast bereits ein Konto?"
   },
   "auth.sign-up.subscribe.label": {
-    "message": "Updates zu Modrinth abonnieren"
+    "message": "Updates zu AllayHub abonnieren"
   },
   "auth.sign-up.title": {
     "message": "Registrieren"
@@ -351,16 +351,16 @@
     "message": "E-Mail bestätigen"
   },
   "auth.welcome.checkbox.subscribe": {
-    "message": "Erhalte Neuigkeiten zu Modrinth"
+    "message": "Erhalte Neuigkeiten zu AllayHub"
   },
   "auth.welcome.description": {
     "message": "Du bist jetzt Teil der großartigen Community von Entwicklern und Entdeckern die bereits fantastische Mods erstellen, herunterladen und auf dem neuesten Stand halten."
   },
   "auth.welcome.label.tos": {
-    "message": "Durch die Erstellung eines Kontos hast du den <terms-link>Nutzungsbedingungen</terms-link> und der <privacy-policy-link>Datenschutzerklärung</privacy-policy-link> von Modrinth zugestimmt."
+    "message": "Durch die Erstellung eines Kontos hast du den <terms-link>Nutzungsbedingungen</terms-link> und der <privacy-policy-link>Datenschutzerklärung</privacy-policy-link> von AllayHub zugestimmt."
   },
   "auth.welcome.long-title": {
-    "message": "Willkommen bei Modrinth!"
+    "message": "Willkommen bei AllayHub!"
   },
   "auth.welcome.title": {
     "message": "Willkommen"
@@ -390,7 +390,7 @@
     "message": "Bist du Dir sicher, dass du diese Sammlung löschen willst?"
   },
   "collection.description": {
-    "message": "{description} – Schau dir die Kollektion {name} von {username} auf Modrinth an"
+    "message": "{description} – Schau dir die Kollektion {name} von {username} auf AllayHub an"
   },
   "collection.description.following": {
     "message": "Automatisch generierte Sammlung aller Projekte, denen du folgst."
@@ -642,7 +642,7 @@
     "message": "Steuerformular"
   },
   "dashboard.creator-tax-form-modal.security.description": {
-    "message": "Modrinth verwendet den Drittanbieter Track1099, um deine Steuerformulare sicher zu erfassen und zu speichern. <security-link>Hier erfährst du mehr.</security-link>"
+    "message": "AllayHub verwendet den Drittanbieter Track1099, um deine Steuerformulare sicher zu erfassen und zu speichern. <security-link>Hier erfährst du mehr.</security-link>"
   },
   "dashboard.creator-tax-form-modal.security.header": {
     "message": "Sicherheitspraktiken"
@@ -822,7 +822,7 @@
     "message": "Um dein vollständiges Guthaben von <b>{available}</b> abzuheben musst du das unten stehende Formular ausfüllen. Dies wird für die Steuererklärung benötigt und muss nur einmal ausgefüllt werden."
   },
   "dashboard.creator-withdraw-modal.tax-form-required.body-with-limit": {
-    "message": "Du musst ein W-9- oder W-8-Formular für die Steuerunterlagen von Modrinth ausfüllen, damit wir die Steuervorschriften einhalten können."
+    "message": "Du musst ein W-9- oder W-8-Formular für die Steuerunterlagen von AllayHub ausfüllen, damit wir die Steuervorschriften einhalten können."
   },
   "dashboard.creator-withdraw-modal.tax-form-required.header": {
     "message": "Steuerformular erforderlich"
@@ -864,7 +864,7 @@
     "message": "Unbestätigte E-Mail"
   },
   "dashboard.creator-withdraw-modal.tremendous-details.unverified-email-message": {
-    "message": "Die angegebene E-Mail-Adresse für die Lieferung ist nicht mit deinem Modrinth-Konto verknüpft. Modrinth kann keine Belohnungen wiederherstellen, die an eine falsche E-Mail-Adresse gesendet wurden."
+    "message": "Die angegebene E-Mail-Adresse für die Lieferung ist nicht mit deinem AllayHub-Konto verknüpft. AllayHub kann keine Belohnungen wiederherstellen, die an eine falsche E-Mail-Adresse gesendet wurden."
   },
   "dashboard.creator-withdraw-modal.tremendous-details.usd-paypal-warning-header": {
     "message": "Niedrigere Gebühren verfügbar"
@@ -891,7 +891,7 @@
     "message": "Geschätzte Einnahmen können sich bis sie verfügbar sind ändern."
   },
   "dashboard.revenue.estimated-tooltip.msg2": {
-    "message": "Klicke um zu erfahren, wie Modrinth deine Einnahmen verwaltet."
+    "message": "Klicke um zu erfahren, wie AllayHub deine Einnahmen verwaltet."
   },
   "dashboard.revenue.estimated-with-date": {
     "message": "Geschätzt {date}"
@@ -912,7 +912,7 @@
     "message": "Ausgezahlt"
   },
   "dashboard.revenue.tos": {
-    "message": "Durch das hochladen von Projekten auf Modrinth, und das abheben von Geld von deinem Konto, stimmst du den <terms-link>Bedingungen des Rewards-Programm</terms-link> zu. Erfahre mehr über das <info-link>Reward-Programm</info-link>."
+    "message": "Durch das hochladen von Projekten auf AllayHub, und das abheben von Geld von deinem Konto, stimmst du den <terms-link>Bedingungen des Rewards-Programm</terms-link> zu. Erfahre mehr über das <info-link>Reward-Programm</info-link>."
   },
   "dashboard.revenue.transactions.btn.download-csv": {
     "message": "Als CSV herunterladen"
@@ -1023,7 +1023,7 @@
     "message": "Diese Kollektion ist eventuell Privat."
   },
   "error.collection.404.list_item.3": {
-    "message": "Die Kollektion wurde eventuell vom Moderationsteam von Modrinth wegen Verstoßes gegen unsere <tou-link>Nutzungsbedingungen</tou-link> entfernt."
+    "message": "Die Kollektion wurde eventuell vom Moderationsteam von AllayHub wegen Verstoßes gegen unsere <tou-link>Nutzungsbedingungen</tou-link> entfernt."
   },
   "error.collection.404.list_title": {
     "message": "Warum?"
@@ -1044,10 +1044,10 @@
     "message": "Inhalt aufgrund rechtlicher Gründe nicht verfügbar"
   },
   "error.generic.default.list_item.1": {
-    "message": "Schaue auf unserer <status-link>Statusseite</status-link> nach, ob Modrinth offline ist."
+    "message": "Schaue auf unserer <status-link>Statusseite</status-link> nach, ob AllayHub offline ist."
   },
   "error.generic.default.list_item.2": {
-    "message": "Falls dies weiterhin auftritt, solltest du das Modrinth-Team darüber informieren, indem du unserem <discord-link>Discord-Server</discord-link> beitrittst."
+    "message": "Falls dies weiterhin auftritt, solltest du das AllayHub-Team darüber informieren, indem du unserem <discord-link>Discord-Server</discord-link> beitrittst."
   },
   "error.generic.default.list_title": {
     "message": "Bitte versuch es in ein paar Minuten erneut."
@@ -1065,7 +1065,7 @@
     "message": "Der Besitzer der Organisation hat eventuell die URL geändert oder sie gelöscht."
   },
   "error.organization.404.list_item.3": {
-    "message": "Die Organisation wurde eventuell vom Moderationsteam von Modrinth wegen Verstoßes gegen unsere <tou-link>Nutzungsbedingungen</tou-link> entfernt."
+    "message": "Die Organisation wurde eventuell vom Moderationsteam von AllayHub wegen Verstoßes gegen unsere <tou-link>Nutzungsbedingungen</tou-link> entfernt."
   },
   "error.organization.404.list_title": {
     "message": "Warum?"
@@ -1080,7 +1080,7 @@
     "message": "Der Besitzer des Projekts hat eventuell die URL geändert, das Projekt auf privat gestellt oder es gelöscht."
   },
   "error.project.404.list_item.3": {
-    "message": "Das Projekt wurde möglicherweise von Modrinths Moderationsteam wegen Verstoßes gegen unsere <tou-link>Nutzungsbedingungen</tou-link> entfernt."
+    "message": "Das Projekt wurde möglicherweise von AllayHubs Moderationsteam wegen Verstoßes gegen unsere <tou-link>Nutzungsbedingungen</tou-link> entfernt."
   },
   "error.project.404.list_title": {
     "message": "Warum?"
@@ -1095,7 +1095,7 @@
     "message": "Der Benutzer hat eventuell seinen Benutzernamen geändert oder sein Konto gelöscht."
   },
   "error.user.404.list_item.3": {
-    "message": "Das Benutzerkonto wurde möglicherweise wegen Verstoßes gegen Modrinths <tou-link>Nutzungsbedingungen</tou-link> entfernt."
+    "message": "Das Benutzerkonto wurde möglicherweise wegen Verstoßes gegen AllayHubs <tou-link>Nutzungsbedingungen</tou-link> entfernt."
   },
   "error.user.404.list_title": {
     "message": "Warum?"
@@ -1125,7 +1125,7 @@
     "message": "Gehe zum Dashboard"
   },
   "landing.creator.feature.constantly-evolving.description": {
-    "message": "Erlebe das bestmögliche Modding-Erlebnis mit ständigen Updates vom Modrinth-Team"
+    "message": "Erlebe das bestmögliche Modding-Erlebnis mit ständigen Updates vom AllayHub-Team"
   },
   "landing.creator.feature.constantly-evolving.title": {
     "message": "Ständig im Wandel"
@@ -1209,10 +1209,10 @@
     "message": "ATLauncher"
   },
   "landing.launcher.graphic-alt": {
-    "message": "Eine vereinfachte Darstellung eines Minecraft-Fensters mit dem Mojang Studios Logo in Modrinth-Grün."
+    "message": "Eine vereinfachte Darstellung eines Minecraft-Fensters mit dem Mojang Studios Logo in AllayHub-Grün."
   },
   "landing.launcher.modrinth-app-label": {
-    "message": "Modrinth App"
+    "message": "AllayLauncher"
   },
   "landing.launcher.prism-launcher-label": {
     "message": "Prism Launcher"
@@ -1257,7 +1257,7 @@
     "message": "Entdecke über {count} Kreationen"
   },
   "landing.subheading": {
-    "message": "Entdecke, Spiele und teile Minecraft-Inhalte durch unsere quelloffene Platform, welche für die Community entwickelt wird."
+    "message": "Entdecke, spiele und teile Minecraft-Inhalte durch unsere quelloffene Platform, welche für die Community entwickelt wird."
   },
   "layout.action.change-theme": {
     "message": "Farbschema ändern"
@@ -1305,19 +1305,19 @@
     "message": "Kontoeinstellungen besuchen"
   },
   "layout.banner.add-email.description": {
-    "message": "Aus Sicherheitsgründen verlangt Modrinth, dass du eine E-Mail-Adresse für dein Konto registrierst."
+    "message": "Aus Sicherheitsgründen verlangt AllayHub, dass du eine E-Mail-Adresse für dein Konto registrierst."
   },
   "layout.banner.build-fail.description": {
-    "message": "Dieses Deployment des Modrinth-Frontends konnte keinen Status aus der API generieren. Dies kann an einer Störung oder einem Fehler in der Konfiguration liegen. Erneut erstellen, wenn die API verfügbar ist. Fehlercodes: {errors}; Aktuelle API-URL lautet: {url}"
+    "message": "Dieses Deployment des AllayHub-Frontends konnte keinen Status aus der API generieren. Dies kann an einer Störung oder einem Fehler in der Konfiguration liegen. Erneut erstellen, wenn die API verfügbar ist. Fehlercodes: {errors}; Aktuelle API-URL lautet: {url}"
   },
   "layout.banner.build-fail.title": {
     "message": "Fehler beim Generieren des Status aus der API beim Erstellen."
   },
   "layout.banner.staging.description": {
-    "message": "Die Staging-Umgebung ist vollständig von der Modrinth Produktionsdatenbank getrennt. Sie wird zu Test- und Debugging-Zwecken verwendet und kann Entwicklungsversionen des Modrinth Backends oder -Frontends ausführen, die neuer sind als die Produktionsinstanz."
+    "message": "Die Staging-Umgebung ist vollständig von der AllayHub Produktionsdatenbank getrennt. Sie wird zu Test- und Debugging-Zwecken verwendet und kann Entwicklungsversionen des AllayHub Backends oder -Frontends ausführen, die neuer sind als die Produktionsinstanz."
   },
   "layout.banner.staging.title": {
-    "message": "Du schaust dir die Modrinth Staging-Umgebung an"
+    "message": "Du schaust dir die AllayHub Staging-Umgebung an"
   },
   "layout.banner.subscription-payment-failed.button": {
     "message": "Zahlungsinformationen aktualisieren"
@@ -1332,7 +1332,7 @@
     "message": "Steuerformular ausfüllen"
   },
   "layout.banner.tax.description": {
-    "message": "Du hast dieses Jahr bereits über 600 Dollar von Modrinth abgehoben. Um die Steuervorschriften einzuhalten, musst du ein Steuerformular ausfüllen. Deine Auszahlungen werden bis zur Einreichung dieses Formulars pausiert."
+    "message": "Du hast dieses Jahr bereits über 600 Dollar von AllayHub abgehoben. Um die Steuervorschriften einzuhalten, musst du ein Steuerformular ausfüllen. Deine Auszahlungen werden bis zur Einreichung dieses Formulars pausiert."
   },
   "layout.banner.tax.title": {
     "message": "Steuerformular erforderlich"
@@ -1350,7 +1350,7 @@
     "message": "Bestätigungs-E-Mail erneut senden"
   },
   "layout.banner.verify-email.description": {
-    "message": "Aus Sicherheitsgründen muss Modrinth die mit deinem Konto verknüpfte E-Mail-Adresse überprüfen."
+    "message": "Aus Sicherheitsgründen muss AllayHub die mit deinem Konto verknüpfte E-Mail-Adresse überprüfen."
   },
   "layout.footer.about": {
     "message": "Über"
@@ -1392,7 +1392,7 @@
     "message": "Nutzungsbedingungen"
   },
   "layout.footer.modrinth-information": {
-    "message": "Informationen zu Modrinth"
+    "message": "Informationen zu AllayHub"
   },
   "layout.footer.open-source": {
     "message": "AllayHub ist <github-link>Open Source</github-link>."
@@ -1401,13 +1401,13 @@
     "message": "Produkte"
   },
   "layout.footer.products.app": {
-    "message": "Modrinth App"
+    "message": "AllayLauncher"
   },
   "layout.footer.products.plus": {
-    "message": "Modrinth+"
+    "message": "AllayHub+"
   },
   "layout.footer.products.servers": {
-    "message": "Modrinth Hosting"
+    "message": "AllayHub Hosting"
   },
   "layout.footer.resources": {
     "message": "Ressourcen"
@@ -1443,7 +1443,7 @@
     "message": "Menü umschalten"
   },
   "layout.meta.description": {
-    "message": "Lade Minecraft Mods, Plugins, Datenpakete, Shader, Ressourcenpakete und Modpacks auf Modrinth herunter. Entdecke und veröffentliche Projekte auf Modrinth dank einer modernen, benutzerfreundlichen Oberfläche und API."
+    "message": "Lade Minecraft Mods, Plugins, Datenpakete, Shader, Ressourcenpakete und Modpacks auf AllayHub herunter. Entdecke und veröffentliche Projekte auf AllayHub dank einer modernen, benutzerfreundlichen Oberfläche und API."
   },
   "layout.meta.og-description": {
     "message": "Entdecke und veröffentliche Minecraft-Inhalte!"
@@ -1479,10 +1479,10 @@
     "message": "Server hosten"
   },
   "layout.nav.modrinth-app": {
-    "message": "Modrinth App"
+    "message": "AllayLauncher"
   },
   "layout.nav.modrinth-home-page": {
-    "message": "Modrinth Startseite"
+    "message": "AllayHub Startseite"
   },
   "layout.nav.my-servers": {
     "message": "Meine Server"
@@ -1506,7 +1506,7 @@
     "message": "Suche"
   },
   "layout.nav.upgrade-to-modrinth-plus": {
-    "message": "Auf Modrinth+ upgraden"
+    "message": "Auf AllayHub+ upgraden"
   },
   "moderation.filter.by": {
     "message": "Filtern nach"
@@ -1797,10 +1797,10 @@
     "message": "Überprüfe deine Wallet-Adresse. An eine falsche Adresse gesendete Gelder können nicht wiederhergestellt werden."
   },
   "profile.bio.fallback.creator": {
-    "message": "Ein Modrinth-Ersteller."
+    "message": "Ein AllayHub-Ersteller."
   },
   "profile.bio.fallback.user": {
-    "message": "Ein Modrinth-Benutzer."
+    "message": "Ein AllayHub-Benutzer."
   },
   "profile.button.billing": {
     "message": "Benutzerabrechnungen verwalten"
@@ -1893,10 +1893,10 @@
     "message": "Ja"
   },
   "profile.meta.description": {
-    "message": "Lade {username}'s Projekte auf Modrinth herunter"
+    "message": "Lade {username}'s Projekte auf AllayHub herunter"
   },
   "profile.meta.description-with-bio": {
-    "message": "{bio} - Lade {username}s Projekte auf Modrinth herunter"
+    "message": "{bio} - Lade {username}s Projekte auf AllayHub herunter"
   },
   "profile.stats.projects-followers": {
     "message": "{count, plural, one {<stat>{count}</stat>} other {<stat>{count}</stat>}} Projekt-Follower"
@@ -1947,7 +1947,7 @@
     "message": "Erneut zur Überprüfung einreichen"
   },
   "project-moderation-nags.resubmit-for-review-desc": {
-    "message": "Dein Projekt wurde vom Modrinth-Team {status, select, rejected {abgelehnt} withheld {zurückgehalten} other {{status}}}. In der Regel hast du die Möglichkeit, es nach Umsetzung der Anmerkungen erneut einzureichen."
+    "message": "Dein Projekt wurde vom AllayHub-Team {status, select, rejected {abgelehnt} withheld {zurückgehalten} other {{status}}}. In der Regel hast du die Möglichkeit, es nach Umsetzung der Anmerkungen erneut einzureichen."
   },
   "project-moderation-nags.submit-checklist-tooltip": {
     "message": "Du musst die erforderlichen Schritte in der Veröffentlichungs-Checkliste erledigen!"
@@ -2049,7 +2049,7 @@
     "message": "Projekt überprüfen"
   },
   "project.actions.servers-promo.description": {
-    "message": "Modrinth Hosting ist der einfachste Weg, ohne Aufwand mit deinen Freunden zu spielen!"
+    "message": "AllayHub Hosting ist der einfachste Weg, ohne Aufwand mit deinen Freunden zu spielen!"
   },
   "project.actions.servers-promo.pricing": {
     "message": "Ab {price}<small> / Monat</small>"
@@ -2082,10 +2082,10 @@
     "message": "{title} unterstützt {gameVersion} für {platform} nicht"
   },
   "project.download.install-with-app": {
-    "message": "Mit Modrinth App installieren"
+    "message": "Mit AllayLauncher installieren"
   },
   "project.download.no-app": {
-    "message": "Du hast die Modrinth App nicht?"
+    "message": "Du hast die AllayLauncher nicht?"
   },
   "project.download.no-versions-available": {
     "message": "Keine Versionen für {gameVersion} und {platform} verfügbar."
@@ -2121,7 +2121,7 @@
     "message": "{title} herunterladen"
   },
   "project.environment.migration-no-permission.message": {
-    "message": "Wir haben kürzlich das Umgebungssystem auf Modrinth überarbeitet und neue Optionen sind nun verfügbar. Du hast keine Berechtigung, diese Einstellungen zu ändern, aber informiere bitte ein anderes Projektmitglied, dass die Umgebungsmetadaten überprüft werden müssen."
+    "message": "Wir haben kürzlich das Umgebungssystem auf AllayHub überarbeitet und neue Optionen sind nun verfügbar. Du hast keine Berechtigung, diese Einstellungen zu ändern, aber informiere bitte ein anderes Projektmitglied, dass die Umgebungsmetadaten überprüft werden müssen."
   },
   "project.environment.migration-no-permission.title": {
     "message": "Umgebungsmetadaten müssen überprüft werden"
@@ -2130,7 +2130,7 @@
     "message": "Erfahre mehr über diese Änderung"
   },
   "project.environment.migration.message": {
-    "message": "Wir haben kürzlich das Umgebungssystem auf Modrinth überarbeitet und neue Optionen sind nun verfügbar. Bitte überprüfe, ob die Metadaten korrekt sind."
+    "message": "Wir haben kürzlich das Umgebungssystem auf AllayHub überarbeitet und neue Optionen sind nun verfügbar. Bitte überprüfe, ob die Metadaten korrekt sind."
   },
   "project.environment.migration.review-button": {
     "message": "Umgebungseinstellungen überprüfen"
@@ -2262,7 +2262,7 @@
     "message": "Konnte {item} nicht finden"
   },
   "report.for.violation": {
-    "message": "Verstoß gegen Modrinths <rules-link>Regeln</rules-link> oder <terms-link>Nutzungsbedingungen</terms-link>"
+    "message": "Verstoß gegen AllayHubs <rules-link>Regeln</rules-link> oder <terms-link>Nutzungsbedingungen</terms-link>"
   },
   "report.for.violation.description": {
     "message": "Beispiele hierfür sind bösartige, Spam-, beleidigende, irreführende, täuschende und illegale Inhalte."
@@ -2307,7 +2307,7 @@
     "message": "Welche Art an Inhalt möchtest du melden?"
   },
   "report.question.report-reason": {
-    "message": "Gegen welche von Modrinths Regeln verstößt dieses {item}?"
+    "message": "Gegen welche von AllayHubs Regeln verstößt dieses {item}?"
   },
   "report.report-content": {
     "message": "Inhalt den Moderatoren melden"
@@ -2475,7 +2475,7 @@
     "message": "Meldungen schreiben"
   },
   "scopes.sessionAccess.description": {
-    "message": "Zugriff auf Modrinth-ausgestellte Sitzungen"
+    "message": "Zugriff auf AllayHub-ausgestellte Sitzungen"
   },
   "scopes.sessionAccess.label": {
     "message": "Zugriff auf Sitzungen"
@@ -2697,13 +2697,13 @@
     "message": "Visa"
   },
   "settings.billing.pyro_subscription.description": {
-    "message": "Verwalte deine Modrinth Server-Abonnements."
+    "message": "Verwalte deine AllayHub Server-Abonnements."
   },
   "settings.billing.pyro_subscription.title": {
-    "message": "Modrinth Server-Abonnements"
+    "message": "AllayHub Server-Abonnements"
   },
   "settings.billing.subscription.description": {
-    "message": "Verwalte deine Modrinth-Abonnements."
+    "message": "Verwalte deine AllayHub-Abonnements."
   },
   "settings.billing.subscription.title": {
     "message": "Abonnements"
@@ -2712,7 +2712,7 @@
     "message": "Entwicklermodus deaktivieren"
   },
   "settings.display.banner.developer-mode.description": {
-    "message": "Der <strong>Entwicklermodus</strong> ist aktiviert. Damit kannst du die internen IDs verschiedener Elemente in Modrinth anzeigen, was für Entwickler, welche die Modrinth-API verwenden, hilfreich sein kann. Klickst du 5x auf das Modrinth-Logo unten auf der Seite, um den Entwicklermodus umzuschalten."
+    "message": "Der <strong>Entwicklermodus</strong> ist aktiviert. Damit kannst du die internen IDs verschiedener Elemente in AllayHub anzeigen, was für Entwickler, welche die AllayHub-API verwenden, hilfreich sein kann. Klickst du 5x auf das AllayHub-Logo unten auf der Seite, um den Entwicklermodus umzuschalten."
   },
   "settings.display.flags.description": {
     "message": "Bestimmte Funktionen auf diesem Gerät aktivieren oder deaktivieren."
@@ -2757,16 +2757,16 @@
     "message": "Erweiterte Renderfunktionen"
   },
   "settings.display.sidebar.external-links-new-tab.description": {
-    "message": "Links, die außerhalb von Modrinth führen, werden in einem neuen Tab geöffnet. Unabhängig von dieser Einstellung werden Links auf der gleichen Domain und in Markdown-Beschreibungen immer im selben Tab geöffnet, während Links auf Anzeigen- und Bearbeitungsseiten immer in einem neuen Tab geöffnet werden."
+    "message": "Links, die außerhalb von AllayHub führen, werden in einem neuen Tab geöffnet. Unabhängig von dieser Einstellung werden Links auf der gleichen Domain und in Markdown-Beschreibungen immer im selben Tab geöffnet, während Links auf Anzeigen- und Bearbeitungsseiten immer in einem neuen Tab geöffnet werden."
   },
   "settings.display.sidebar.external-links-new-tab.title": {
     "message": "Externe Links in neuem Tab öffnen"
   },
   "settings.display.sidebar.hide-app-promos.description": {
-    "message": "Versteckt die \"Modrinth App herunterladen\"-Schaltflächen aus der Hauptnavigation. Die Seite der Modrinth App kann weiterhin auf der Startseite oder in der Fußzeile gefunden werden."
+    "message": "Versteckt die \"AllayLauncher herunterladen\"-Schaltflächen aus der Hauptnavigation. Die Seite der AllayLauncher kann weiterhin auf der Startseite oder in der Fußzeile gefunden werden."
   },
   "settings.display.sidebar.hide-app-promos.title": {
-    "message": "Werbungen für die Modrinth App ausblenden"
+    "message": "Werbungen für die AllayLauncher ausblenden"
   },
   "settings.display.sidebar.left-aligned-content-sidebar.title": {
     "message": "Linksbündige Seitenleiste auf Inhaltsseiten"
@@ -2781,7 +2781,7 @@
     "message": "Rechtsbündige Filter-Seitenleiste auf Suchseiten"
   },
   "settings.display.theme.description": {
-    "message": "Wähle dein bevorzugtes Farbschema für Modrinth auf diesem Gerät."
+    "message": "Wähle dein bevorzugtes Farbschema für AllayHub auf diesem Gerät."
   },
   "settings.display.theme.title": {
     "message": "Farbschema"
@@ -2790,7 +2790,7 @@
     "message": "Erstelle ein PAT"
   },
   "settings.pats.description": {
-    "message": "Mit PATs kannst du auf die API von Modrinth zugreifen. Weitere Informationen findest du in der <doc-link>Dokumentation zur Modrinth-API</doc-link>. Sie können jederzeit erstellt und widerrufen werden."
+    "message": "Mit PATs kannst du auf die API von AllayHub zugreifen. Weitere Informationen findest du in der <doc-link>Dokumentation zur AllayHub-API</doc-link>. Sie können jederzeit erstellt und widerrufen werden."
   },
   "settings.pats.modal.create.action": {
     "message": "PAT erstellen"
@@ -2844,7 +2844,7 @@
     "message": "Bio"
   },
   "settings.profile.description": {
-    "message": "Deine Profilinformationen sind auf Modrinth und über die <docs-link>Modrinth-API</docs-link> öffentlich einsehbar."
+    "message": "Deine Profilinformationen sind auf AllayHub und über die <docs-link>AllayHub-API</docs-link> öffentlich einsehbar."
   },
   "settings.profile.profile-info": {
     "message": "Profilinformationen"
@@ -2871,7 +2871,7 @@
     "message": "Aktuelle Sitzung"
   },
   "settings.sessions.description": {
-    "message": "Hier findest du alle Geräte, die derzeit mit deinem Modrinth-Konto angemeldet sind. Du kannst dich von jedem einzelnen Gerät abmelden.\n\nFalls du einen Eintrag siehst, den du nicht kennst, melde dich von diesem Gerät ab und ändere sofort das Passwort deines Modrinth-Kontos."
+    "message": "Hier findest du alle Geräte, die derzeit mit deinem AllayHub-Konto angemeldet sind. Du kannst dich von jedem einzelnen Gerät abmelden.\n\nFalls du einen Eintrag siehst, den du nicht kennst, melde dich von diesem Gerät ab und ändere sofort das Passwort deines AllayHub-Kontos."
   },
   "settings.sessions.last-accessed-ago": {
     "message": "Zuletzt aufgerufen {ago}"
@@ -2883,7 +2883,7 @@
     "message": "Unbekannte Plattform"
   },
   "ui.latest-news-row.latest-news": {
-    "message": "Aktuelle Neuigkeiten von Modrinth"
+    "message": "Aktuelle Neuigkeiten von AllayHub"
   },
   "ui.latest-news-row.view-all": {
     "message": "Alle Neuigkeiten ansehen"

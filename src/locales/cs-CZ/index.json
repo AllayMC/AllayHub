@@ -27,7 +27,7 @@
     "message": "Linux"
   },
   "app-marketing.download.linux-disclaimer": {
-    "message": "U linuxových verzí aplikace Modrinth jsou <issues-link>známé problémy</issues-link> na určitých systémech a konfiguracích. Pokud je aplikace Modrinth App ve vašem systému nestabilní, doporučujeme vám vyzkoušet jiné aplikace, například <prism-link>Prism Launcher</prism-link>, které vám umožní snadnou instalaci obsahu Modrinth."
+    "message": "U linuxových verzí aplikace AllayHub jsou <issues-link>známé problémy</issues-link> na určitých systémech a konfiguracích. Pokud je aplikace AllayLauncher ve vašem systému nestabilní, doporučujeme vám vyzkoušet jiné aplikace, například <prism-link>Prism Launcher</prism-link>, které vám umožní snadnou instalaci obsahu AllayHub."
   },
   "app-marketing.download.mac": {
     "message": "Mac"
@@ -36,13 +36,13 @@
     "message": "Stahovácí možnosti"
   },
   "app-marketing.download.terms": {
-    "message": "Stažením aplikace Modrinth souhlasíte s našimi <terms-link>Podmínkami</terms-link> a <privacy-link>Zásadami ochrany osobních údajů</privacy-link>."
+    "message": "Stažením aplikace AllayHub souhlasíte s našimi <terms-link>Podmínkami</terms-link> a <privacy-link>Zásadami ochrany osobních údajů</privacy-link>."
   },
   "app-marketing.download.third-party-packages": {
     "message": "Balíčky třetích stran"
   },
   "app-marketing.download.title": {
-    "message": "Stáhnout Modrinth App (Beta)"
+    "message": "Stáhnout AllayLauncher (Beta)"
   },
   "app-marketing.download.windows": {
     "message": "Windows"
@@ -54,7 +54,7 @@
     "message": "Sledovat projekty"
   },
   "app-marketing.features.importing.description": {
-    "message": "Importujte všechny své oblíbené profily z launcheru, který jste používali dříve, a začněte používat aplikaci Modrinth během několika sekund!"
+    "message": "Importujte všechny své oblíbené profily z launcheru, který jste používali dříve, a začněte používat aplikaci AllayHub během několika sekund!"
   },
   "app-marketing.features.importing.gdlauncher-alt": {
     "message": "GDLauncher"
@@ -72,7 +72,7 @@
     "message": "od {author}"
   },
   "app-marketing.features.mod-management.description": {
-    "message": "Modrinth umožňuje snadnou správu všech modů na jednom místě. Mody můžete instalovat, odinstalovat a aktualizovat jediným kliknutím."
+    "message": "AllayHub umožňuje snadnou správu všech modů na jednom místě. Mody můžete instalovat, odinstalovat a aktualizovat jediným kliknutím."
   },
   "app-marketing.features.mod-management.installed-mods": {
     "message": "Nainstalované módy"
@@ -96,7 +96,7 @@
     "message": "Offline režim"
   },
   "app-marketing.features.open-source.description": {
-    "message": "Spouštěč Modrinth je plně otevřený. Zdrojový kód si můžete prohlédnout na našem <github-link>GitHubu</github-link>!"
+    "message": "Spouštěč AllayHub je plně otevřený. Zdrojový kód si můžete prohlédnout na našem <github-link>GitHubu</github-link>!"
   },
   "app-marketing.features.open-source.title": {
     "message": "Otevřený zdroj"
@@ -108,7 +108,7 @@
     "message": "% CPU"
   },
   "app-marketing.features.performance.description": {
-    "message": "Aplikace Modrinth je výkonnější než mnoho předních správců modů a využívá pouze 150MB paměti RAM!"
+    "message": "Aplikace AllayHub je výkonnější než mnoho předních správců modů a využívá pouze 150MB paměti RAM!"
   },
   "app-marketing.features.performance.discord": {
     "message": "Discord"
@@ -129,7 +129,7 @@
     "message": "< 150 MB"
   },
   "app-marketing.features.performance.modrinth-app": {
-    "message": "Modrinth Aplikace"
+    "message": "AllayHub Aplikace"
   },
   "app-marketing.features.performance.one-billion-percent": {
     "message": "1 miliarda %"
@@ -147,13 +147,13 @@
     "message": "Výkon"
   },
   "app-marketing.features.play.description": {
-    "message": "Pomocí aplikace Modrinth můžete stahovat a hrát své oblíbené módy a modpacky."
+    "message": "Pomocí aplikace AllayHub můžete stahovat a hrát své oblíbené módy a modpacky."
   },
   "app-marketing.features.play.title": {
     "message": "Hrajte se svými oblíbenými módy"
   },
   "app-marketing.features.sharing.description": {
-    "message": "Vytvářejte, sdílejte a hrajte modpacky s některým z tisíců modů a modpacků hostovaných zde na Modrinthu."
+    "message": "Vytvářejte, sdílejte a hrajte modpacky s některým z tisíců modů a modpacků hostovaných zde na AllayHubu."
   },
   "app-marketing.features.sharing.modpack": {
     "message": "Modpack"
@@ -168,7 +168,7 @@
     "message": "Na rozdíl od jiných spouštěčů"
   },
   "app-marketing.features.website.description": {
-    "message": "Aplikace Modrinth je plně integrovaná s webovými stránkami, takže máte přístup ke všem svým oblíbeným projektům z aplikace!"
+    "message": "Aplikace AllayHub je plně integrovaná s webovými stránkami, takže máte přístup ke všem svým oblíbeným projektům z aplikace!"
   },
   "app-marketing.features.website.title": {
     "message": "Integrace webových stránek"
@@ -177,19 +177,19 @@
     "message": "které jste již dříve použili"
   },
   "app-marketing.hero.app-screenshot-alt": {
-    "message": "Snímek obrazovky z aplikace Modrinth se spuštěnou instancí Cobblemon na stránce \"Obsah\"."
+    "message": "Snímek obrazovky z aplikace AllayHub se spuštěnou instancí Cobblemon na stránce \"Obsah\"."
   },
   "app-marketing.hero.description": {
-    "message": "Aplikace Modrinth je jedinečný open source launcher, který vám umožní přehrávat vaše oblíbené mody a udržovat je aktuální, a to vše v jednom malém úhledném balíčku."
+    "message": "Aplikace AllayHub je jedinečný open source launcher, který vám umožní přehrávat vaše oblíbené mody a udržovat je aktuální, a to vše v jednom malém úhledném balíčku."
   },
   "app-marketing.hero.download-button": {
-    "message": "Stáhnout Modrinth App"
+    "message": "Stáhnout AllayLauncher"
   },
   "app-marketing.hero.download-modrinth-app": {
-    "message": "Stáhnout Modrinth App"
+    "message": "Stáhnout AllayLauncher"
   },
   "app-marketing.hero.download-modrinth-app-for-os": {
-    "message": "Stáhnout Modrinth App pro {os}"
+    "message": "Stáhnout AllayLauncher pro {os}"
   },
   "app-marketing.hero.minecraft-screenshot-alt": {
     "message": "Snímek obrazovky hlavní nabídky instance Cobblemon."
@@ -294,7 +294,7 @@
     "message": "Uživatelské jméno"
   },
   "auth.sign-up.legal-dislaimer": {
-    "message": "Vytvořením účtu souhlasíte s <terms-link>Podmínkami</terms-link> a <privacy-policy-link>Zásadami ochrany osobních údajů</privacy-policy-link> Modrinthu."
+    "message": "Vytvořením účtu souhlasíte s <terms-link>Podmínkami</terms-link> a <privacy-policy-link>Zásadami ochrany osobních údajů</privacy-policy-link> AllayHubu."
   },
   "auth.sign-up.notification.password-mismatch.text": {
     "message": "Hesla se neshodují!"
@@ -306,7 +306,7 @@
     "message": "Již máte účet?"
   },
   "auth.sign-up.subscribe.label": {
-    "message": "Přihlásit se k odběru informací o Modrinthu"
+    "message": "Přihlásit se k odběru informací o AllayHubu"
   },
   "auth.sign-up.title": {
     "message": "Registrace"
@@ -351,16 +351,16 @@
     "message": "Ověřit e-mail"
   },
   "auth.welcome.checkbox.subscribe": {
-    "message": "Přihlásit se k odběru informací o Modrinthu"
+    "message": "Přihlásit se k odběru informací o AllayHubu"
   },
   "auth.welcome.description": {
     "message": "Nyní jste součástí úžasné komunity tvůrců a průzkumníků, kteří již vytvářejí, stahují a aktualizují úžasné módy."
   },
   "auth.welcome.label.tos": {
-    "message": "Vytvořením účtu souhlasíte s <terms-link>Podmínkami</terms-link> a <privacy-policy-link>Zásadami ochrany osobních údajů</privacy-policy-link> Modrinthu."
+    "message": "Vytvořením účtu souhlasíte s <terms-link>Podmínkami</terms-link> a <privacy-policy-link>Zásadami ochrany osobních údajů</privacy-policy-link> AllayHubu."
   },
   "auth.welcome.long-title": {
-    "message": "Vítejte v Modrinthu!"
+    "message": "Vítejte v AllayHubu!"
   },
   "auth.welcome.title": {
     "message": "Vítejte"
@@ -390,7 +390,7 @@
     "message": "Opravdu si přejete odstranit tuto kolikci?"
   },
   "collection.description": {
-    "message": "{description} - Zobrazit kolekci {name} od {username} na Modrinthu"
+    "message": "{description} - Zobrazit kolekci {name} od {username} na AllayHubu"
   },
   "collection.description.following": {
     "message": "Automaticky generovaná kolekce všech projektů, které sledujete."
@@ -519,7 +519,7 @@
     "message": "Tato kolekce je možná soukromá."
   },
   "error.collection.404.list_item.3": {
-    "message": "Kolekce mohla být odstraněna moderátorským týmem Modrinth z důvodu porušení našich <tou-link>Podmínek použití</tou-link>."
+    "message": "Kolekce mohla být odstraněna moderátorským týmem AllayHub z důvodu porušení našich <tou-link>Podmínek použití</tou-link>."
   },
   "error.collection.404.list_title": {
     "message": "Proč?"
@@ -534,10 +534,10 @@
     "message": "Stránka nenalezena"
   },
   "error.generic.default.list_item.1": {
-    "message": "Zkontrolujte, zda je Modrinth offline, na naší <status-link>Stránce statusu</status-link>."
+    "message": "Zkontrolujte, zda je AllayHub offline, na naší <status-link>Stránce statusu</status-link>."
   },
   "error.generic.default.list_item.2": {
-    "message": "Pokud se to bude dít i nadále, můžete dát vědět týmu Modrinth připojením se k našemu <discord-link>Discord serveru</discord-link>."
+    "message": "Pokud se to bude dít i nadále, můžete dát vědět týmu AllayHub připojením se k našemu <discord-link>Discord serveru</discord-link>."
   },
   "error.generic.default.list_title": {
     "message": "Prosím zkuste znovu za pár minut."
@@ -555,7 +555,7 @@
     "message": "Majitel organizace možná změnil URL adresu, nebo ji smazal."
   },
   "error.organization.404.list_item.3": {
-    "message": "Organizace mohla být smazána moderátorským týmem Modrinth z důvodu porušení našich <tou-link>Podmínek použití</tou-link>."
+    "message": "Organizace mohla být smazána moderátorským týmem AllayHub z důvodu porušení našich <tou-link>Podmínek použití</tou-link>."
   },
   "error.organization.404.list_title": {
     "message": "Proč?"
@@ -570,7 +570,7 @@
     "message": "Majitel projektu možná změnil URL adresu, nastavil projekt jako soukromý, nebo jej smazal."
   },
   "error.project.404.list_item.3": {
-    "message": "Projekt mohl být odstraněn moderátorským týmem Modrinth z důvodu porušení našich <tou-link>Podmínek použití</tou-link>."
+    "message": "Projekt mohl být odstraněn moderátorským týmem AllayHub z důvodu porušení našich <tou-link>Podmínek použití</tou-link>."
   },
   "error.project.404.list_title": {
     "message": "Proč?"
@@ -621,7 +621,7 @@
     "message": "servery"
   },
   "landing.launcher.modrinth-app-label": {
-    "message": "Modrinth App"
+    "message": "AllayLauncher"
   },
   "landing.notifications.heading": {
     "message": "Oznámení"
@@ -648,19 +648,19 @@
     "message": "Navštívit nastavení účtu"
   },
   "layout.banner.add-email.description": {
-    "message": "Z bezpečnostních důvodu, Modrinth potřebuje aby jste si zaregistrovaly e-mail adresu k vašemu účtu."
+    "message": "Z bezpečnostních důvodu, AllayHub potřebuje aby jste si zaregistrovaly e-mail adresu k vašemu účtu."
   },
   "layout.banner.build-fail.description": {
-    "message": "Nepodařilo se generovat stav z API v této sestavě frontendu Modrinthu. Může to být kvůli výpadku nebo chybě v konfiguraci. Vygenerujte novou sestavu jakmile bude API dostupné. Chybové kódy: {errors}; Aktuální adresa API: {url}"
+    "message": "Nepodařilo se generovat stav z API v této sestavě frontendu AllayHubu. Může to být kvůli výpadku nebo chybě v konfiguraci. Vygenerujte novou sestavu jakmile bude API dostupné. Chybové kódy: {errors}; Aktuální adresa API: {url}"
   },
   "layout.banner.build-fail.title": {
     "message": "Chyba generování stavu z API při sestavování."
   },
   "layout.banner.staging.description": {
-    "message": "Vývojové prostředí je oddělené od produkční databáze Modrinthu. Používá se pro testování a odstraňování chyb, a může spouštět právě vyvíjené verze backendu nebo frontendu Modrinthu, které jsou novější než produkční instance."
+    "message": "Vývojové prostředí je oddělené od produkční databáze AllayHubu. Používá se pro testování a odstraňování chyb, a může spouštět právě vyvíjené verze backendu nebo frontendu AllayHubu, které jsou novější než produkční instance."
   },
   "layout.banner.staging.title": {
-    "message": "Sledujete vývojové prostředí Modrinthu"
+    "message": "Sledujete vývojové prostředí AllayHubu"
   },
   "layout.banner.subscription-payment-failed.button": {
     "message": "Aktualizuje fakturační informace"
@@ -675,7 +675,7 @@
     "message": "Znovu poslat ověřovací e-mail"
   },
   "layout.banner.verify-email.description": {
-    "message": "Z bezpečnostních důvodů potřebuje Modrinth ověření e-mailové adresy spojené s vaším účtem."
+    "message": "Z bezpečnostních důvodů potřebuje AllayHub ověření e-mailové adresy spojené s vaším účtem."
   },
   "layout.footer.about": {
     "message": "O"
@@ -717,16 +717,16 @@
     "message": "Podmínky Užívání"
   },
   "layout.footer.open-source": {
-    "message": "Modrinth je <github-link>open source</github-link>."
+    "message": "AllayHub je <github-link>open source</github-link>."
   },
   "layout.footer.products": {
     "message": "Produkty"
   },
   "layout.footer.products.app": {
-    "message": "Získat aplikaci Modrinth"
+    "message": "Získat aplikaci AllayHub"
   },
   "layout.footer.products.plus": {
-    "message": "Modrinth+"
+    "message": "AllayHub+"
   },
   "layout.footer.resources": {
     "message": "Zdroje"
@@ -762,7 +762,7 @@
     "message": "Přepnout menu"
   },
   "layout.meta.description": {
-    "message": "Stáhněte si Minecraft mody, pluginy, datapacky, shadery, resourcepacky a modpacky na Modrinthu. Objevte a publikujte projekty na Modrintu s moderním, snadno použitelným rozhraním a API."
+    "message": "Stáhněte si Minecraft mody, pluginy, datapacky, shadery, resourcepacky a modpacky na AllayHubu. Objevte a publikujte projekty na Modrintu s moderním, snadno použitelným rozhraním a API."
   },
   "layout.meta.og-description": {
     "message": "Objevte a publikujte obsah Minecraftu!"
@@ -771,7 +771,7 @@
     "message": "Domů"
   },
   "layout.nav.modrinth-app": {
-    "message": "Modrinth App"
+    "message": "AllayLauncher"
   },
   "layout.nav.my-servers": {
     "message": "Moje servery"
@@ -849,10 +849,10 @@
     "message": "Ano"
   },
   "profile.meta.description": {
-    "message": "Stáhněte si projekty od {username} na Modrinthu"
+    "message": "Stáhněte si projekty od {username} na AllayHubu"
   },
   "profile.meta.description-with-bio": {
-    "message": "{bio} - Stáhněte si projekty od {username} na Modrinthu"
+    "message": "{bio} - Stáhněte si projekty od {username} na AllayHubu"
   },
   "profile.stats.projects-followers": {
     "message": "{count, plural, one {<stat>{count}</stat> sledující projektu} few {<stat>{count}</stat> sledující projektu} other {<stat>{count}</stat> sledujících projektu}}"
@@ -1026,7 +1026,7 @@
     "message": "Nepodařilo se najít {item}"
   },
   "report.for.violation": {
-    "message": "Porušení <rules-link>Pravidel</rules-link> nebo <terms-link>Podmínek Užívání</terms-link> Modrinthu"
+    "message": "Porušení <rules-link>Pravidel</rules-link> nebo <terms-link>Podmínek Užívání</terms-link> AllayHubu"
   },
   "report.for.violation.description": {
     "message": "Příklady zahrnují podvodný, urážlivý, klamný, zavádějící, nelegální obsah, a spam."
@@ -1071,7 +1071,7 @@
     "message": "Jaký druh obsahu nahlašujete?"
   },
   "report.question.report-reason": {
-    "message": "Které z pravidel Modrinthu {item} porušuje?"
+    "message": "Které z pravidel AllayHubu {item} porušuje?"
   },
   "report.report-content": {
     "message": "Nahlašte obsah moderátorům"

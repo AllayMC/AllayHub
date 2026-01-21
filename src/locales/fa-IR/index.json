@@ -27,7 +27,7 @@
     "message": "لینوکس"
   },
   "app-marketing.download.linux-disclaimer": {
-    "message": "نسخه‌های لینوکس اپلیکیشن Modrinth در برخی سیستم‌ها ممکن است <issues-link>مشکلاتی</issues-link> داشته باشند. اگر اپلیکیشن Modrinth روی سیستم شما ناپایدار است، پیشنهاد می‌کنیم از برنامه‌های دیگری مانند <prism-link>Prism Launcher</prism-link> استفاده کنید تا بتوانید به‌راحتی محتوای Modrinth را نصب کنید."
+    "message": "نسخه‌های لینوکس اپلیکیشن AllayHub در برخی سیستم‌ها ممکن است <issues-link>مشکلاتی</issues-link> داشته باشند. اگر اپلیکیشن AllayHub روی سیستم شما ناپایدار است، پیشنهاد می‌کنیم از برنامه‌های دیگری مانند <prism-link>Prism Launcher</prism-link> استفاده کنید تا بتوانید به‌راحتی محتوای AllayHub را نصب کنید."
   },
   "app-marketing.download.mac": {
     "message": "مکینتاش"
@@ -36,13 +36,13 @@
     "message": "گزینه‌های دانلود"
   },
   "app-marketing.download.terms": {
-    "message": "با دانلود اپلیکیشن Modrinth، شما با <terms-link>شرایط استفاده</terms-link> و <privacy-link>سیاست حریم خصوصی ما</privacy-link> موافقت می‌کنید."
+    "message": "با دانلود اپلیکیشن AllayHub، شما با <terms-link>شرایط استفاده</terms-link> و <privacy-link>سیاست حریم خصوصی ما</privacy-link> موافقت می‌کنید."
   },
   "app-marketing.download.third-party-packages": {
     "message": "بسته‌های شخص ثالث"
   },
   "app-marketing.download.title": {
-    "message": "دانلود اپلیکیشن Modrinth (نسخه بتا)"
+    "message": "دانلود اپلیکیشن AllayHub (نسخه بتا)"
   },
   "app-marketing.download.windows": {
     "message": "ویندوز"
@@ -54,7 +54,7 @@
     "message": "دنبال کردن پروژه‌ها"
   },
   "app-marketing.features.importing.description": {
-    "message": "تمام پروفایل‌های مورد علاقه خود را از لانچری که قبلاً استفاده می‌کردید وارد کنید و در چند ثانیه با اپلیکیشن Modrinth شروع به کار کنید!"
+    "message": "تمام پروفایل‌های مورد علاقه خود را از لانچری که قبلاً استفاده می‌کردید وارد کنید و در چند ثانیه با اپلیکیشن AllayHub شروع به کار کنید!"
   },
   "app-marketing.features.importing.gdlauncher-alt": {
     "message": "GDLauncher"
@@ -72,7 +72,7 @@
     "message": "توسط {author}"
   },
   "app-marketing.features.mod-management.description": {
-    "message": "با Modrinth می‌توانید همه مودهای خود را راحت در یکجا مدیریت کنید. می‌توانید نصب، حذف و بروزرسانی مادها را تنها با یک کلیک انجام بدهید."
+    "message": "با AllayHub می‌توانید همه مودهای خود را راحت در یکجا مدیریت کنید. می‌توانید نصب، حذف و بروزرسانی مادها را تنها با یک کلیک انجام بدهید."
   },
   "app-marketing.features.mod-management.installed-mods": {
     "message": "ماده‌ای نصب شده"
@@ -96,7 +96,7 @@
     "message": "حالت آفلاین"
   },
   "app-marketing.features.open-source.description": {
-    "message": "لانچر Modrinth کاملاً متن‌باز است. می‌توانید کد منبع را در <github-link>گیت هاب</github-link> ما مشاهده کنید!"
+    "message": "لانچر AllayHub کاملاً متن‌باز است. می‌توانید کد منبع را در <github-link>گیت هاب</github-link> ما مشاهده کنید!"
   },
   "app-marketing.features.open-source.title": {
     "message": "متن باز"
@@ -126,7 +126,7 @@
     "message": "کمتر از ۱۵۰ مگابایت"
   },
   "app-marketing.features.performance.modrinth-app": {
-    "message": "اپلیکیشن Modrinth"
+    "message": "اپلیکیشن AllayHub"
   },
   "app-marketing.features.performance.one-billion-percent": {
     "message": "۱ بیلیون ٪"

@@ -27,7 +27,7 @@
     "message": "Linux"
   },
   "app-marketing.download.linux-disclaimer": {
-    "message": "Linux versionerne af Modrinth er <issues-link>kendt for at have fejl</issues-link> på bestemte systemer og konfigurationer. Hvis Modrinth er ustabil på dit system, vi opfordre dig til at prøve andre apps så som <prism-link>Prism Launcher</prism-link> for at nemt installere Modrinth indhold."
+    "message": "Linux versionerne af AllayHub er <issues-link>kendt for at have fejl</issues-link> på bestemte systemer og konfigurationer. Hvis AllayHub er ustabil på dit system, vi opfordre dig til at prøve andre apps så som <prism-link>Prism Launcher</prism-link> for at nemt installere AllayHub indhold."
   },
   "app-marketing.download.mac": {
     "message": "Mac"
@@ -36,13 +36,13 @@
     "message": "Download muligheder"
   },
   "app-marketing.download.terms": {
-    "message": "Ved at download Modrinth du acceptere vores <terms-link>servicevilkår</terms-link> og <privacy-link>privatlivspolitik</privacy-link>."
+    "message": "Ved at download AllayHub du acceptere vores <terms-link>servicevilkår</terms-link> og <privacy-link>privatlivspolitik</privacy-link>."
   },
   "app-marketing.download.third-party-packages": {
     "message": "Tredjepartspakker"
   },
   "app-marketing.download.title": {
-    "message": "Download Modrinth (Beta)"
+    "message": "Download AllayHub (Beta)"
   },
   "app-marketing.download.windows": {
     "message": "Windows"
@@ -54,7 +54,7 @@
     "message": "Følg projekter"
   },
   "app-marketing.features.importing.description": {
-    "message": "Importer alle dine favorit profiler fra launcher du brugte før, og kom i gang med Modrinth inde for få sekunder!"
+    "message": "Importer alle dine favorit profiler fra launcher du brugte før, og kom i gang med AllayHub inde for få sekunder!"
   },
   "app-marketing.features.importing.gdlauncher-alt": {
     "message": "GDLauncher"
@@ -72,7 +72,7 @@
     "message": "af {author}"
   },
   "app-marketing.features.mod-management.description": {
-    "message": "Modrinth gør det nemt at håndtere alle dine mods i et sted. Du kan installere, afinstallere, og opdatere mods med et enkelt klik."
+    "message": "AllayHub gør det nemt at håndtere alle dine mods i et sted. Du kan installere, afinstallere, og opdatere mods med et enkelt klik."
   },
   "app-marketing.features.mod-management.installed-mods": {
     "message": "Installerede mods"
@@ -96,7 +96,7 @@
     "message": "Offline tilstand"
   },
   "app-marketing.features.open-source.description": {
-    "message": "Modrinths launcher er fuldt open source. Du kan se kildekoden på vores `<github-link>`GitHub`</github-link>`!"
+    "message": "AllayHubs launcher er fuldt open source. Du kan se kildekoden på vores `<github-link>`GitHub`</github-link>`!"
   },
   "app-marketing.features.open-source.title": {
     "message": "Open source"
@@ -108,7 +108,7 @@
     "message": "% CPU"
   },
   "app-marketing.features.performance.description": {
-    "message": "Modrinth App præsterer bedre end mange af de førende mod-håndteringsværktøjer og bruger kun 150mb RAM!"
+    "message": "AllayLauncher præsterer bedre end mange af de førende mod-håndteringsværktøjer og bruger kun 150mb RAM!"
   },
   "app-marketing.features.performance.discord": {
     "message": "Discord"
@@ -129,7 +129,7 @@
     "message": "< 150 MB"
   },
   "app-marketing.features.performance.modrinth-app": {
-    "message": "Modrinth"
+    "message": "AllayHub"
   },
   "app-marketing.features.performance.one-billion-percent": {
     "message": "1 billion %"
@@ -147,13 +147,13 @@
     "message": "Effektiv"
   },
   "app-marketing.features.play.description": {
-    "message": "Brug Modrinth App til at hente og spille med dine foretrukne mods og modpakker."
+    "message": "Brug AllayLauncher til at hente og spille med dine foretrukne mods og modpakker."
   },
   "app-marketing.features.play.title": {
     "message": "Leg med dine yndlingsmods"
   },
   "app-marketing.features.sharing.description": {
-    "message": "Opret, del og spil modpakker med tusindvis af mods og modpakker, der er vært her på Modrinth."
+    "message": "Opret, del og spil modpakker med tusindvis af mods og modpakker, der er vært her på AllayHub."
   },
   "app-marketing.features.sharing.modpack": {
     "message": "Modpack"
@@ -168,7 +168,7 @@
     "message": "Som ingen anden launcher"
   },
   "app-marketing.features.website.description": {
-    "message": "Modrinth App er fuldt integreret med hjemmesiden, så du kan få adgang til alle dine yndlingsprojekter direkte fra appen!"
+    "message": "AllayLauncher er fuldt integreret med hjemmesiden, så du kan få adgang til alle dine yndlingsprojekter direkte fra appen!"
   },
   "app-marketing.features.website.title": {
     "message": "Integration med hjemmesiden"
@@ -177,19 +177,19 @@
     "message": "du har brugt før"
   },
   "app-marketing.hero.app-screenshot-alt": {
-    "message": "Skærmbillede af Modrinth App med en Cobblemon-instans åbnet på siden 'Indhold'."
+    "message": "Skærmbillede af AllayLauncher med en Cobblemon-instans åbnet på siden 'Indhold'."
   },
   "app-marketing.hero.description": {
-    "message": "Modrinth App er en unik, open source-launcher, der giver dig mulighed for at spille dine yndlingsmods og holde dem opdateret – alt samlet i én praktisk pakke."
+    "message": "AllayLauncher er en unik, open source-launcher, der giver dig mulighed for at spille dine yndlingsmods og holde dem opdateret – alt samlet i én praktisk pakke."
   },
   "app-marketing.hero.download-button": {
-    "message": "Hent Modrinth Appen"
+    "message": "Hent AllayLauncheren"
   },
   "app-marketing.hero.download-modrinth-app": {
-    "message": "Hent Modrinth Appen"
+    "message": "Hent AllayLauncheren"
   },
   "app-marketing.hero.download-modrinth-app-for-os": {
-    "message": "Hent Modrinth Appen til {os}"
+    "message": "Hent AllayLauncheren til {os}"
   },
   "auth.authorize.action.authorize": {
     "message": "Godkend"
@@ -327,7 +327,7 @@
     "message": "Dine affiliate links"
   },
   "dashboard.creator-tax-form-modal.security.description": {
-    "message": "Modrinth bruger tredjepartsudbyder Track1099 til sikkert at indsamle og opbevare dine skatteformularer. <security-link>Læs mere her.</security-link>"
+    "message": "AllayHub bruger tredjepartsudbyder Track1099 til sikkert at indsamle og opbevare dine skatteformularer. <security-link>Læs mere her.</security-link>"
   },
   "dashboard.creator-tax-form-modal.security.header": {
     "message": "Sikkerhedspraksisser"
@@ -456,7 +456,7 @@
     "message": "shaders"
   },
   "landing.launcher.modrinth-app-label": {
-    "message": "Modrinth App"
+    "message": "AllayLauncher"
   },
   "landing.notifications.has-been-updated": {
     "message": "{title} er blevet opdateret!"

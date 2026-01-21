@@ -27,7 +27,7 @@
     "message": "Linux"
   },
   "app-marketing.download.linux-disclaimer": {
-    "message": "ۏرسي Linux Modrinth App <issues-link>دکتاهوءي ممڤوڽاءي ايسو</issues-link> ڤد سيستم دان کونفيݢوراسي ترتنتو. جک Modrinth App تيدق ستابيل ڤد سيستم اندا⹁ کامي مڠݢالقکن اندا منچوبا اڤليکاسي لاءين سڤرتي <prism-link>Prism Launcher</prism-link> اونتوق مماسڠ کاندوڠن Modrinth دڠن موده."
+    "message": "ۏرسي Linux AllayLauncher <issues-link>دکتاهوءي ممڤوڽاءي ايسو</issues-link> ڤد سيستم دان کونفيݢوراسي ترتنتو. جک AllayLauncher تيدق ستابيل ڤد سيستم اندا⹁ کامي مڠݢالقکن اندا منچوبا اڤليکاسي لاءين سڤرتي <prism-link>Prism Launcher</prism-link> اونتوق مماسڠ کاندوڠن AllayHub دڠن موده."
   },
   "app-marketing.download.mac": {
     "message": "Mac"
@@ -36,13 +36,13 @@
     "message": "ڤيليهن موات تورون"
   },
   "app-marketing.download.terms": {
-    "message": "دڠن مموات تورون Modrinth App⹁ اندا برستوجو دڠن <terms-link>ترما</terms-link> دان <privacy-link>داسر ڤريۏاسي</privacy-link> کامي."
+    "message": "دڠن مموات تورون AllayLauncher⹁ اندا برستوجو دڠن <terms-link>ترما</terms-link> دان <privacy-link>داسر ڤريۏاسي</privacy-link> کامي."
   },
   "app-marketing.download.third-party-packages": {
     "message": "ڤاکيج ڤيهق کتيݢ"
   },
   "app-marketing.download.title": {
-    "message": "موات تورون Modrinth App (بيتا)"
+    "message": "موات تورون AllayLauncher (بيتا)"
   },
   "app-marketing.download.windows": {
     "message": "Windows"
@@ -54,7 +54,7 @@
     "message": "ايکوتي ڤروجيک"
   },
   "app-marketing.features.importing.description": {
-    "message": "ايمڤورت سموا ڤروفيل کݢمرن اندا درڤد ڤلنچر يڠ اندا ݢوناکن سبلوم اين⹁ دان مولا ݢوناکن Modrinth App دالم ببراڤ ساعت!"
+    "message": "ايمڤورت سموا ڤروفيل کݢمرن اندا درڤد ڤلنچر يڠ اندا ݢوناکن سبلوم اين⹁ دان مولا ݢوناکن AllayLauncher دالم ببراڤ ساعت!"
   },
   "app-marketing.features.importing.gdlauncher-alt": {
     "message": "GDLauncher"
@@ -72,7 +72,7 @@
     "message": "اوليه {author}"
   },
   "app-marketing.features.mod-management.description": {
-    "message": "Modrinth منجاديکن ڤڠوروسن سموا مود اندا ڤد ساتو تمڤت موده. اندا بوليه مماسڠ⹁ مڽهڤاسڠ دان مڠمس کيني مود دڠن سکالي کليک."
+    "message": "AllayHub منجاديکن ڤڠوروسن سموا مود اندا ڤد ساتو تمڤت موده. اندا بوليه مماسڠ⹁ مڽهڤاسڠ دان مڠمس کيني مود دڠن سکالي کليک."
   },
   "app-marketing.features.mod-management.installed-mods": {
     "message": "مود يڠ دڤاسڠ"
@@ -96,7 +96,7 @@
     "message": "مود لوار تالين"
   },
   "app-marketing.features.open-source.description": {
-    "message": "ڤلنچر Modrinth اداله سومبر تربوک سڤنوهڽ. اندا بوليه مليهت کود سومبر ڤد لامن <github-link>GitHub</github-link> کامي!"
+    "message": "ڤلنچر AllayHub اداله سومبر تربوک سڤنوهڽ. اندا بوليه مليهت کود سومبر ڤد لامن <github-link>GitHub</github-link> کامي!"
   },
   "app-marketing.features.open-source.title": {
     "message": "سومبر تربوک"
@@ -108,7 +108,7 @@
     "message": "% CPU"
   },
   "app-marketing.features.performance.description": {
-    "message": "Modrinth App برڤريستاسي لبيه باءيق درڤد کباڽقن ڤڠوروس مود ترکموک⹁ مڠݢوناکن هاڽ 150mb RAM!"
+    "message": "AllayLauncher برڤريستاسي لبيه باءيق درڤد کباڽقن ڤڠوروس مود ترکموک⹁ مڠݢوناکن هاڽ 150mb RAM!"
   },
   "app-marketing.features.performance.discord": {
     "message": "ديسکورد"
@@ -129,7 +129,7 @@
     "message": "< 150 MB"
   },
   "app-marketing.features.performance.modrinth-app": {
-    "message": "Modrinth App"
+    "message": "AllayLauncher"
   },
   "app-marketing.features.performance.one-billion-percent": {
     "message": "1 بيليون %"
@@ -147,13 +147,13 @@
     "message": "چکڤ"
   },
   "app-marketing.features.play.description": {
-    "message": "ݢوناکن Modrinth App اونتوق مموات تورون دان مماءينکن مود دان ڤيک مود کݢمرن اندا."
+    "message": "ݢوناکن AllayLauncher اونتوق مموات تورون دان مماءينکن مود دان ڤيک مود کݢمرن اندا."
   },
   "app-marketing.features.play.title": {
     "message": "ماءينکن مود کݢمرن اندا"
   },
   "app-marketing.features.sharing.description": {
-    "message": "بينا⹁ کوڠسي دان ماءينکن ڤيک مود دڠن مان٢ ڤيليهن درڤد بريبو-ريبو مود دان ڤيک مود يڠ دهوسکن دسيني دModrinth."
+    "message": "بينا⹁ کوڠسي دان ماءينکن ڤيک مود دڠن مان٢ ڤيليهن درڤد بريبو-ريبو مود دان ڤيک مود يڠ دهوسکن دسيني دAllayHub."
   },
   "app-marketing.features.sharing.modpack": {
     "message": "ڤيک مود"
@@ -168,7 +168,7 @@
     "message": "تيدق سڤرتي ڤلنچر يڠ"
   },
   "app-marketing.features.website.description": {
-    "message": "Modrinth App دسڤادوکن سڤنوهڽ دڠن لامن سساوڠ⹁ جادي اندا بوليه مڠکسيس سموا ڤروجيک کݢمرن اندا دري دالم اڤليکاسي!"
+    "message": "AllayLauncher دسڤادوکن سڤنوهڽ دڠن لامن سساوڠ⹁ جادي اندا بوليه مڠکسيس سموا ڤروجيک کݢمرن اندا دري دالم اڤليکاسي!"
   },
   "app-marketing.features.website.title": {
     "message": "ڤڽڤادوان لامن سساوڠ"
@@ -177,19 +177,19 @@
     "message": "اندا ݢوناکن سبلوم اين"
   },
   "app-marketing.hero.app-screenshot-alt": {
-    "message": "ڤتيقن سکرين Modrinth App دڠن ڤماسڠن Cobblemon يڠ دبوک کهلامن 'کاندوڠن'."
+    "message": "ڤتيقن سکرين AllayLauncher دڠن ڤماسڠن Cobblemon يڠ دبوک کهلامن 'کاندوڠن'."
   },
   "app-marketing.hero.description": {
-    "message": "Modrinth App اياله سبواه ڤلنچر سومبر تربوک اونيک يڠ ممبوليهکن اندا مماءينکن مود کݢمرن اندا دان ممستيکنڽ دکمس کيني⹁ سمواڽ دالم ساتو ڤاکيج کچيل يڠ کمس."
+    "message": "AllayLauncher اياله سبواه ڤلنچر سومبر تربوک اونيک يڠ ممبوليهکن اندا مماءينکن مود کݢمرن اندا دان ممستيکنڽ دکمس کيني⹁ سمواڽ دالم ساتو ڤاکيج کچيل يڠ کمس."
   },
   "app-marketing.hero.download-button": {
-    "message": "موات تورون Modrinth App"
+    "message": "موات تورون AllayLauncher"
   },
   "app-marketing.hero.download-modrinth-app": {
-    "message": "موات تورون Modrinth App"
+    "message": "موات تورون AllayLauncher"
   },
   "app-marketing.hero.download-modrinth-app-for-os": {
-    "message": "موات تورون Modrinth App اونتوق {os}"
+    "message": "موات تورون AllayLauncher اونتوق {os}"
   },
   "app-marketing.hero.minecraft-screenshot-alt": {
     "message": "ڤتيقن سکرين مينو اوتام ڤماسڠن Cobblemon."
@@ -294,7 +294,7 @@
     "message": "نام ڤڠݢونا"
   },
   "auth.sign-up.legal-dislaimer": {
-    "message": "دڠن منچيڤتا اکاءون⹁ اندا برستوجو دڠن <terms-link>ترما</terms-link> دان <privacy-policy-link>داسر ڤريۏاسي</privacy-policy-link> Modrinth."
+    "message": "دڠن منچيڤتا اکاءون⹁ اندا برستوجو دڠن <terms-link>ترما</terms-link> دان <privacy-policy-link>داسر ڤريۏاسي</privacy-policy-link> AllayHub."
   },
   "auth.sign-up.notification.password-mismatch.text": {
     "message": "کات لالوان تيدق سڤادن!"
@@ -306,7 +306,7 @@
     "message": "سوده ممڤوڽاءي اکاءون؟"
   },
   "auth.sign-up.subscribe.label": {
-    "message": "لڠݢن کڤد کمس کيني تنتڠ Modrinth"
+    "message": "لڠݢن کڤد کمس کيني تنتڠ AllayHub"
   },
   "auth.sign-up.title": {
     "message": "دفتر"
@@ -351,16 +351,16 @@
     "message": "صحکن إي-ميل"
   },
   "auth.welcome.checkbox.subscribe": {
-    "message": "لڠݢن کڤد کمس کيني تنتڠ Modrinth"
+    "message": "لڠݢن کڤد کمس کيني تنتڠ AllayHub"
   },
   "auth.welcome.description": {
     "message": "اندا کيني سبهاݢين درڤد کومونيتي هيبت ڤنچيڤتا & ڤنروک يڠ سوده ممبينا⹁ مموات تورون دان سنتياس مڠيکوتي ڤرکمبڠن ترکيني مڠناءي مود يڠ منعجوبکن."
   },
   "auth.welcome.label.tos": {
-    "message": "دڠن منچيڤتا اکاءون⹁ اندا تله برستوجو دڠن <terms-link>ترما</terms-link> دان <privacy-policy-link>داسر ڤريۏاسي</privacy-policy-link> Modrinth."
+    "message": "دڠن منچيڤتا اکاءون⹁ اندا تله برستوجو دڠن <terms-link>ترما</terms-link> دان <privacy-policy-link>داسر ڤريۏاسي</privacy-policy-link> AllayHub."
   },
   "auth.welcome.long-title": {
-    "message": "سلامت داتڠ کModrinth!"
+    "message": "سلامت داتڠ کAllayHub!"
   },
   "auth.welcome.title": {
     "message": "سلامت داتڠ"
@@ -390,7 +390,7 @@
     "message": "اداکه اندا ڤستي ماهو ممادمکن کوليکسي اين؟"
   },
   "collection.description": {
-    "message": "{description} - ليهت کوليکسي {name} اوليه {username} دModrinth"
+    "message": "{description} - ليهت کوليکسي {name} اوليه {username} دAllayHub"
   },
   "collection.description.following": {
     "message": "کوليکسي سموا ڤروجيک يڠ اندا ايکوتي يڠ دجان سچارا اءوتوماتيک."
@@ -639,7 +639,7 @@
     "message": "بورڠ چوکاي"
   },
   "dashboard.creator-tax-form-modal.security.description": {
-    "message": "Modrinth مڠݢوناکن ڤڽديا ڤيهق کتيݢ Track1099 اونتوق مڠومڤول دان مڽيمڤن بورڠ چوکاي اندا دڠن سلامت. <security-link>کتاهوءي لبيه لنجوت دسيني.</security-link>"
+    "message": "AllayHub مڠݢوناکن ڤڽديا ڤيهق کتيݢ Track1099 اونتوق مڠومڤول دان مڽيمڤن بورڠ چوکاي اندا دڠن سلامت. <security-link>کتاهوءي لبيه لنجوت دسيني.</security-link>"
   },
   "dashboard.creator-tax-form-modal.security.header": {
     "message": "عملن کسلامتن"
@@ -804,7 +804,7 @@
     "message": "Untuk mengeluarkan baki penuh anda yang tersedia sebanyak <b>{available}</b>, sila lengkapkan borang di bawah. Ia diperlukan untuk pelaporan cukai dan hanya perlu dilakukan sekali sahaja."
   },
   "dashboard.creator-withdraw-modal.tax-form-required.body-with-limit": {
-    "message": "Anda mesti melengkapkan borang W-9 atau W-8 untuk rekod cukai Modrinth supaya kami kekal mematuhi peraturan cukai."
+    "message": "Anda mesti melengkapkan borang W-9 atau W-8 untuk rekod cukai AllayHub supaya kami kekal mematuhi peraturan cukai."
   },
   "dashboard.creator-withdraw-modal.tax-form-required.header": {
     "message": "Borang cukai diperlukan"
@@ -825,7 +825,7 @@
     "message": "E-mel yang belum disahkan"
   },
   "dashboard.creator-withdraw-modal.tremendous-details.unverified-email-message": {
-    "message": "E-mel penghantaran yang anda masukkan tidak dikaitkan dengan akaun Modrinth anda. Modrinth tidak dapat mendapatkan semula ganjaran yang dihantar ke alamat e-mel yang salah."
+    "message": "E-mel penghantaran yang anda masukkan tidak dikaitkan dengan akaun AllayHub anda. AllayHub tidak dapat mendapatkan semula ganjaran yang dihantar ke alamat e-mel yang salah."
   },
   "dashboard.creator-withdraw-modal.tremendous-details.usd-paypal-warning-header": {
     "message": "Yuran lebih rendah tersedia"
@@ -852,7 +852,7 @@
     "message": "Anggaran hasil pendapatan mungkin tertakluk kepada perubahan sehingga ia tersedia."
   },
   "dashboard.revenue.estimated-tooltip.msg2": {
-    "message": "Klik untuk membaca tentang cara Modrinth mengendalikan pendapatan anda."
+    "message": "Klik untuk membaca tentang cara AllayHub mengendalikan pendapatan anda."
   },
   "dashboard.revenue.estimated-with-date": {
     "message": "Anggaran {date}"
@@ -873,7 +873,7 @@
     "message": "Telah dikeluarkan"
   },
   "dashboard.revenue.tos": {
-    "message": "Dengan memuat naik projek ke Modrinth dan mengeluarkan wang daripada akaun anda, anda bersetuju dengan <terms-link>Terma Program Ganjaran</terms-link> kami. Ketahui lebih lanjut tentang <info-link>Program Ganjaran</info-link> ini."
+    "message": "Dengan memuat naik projek ke AllayHub dan mengeluarkan wang daripada akaun anda, anda bersetuju dengan <terms-link>Terma Program Ganjaran</terms-link> kami. Ketahui lebih lanjut tentang <info-link>Program Ganjaran</info-link> ini."
   },
   "dashboard.revenue.transactions.btn.download-csv": {
     "message": "Muat turun sebagai CSV"
@@ -984,7 +984,7 @@
     "message": "کوليکسي اين موڠکين سبواه کوليکسي ڤريبادي."
   },
   "error.collection.404.list_item.3": {
-    "message": "کوليکسي ايت موڠکين تله دأليه کلوار اوليه ڤاسوقن ڤڽدرهان Modrinth کران ملڠݢر <tou-link>ترما ڤڠݢوناءن</tou-link> کامي."
+    "message": "کوليکسي ايت موڠکين تله دأليه کلوار اوليه ڤاسوقن ڤڽدرهان AllayHub کران ملڠݢر <tou-link>ترما ڤڠݢوناءن</tou-link> کامي."
   },
   "error.collection.404.list_title": {
     "message": "کناڤ؟"
@@ -1005,10 +1005,10 @@
     "message": "کاندوڠن تيدق ترسديا اتس سبب اوندڠ‌٢"
   },
   "error.generic.default.list_item.1": {
-    "message": "سمق سام اد Modrinth تيدق برفوڠسي ڤد <status-link>هلامن ستاتوس</status-link> کامي."
+    "message": "سمق سام اد AllayHub تيدق برفوڠسي ڤد <status-link>هلامن ستاتوس</status-link> کامي."
   },
   "error.generic.default.list_item.2": {
-    "message": "جک رالت اين تروس برلاکو⹁ اندا موڠکين ايڠين ممبريتاهو ڤاسوقن Modrinth دڠن مڽرتاءي <discord-link>ڤلاين ديسکورد</discord-link> کامي."
+    "message": "جک رالت اين تروس برلاکو⹁ اندا موڠکين ايڠين ممبريتاهو ڤاسوقن AllayHub دڠن مڽرتاءي <discord-link>ڤلاين ديسکورد</discord-link> کامي."
   },
   "error.generic.default.list_title": {
     "message": "سيلا چوبا لاݢي دالم ببراڤ مينيت."
@@ -1026,7 +1026,7 @@
     "message": "ڤميليق اورݢانيساسي موڠکين تله منوکر URL اتاو ممادمکنڽ."
   },
   "error.organization.404.list_item.3": {
-    "message": "اورݢانيساسي ايت موڠکين تله دأليه کلوار اوليه ڤاسوقن ڤڽدرهان Modrinth کران ملڠݢر <tou-link>ترما ڤڠݢوناءن</tou-link> کامي."
+    "message": "اورݢانيساسي ايت موڠکين تله دأليه کلوار اوليه ڤاسوقن ڤڽدرهان AllayHub کران ملڠݢر <tou-link>ترما ڤڠݢوناءن</tou-link> کامي."
   },
   "error.organization.404.list_title": {
     "message": "کناڤ؟"
@@ -1041,7 +1041,7 @@
     "message": "ڤميليق ڤروجيک موڠکين تله منوکر URL⹁ ممڤريباديکن ڤروجيک اتاو ممادمکنڽ."
   },
   "error.project.404.list_item.3": {
-    "message": "ڤروجيک ايت موڠکين تله دأليه کلوار اوليه ڤاسوقن ڤڽدرهان Modrinth کران ملڠݢر <tou-link>ترما ڤڠݢوناءن</tou-link> کامي."
+    "message": "ڤروجيک ايت موڠکين تله دأليه کلوار اوليه ڤاسوقن ڤڽدرهان AllayHub کران ملڠݢر <tou-link>ترما ڤڠݢوناءن</tou-link> کامي."
   },
   "error.project.404.list_title": {
     "message": "کناڤ؟"
@@ -1086,7 +1086,7 @@
     "message": "ڤرݢي کڤاڤن ڤموک"
   },
   "landing.creator.feature.constantly-evolving.description": {
-    "message": "داڤتکن ڤڠالمن ڤڠوبهسواين ترباءيق يڠ موڠکين دڠن کمس کيني برتروسن درڤد ڤاسوقن Modrinth"
+    "message": "داڤتکن ڤڠالمن ڤڠوبهسواين ترباءيق يڠ موڠکين دڠن کمس کيني برتروسن درڤد ڤاسوقن AllayHub"
   },
   "landing.creator.feature.constantly-evolving.title": {
     "message": "سنتياس برکمبڠ"
@@ -1131,7 +1131,7 @@
     "message": "ايکوتي ڤروجيک يڠ اندا سوکاي"
   },
   "landing.feature.launcher.description": {
-    "message": "API سومبر تربوک Modrinth ممبوليهکن ڤلنچر منمبه ڤڽڤادوان يڠ مندالم دڠن Modrinth. اندا بوليه مڠݢوناکن Modrinth ملالوءي <link>اڤليکاسي کامي سنديري</link> دان ببراڤ ڤلنچر ڤاليڠ ڤوڤولر سڤرتي ATLauncher⹁ MultiMC دان Prism Launcher."
+    "message": "API سومبر تربوک AllayHub ممبوليهکن ڤلنچر منمبه ڤڽڤادوان يڠ مندالم دڠن AllayHub. اندا بوليه مڠݢوناکن AllayHub ملالوءي <link>اڤليکاسي کامي سنديري</link> دان ببراڤ ڤلنچر ڤاليڠ ڤوڤولر سڤرتي ATLauncher⹁ MultiMC دان Prism Launcher."
   },
   "landing.feature.launcher.heading": {
     "message": "ماءينکن دڠن ڤلنچر کݢمرن اندا"
@@ -1170,10 +1170,10 @@
     "message": "ATLauncher"
   },
   "landing.launcher.graphic-alt": {
-    "message": "ڤرواکيلن ريڠکس تتيڠکڤ ماءينکرف‌ت⹁ دڠن لوݢو Mojang Studios دالم ورنا هيجاو Modrinth."
+    "message": "ڤرواکيلن ريڠکس تتيڠکڤ ماءينکرف‌ت⹁ دڠن لوݢو Mojang Studios دالم ورنا هيجاو AllayHub."
   },
   "landing.launcher.modrinth-app-label": {
-    "message": "Modrinth App"
+    "message": "AllayLauncher"
   },
   "landing.launcher.prism-launcher-label": {
     "message": "Prism Launcher"
@@ -1257,19 +1257,19 @@
     "message": "لاوت تتڤن اکاءون"
   },
   "layout.banner.add-email.description": {
-    "message": "اتس سبب کسلامتن⹁ Modrinth ممرلوکن اندا مندفترکن علامت إي-ميل ک اکاءون اندا."
+    "message": "اتس سبب کسلامتن⹁ AllayHub ممرلوکن اندا مندفترکن علامت إي-ميل ک اکاءون اندا."
   },
   "layout.banner.build-fail.description": {
-    "message": "ڤڠݢوناءن بهاݢين هادڤن Modrinth اين ݢاݢل منجان کأداءن درڤد API. اين موڠکين دسببکن اوليه ݢڠݢوان اتاو رالت دالم کونفيݢوراسي. بينا سمولا اڤابيلا API ترسديا. کود رالت: {errors}⁏ URL API سماس اياله: {url}"
+    "message": "ڤڠݢوناءن بهاݢين هادڤن AllayHub اين ݢاݢل منجان کأداءن درڤد API. اين موڠکين دسببکن اوليه ݢڠݢوان اتاو رالت دالم کونفيݢوراسي. بينا سمولا اڤابيلا API ترسديا. کود رالت: {errors}⁏ URL API سماس اياله: {url}"
   },
   "layout.banner.build-fail.title": {
     "message": "رالت منجان کأداءن درڤد API سماس ممبينا."
   },
   "layout.banner.staging.description": {
-    "message": "ڤرسکيترن ڤمنتسن اداله براسيڠن درڤد ڤڠکلن داتا ڤرودوکسي Modrinth. اين دݢوناکن اونتوق توجوان اوجين دان ڤڽهڤڤيجتن⹁ دان موڠکين منجالنکن ۏرسي دالم ڤمباڠونن بهاݢين بلاکڠ اتاو هادڤن Modrinth يڠ لبيه بهارو درڤد ڤرسکيترن ڤڠلوارن."
+    "message": "ڤرسکيترن ڤمنتسن اداله براسيڠن درڤد ڤڠکلن داتا ڤرودوکسي AllayHub. اين دݢوناکن اونتوق توجوان اوجين دان ڤڽهڤڤيجتن⹁ دان موڠکين منجالنکن ۏرسي دالم ڤمباڠونن بهاݢين بلاکڠ اتاو هادڤن AllayHub يڠ لبيه بهارو درڤد ڤرسکيترن ڤڠلوارن."
   },
   "layout.banner.staging.title": {
-    "message": "اندا سدڠ مليهت ڤرسکيترن ڤمنتسن Modrinth"
+    "message": "اندا سدڠ مليهت ڤرسکيترن ڤمنتسن AllayHub"
   },
   "layout.banner.subscription-payment-failed.button": {
     "message": "کمس کيني معلومت ڤڠبيلن"
@@ -1284,7 +1284,7 @@
     "message": "لڠکڤکن بورڠ چوکاي"
   },
   "layout.banner.tax.description": {
-    "message": "اندا تله مڠلوارکن لبيه $600 درڤد Modrinth تاهون اين. اونتوق مماتوهي ڤراتورن چوکاي⹁ اندا ڤرلو ملڠکڤکن بورڠ چوکاي. ڤڠلوارن اندا دجيدا سهيڠݢ بورڠ اين دسرهکن."
+    "message": "اندا تله مڠلوارکن لبيه $600 درڤد AllayHub تاهون اين. اونتوق مماتوهي ڤراتورن چوکاي⹁ اندا ڤرلو ملڠکڤکن بورڠ چوکاي. ڤڠلوارن اندا دجيدا سهيڠݢ بورڠ اين دسرهکن."
   },
   "layout.banner.tax.title": {
     "message": "بورڠ چوکاي دڤرلوکن"
@@ -1302,7 +1302,7 @@
     "message": "هانتر سمولا إي-ميل ڤڠصحن"
   },
   "layout.banner.verify-email.description": {
-    "message": "اتس سبب کسلامتن⹁ Modrinth ممرلوکن اندا مڠصحکن علامت إي-ميل يڠ دکاءيتکن دڠن اکاءون اندا."
+    "message": "اتس سبب کسلامتن⹁ AllayHub ممرلوکن اندا مڠصحکن علامت إي-ميل يڠ دکاءيتکن دڠن اکاءون اندا."
   },
   "layout.footer.about": {
     "message": "تنتڠ"
@@ -1344,22 +1344,22 @@
     "message": "ترما ڤڠݢوناءن"
   },
   "layout.footer.modrinth-information": {
-    "message": "معلومت Modrinth"
+    "message": "معلومت AllayHub"
   },
   "layout.footer.open-source": {
-    "message": "<github-link>سومبر Modrinth اداله تربوک</github-link>."
+    "message": "<github-link>سومبر AllayHub اداله تربوک</github-link>."
   },
   "layout.footer.products": {
     "message": "ڤرودوک"
   },
   "layout.footer.products.app": {
-    "message": "Modrinth App"
+    "message": "AllayLauncher"
   },
   "layout.footer.products.plus": {
-    "message": "Modrinth+"
+    "message": "AllayHub+"
   },
   "layout.footer.products.servers": {
-    "message": "Modrinth Hosting"
+    "message": "AllayHub Hosting"
   },
   "layout.footer.resources": {
     "message": "سومبر"
@@ -1395,7 +1395,7 @@
     "message": "توݢول مينو"
   },
   "layout.meta.description": {
-    "message": "موات تورون مود⹁ ڤمالم⹁ ڤيک داتا⹁ ڤيک ڤمبايڠ⹁ ڤيک سومبر دان ڤيک مود ماءينکرف‌ت دModrinth. تموءي دان تربيتکن ڤروجيک دModrinth دڠن انتارا موک دان API يڠ مودن دان موده دݢوناکن."
+    "message": "موات تورون مود⹁ ڤمالم⹁ ڤيک داتا⹁ ڤيک ڤمبايڠ⹁ ڤيک سومبر دان ڤيک مود ماءينکرف‌ت دAllayHub. تموءي دان تربيتکن ڤروجيک دAllayHub دڠن انتارا موک دان API يڠ مودن دان موده دݢوناکن."
   },
   "layout.meta.og-description": {
     "message": "تموءي دان تربيتکن کاندوڠن ماءينکرف‌ت!"
@@ -1431,10 +1431,10 @@
     "message": "هوس سبواه ڤلاين"
   },
   "layout.nav.modrinth-app": {
-    "message": "Modrinth App"
+    "message": "AllayLauncher"
   },
   "layout.nav.modrinth-home-page": {
-    "message": "لامن اوتام Modrinth"
+    "message": "لامن اوتام AllayHub"
   },
   "layout.nav.my-servers": {
     "message": "Pelayan saya"
@@ -1458,7 +1458,7 @@
     "message": "چاري"
   },
   "layout.nav.upgrade-to-modrinth-plus": {
-    "message": "ناءيق طرف کModrinth+"
+    "message": "ناءيق طرف کAllayHub+"
   },
   "moderation.filter.by": {
     "message": "تاڤيس مڠيکوت"
@@ -1749,10 +1749,10 @@
     "message": "Semak semula alamat dompet anda. Dana yang dihantar ke alamat yang salah tidak boleh dipulihkan."
   },
   "profile.bio.fallback.creator": {
-    "message": "سأورڠ ڤنچيڤتا Modrinth."
+    "message": "سأورڠ ڤنچيڤتا AllayHub."
   },
   "profile.bio.fallback.user": {
-    "message": "سأورڠ ڤڠݢونا Modrinth."
+    "message": "سأورڠ ڤڠݢونا AllayHub."
   },
   "profile.button.billing": {
     "message": "اوروس ڤڠبيلن ڤڠݢونا"
@@ -1845,10 +1845,10 @@
     "message": "يا"
   },
   "profile.meta.description": {
-    "message": "موات تورون ڤروجيک ميليق {username} دModrinth"
+    "message": "موات تورون ڤروجيک ميليق {username} دAllayHub"
   },
   "profile.meta.description-with-bio": {
-    "message": "{bio} - موات تورون ڤروجيک ميليق {username} دModrinth"
+    "message": "{bio} - موات تورون ڤروجيک ميليق {username} دAllayHub"
   },
   "profile.stats.projects-followers": {
     "message": "{count, plural, other {<stat>{count}</stat> ڤڠيکوت ڤروجيک}}"
@@ -1899,7 +1899,7 @@
     "message": "سره سمولا اونتوق ڤنيلاين"
   },
   "project-moderation-nags.resubmit-for-review-desc": {
-    "message": "Projek anda telah {status, select, rejected {ditolak} withheld {ditahan} other {{status}}} oleh staf Modrinth. Dalam kebanyakan kes, anda boleh menyerahkan semula untuk semakan selepas menangani masalah yang dikemukakan dalam mesej kakitangan."
+    "message": "Projek anda telah {status, select, rejected {ditolak} withheld {ditahan} other {{status}}} oleh staf AllayHub. Dalam kebanyakan kes, anda boleh menyerahkan semula untuk semakan selepas menangani masalah yang dikemukakan dalam mesej kakitangan."
   },
   "project-moderation-nags.submit-checklist-tooltip": {
     "message": "اندا مستي ملڠکڤکن لڠکه٢ يڠ دڤرلوکن دالم سناراي سيمق ڤنربيتن!"
@@ -2001,7 +2001,7 @@
     "message": "سيمق ڤروجيک"
   },
   "project.actions.servers-promo.description": {
-    "message": "Modrinth Hosting ialah cara paling mudah untuk bermain dengan rakan anda tanpa perlu bersusah payah!"
+    "message": "AllayHub Hosting ialah cara paling mudah untuk bermain dengan rakan anda tanpa perlu bersusah payah!"
   },
   "project.actions.servers-promo.pricing": {
     "message": "برمولا ڤد هرݢ {price}<small> / بولن</small>"
@@ -2034,10 +2034,10 @@
     "message": "{title} تيدق مڽوکوڠ {gameVersion} اونتوق {platform}"
   },
   "project.download.install-with-app": {
-    "message": "ڤاسڠ دڠن Modrinth App"
+    "message": "ڤاسڠ دڠن AllayLauncher"
   },
   "project.download.no-app": {
-    "message": "تيدق اد Modrinth App؟"
+    "message": "تيدق اد AllayLauncher؟"
   },
   "project.download.no-versions-available": {
     "message": "تياد ۏرسي ترسديا اونتوق {gameVersion} دان {platform}."
@@ -2073,7 +2073,7 @@
     "message": "موات تورون {title}"
   },
   "project.environment.migration-no-permission.message": {
-    "message": "کامي بارو سهاج مرومبق سيستم ڤرسکيترن ڤد Modrinth دان ڤيليهن بهارو کيني ترسديا. اندا تيدق ممڤوڽاءي کبنرن اونتوق مڠوبه سواي تتڤن اين⹁ تتاڤي سيلا معلومکن اهلي ڤروجيک يڠ لاءين بهاوا ميتاداتا ڤرسکيترن ڤرلو دصحکن."
+    "message": "کامي بارو سهاج مرومبق سيستم ڤرسکيترن ڤد AllayHub دان ڤيليهن بهارو کيني ترسديا. اندا تيدق ممڤوڽاءي کبنرن اونتوق مڠوبه سواي تتڤن اين⹁ تتاڤي سيلا معلومکن اهلي ڤروجيک يڠ لاءين بهاوا ميتاداتا ڤرسکيترن ڤرلو دصحکن."
   },
   "project.environment.migration-no-permission.title": {
     "message": "ميتاداتا ڤرسکيترن ڤرلو دسيمق"
@@ -2082,7 +2082,7 @@
     "message": "کتاهوءي لبيه لنجوت تنتڠ ڤروبهن اين"
   },
   "project.environment.migration.message": {
-    "message": "کامي بارو سهاج مرومبق سيستم ڤرسکيترن ڤد Modrinth دان ڤيليهن بهارو کيني ترسديا. سيلا لاوتي تتڤن ڤروجيک اندا دان صحکن بهاوا ميتاداتا اداله بتول."
+    "message": "کامي بارو سهاج مرومبق سيستم ڤرسکيترن ڤد AllayHub دان ڤيليهن بهارو کيني ترسديا. سيلا لاوتي تتڤن ڤروجيک اندا دان صحکن بهاوا ميتاداتا اداله بتول."
   },
   "project.environment.migration.review-button": {
     "message": "سيمق تتڤن ڤرسکيترن"
@@ -2142,7 +2142,7 @@
     "message": "ڤروجيک اندا ممڤوڽاءي بربيلڠ ڤرسکيترن"
   },
   "project.settings.environment.notice.review-options.description": {
-    "message": "کامي بارو سهاج مرومبق سيستم ڤرسکيترن ڤد Modrinth دان ڤيليهن بهارو کيني ترسديا. سيلا ڤستيکن ڤيليهن يڠ بتول دڤيليه دباوه دان کمودين کليک 'صحکن' اڤابيلا اندا سلساي!"
+    "message": "کامي بارو سهاج مرومبق سيستم ڤرسکيترن ڤد AllayHub دان ڤيليهن بهارو کيني ترسديا. سيلا ڤستيکن ڤيليهن يڠ بتول دڤيليه دباوه دان کمودين کليک 'صحکن' اڤابيلا اندا سلساي!"
   },
   "project.settings.environment.notice.review-options.title": {
     "message": "سيلا سيمق ڤيليهن دباوه"
@@ -2244,7 +2244,7 @@
     "message": "{item} تيدق داڤت دجومڤاءي"
   },
   "report.for.violation": {
-    "message": "ڤلڠݢرن <rules-link>ڤراتورن</rules-link> اتاو <terms-link>ترما ڤڠݢوناءن</terms-link> Modrinth"
+    "message": "ڤلڠݢرن <rules-link>ڤراتورن</rules-link> اتاو <terms-link>ترما ڤڠݢوناءن</terms-link> AllayHub"
   },
   "report.for.violation.description": {
     "message": "چونتوهڽ ترماسوق کاندوڠن برنية جاهت⹁ سڤام⹁ مڽيڠݢوڠ ڤراساءن⹁ ممڤرداي⹁ مڠليروکن دان مڽالهي اوندڠ‌٢."
@@ -2289,7 +2289,7 @@
     "message": "اڤاکه جنيس کاندوڠن يڠ اندا هندق لاڤورکن؟"
   },
   "report.question.report-reason": {
-    "message": "مانکه انتارا ڤراتورن Modrinth يڠ دلڠݢر {item} اين؟"
+    "message": "مانکه انتارا ڤراتورن AllayHub يڠ دلڠݢر {item} اين؟"
   },
   "report.report-content": {
     "message": "لاڤورکن کاندوڠن کڤد ڤڽدرهان"
@@ -2457,7 +2457,7 @@
     "message": "توليس لاڤورن"
   },
   "scopes.sessionAccess.description": {
-    "message": "مڠکسيس سيسي کلوارن Modrinth"
+    "message": "مڠکسيس سيسي کلوارن AllayHub"
   },
   "scopes.sessionAccess.label": {
     "message": "اکسيس سيسي"
@@ -2679,13 +2679,13 @@
     "message": "Visa"
   },
   "settings.billing.pyro_subscription.description": {
-    "message": "اوروس لڠݢنن Modrinth Servers اندا."
+    "message": "اوروس لڠݢنن AllayHub Servers اندا."
   },
   "settings.billing.pyro_subscription.title": {
-    "message": "لڠݢنن Modrinth Servers"
+    "message": "لڠݢنن AllayHub Servers"
   },
   "settings.billing.subscription.description": {
-    "message": "اوروس لڠݢنن Modrinth اندا."
+    "message": "اوروس لڠݢنن AllayHub اندا."
   },
   "settings.billing.subscription.title": {
     "message": "لڠݢنن"
@@ -2694,7 +2694,7 @@
     "message": "ڽهأکتيفکن مود ڤمباڠون"
   },
   "settings.display.banner.developer-mode.description": {
-    "message": "<strong>مود ڤمباڠون</strong> کيني اکتيف. اين اکن ممبوليهکن اندا مليهت ID \nدالمن ڤلباݢاي ڤرکارا دسلوروه Modrinth يڠ موڠکين برݢونا جک اندا سأورڠ ڤمباڠون يڠ مڠݢوناکن API Modrinth. کليک ڤد لوݢو Modrinth دبهاݢين باوه هلامن سباڽق 5 کالي اونتوق منوݢول مود ڤمباڠون."
+    "message": "<strong>مود ڤمباڠون</strong> کيني اکتيف. اين اکن ممبوليهکن اندا مليهت ID \nدالمن ڤلباݢاي ڤرکارا دسلوروه AllayHub يڠ موڠکين برݢونا جک اندا سأورڠ ڤمباڠون يڠ مڠݢوناکن API AllayHub. کليک ڤد لوݢو AllayHub دبهاݢين باوه هلامن سباڽق 5 کالي اونتوق منوݢول مود ڤمباڠون."
   },
   "settings.display.flags.description": {
     "message": "داياکن اتاو ڽهداياکن چيري ترتنتو ڤد ڤرنتي اين."
@@ -2739,16 +2739,16 @@
     "message": "ڤماڤرن لنجوتن"
   },
   "settings.display.sidebar.external-links-new-tab.description": {
-    "message": "بوک ڤاءوتن يڠ ممباوا اندا کلوار Modrinth دالم تب بهارو. تيدق کيرا تتڤن اين⹁ ڤاءوتن ڤد دوماءين يڠ سام دان دالم کترڠن برفورمت Markdown اکن دبوک دالم تب يڠ سام دان ڤاءوتن ڤد اعلان دان هلامن سونتيڠ اکن دبوک دالم تب بهارو."
+    "message": "بوک ڤاءوتن يڠ ممباوا اندا کلوار AllayHub دالم تب بهارو. تيدق کيرا تتڤن اين⹁ ڤاءوتن ڤد دوماءين يڠ سام دان دالم کترڠن برفورمت Markdown اکن دبوک دالم تب يڠ سام دان ڤاءوتن ڤد اعلان دان هلامن سونتيڠ اکن دبوک دالم تب بهارو."
   },
   "settings.display.sidebar.external-links-new-tab.title": {
     "message": "بوک ڤاءوتن لوارن دالم تب بهارو"
   },
   "settings.display.sidebar.hide-app-promos.description": {
-    "message": "مڽمبوڽيکن بوتڠ \"داڤتکن Modrinth App\" درڤد ناۏيݢاسي اوتام. هلامن Modrinth App ماسيه بوليه دجومڤاءي ڤد هلامن ڤندارتن اتاو دالم ڤڠاکي."
+    "message": "مڽمبوڽيکن بوتڠ \"داڤتکن AllayLauncher\" درڤد ناۏيݢاسي اوتام. هلامن AllayLauncher ماسيه بوليه دجومڤاءي ڤد هلامن ڤندارتن اتاو دالم ڤڠاکي."
   },
   "settings.display.sidebar.hide-app-promos.title": {
-    "message": "سمبوڽيکن ڤروموسي Modrinth App"
+    "message": "سمبوڽيکن ڤروموسي AllayLauncher"
   },
   "settings.display.sidebar.left-aligned-content-sidebar.title": {
     "message": "بر سيسي چارين دجاجر کيري ڤد هلامن کاندوڠن"
@@ -2763,7 +2763,7 @@
     "message": "بر سيسي ڤناڤيس دجاجر کانن ڤد هلامن چارين"
   },
   "settings.display.theme.description": {
-    "message": "ڤيليه تيما ورنا ڤيليهن اندا اونتوق Modrinth ڤد ڤرنتي اين."
+    "message": "ڤيليه تيما ورنا ڤيليهن اندا اونتوق AllayHub ڤد ڤرنتي اين."
   },
   "settings.display.theme.title": {
     "message": "تيما ورنا"
@@ -2796,7 +2796,7 @@
     "message": "چيڤتا توکن اکسيس ڤريبادي"
   },
   "settings.pats.description": {
-    "message": "توکن اکسيس ڤريبادي بوليه دݢوناکن اونتوق مڠکسيس API Modrinth. اونتوق منداڤتکن معلومت لنجوت⹁ ليهت <doc-link>دوکومنتاسي API Modrinth</doc-link>. اي بوليه دبوات دان دتاريق باليق ڤد بيلا‌٢ ماس."
+    "message": "توکن اکسيس ڤريبادي بوليه دݢوناکن اونتوق مڠکسيس API AllayHub. اونتوق منداڤتکن معلومت لنجوت⹁ ليهت <doc-link>دوکومنتاسي API AllayHub</doc-link>. اي بوليه دبوات دان دتاريق باليق ڤد بيلا‌٢ ماس."
   },
   "settings.pats.modal.create.action": {
     "message": "چيڤتا توکن اکسيس ڤريبادي"
@@ -2850,7 +2850,7 @@
     "message": "بيو"
   },
   "settings.profile.description": {
-    "message": "معلومت ڤروفيل اندا بوليه دليهت سچارا تربوک ڤد Modrinth دان ملالوءي <docs-link>API Modrinth</docs-link>."
+    "message": "معلومت ڤروفيل اندا بوليه دليهت سچارا تربوک ڤد AllayHub دان ملالوءي <docs-link>API AllayHub</docs-link>."
   },
   "settings.profile.profile-info": {
     "message": "معلومت ڤروفيل"
@@ -2877,7 +2877,7 @@
     "message": "سيسي سماس"
   },
   "settings.sessions.description": {
-    "message": "برايکوت اياله سموا ڤرنتي يڠ سدڠ دلوݢ ماسوق دڠن اکاءون Modrinth اندا. اندا بوليه لوݢ کلوار درڤد ستياڤ ساتو ڤرنتي سچارا اينديۏيدو.\n\nجک اندا مليهت اينتري يڠ اندا تيدق کنلي⹁ لوݢ کلوار درڤد ڤرنتي ايت دان توکر کات لالوان اکاءون Modrinth اندا دڠن سݢرا."
+    "message": "برايکوت اياله سموا ڤرنتي يڠ سدڠ دلوݢ ماسوق دڠن اکاءون AllayHub اندا. اندا بوليه لوݢ کلوار درڤد ستياڤ ساتو ڤرنتي سچارا اينديۏيدو.\n\nجک اندا مليهت اينتري يڠ اندا تيدق کنلي⹁ لوݢ کلوار درڤد ڤرنتي ايت دان توکر کات لالوان اکاءون AllayHub اندا دڠن سݢرا."
   },
   "settings.sessions.last-accessed-ago": {
     "message": "کالي تراخير دأکسيس {ago}"
@@ -2889,7 +2889,7 @@
     "message": "ڤلتفوم تيدق دکتاهوءي"
   },
   "ui.latest-news-row.latest-news": {
-    "message": "بريتا ترکيني دري Modrinth"
+    "message": "بريتا ترکيني دري AllayHub"
   },
   "ui.latest-news-row.view-all": {
     "message": "ليهت سموا بريتا"

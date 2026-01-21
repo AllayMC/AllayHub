@@ -27,7 +27,7 @@
     "message": "Linux"
   },
   "app-marketing.download.linux-disclaimer": {
-    "message": "De Linux-versies zijn <issues-link>berucht wegens instabiliteiten</issues-link> op bepaalde systemen en configuraties. Als de Modrinth-app onstabiel functioneert op jou systeem, moedigen wij je aan om alternatieven zoals <prism-link>Prism Launcher</prism-link> te gebruiken, die direct van Modrinth kan downloaden."
+    "message": "De Linux-versies zijn <issues-link>berucht wegens instabiliteiten</issues-link> op bepaalde systemen en configuraties. Als de AllayHub-app onstabiel functioneert op jou systeem, moedigen wij je aan om alternatieven zoals <prism-link>Prism Launcher</prism-link> te gebruiken, die direct van AllayHub kan downloaden."
   },
   "app-marketing.download.mac": {
     "message": "Mac"
@@ -36,13 +36,13 @@
     "message": "Download opties"
   },
   "app-marketing.download.terms": {
-    "message": "Door het downloaden van de Modrinth-app gaat uw akkoord met onze <terms-link>algemene voorwaarden</terms-link> en <privacy-link>privacyverklaring</privacy-link>."
+    "message": "Door het downloaden van de AllayHub-app gaat uw akkoord met onze <terms-link>algemene voorwaarden</terms-link> en <privacy-link>privacyverklaring</privacy-link>."
   },
   "app-marketing.download.third-party-packages": {
     "message": "Derde-partij pakketten"
   },
   "app-marketing.download.title": {
-    "message": "Download de Modrinth-app (Bètaversie)"
+    "message": "Download de AllayHub-app (Bètaversie)"
   },
   "app-marketing.download.windows": {
     "message": "Windows"
@@ -54,7 +54,7 @@
     "message": "Volg projecten"
   },
   "app-marketing.features.importing.description": {
-    "message": "Importeer al je favorieten profielen van je vorige launcher, en begin binnen enkele seconden met de Modrinth-app!"
+    "message": "Importeer al je favorieten profielen van je vorige launcher, en begin binnen enkele seconden met de AllayHub-app!"
   },
   "app-marketing.features.importing.gdlauncher-alt": {
     "message": "GDLauncher"
@@ -72,7 +72,7 @@
     "message": "door {author}"
   },
   "app-marketing.features.mod-management.description": {
-    "message": "Met Modrinth kun je makkelijk al je mods op één plek beheren. Installeer, verwijder en update je mods in een handomdraai."
+    "message": "Met AllayHub kun je makkelijk al je mods op één plek beheren. Installeer, verwijder en update je mods in een handomdraai."
   },
   "app-marketing.features.mod-management.installed-mods": {
     "message": "Geïnstalleerde mods"
@@ -96,7 +96,7 @@
     "message": "Offline-modus"
   },
   "app-marketing.features.open-source.description": {
-    "message": "De launcher van Modrinth is volledig Open Source. Je kan de broncode vinden op onze <github-link>GitHub</github-link>!"
+    "message": "De launcher van AllayHub is volledig Open Source. Je kan de broncode vinden op onze <github-link>GitHub</github-link>!"
   },
   "app-marketing.features.open-source.title": {
     "message": "Open Source"
@@ -108,7 +108,7 @@
     "message": "% CPU"
   },
   "app-marketing.features.performance.description": {
-    "message": "De Modrinth-app presteert beter dan veel van de leidende concurrenten, met een geheugengebruik van maar liefst 150mb!"
+    "message": "De AllayHub-app presteert beter dan veel van de leidende concurrenten, met een geheugengebruik van maar liefst 150mb!"
   },
   "app-marketing.features.performance.discord": {
     "message": "Discord"
@@ -129,7 +129,7 @@
     "message": "< 150 MB"
   },
   "app-marketing.features.performance.modrinth-app": {
-    "message": "Modrinth-app"
+    "message": "AllayHub-app"
   },
   "app-marketing.features.performance.one-billion-percent": {
     "message": "1 miljard %"
@@ -147,13 +147,13 @@
     "message": "Snelheid gericht"
   },
   "app-marketing.features.play.description": {
-    "message": "Download en speel met je favorieten mods en modpacks met de Modrinth-app."
+    "message": "Download en speel met je favorieten mods en modpacks met de AllayHub-app."
   },
   "app-marketing.features.play.title": {
     "message": "Speel met je favorieten mods"
   },
   "app-marketing.features.sharing.description": {
-    "message": "Verzamel, speel en deel modpacks met de duizenden mods en modpacks verkrijgbaar hier op Modrinth."
+    "message": "Verzamel, speel en deel modpacks met de duizenden mods en modpacks verkrijgbaar hier op AllayHub."
   },
   "app-marketing.features.sharing.modpack": {
     "message": "Modpack"
@@ -168,7 +168,7 @@
     "message": "Onvergelijkbaar met de concurrentie "
   },
   "app-marketing.features.website.description": {
-    "message": "Modrinth App is volledig geïntegreerd met de website, zodat u vanuit de app toegang heeft tot al uw favoriete projecten!"
+    "message": "AllayLauncher is volledig geïntegreerd met de website, zodat u vanuit de app toegang heeft tot al uw favoriete projecten!"
   },
   "app-marketing.features.website.title": {
     "message": "Website integratie "
@@ -177,19 +177,19 @@
     "message": "je hebt het al gezien"
   },
   "app-marketing.hero.app-screenshot-alt": {
-    "message": "Screenshot van de Modrinth App met een Cobblemon installatie geopend op de 'Content' pagina."
+    "message": "Screenshot van de AllayLauncher met een Cobblemon installatie geopend op de 'Content' pagina."
   },
   "app-marketing.hero.description": {
-    "message": "De Modrinth App is een unieke, openbare launcher waarmee je je favoriete mods kunt spelen en up-to-date houden, allemaal in één handig app."
+    "message": "De AllayLauncher is een unieke, openbare launcher waarmee je je favoriete mods kunt spelen en up-to-date houden, allemaal in één handig app."
   },
   "app-marketing.hero.download-button": {
-    "message": "Download de Modrinth-app"
+    "message": "Download de AllayHub-app"
   },
   "app-marketing.hero.download-modrinth-app": {
-    "message": "Download de Modrinth-app "
+    "message": "Download de AllayHub-app "
   },
   "app-marketing.hero.download-modrinth-app-for-os": {
-    "message": "Download de Modrinth-app voor {os}"
+    "message": "Download de AllayHub-app voor {os}"
   },
   "app-marketing.hero.minecraft-screenshot-alt": {
     "message": "Schermafbeelding van de Cobblemon instantie's hoofd menu scherm."
@@ -294,7 +294,7 @@
     "message": "Gebruikersnaam"
   },
   "auth.sign-up.legal-dislaimer": {
-    "message": "Door een account te creëren, ga je akkoord met de <terms-link>Voorwaarden</terms-link> en het </privacy-policy-link>Privacybeleid</privacy-policy-link> van Modrinth."
+    "message": "Door een account te creëren, ga je akkoord met de <terms-link>Voorwaarden</terms-link> en het </privacy-policy-link>Privacybeleid</privacy-policy-link> van AllayHub."
   },
   "auth.sign-up.notification.password-mismatch.text": {
     "message": "Wachtwoorden komen niet overeen!"
@@ -306,7 +306,7 @@
     "message": "Heb je al een account?"
   },
   "auth.sign-up.subscribe.label": {
-    "message": "Schrijf je in voor updates van Modrinth"
+    "message": "Schrijf je in voor updates van AllayHub"
   },
   "auth.sign-up.title": {
     "message": "Aanmelden"
@@ -351,16 +351,16 @@
     "message": "Verifieer e-mail"
   },
   "auth.welcome.checkbox.subscribe": {
-    "message": "Abonneer op updates over Modrinth"
+    "message": "Abonneer op updates over AllayHub"
   },
   "auth.welcome.description": {
     "message": "Je bent nu deel van de geweldige community van makers en ontdekkers die mods bouwen, downloaden en up-to-date blijven van geweldige mods."
   },
   "auth.welcome.label.tos": {
-    "message": "Door een account te hebben gemaakt, ben je akkoord gegaan met de <terms-link>Voorwaarden</terms-link> en het </privacy-policy-link>Privacybeleid</privacy-policy-link> van Modrinth."
+    "message": "Door een account te hebben gemaakt, ben je akkoord gegaan met de <terms-link>Voorwaarden</terms-link> en het </privacy-policy-link>Privacybeleid</privacy-policy-link> van AllayHub."
   },
   "auth.welcome.long-title": {
-    "message": "Welkom op Modrinth!"
+    "message": "Welkom op AllayHub!"
   },
   "auth.welcome.title": {
     "message": "Welkom"
@@ -390,7 +390,7 @@
     "message": "Weet u zeker dat u deze collectie wilt verwijderen?"
   },
   "collection.description": {
-    "message": "{description} - Bekijk de collectie {name} gemaakt door {username} op Modrinth"
+    "message": "{description} - Bekijk de collectie {name} gemaakt door {username} op AllayHub"
   },
   "collection.description.following": {
     "message": "Automatisch gegenereerde collectie van alle projecten die u volgt."
@@ -636,7 +636,7 @@
     "message": "Belastingformulier"
   },
   "dashboard.creator-tax-form-modal.security.description": {
-    "message": "Modrinth maakt gebruik van de externe leverancier Track1099 om je belastingformulieren veilig te verzamelen en op te slaan. <security-link>Leer hier meer.</security-link>"
+    "message": "AllayHub maakt gebruik van de externe leverancier Track1099 om je belastingformulieren veilig te verzamelen en op te slaan. <security-link>Leer hier meer.</security-link>"
   },
   "dashboard.creator-tax-form-modal.security.header": {
     "message": "Veiligheidsmaatregelen"
@@ -750,7 +750,7 @@
     "message": "Om uw volledige <b>{available}</b> beschikbare saldo op te nemen, vult u onderstaand formulier in. Dit is nodig voor de belastingaangifte en hoeft slechts eenmalig te worden gedaan."
   },
   "dashboard.creator-withdraw-modal.tax-form-required.body-with-limit": {
-    "message": "U dient een W-9- of W-8-formulier in te vullen voor de belastingadministratie van Modrinth, zodat wij aan de belastingwetgeving blijven voldoen."
+    "message": "U dient een W-9- of W-8-formulier in te vullen voor de belastingadministratie van AllayHub, zodat wij aan de belastingwetgeving blijven voldoen."
   },
   "dashboard.creator-withdraw-modal.tax-form-required.header": {
     "message": "Belastingformulier vereist"
@@ -762,7 +762,7 @@
     "message": "Niet-geverifieerde e-mail"
   },
   "dashboard.creator-withdraw-modal.tremendous-details.unverified-email-message": {
-    "message": "Het e-mailadres dat u hebt ingevoerd voor de bezorging is niet gekoppeld aan uw Modrinth-account. Modrinth kan beloningen die naar een onjuist e-mailadres zijn verzonden niet terugvorderen."
+    "message": "Het e-mailadres dat u hebt ingevoerd voor de bezorging is niet gekoppeld aan uw AllayHub-account. AllayHub kan beloningen die naar een onjuist e-mailadres zijn verzonden niet terugvorderen."
   },
   "dashboard.creator-withdraw-modal.withdraw-button": {
     "message": "Opnemen"
@@ -795,7 +795,7 @@
     "message": "Deze collectie is mogelijk privé."
   },
   "error.collection.404.list_item.3": {
-    "message": "Dit collectie is mogelijk verwijderd door Modrinth's moderationteam wegens schending van onze <tou-link> Servicevoorwaarden </tou-link>."
+    "message": "Dit collectie is mogelijk verwijderd door AllayHub's moderationteam wegens schending van onze <tou-link> Servicevoorwaarden </tou-link>."
   },
   "error.collection.404.list_title": {
     "message": "Waarom?"
@@ -816,10 +816,10 @@
     "message": "Content niet beschikbaar om juridische redenen"
   },
   "error.generic.default.list_item.1": {
-    "message": "Controleer of Modrinth een storing heeft op onze <status-link>Status pagina</status-link>."
+    "message": "Controleer of AllayHub een storing heeft op onze <status-link>Status pagina</status-link>."
   },
   "error.generic.default.list_item.2": {
-    "message": "Als dit blijft gebeuren zou u waarschijnlijk de Modrinth team moeten inlichten via onze <discord-link>Discord Server</discord-link>."
+    "message": "Als dit blijft gebeuren zou u waarschijnlijk de AllayHub team moeten inlichten via onze <discord-link>Discord Server</discord-link>."
   },
   "error.generic.default.list_title": {
     "message": "Probeer alstublieft opnieuw in een paar minuten."
@@ -837,7 +837,7 @@
     "message": "De eigenaar van de organisatie heeft misschien de URL veranderd of verwijderd."
   },
   "error.organization.404.list_item.3": {
-    "message": "De organisatie is misschien verwijderd door Modrinth' moderatie team voor het breken van de <tou-link>Gebruikersvoorwaarden</tou-link>."
+    "message": "De organisatie is misschien verwijderd door AllayHub' moderatie team voor het breken van de <tou-link>Gebruikersvoorwaarden</tou-link>."
   },
   "error.organization.404.list_title": {
     "message": "Waarom?"
@@ -852,7 +852,7 @@
     "message": "De eigenaar van het project heeft misschien de URL veranderd, het project privé gemaakt of verwijderd."
   },
   "error.project.404.list_item.3": {
-    "message": "Het project is mogelijk verwijdert door het moderatie team van Modrinth door het overtreden van onze <tou-link>gebruikersvoorwaarden</tou-link>."
+    "message": "Het project is mogelijk verwijdert door het moderatie team van AllayHub door het overtreden van onze <tou-link>gebruikersvoorwaarden</tou-link>."
   },
   "error.project.404.list_title": {
     "message": "Waarom?"
@@ -867,7 +867,7 @@
     "message": "De gebruiker heeft mogelijk zijn gebruikersnaam aangepast of zijn account verwijderd."
   },
   "error.user.404.list_item.3": {
-    "message": "Het account van de gebruiker is mogelijk opgeheven wegens schendingen van Modrinth's <tou-link>Gebruikers Voorwaarden</tou-link>. "
+    "message": "Het account van de gebruiker is mogelijk opgeheven wegens schendingen van AllayHub's <tou-link>Gebruikers Voorwaarden</tou-link>. "
   },
   "error.user.404.list_title": {
     "message": "Waarom?"
@@ -897,7 +897,7 @@
     "message": "Naar dashboard "
   },
   "landing.creator.feature.constantly-evolving.description": {
-    "message": "Geniet van de beste Minecraft-modding ervaring met regelmatige updates van de Modrinth team."
+    "message": "Geniet van de beste Minecraft-modding ervaring met regelmatige updates van de AllayHub team."
   },
   "landing.creator.feature.constantly-evolving.title": {
     "message": "Voortdurende Verbetering "
@@ -981,10 +981,10 @@
     "message": "ATLauncher"
   },
   "landing.launcher.graphic-alt": {
-    "message": "Een vereenvoudigde weergave van een Minecraft venster, met het Mojang Studios logo in Modrinth groen."
+    "message": "Een vereenvoudigde weergave van een Minecraft venster, met het Mojang Studios logo in AllayHub groen."
   },
   "landing.launcher.modrinth-app-label": {
-    "message": "Modrinth App"
+    "message": "AllayLauncher"
   },
   "landing.launcher.prism-launcher-label": {
     "message": "Prism Launcher"
@@ -1053,10 +1053,10 @@
     "message": "Producten"
   },
   "layout.footer.products.app": {
-    "message": "Modrinth App"
+    "message": "AllayLauncher"
   },
   "layout.footer.products.plus": {
-    "message": "Modrinth+"
+    "message": "AllayHub+"
   },
   "layout.footer.resources.api-docs": {
     "message": "API documentatie"
@@ -1131,7 +1131,7 @@
     "message": "Organisaties"
   },
   "profile.meta.description": {
-    "message": "Download {username} z'n projecten via Modrinth"
+    "message": "Download {username} z'n projecten via AllayHub"
   },
   "profile.user-id": {
     "message": "Gebruiker ID: {id}"
@@ -1197,7 +1197,7 @@
     "message": "Konden niet {item} vinden"
   },
   "report.for.violation": {
-    "message": "Het schenden van Modrinth <rules-link> Regels</rules-link> of <terms-link>Termen</terms-link>"
+    "message": "Het schenden van AllayHub <rules-link> Regels</rules-link> of <terms-link>Termen</terms-link>"
   },
   "report.for.violation.description": {
     "message": "Exemplaren includeren onveilige, spam, offensieve, misleidende en illegale content."
@@ -1329,13 +1329,13 @@
     "message": ".."
   },
   "settings.display.theme.description": {
-    "message": "Selecteer je gewenste kleurschema voor Modrinth op dit apparaat."
+    "message": "Selecteer je gewenste kleurschema voor AllayHub op dit apparaat."
   },
   "settings.display.theme.title": {
     "message": "Kleurschema"
   },
   "settings.pats.description": {
-    "message": "PAT's kunnen gebruikt worden om Modrinths API te gebruiken. Voor meer informatie, zie <doc-link> Modrinth's API-documentatie </doc-link>. Ze kunnen altijd gemaakt en teruggetrokken worden."
+    "message": "PAT's kunnen gebruikt worden om AllayHubs API te gebruiken. Voor meer informatie, zie <doc-link> AllayHub's API-documentatie </doc-link>. Ze kunnen altijd gemaakt en teruggetrokken worden."
   },
   "settings.pats.modal.create.expires.label": {
     "message": "Verloopt"

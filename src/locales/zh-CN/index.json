@@ -27,7 +27,7 @@
     "message": "Linux"
   },
   "app-marketing.download.linux-disclaimer": {
-    "message": "Modrinth App 的 Linux 版本在部分发行版系统和配置中<issues-link>存在一些已知问题</issues-link>。若你当前的系统无法稳定运行 Modrinth App，建议尝试 <prism-link>Prism Launcher</prism-link> 等其他启动器，这些启动器亦可便捷安装 Modrinth 内容。"
+    "message": "AllayLauncher 的 Linux 版本在部分发行版系统和配置中<issues-link>存在一些已知问题</issues-link>。若你当前的系统无法稳定运行 AllayLauncher，建议尝试 <prism-link>Prism Launcher</prism-link> 等其他启动器，这些启动器亦可便捷安装 AllayHub 内容。"
   },
   "app-marketing.download.mac": {
     "message": "Mac"
@@ -36,13 +36,13 @@
     "message": "下载选项"
   },
   "app-marketing.download.terms": {
-    "message": "下载 Modrinth App 即表示你同意我们的<terms-link>服务条款</terms-link>和<privacy-link>隐私政策</privacy-link>。"
+    "message": "下载 AllayLauncher 即表示你同意我们的<terms-link>服务条款</terms-link>和<privacy-link>隐私政策</privacy-link>。"
   },
   "app-marketing.download.third-party-packages": {
     "message": "第三方安装包"
   },
   "app-marketing.download.title": {
-    "message": "下载 Modrinth App（测试版）"
+    "message": "下载 AllayLauncher（测试版）"
   },
   "app-marketing.download.windows": {
     "message": "Windows"
@@ -54,7 +54,7 @@
     "message": "关注项目"
   },
   "app-marketing.features.importing.description": {
-    "message": "轻松导入你在其他启动器上的所有配置，仅需数秒，即可快速上手 Modrinth App！"
+    "message": "轻松导入你在其他启动器上的所有配置，仅需数秒，即可快速上手 AllayLauncher！"
   },
   "app-marketing.features.importing.gdlauncher-alt": {
     "message": "GDLauncher"
@@ -72,7 +72,7 @@
     "message": "由 {author} 创作"
   },
   "app-marketing.features.mod-management.description": {
-    "message": "Modrinth 助你轻松一站式管理所有模组。安装、卸载、更新，只需轻轻一点。"
+    "message": "AllayHub 助你轻松一站式管理所有模组。安装、卸载、更新，只需轻轻一点。"
   },
   "app-marketing.features.mod-management.installed-mods": {
     "message": "已安装模组"
@@ -96,7 +96,7 @@
     "message": "离线模式"
   },
   "app-marketing.features.open-source.description": {
-    "message": "Modrinth 的启动器是完全开源的。你可以在我们的 <github-link>GitHub</github-link> 上查看源代码！"
+    "message": "AllayHub 的启动器是完全开源的。你可以在我们的 <github-link>GitHub</github-link> 上查看源代码！"
   },
   "app-marketing.features.open-source.title": {
     "message": "开源"
@@ -108,7 +108,7 @@
     "message": "% CPU"
   },
   "app-marketing.features.performance.description": {
-    "message": "Modrinth App 的性能优于许多主流模组管理器，内存占用仅为 150MB！"
+    "message": "AllayLauncher 的性能优于许多主流模组管理器，内存占用仅为 150MB！"
   },
   "app-marketing.features.performance.discord": {
     "message": "Discord"
@@ -129,7 +129,7 @@
     "message": "< 150 MB"
   },
   "app-marketing.features.performance.modrinth-app": {
-    "message": "Modrinth App"
+    "message": "AllayLauncher"
   },
   "app-marketing.features.performance.one-billion-percent": {
     "message": "10 亿 %"
@@ -147,13 +147,13 @@
     "message": "高性能"
   },
   "app-marketing.features.play.description": {
-    "message": "使用 Modrinth App，下载并畅玩你最爱的模组与整合包。"
+    "message": "使用 AllayLauncher，下载并畅玩你最爱的模组与整合包。"
   },
   "app-marketing.features.play.title": {
     "message": "畅玩心爱模组"
   },
   "app-marketing.features.sharing.description": {
-    "message": "凭借 Modrinth 上的海量模组和整合包，你可以轻松制作、分享并畅玩你的整合包。"
+    "message": "凭借 AllayHub 上的海量模组和整合包，你可以轻松制作、分享并畅玩你的整合包。"
   },
   "app-marketing.features.sharing.modpack": {
     "message": "整合包"
@@ -168,7 +168,7 @@
     "message": "前所未有的启动体验"
   },
   "app-marketing.features.website.description": {
-    "message": "Modrinth App 与网站深度集成，让你可以在应用内访问所有喜欢的项目！"
+    "message": "AllayLauncher 与网站深度集成，让你可以在应用内访问所有喜欢的项目！"
   },
   "app-marketing.features.website.title": {
     "message": "网站集成"
@@ -177,19 +177,19 @@
     "message": "就此开启"
   },
   "app-marketing.hero.app-screenshot-alt": {
-    "message": "Modrinth App 截图，显示已打开的 Cobblemon 整合包的“内容”页面。"
+    "message": "AllayLauncher 截图，显示已打开的 Cobblemon 整合包的“内容”页面。"
   },
   "app-marketing.hero.description": {
-    "message": "Modrinth App 是一款独特、开源的启动器。有了它，你便能畅玩喜爱的模组，并时刻跟上最新版本。种种实用功能，尽在这一个简洁小巧的程序中。"
+    "message": "AllayLauncher 是一款独特、开源的启动器。有了它，你便能畅玩喜爱的模组，并时刻跟上最新版本。种种实用功能，尽在这一个简洁小巧的程序中。"
   },
   "app-marketing.hero.download-button": {
-    "message": "下载 Modrinth App"
+    "message": "下载 AllayLauncher"
   },
   "app-marketing.hero.download-modrinth-app": {
-    "message": "下载 Modrinth App"
+    "message": "下载 AllayLauncher"
   },
   "app-marketing.hero.download-modrinth-app-for-os": {
-    "message": "下载适用于 {os} 的 Modrinth App"
+    "message": "下载适用于 {os} 的 AllayLauncher"
   },
   "app-marketing.hero.minecraft-screenshot-alt": {
     "message": "一张截图，显示 Cobblemon 实例的主屏幕页面。"
@@ -294,7 +294,7 @@
     "message": "用户名"
   },
   "auth.sign-up.legal-dislaimer": {
-    "message": "创建账户即表示你同意 Modrinth 的<terms-link>使用条款</terms-link>和<privacy-policy-link>隐私政策</privacy-policy-link>。"
+    "message": "创建账户即表示你同意 AllayHub 的<terms-link>使用条款</terms-link>和<privacy-policy-link>隐私政策</privacy-policy-link>。"
   },
   "auth.sign-up.notification.password-mismatch.text": {
     "message": "密码不一致！"
@@ -306,7 +306,7 @@
     "message": "已有账户？"
   },
   "auth.sign-up.subscribe.label": {
-    "message": "订阅有关 Modrinth 的更新邮件"
+    "message": "订阅有关 AllayHub 的更新邮件"
   },
   "auth.sign-up.title": {
     "message": "注册"
@@ -351,16 +351,16 @@
     "message": "验证电子邮箱"
   },
   "auth.welcome.checkbox.subscribe": {
-    "message": "订阅有关 Modrinth 的更新邮件"
+    "message": "订阅有关 AllayHub 的更新邮件"
   },
   "auth.welcome.description": {
     "message": "你现在已经是这个超棒的社区的一份子了！在这里尽情探索、创造、使用、更新这些超酷的模组吧。"
   },
   "auth.welcome.label.tos": {
-    "message": "创建账户即表示你已同意 Modrinth 的<terms-link>使用条款</terms-link>和<privacy-policy-link>隐私政策</privacy-policy-link>。"
+    "message": "创建账户即表示你已同意 AllayHub 的<terms-link>使用条款</terms-link>和<privacy-policy-link>隐私政策</privacy-policy-link>。"
   },
   "auth.welcome.long-title": {
-    "message": "欢迎来到 Modrinth！"
+    "message": "欢迎来到 AllayHub！"
   },
   "auth.welcome.title": {
     "message": "欢迎"
@@ -390,7 +390,7 @@
     "message": "你确定要删除该收藏夹吗？"
   },
   "collection.description": {
-    "message": "{description} - 前往 Modrinth 查看 {username} 的收藏夹 {name}"
+    "message": "{description} - 前往 AllayHub 查看 {username} 的收藏夹 {name}"
   },
   "collection.description.following": {
     "message": "此收藏夹自动生成，包含你关注的所有项目。"
@@ -642,7 +642,7 @@
     "message": "税务表格"
   },
   "dashboard.creator-tax-form-modal.security.description": {
-    "message": "Modrinth 使用第三方提供商 Track1099 来安全地收集和存储你的税务表格。<security-link>在此</security-link>了解更多"
+    "message": "AllayHub 使用第三方提供商 Track1099 来安全地收集和存储你的税务表格。<security-link>在此</security-link>了解更多"
   },
   "dashboard.creator-tax-form-modal.security.header": {
     "message": "安全措施"
@@ -822,7 +822,7 @@
     "message": "如需提取你全部的<b>{available}</b>可用余额，请填写下方表格。此操作仅需完成一次，系税务申报所需。"
   },
   "dashboard.creator-withdraw-modal.tax-form-required.body-with-limit": {
-    "message": "你必须填写 W-9 或 W-8 表格以供 Modrinth 存档，确保我们符合税务法规要求。"
+    "message": "你必须填写 W-9 或 W-8 表格以供 AllayHub 存档，确保我们符合税务法规要求。"
   },
   "dashboard.creator-withdraw-modal.tax-form-required.header": {
     "message": "需要填写税务表格"
@@ -864,7 +864,7 @@
     "message": "未验证的电子邮件"
   },
   "dashboard.creator-withdraw-modal.tremendous-details.unverified-email-message": {
-    "message": "你输入的收件邮箱未与你的 Modrinth 账户关联。若奖励发送至错误邮箱地址，Modrinth 将无法进行追回。"
+    "message": "你输入的收件邮箱未与你的 AllayHub 账户关联。若奖励发送至错误邮箱地址，AllayHub 将无法进行追回。"
   },
   "dashboard.creator-withdraw-modal.tremendous-details.usd-paypal-warning-header": {
     "message": "有更低的服务费可用"
@@ -891,7 +891,7 @@
     "message": "预估收入可能随时变更，直至正式公布为止。"
   },
   "dashboard.revenue.estimated-tooltip.msg2": {
-    "message": "点击了解 Modrinth 如何处理你的收入。"
+    "message": "点击了解 AllayHub 如何处理你的收入。"
   },
   "dashboard.revenue.estimated-with-date": {
     "message": "预计日期：{date}"
@@ -912,7 +912,7 @@
     "message": "已提现"
   },
   "dashboard.revenue.tos": {
-    "message": "通过将项目上传至 Modrinth 并从账户中提取资金，即表示你同意我们的<terms-link>激励计划条款</terms-link>。了解更多关于<info-link>激励计划</info-link>的信息。"
+    "message": "通过将项目上传至 AllayHub 并从账户中提取资金，即表示你同意我们的<terms-link>激励计划条款</terms-link>。了解更多关于<info-link>激励计划</info-link>的信息。"
   },
   "dashboard.revenue.transactions.btn.download-csv": {
     "message": "以 CSV 格式下载"
@@ -1023,7 +1023,7 @@
     "message": "该收藏夹可能是私有的。"
   },
   "error.collection.404.list_item.3": {
-    "message": "此收藏夹可能由于违反我们的<tou-link>使用条款</tou-link>，而被 Modrinth 管理团队移除。"
+    "message": "此收藏夹可能由于违反我们的<tou-link>使用条款</tou-link>，而被 AllayHub 管理团队移除。"
   },
   "error.collection.404.list_title": {
     "message": "为什么？"
@@ -1044,10 +1044,10 @@
     "message": "因法律原因无法提供内容"
   },
   "error.generic.default.list_item.1": {
-    "message": "前往我们的<status-link>状态页面</status-link>，查看 Modrinth 服务是否中断。"
+    "message": "前往我们的<status-link>状态页面</status-link>，查看 AllayHub 服务是否中断。"
   },
   "error.generic.default.list_item.2": {
-    "message": "如果问题持续存在，不妨加入我们的<discord-link>Discord 服务器</discord-link>来告知 Modrinth 团队。"
+    "message": "如果问题持续存在，不妨加入我们的<discord-link>Discord 服务器</discord-link>来告知 AllayHub 团队。"
   },
   "error.generic.default.list_title": {
     "message": "请在几分钟后再试。"
@@ -1065,7 +1065,7 @@
     "message": "该组织的所有者可能更改了组织链接，或删除了该组织。"
   },
   "error.organization.404.list_item.3": {
-    "message": "此组织可能由于违反我们的<tou-link>使用条款</tou-link>，而被 Modrinth 管理团队移除。"
+    "message": "此组织可能由于违反我们的<tou-link>使用条款</tou-link>，而被 AllayHub 管理团队移除。"
   },
   "error.organization.404.list_title": {
     "message": "为什么？"
@@ -1080,7 +1080,7 @@
     "message": "该项目的所有者可能更改了项目链接，或将项目设为了私有，或删除了该项目。"
   },
   "error.project.404.list_item.3": {
-    "message": "此项目可能由于违反我们的<tou-link>使用条款</tou-link>，而被 Modrinth 管理团队移除。"
+    "message": "此项目可能由于违反我们的<tou-link>使用条款</tou-link>，而被 AllayHub 管理团队移除。"
   },
   "error.project.404.list_title": {
     "message": "为什么？"
@@ -1125,7 +1125,7 @@
     "message": "前往仪表板"
   },
   "landing.creator.feature.constantly-evolving.description": {
-    "message": "Modrinth 团队将持续更新，为你提供优质的模组创作体验"
+    "message": "AllayHub 团队将持续更新，为你提供优质的模组创作体验"
   },
   "landing.creator.feature.constantly-evolving.title": {
     "message": "持续进化"
@@ -1209,10 +1209,10 @@
     "message": "ATLauncher"
   },
   "landing.launcher.graphic-alt": {
-    "message": "一个简化版的 Minecraft 窗口，其中包含以 Modrinth 绿色显示的 Mojang Studios 徽标。"
+    "message": "一个简化版的 Minecraft 窗口，其中包含以 AllayHub 绿色显示的 Mojang Studios 徽标。"
   },
   "landing.launcher.modrinth-app-label": {
-    "message": "Modrinth App"
+    "message": "AllayLauncher"
   },
   "landing.launcher.prism-launcher-label": {
     "message": "Prism Launcher"
@@ -1305,19 +1305,19 @@
     "message": "访问账户设置"
   },
   "layout.banner.add-email.description": {
-    "message": "为确保账户安全，Modrinth 需要你为账户关联一个电子邮箱地址。"
+    "message": "为确保账户安全，AllayHub 需要你为账户关联一个电子邮箱地址。"
   },
   "layout.banner.build-fail.description": {
-    "message": "当前 Modrinth 前端部署实例不能从 API 生成状态。这可能是由于 API 不可用或配置错误。请在 API 可用时重新构建。\n错误码：{errors}；当前 API URL 为 {url}"
+    "message": "当前 AllayHub 前端部署实例不能从 API 生成状态。这可能是由于 API 不可用或配置错误。请在 API 可用时重新构建。\n错误码：{errors}；当前 API URL 为 {url}"
   },
   "layout.banner.build-fail.title": {
     "message": "构建期间从 API 生成状态时发生错误。"
   },
   "layout.banner.staging.description": {
-    "message": "测试环境与 Modrinth 在生产环境所用数据库是完全分离的。本站用于测试和调试，且可能正运行着比生产环境更新的 Modrinth 前端或后端的开发版。"
+    "message": "测试环境与 AllayHub 在生产环境所用数据库是完全分离的。本站用于测试和调试，且可能正运行着比生产环境更新的 AllayHub 前端或后端的开发版。"
   },
   "layout.banner.staging.title": {
-    "message": "你正在查看的是 Modrinth 测试环境"
+    "message": "你正在查看的是 AllayHub 测试环境"
   },
   "layout.banner.subscription-payment-failed.button": {
     "message": "更新财务信息"
@@ -1332,7 +1332,7 @@
     "message": "填写税务表格"
   },
   "layout.banner.tax.description": {
-    "message": "你今年已经从 Modrinth 提现了超过 600 美元。为了遵守税务规定，你需要填写一份税务表格。你的提现操作将暂停，直到提交此表格为止。"
+    "message": "你今年已经从 AllayHub 提现了超过 600 美元。为了遵守税务规定，你需要填写一份税务表格。你的提现操作将暂停，直到提交此表格为止。"
   },
   "layout.banner.tax.title": {
     "message": "需要填写税务表格"
@@ -1350,7 +1350,7 @@
     "message": "重新发送验证邮件"
   },
   "layout.banner.verify-email.description": {
-    "message": "为确保账户安全，Modrinth 需要你验证与账户关联的电子邮箱地址。"
+    "message": "为确保账户安全，AllayHub 需要你验证与账户关联的电子邮箱地址。"
   },
   "layout.footer.about": {
     "message": "关于"
@@ -1392,7 +1392,7 @@
     "message": "使用条款"
   },
   "layout.footer.modrinth-information": {
-    "message": "Modrinth 信息"
+    "message": "AllayHub 信息"
   },
   "layout.footer.open-source": {
     "message": "AllayHub 是一个<github-link>开源项目</github-link>。"
@@ -1404,10 +1404,10 @@
     "message": "AllayLauncher"
   },
   "layout.footer.products.plus": {
-    "message": "Modrinth+"
+    "message": "AllayHub+"
   },
   "layout.footer.products.servers": {
-    "message": "Modrinth Hosting"
+    "message": "AllayHub Hosting"
   },
   "layout.footer.resources": {
     "message": "资源"
@@ -1443,7 +1443,7 @@
     "message": "切换菜单"
   },
   "layout.meta.description": {
-    "message": "在 Modrinth 上下载 Minecraft 模组、插件、数据包、光影、资源包及整合包。通过我们现代化而易用的界面与 API，探索及发布项目。"
+    "message": "在 AllayHub 上下载 Minecraft 模组、插件、数据包、光影、资源包及整合包。通过我们现代化而易用的界面与 API，探索及发布项目。"
   },
   "layout.meta.og-description": {
     "message": "浏览及发布 Minecraft 内容！"
@@ -1479,10 +1479,10 @@
     "message": "托管服务器"
   },
   "layout.nav.modrinth-app": {
-    "message": "Modrinth App"
+    "message": "AllayLauncher"
   },
   "layout.nav.modrinth-home-page": {
-    "message": "Modrinth 首页"
+    "message": "AllayHub 首页"
   },
   "layout.nav.my-servers": {
     "message": "我的服务器"
@@ -1506,7 +1506,7 @@
     "message": "搜索"
   },
   "layout.nav.upgrade-to-modrinth-plus": {
-    "message": "升级至 Modrinth+"
+    "message": "升级至 AllayHub+"
   },
   "moderation.filter.by": {
     "message": "筛选"
@@ -1797,10 +1797,10 @@
     "message": "请再次确认你的钱包地址。发送到错误地址的资金将无法追回。"
   },
   "profile.bio.fallback.creator": {
-    "message": "一位 Modrinth 创作者。"
+    "message": "一位 AllayHub 创作者。"
   },
   "profile.bio.fallback.user": {
-    "message": "一位 Modrinth 用户。"
+    "message": "一位 AllayHub 用户。"
   },
   "profile.button.billing": {
     "message": "管理用户财务"
@@ -1893,10 +1893,10 @@
     "message": "是"
   },
   "profile.meta.description": {
-    "message": "前往 Modrinth 下载 {username} 的项目"
+    "message": "前往 AllayHub 下载 {username} 的项目"
   },
   "profile.meta.description-with-bio": {
-    "message": "{bio} - 前往 Modrinth 下载 {username} 的项目"
+    "message": "{bio} - 前往 AllayHub 下载 {username} 的项目"
   },
   "profile.stats.projects-followers": {
     "message": "{count, plural, other {<stat>{count}</stat>项目关注者}}"
@@ -1947,7 +1947,7 @@
     "message": "重新提交审核"
   },
   "project-moderation-nags.resubmit-for-review-desc": {
-    "message": "你的项目已被 Modrinth 工作人员{status, select, rejected {退回} withheld {暂缓} other {{status}}} 。在多数情况下，你可在处理工作人员反馈后重新提交审核。"
+    "message": "你的项目已被 AllayHub 工作人员{status, select, rejected {退回} withheld {暂缓} other {{status}}} 。在多数情况下，你可在处理工作人员反馈后重新提交审核。"
   },
   "project-moderation-nags.submit-checklist-tooltip": {
     "message": "你必须完成发布前检查单中必需的步骤！"
@@ -2049,7 +2049,7 @@
     "message": "审核项目"
   },
   "project.actions.servers-promo.description": {
-    "message": "Modrinth Hosting，联机从未如此简单！"
+    "message": "AllayHub Hosting，联机从未如此简单！"
   },
   "project.actions.servers-promo.pricing": {
     "message": "起价{price}<small> / 每月</small>"
@@ -2082,10 +2082,10 @@
     "message": "{title} 不支持 {platform} {gameVersion}"
   },
   "project.download.install-with-app": {
-    "message": "使用 Modrinth App 安装"
+    "message": "使用 AllayLauncher 安装"
   },
   "project.download.no-app": {
-    "message": "还没有 Modrinth App 吗？"
+    "message": "还没有 AllayLauncher 吗？"
   },
   "project.download.no-versions-available": {
     "message": "没有支持 {platform} {gameVersion} 的版本。"
@@ -2121,7 +2121,7 @@
     "message": "下载 {title}"
   },
   "project.environment.migration-no-permission.message": {
-    "message": "我们最近升级了 Modrinth 的运行环境系统，引入了一些新选项。你没有权限修改这些设置，请通知项目其他成员核实运行环境元数据。"
+    "message": "我们最近升级了 AllayHub 的运行环境系统，引入了一些新选项。你没有权限修改这些设置，请通知项目其他成员核实运行环境元数据。"
   },
   "project.environment.migration-no-permission.title": {
     "message": "运行环境元数据需要复核"
@@ -2130,7 +2130,7 @@
     "message": "了解更多关于此更改的内容"
   },
   "project.environment.migration.message": {
-    "message": "我们最近升级了 Modrinth 的运行环境系统，引入了一些新选项。请验证元数据是否正确。"
+    "message": "我们最近升级了 AllayHub 的运行环境系统，引入了一些新选项。请验证元数据是否正确。"
   },
   "project.environment.migration.review-button": {
     "message": "复核运行环境设置"
@@ -2262,7 +2262,7 @@
     "message": "无法找到 {item}"
   },
   "report.for.violation": {
-    "message": "违反 Modrinth <rules-link>规则</rules-link> 或 <terms-link>使用条款</terms-link>"
+    "message": "违反 AllayHub <rules-link>规则</rules-link> 或 <terms-link>使用条款</terms-link>"
   },
   "report.for.violation.description": {
     "message": "例如：恶意软件、垃圾信息、冒犯、诈骗、误导、违法内容等。"
@@ -2307,7 +2307,7 @@
     "message": "你正在举报哪种类型的内容？"
   },
   "report.question.report-reason": {
-    "message": "这一 {item} 违反了哪个 Modrinth 规则？"
+    "message": "这一 {item} 违反了哪个 AllayHub 规则？"
   },
   "report.report-content": {
     "message": "向管理人员举报内容"
@@ -2475,7 +2475,7 @@
     "message": "写入举报"
   },
   "scopes.sessionAccess.description": {
-    "message": "访问由 Modrinth 发出的会话"
+    "message": "访问由 AllayHub 发出的会话"
   },
   "scopes.sessionAccess.label": {
     "message": "访问会话"
@@ -2697,13 +2697,13 @@
     "message": "Visa"
   },
   "settings.billing.pyro_subscription.description": {
-    "message": "管理你的 Modrinth Servers 订阅。"
+    "message": "管理你的 AllayHub Servers 订阅。"
   },
   "settings.billing.pyro_subscription.title": {
-    "message": "Modrinth Servers 订阅"
+    "message": "AllayHub Servers 订阅"
   },
   "settings.billing.subscription.description": {
-    "message": "管理你的 Modrinth 订阅。"
+    "message": "管理你的 AllayHub 订阅。"
   },
   "settings.billing.subscription.title": {
     "message": "订阅"
@@ -2712,7 +2712,7 @@
     "message": "停用开发者模式"
   },
   "settings.display.banner.developer-mode.description": {
-    "message": "<strong>开发者模式</strong>已激活。该模式可让你查看 Modrinth 各种对象的内部 ID，对于使用 Modrinth API 的开发者会有所帮助。点击页面底部的 Modrinth 徽标 5 次可开关开发者模式。"
+    "message": "<strong>开发者模式</strong>已激活。该模式可让你查看 AllayHub 各种对象的内部 ID，对于使用 AllayHub API 的开发者会有所帮助。点击页面底部的 AllayHub 徽标 5 次可开关开发者模式。"
   },
   "settings.display.flags.description": {
     "message": "对于当前设备，开启或关闭特定功能。"
@@ -2757,16 +2757,16 @@
     "message": "高级渲染"
   },
   "settings.display.sidebar.external-links-new-tab.description": {
-    "message": "让指向 Modrinth 站外的链接在新标签页中打开。无论此选项如何设置，同域名和 Markdown 描述中的链接都将在同一标签页中打开，而广告和编辑页面上链接将在新标签页中打开。"
+    "message": "让指向 AllayHub 站外的链接在新标签页中打开。无论此选项如何设置，同域名和 Markdown 描述中的链接都将在同一标签页中打开，而广告和编辑页面上链接将在新标签页中打开。"
   },
   "settings.display.sidebar.external-links-new-tab.title": {
     "message": "在新标签页打开外部链接"
   },
   "settings.display.sidebar.hide-app-promos.description": {
-    "message": "隐藏主导航栏中的“获取 Allay”按钮。Modrinth App 页面仍然可以通过登录页面或页脚访问。"
+    "message": "隐藏主导航栏中的“获取 Allay”按钮。AllayLauncher 页面仍然可以通过登录页面或页脚访问。"
   },
   "settings.display.sidebar.hide-app-promos.title": {
-    "message": "隐藏 Modrinth App 推荐"
+    "message": "隐藏 AllayLauncher 推荐"
   },
   "settings.display.sidebar.left-aligned-content-sidebar.title": {
     "message": "内容页面侧边栏左对齐"
@@ -2790,7 +2790,7 @@
     "message": "创建个人访问令牌"
   },
   "settings.pats.description": {
-    "message": "个人访问令牌可用于访问 Modrinth 的 API。详情请参阅 <doc-link>Modrinth 的 API 文档</doc-link>。你可以随时创建和撤销这些令牌。"
+    "message": "个人访问令牌可用于访问 AllayHub 的 API。详情请参阅 <doc-link>AllayHub 的 API 文档</doc-link>。你可以随时创建和撤销这些令牌。"
   },
   "settings.pats.modal.create.action": {
     "message": "创建个人访问令牌"
@@ -2844,7 +2844,7 @@
     "message": "个人简介"
   },
   "settings.profile.description": {
-    "message": "你的个人资料信息在 Modrinth 网站及<docs-link>其 API </docs-link>上均公开可见。"
+    "message": "你的个人资料信息在 AllayHub 网站及<docs-link>其 API </docs-link>上均公开可见。"
   },
   "settings.profile.profile-info": {
     "message": "个人资料信息"
@@ -2871,7 +2871,7 @@
     "message": "当前会话"
   },
   "settings.sessions.description": {
-    "message": "以下是目前登录了你的 Modrinth 账号的所有设备。你可以为任一设备单独退出登录。\n\n如果发现陌生设备，请立即将其退出登录，并更改你的 Modrinth 账号密码。"
+    "message": "以下是目前登录了你的 AllayHub 账号的所有设备。你可以为任一设备单独退出登录。\n\n如果发现陌生设备，请立即将其退出登录，并更改你的 AllayHub 账号密码。"
   },
   "settings.sessions.last-accessed-ago": {
     "message": "上次访问于{ago}"
@@ -2883,7 +2883,7 @@
     "message": "未知平台"
   },
   "ui.latest-news-row.latest-news": {
-    "message": "Modrinth 的最新消息"
+    "message": "AllayHub 的最新消息"
   },
   "ui.latest-news-row.view-all": {
     "message": "查看所有新闻"

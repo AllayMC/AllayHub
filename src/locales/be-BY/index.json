@@ -21,7 +21,7 @@
     "message": "Linux"
   },
   "app-marketing.download.linux-disclaimer": {
-    "message": "Вядома, што версіі Modrinth App для Linux <issues-link>маюць праблемы</issues-link> на пэўных сістэмах і ў пэўных канфігурацыях. Калі Modrinth App працуе нестабільна на вашай сістэме, мы рэкамендуем вам паспрабаваць іншыя праграмы, такія як <prism-link>Prism Launcher</prism-link>, каб лёгка ўсталяваць кантэнт Modrinth."
+    "message": "Вядома, што версіі AllayLauncher для Linux <issues-link>маюць праблемы</issues-link> на пэўных сістэмах і ў пэўных канфігурацыях. Калі AllayLauncher працуе нестабільна на вашай сістэме, мы рэкамендуем вам паспрабаваць іншыя праграмы, такія як <prism-link>Prism Launcher</prism-link>, каб лёгка ўсталяваць кантэнт AllayHub."
   },
   "app-marketing.download.mac": {
     "message": "Mac"
@@ -30,13 +30,13 @@
     "message": "Опцыі спампоўкі"
   },
   "app-marketing.download.terms": {
-    "message": "Спампоўваючы Modrinth App, вы згаджаецеся з нашымі <terms-link>Умовамі</terms-link> і <privacy-link>Палітыкай прыватнасці</privacy-link>."
+    "message": "Спампоўваючы AllayLauncher, вы згаджаецеся з нашымі <terms-link>Умовамі</terms-link> і <privacy-link>Палітыкай прыватнасці</privacy-link>."
   },
   "app-marketing.download.third-party-packages": {
     "message": "Пакеты іншых вытворцаў"
   },
   "app-marketing.download.title": {
-    "message": "Спампаваць Modrinth App (бэта-версія)"
+    "message": "Спампаваць AllayLauncher (бэта-версія)"
   },
   "app-marketing.download.windows": {
     "message": "Windows"
@@ -48,7 +48,7 @@
     "message": "Сачыце за праектамі"
   },
   "app-marketing.features.importing.description": {
-    "message": "Імпартуйце ўсе свае любімыя профілі з лаўнчара, якім вы карысталіся раней, і пачніце працаваць з Modrinth App за лічаныя секунды!"
+    "message": "Імпартуйце ўсе свае любімыя профілі з лаўнчара, якім вы карысталіся раней, і пачніце працаваць з AllayLauncher за лічаныя секунды!"
   },
   "app-marketing.features.importing.gdlauncher-alt": {
     "message": "GDLauncher"
@@ -66,7 +66,7 @@
     "message": "ад {author}"
   },
   "app-marketing.features.mod-management.description": {
-    "message": "Modrinth дазваляе лёгка кіраваць усімі вашымі модамі ў адным месцы. Вы можаце ўсталёўваць, выдаляць і абнаўляць моды адным пстрычкай мышы."
+    "message": "AllayHub дазваляе лёгка кіраваць усімі вашымі модамі ў адным месцы. Вы можаце ўсталёўваць, выдаляць і абнаўляць моды адным пстрычкай мышы."
   },
   "app-marketing.features.mod-management.installed-mods": {
     "message": "Усталяваныя моды"
@@ -90,7 +90,7 @@
     "message": "Афлайн-рэжым"
   },
   "app-marketing.features.open-source.description": {
-    "message": "Лаўнчар Modrinth мае цалкам адкрыты зыходны код. Вы можаце паглядзець зыходны код на нашым <github-link>GitHub</github-link>!"
+    "message": "Лаўнчар AllayHub мае цалкам адкрыты зыходны код. Вы можаце паглядзець зыходны код на нашым <github-link>GitHub</github-link>!"
   },
   "app-marketing.features.open-source.title": {
     "message": "Адкрыты зыходны код"
@@ -102,7 +102,7 @@
     "message": "% CPU"
   },
   "app-marketing.features.performance.description": {
-    "message": "Modrinth App працуе лепш, чым многія з вядучых мэнэджараў модаў, выкарыстоўваючы ўсяго 150 МБ аператыўнай памяці!"
+    "message": "AllayLauncher працуе лепш, чым многія з вядучых мэнэджараў модаў, выкарыстоўваючы ўсяго 150 МБ аператыўнай памяці!"
   },
   "app-marketing.features.performance.discord": {
     "message": "Discord"
@@ -123,7 +123,7 @@
     "message": "< 150 MB"
   },
   "app-marketing.features.performance.modrinth-app": {
-    "message": "Modrinth App"
+    "message": "AllayLauncher"
   },
   "app-marketing.features.performance.one-billion-percent": {
     "message": "1 billion %"
@@ -141,13 +141,13 @@
     "message": "Прадукцыйны"
   },
   "app-marketing.features.play.description": {
-    "message": "Выкарыстоўвайце Modrinth App, каб спампоўваць і гуляць у свае любімыя моды і модпакі."
+    "message": "Выкарыстоўвайце AllayLauncher, каб спампоўваць і гуляць у свае любімыя моды і модпакі."
   },
   "app-marketing.features.play.title": {
     "message": "Гуляйце з вашымі любімымі модамі"
   },
   "app-marketing.features.sharing.description": {
-    "message": "Стварайце, дзяліцеся і гуляйце ў модпакі з любым з тысяч модаў і модпакаў, размешчаных тут, на Modrinth."
+    "message": "Стварайце, дзяліцеся і гуляйце ў модпакі з любым з тысяч модаў і модпакаў, размешчаных тут, на AllayHub."
   },
   "app-marketing.features.sharing.modpack": {
     "message": "Модпак"
@@ -162,7 +162,7 @@
     "message": "У адрозненне ад любога лаунчера"
   },
   "app-marketing.features.website.description": {
-    "message": "Modrinth App цалкам інтэграваная з вэб-сайтам, таму вы можаце атрымаць доступ да ўсіх сваіх любімых праектаў праз праграму!"
+    "message": "AllayLauncher цалкам інтэграваная з вэб-сайтам, таму вы можаце атрымаць доступ да ўсіх сваіх любімых праектаў праз праграму!"
   },
   "app-marketing.features.website.title": {
     "message": "Інтэграцыя з вэб-сайтам"
@@ -171,9 +171,9 @@
     "message": "які вы выкарыстоўвалі раней"
   },
   "app-marketing.hero.app-screenshot-alt": {
-    "message": "Здымак экрана Modrinth App з адкрытым экзэмплярам Cobblemon на старонцы «Змест»."
+    "message": "Здымак экрана AllayLauncher з адкрытым экзэмплярам Cobblemon на старонцы «Змест»."
   },
   "app-marketing.hero.description": {
-    "message": "Modrinth App — гэта ўнікальны лаунчер з адкрытым зыходным кодам, які дазваляе вам гуляць у вашы любімыя моды і падтрымліваць іх у актуальным стане — усё ў адным акуратным невялікім пакеце."
+    "message": "AllayLauncher — гэта ўнікальны лаунчер з адкрытым зыходным кодам, які дазваляе вам гуляць у вашы любімыя моды і падтрымліваць іх у актуальным стане — усё ў адным акуратным невялікім пакеце."
   }
 }

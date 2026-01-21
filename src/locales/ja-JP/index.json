@@ -27,7 +27,7 @@
     "message": "Linux"
   },
   "app-marketing.download.linux-disclaimer": {
-    "message": "ModrinthアプリのLinux版は、特定のシステムや構成において<issues-link>問題が発生することが確認されています</issues-link>。お使いのシステムでModrinthアプリが不安定な場合は、Modrinthコンテンツを簡単にインストールできる<prism-link>Prism Launcher</prism-link>などの他のランチャーをお試しください。"
+    "message": "AllayHubアプリのLinux版は、特定のシステムや構成において<issues-link>問題が発生することが確認されています</issues-link>。お使いのシステムでAllayHubアプリが不安定な場合は、AllayHubコンテンツを簡単にインストールできる<prism-link>Prism Launcher</prism-link>などの他のランチャーをお試しください。"
   },
   "app-marketing.download.mac": {
     "message": "Mac"
@@ -36,13 +36,13 @@
     "message": "ダウンロードオプション"
   },
   "app-marketing.download.terms": {
-    "message": "Modrinth アプリをダウンロードすることにより、<terms-link>利用規約</terms-link>および <privacy-link>プライバシー ポリシー</privacy-link> に同意したと見なされます。"
+    "message": "AllayHub アプリをダウンロードすることにより、<terms-link>利用規約</terms-link>および <privacy-link>プライバシー ポリシー</privacy-link> に同意したと見なされます。"
   },
   "app-marketing.download.third-party-packages": {
     "message": "サードパーティ パッケージ"
   },
   "app-marketing.download.title": {
-    "message": "Modrinth アプリ (ベータ版) をダウンロードする"
+    "message": "AllayHub アプリ (ベータ版) をダウンロードする"
   },
   "app-marketing.download.windows": {
     "message": "Windows"
@@ -54,7 +54,7 @@
     "message": "プロジェクトをフォローする"
   },
   "app-marketing.features.importing.description": {
-    "message": "以前使用していたランチャーからお気に入りのプロファイルをすべてインポートし、Modrinth アプリをすぐに使い始めましょう！"
+    "message": "以前使用していたランチャーからお気に入りのプロファイルをすべてインポートし、AllayHub アプリをすぐに使い始めましょう！"
   },
   "app-marketing.features.importing.gdlauncher-alt": {
     "message": "GDLauncher"
@@ -72,7 +72,7 @@
     "message": "{author} より"
   },
   "app-marketing.features.mod-management.description": {
-    "message": "Modrinthを使えば、すべてのMODを一箇所で簡単に管理できます。ワンクリックでMODのインストール、アンインストール、アップデートが可能です。"
+    "message": "AllayHubを使えば、すべてのMODを一箇所で簡単に管理できます。ワンクリックでMODのインストール、アンインストール、アップデートが可能です。"
   },
   "app-marketing.features.mod-management.installed-mods": {
     "message": "インストールされたMod"
@@ -96,7 +96,7 @@
     "message": "オフラインモード"
   },
   "app-marketing.features.open-source.description": {
-    "message": "Modrinthのランチャーは完全にオープンソースです。ソースコードは<github-link>GitHub</github-link>にてご覧いただけます。"
+    "message": "AllayHubのランチャーは完全にオープンソースです。ソースコードは<github-link>GitHub</github-link>にてご覧いただけます。"
   },
   "app-marketing.features.open-source.title": {
     "message": "オープンソース"
@@ -108,7 +108,7 @@
     "message": "％ CPU"
   },
   "app-marketing.features.performance.description": {
-    "message": "Modrinth アプリは、わずか 150 MB のみのRAMを使用します。多くの主要な MOD マネージャーよりも優れたパフォーマンスを発揮します。"
+    "message": "AllayHub アプリは、わずか 150 MB のみのRAMを使用します。多くの主要な MOD マネージャーよりも優れたパフォーマンスを発揮します。"
   },
   "app-marketing.features.performance.discord": {
     "message": "Discord"
@@ -129,7 +129,7 @@
     "message": "< 150 MB"
   },
   "app-marketing.features.performance.modrinth-app": {
-    "message": "Modrinthアプリ"
+    "message": "AllayHubアプリ"
   },
   "app-marketing.features.performance.one-billion-percent": {
     "message": "10億 ％"
@@ -147,13 +147,13 @@
     "message": "効率的"
   },
   "app-marketing.features.play.description": {
-    "message": "Modrinth アプリを使用して、お気に入りの MOD と MOD パックをダウンロードしてプレイしましょう。"
+    "message": "AllayHub アプリを使用して、お気に入りの MOD と MOD パックをダウンロードしてプレイしましょう。"
   },
   "app-marketing.features.play.title": {
     "message": "お気に入りのMODで遊ぶ"
   },
   "app-marketing.features.sharing.description": {
-    "message": "Modrinth でホストされている何千もの MOD や MOD パックのいずれかを使用して、MOD パックを構築、共有、プレイできます。"
+    "message": "AllayHub でホストされている何千もの MOD や MOD パックのいずれかを使用して、MOD パックを構築、共有、プレイできます。"
   },
   "app-marketing.features.sharing.modpack": {
     "message": "Modパック"
@@ -168,7 +168,7 @@
     "message": "他のランチャーと異なる点"
   },
   "app-marketing.features.website.description": {
-    "message": "Modrinth Appはウェブサイトと完全に統合されているため、あなたはお気に入りのプロジェクトにアプリからアクセスできます！"
+    "message": "AllayLauncherはウェブサイトと完全に統合されているため、あなたはお気に入りのプロジェクトにアプリからアクセスできます！"
   },
   "app-marketing.features.website.title": {
     "message": "ウェブサイトとの統合"
@@ -177,16 +177,16 @@
     "message": "以前に使用したことある"
   },
   "app-marketing.hero.description": {
-    "message": "Modrinth Appは、お気に入りのModで遊んだり、アップデートを簡単に管理できる、独自のオープンソースランチャーです。"
+    "message": "AllayLauncherは、お気に入りのModで遊んだり、アップデートを簡単に管理できる、独自のオープンソースランチャーです。"
   },
   "app-marketing.hero.download-button": {
-    "message": "Modrinth アプリをダウンロードする"
+    "message": "AllayHub アプリをダウンロードする"
   },
   "app-marketing.hero.download-modrinth-app": {
-    "message": "Modrinth アプリをダウンロードする"
+    "message": "AllayHub アプリをダウンロードする"
   },
   "app-marketing.hero.download-modrinth-app-for-os": {
-    "message": "{os}向けのModrinth Appをダウンロード"
+    "message": "{os}向けのAllayLauncherをダウンロード"
   },
   "app-marketing.hero.more-download-options": {
     "message": "詳細なダウンロード設定"
@@ -288,7 +288,7 @@
     "message": "ユーザー名"
   },
   "auth.sign-up.legal-dislaimer": {
-    "message": "アカウントを作成すると、Modrinthの <terms-link>利用規約</terms-link> および <privacy-policy-link>プライバシーポリシー</privacy-policy-link>に同意したものとみなされます。"
+    "message": "アカウントを作成すると、AllayHubの <terms-link>利用規約</terms-link> および <privacy-policy-link>プライバシーポリシー</privacy-policy-link>に同意したものとみなされます。"
   },
   "auth.sign-up.notification.password-mismatch.text": {
     "message": "パスワードが一致しません！"
@@ -300,7 +300,7 @@
     "message": "すでにアカウントをお持ちですか?"
   },
   "auth.sign-up.subscribe.label": {
-    "message": "Modrinthのアップデートを受け取る"
+    "message": "AllayHubのアップデートを受け取る"
   },
   "auth.sign-up.title": {
     "message": "アカウント作成"
@@ -345,16 +345,16 @@
     "message": "メールアドレスを確認"
   },
   "auth.welcome.checkbox.subscribe": {
-    "message": "Modrinthのアップデートを受け取る"
+    "message": "AllayHubのアップデートを受け取る"
   },
   "auth.welcome.description": {
     "message": "素晴らしいModの開発や導入、アップデートを日々行っている、クリエイターと冒険者たちの活気あるコミュニティへようこそ。"
   },
   "auth.welcome.label.tos": {
-    "message": "アカウントを作成すると、Modrinthの <terms-link>利用規約</terms-link> および <privacy-policy-link>プライバシーポリシー</privacy-policy-link>に同意したものとみなされます。"
+    "message": "アカウントを作成すると、AllayHubの <terms-link>利用規約</terms-link> および <privacy-policy-link>プライバシーポリシー</privacy-policy-link>に同意したものとみなされます。"
   },
   "auth.welcome.long-title": {
-    "message": "Modrinthへようこそ！"
+    "message": "AllayHubへようこそ！"
   },
   "auth.welcome.title": {
     "message": "ようこそ"
@@ -384,7 +384,7 @@
     "message": "本当にこのコレクションを削除しますか？"
   },
   "collection.description": {
-    "message": "{description} - Modrinth の {username} によるコレクション {name} を表示します"
+    "message": "{description} - AllayHub の {username} によるコレクション {name} を表示します"
   },
   "collection.description.following": {
     "message": "あなたがフォローしているプロジェクトがすべて含まれた自動生成のコレクションです。"
@@ -747,7 +747,7 @@
     "message": "ATLauncher"
   },
   "landing.launcher.modrinth-app-label": {
-    "message": "Modrinth App"
+    "message": "AllayLauncher"
   },
   "landing.launcher.prism-launcher-label": {
     "message": "Prism Launcher"
@@ -807,7 +807,7 @@
     "message": "アカウント設定にアクセス"
   },
   "layout.banner.add-email.description": {
-    "message": "セキュリティ上の理由から、Modrinth ではアカウントに電子メール アドレスを登録する必要があります。"
+    "message": "セキュリティ上の理由から、AllayHub ではアカウントに電子メール アドレスを登録する必要があります。"
   },
   "layout.footer.about": {
     "message": "このサイトについて"
@@ -852,7 +852,7 @@
     "message": "AllayLauncher"
   },
   "layout.footer.products.plus": {
-    "message": "Modrinth+"
+    "message": "AllayHub+"
   },
   "layout.footer.resources": {
     "message": "リソース"
@@ -888,7 +888,7 @@
     "message": "メニューを切り替える"
   },
   "layout.meta.description": {
-    "message": "ModrinthでMinecraftのMOD、プラグイン、データパック、シェーダー、リソースパック、そしてModパックをダウンロードしましょう。Modrinthでは、モダンで使いやすいインターフェースとAPIを使って、プロジェクトを発見したり公開したりできます。"
+    "message": "AllayHubでMinecraftのMOD、プラグイン、データパック、シェーダー、リソースパック、そしてModパックをダウンロードしましょう。AllayHubでは、モダンで使いやすいインターフェースとAPIを使って、プロジェクトを発見したり公開したりできます。"
   },
   "layout.nav.analytics": {
     "message": "統計"
@@ -969,10 +969,10 @@
     "message": "組織"
   },
   "profile.meta.description": {
-    "message": "Modrinthで {username} のプロジェクトをダウンロードする"
+    "message": "AllayHubで {username} のプロジェクトをダウンロードする"
   },
   "profile.meta.description-with-bio": {
-    "message": "{bio} - Modrinthで {username} のプロジェクトをダウンロードする"
+    "message": "{bio} - AllayHubで {username} のプロジェクトをダウンロードする"
   },
   "project-member-header.accept": {
     "message": "承認"
@@ -1023,7 +1023,7 @@
     "message": "ゲームバージョン: {version}"
   },
   "project.download.install-with-app": {
-    "message": "Modrinth App でインストール"
+    "message": "AllayLauncher でインストール"
   },
   "project.error.project-not-found": {
     "message": "プロジェクトが見つかりません"
@@ -1053,7 +1053,7 @@
     "message": "PATを作成"
   },
   "ui.latest-news-row.latest-news": {
-    "message": "Modrinthの最新ニュース"
+    "message": "AllayHubの最新ニュース"
   },
   "ui.latest-news-row.view-all": {
     "message": "すべてのニュースを見る"

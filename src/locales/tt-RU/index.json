@@ -39,7 +39,7 @@
     "message": "< 150 МБ"
   },
   "app-marketing.features.performance.modrinth-app": {
-    "message": "Modrinth App"
+    "message": "AllayLauncher"
   },
   "app-marketing.features.performance.one-billion-percent": {
     "message": "1 млрд %"
@@ -72,7 +72,7 @@
     "message": "Керү"
   },
   "auth.welcome.long-title": {
-    "message": "Modrinth сайтына рәхим итегез!"
+    "message": "AllayHub сайтына рәхим итегез!"
   },
   "collection.button.edit-icon": {
     "message": "Тамгачыкны үзгәртү"
@@ -96,7 +96,7 @@
     "message": "ATLauncher"
   },
   "landing.launcher.modrinth-app-label": {
-    "message": "Modrinth App"
+    "message": "AllayLauncher"
   },
   "landing.launcher.prism-launcher-label": {
     "message": "Prism Launcher"
@@ -126,10 +126,10 @@
     "message": "Аккаунт көйләүләрен ачу"
   },
   "layout.footer.products.app": {
-    "message": "Modrinth App"
+    "message": "AllayLauncher"
   },
   "layout.footer.products.plus": {
-    "message": "Modrinth+"
+    "message": "AllayHub+"
   },
   "layout.footer.resources": {
     "message": "Ресурслар"

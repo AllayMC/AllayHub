@@ -27,7 +27,7 @@
     "message": "Linux"
   },
   "app-marketing.download.linux-disclaimer": {
-    "message": "Modrinth Appin Linux versioilla <issues-link>tunnetaan olevan ongelmia</issues-link> tietyillä järjestelmillä ja asetuksilla. Jos Modrinth App on epävakaa järjestelmälläsi, kannustamme sinua kokeilemaan toisia sovelluksia kuten <prism-link>Prism Launcher</prism-link> asentaaksesi helposti Modrinth sisältöä."
+    "message": "AllayLauncherin Linux versioilla <issues-link>tunnetaan olevan ongelmia</issues-link> tietyillä järjestelmillä ja asetuksilla. Jos AllayLauncher on epävakaa järjestelmälläsi, kannustamme sinua kokeilemaan toisia sovelluksia kuten <prism-link>Prism Launcher</prism-link> asentaaksesi helposti AllayHub sisältöä."
   },
   "app-marketing.download.mac": {
     "message": "Mac"
@@ -36,13 +36,13 @@
     "message": "Lataus vaihtoehdot"
   },
   "app-marketing.download.terms": {
-    "message": "Lataamalla Modrinth Appin hyväksyt meidän <terms-link>Ehdot</terms-link> ja <privacy-link>Tietosuojaselosteen</privacy-link>."
+    "message": "Lataamalla AllayLauncherin hyväksyt meidän <terms-link>Ehdot</terms-link> ja <privacy-link>Tietosuojaselosteen</privacy-link>."
   },
   "app-marketing.download.third-party-packages": {
     "message": "Kolmannen osapuolen paketit"
   },
   "app-marketing.download.title": {
-    "message": "Lataa Modrinth App (Beta)"
+    "message": "Lataa AllayLauncher (Beta)"
   },
   "app-marketing.download.windows": {
     "message": "Windows"
@@ -54,7 +54,7 @@
     "message": "Seuraa projekteja"
   },
   "app-marketing.features.importing.description": {
-    "message": "Tuo kaikki lempi profiilisi launcherista jota käytit ennen, ja aloita Modrinth Appin käyttö sekunneissa!"
+    "message": "Tuo kaikki lempi profiilisi launcherista jota käytit ennen, ja aloita AllayLauncherin käyttö sekunneissa!"
   },
   "app-marketing.features.importing.gdlauncher-alt": {
     "message": "GDLauncher"
@@ -72,7 +72,7 @@
     "message": "käyttäjältä {author}"
   },
   "app-marketing.features.mod-management.description": {
-    "message": "Modrinth tekee helpoksi hallita kaikkia modejasi yhdessä paikassa. Voit asentaa, poistaa ja päivittää modeja yhdellä klikkauksella."
+    "message": "AllayHub tekee helpoksi hallita kaikkia modejasi yhdessä paikassa. Voit asentaa, poistaa ja päivittää modeja yhdellä klikkauksella."
   },
   "app-marketing.features.mod-management.installed-mods": {
     "message": "Asennetut modit"
@@ -96,7 +96,7 @@
     "message": "Offline tila"
   },
   "app-marketing.features.open-source.description": {
-    "message": "Modrinth launcherin lähdekoodi on täysin avointa. Voit lukea lähdekoodia meidän <github-link>Githubissa</github-link>!"
+    "message": "AllayHub launcherin lähdekoodi on täysin avointa. Voit lukea lähdekoodia meidän <github-link>Githubissa</github-link>!"
   },
   "app-marketing.features.open-source.title": {
     "message": "Avoin lähdekoodi"
@@ -108,7 +108,7 @@
     "message": "% CPU"
   },
   "app-marketing.features.performance.description": {
-    "message": "Modrinth App on tehokkaampi kuin moni johtavista modin hallitsijoista, käyttäen vain 150mt muistia!"
+    "message": "AllayLauncher on tehokkaampi kuin moni johtavista modin hallitsijoista, käyttäen vain 150mt muistia!"
   },
   "app-marketing.features.performance.discord": {
     "message": "Discord"
@@ -129,7 +129,7 @@
     "message": "< 150 MT"
   },
   "app-marketing.features.performance.modrinth-app": {
-    "message": "Modrinth App"
+    "message": "AllayLauncher"
   },
   "app-marketing.features.performance.one-billion-percent": {
     "message": "1 miljardi %"
@@ -168,13 +168,13 @@
     "message": "jota olet käyttänyt ennen"
   },
   "app-marketing.hero.download-button": {
-    "message": "Lataa Modrinth App"
+    "message": "Lataa AllayLauncher"
   },
   "app-marketing.hero.download-modrinth-app": {
-    "message": "Lataa Modrinth App"
+    "message": "Lataa AllayLauncher"
   },
   "app-marketing.hero.download-modrinth-app-for-os": {
-    "message": "Lataa Modrinth App alustalle {os}"
+    "message": "Lataa AllayLauncher alustalle {os}"
   },
   "app-marketing.hero.more-download-options": {
     "message": "Lisää lataus vaihtoehtoja"
@@ -273,7 +273,7 @@
     "message": "Käyttäjänimi"
   },
   "auth.sign-up.legal-dislaimer": {
-    "message": "Luomalla tilin, hyväksyt Modrinthin <terms-link>-käyttöoikeussopimuksen</terms-link> ja <privacy-policy-link>Tietosuojakäytännön</privacy-policy-link>."
+    "message": "Luomalla tilin, hyväksyt AllayHubin <terms-link>-käyttöoikeussopimuksen</terms-link> ja <privacy-policy-link>Tietosuojakäytännön</privacy-policy-link>."
   },
   "auth.sign-up.notification.password-mismatch.text": {
     "message": "Salasanat eivät täsmää!"
@@ -285,7 +285,7 @@
     "message": "Onko sinulla jo käyttäjätili?"
   },
   "auth.sign-up.subscribe.label": {
-    "message": "Tilaa päivityksiä Modrinthista"
+    "message": "Tilaa päivityksiä AllayHubista"
   },
   "auth.sign-up.title": {
     "message": "Rekisteröidy"
@@ -330,13 +330,13 @@
     "message": "Vahvista sähköposti"
   },
   "auth.welcome.checkbox.subscribe": {
-    "message": "Tilaa päivityksiä Modrinthista"
+    "message": "Tilaa päivityksiä AllayHubista"
   },
   "auth.welcome.label.tos": {
-    "message": "Luomalla tilin, olet hyväksynyt Modrinthin <terms-link>-käyttöoikeussopimuksen</terms-link> ja <privacy-policy-link>Tietosuojakäytännön</privacy-policy-link>."
+    "message": "Luomalla tilin, olet hyväksynyt AllayHubin <terms-link>-käyttöoikeussopimuksen</terms-link> ja <privacy-policy-link>Tietosuojakäytännön</privacy-policy-link>."
   },
   "auth.welcome.long-title": {
-    "message": "Tervetuloa Modrinthiin!"
+    "message": "Tervetuloa AllayHubiin!"
   },
   "auth.welcome.title": {
     "message": "Tervetuloa"
@@ -390,7 +390,7 @@
     "message": "Tämä kokelma saattaa olla yksityinen."
   },
   "error.collection.404.list_item.3": {
-    "message": "Tämä kokoelma on saatettu poistaa Modrinthin moderaatio tiimin toimesta koska se on <tou-link>Käyttöehtojamme</tou-link> vastaan."
+    "message": "Tämä kokoelma on saatettu poistaa AllayHubin moderaatio tiimin toimesta koska se on <tou-link>Käyttöehtojamme</tou-link> vastaan."
   },
   "error.collection.404.list_title": {
     "message": "Miksi?"
@@ -483,7 +483,7 @@
     "message": "ATLauncher"
   },
   "landing.launcher.modrinth-app-label": {
-    "message": "Modrinth App"
+    "message": "AllayLauncher"
   },
   "landing.launcher.prism-launcher-label": {
     "message": "Prism Launcher"
@@ -549,10 +549,10 @@
     "message": "Tuotteet"
   },
   "layout.footer.products.app": {
-    "message": "Modrinth App"
+    "message": "AllayLauncher"
   },
   "layout.footer.products.plus": {
-    "message": "Modrinth+"
+    "message": "AllayHub+"
   },
   "layout.footer.resources": {
     "message": "Resurssit"
@@ -594,7 +594,7 @@
     "message": "Hostaa palvelin"
   },
   "layout.nav.modrinth-app": {
-    "message": "Modrinth App"
+    "message": "AllayLauncher"
   },
   "layout.nav.organizations": {
     "message": "Organisaatiot"

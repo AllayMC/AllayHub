@@ -27,7 +27,7 @@
     "message": "Linux"
   },
   "app-marketing.download.linux-disclaimer": {
-    "message": "Linux용 Modrinth App은 일부 시스템 및 구성에서 <issues-link>문제가 있는 것으로 알려져</issues-link> 있습니다. Modrinth App이 불안정한 경우, <prism-link>Prism Launcher</prism-link> 등의 다른 앱을 사용하여 Modrinth 콘텐츠를 설치하는 것을 권장합니다."
+    "message": "Linux용 AllayLauncher은 일부 시스템 및 구성에서 <issues-link>문제가 있는 것으로 알려져</issues-link> 있습니다. AllayLauncher이 불안정한 경우, <prism-link>Prism Launcher</prism-link> 등의 다른 앱을 사용하여 AllayHub 콘텐츠를 설치하는 것을 권장합니다."
   },
   "app-marketing.download.mac": {
     "message": "Mac"
@@ -36,13 +36,13 @@
     "message": "다운로드 옵션"
   },
   "app-marketing.download.terms": {
-    "message": "Modrinth App을 다운로드하면 <terms-link>이용 약관</terms-link>과 <privacy-link>개인정보 처리방침</privacy-link>에 동의하는 것으로 간주합니다."
+    "message": "AllayLauncher을 다운로드하면 <terms-link>이용 약관</terms-link>과 <privacy-link>개인정보 처리방침</privacy-link>에 동의하는 것으로 간주합니다."
   },
   "app-marketing.download.third-party-packages": {
     "message": "제3자 패키지"
   },
   "app-marketing.download.title": {
-    "message": "Modrinth App 다운로드 (베타)"
+    "message": "AllayLauncher 다운로드 (베타)"
   },
   "app-marketing.download.windows": {
     "message": "Windows"
@@ -54,7 +54,7 @@
     "message": "프로젝트 팔로우"
   },
   "app-marketing.features.importing.description": {
-    "message": "이전에 사용하던 런처의 즐겨찾기 프로필을 불러와, Modrinth App에서 바로 시작해보세요!"
+    "message": "이전에 사용하던 런처의 즐겨찾기 프로필을 불러와, AllayLauncher에서 바로 시작해보세요!"
   },
   "app-marketing.features.importing.gdlauncher-alt": {
     "message": "GDLauncher"
@@ -72,7 +72,7 @@
     "message": "{author} 제작"
   },
   "app-marketing.features.mod-management.description": {
-    "message": "Modrinth를 사용하면 모든 모드를 한곳에서 쉽게 관리할 수 있습니다. 한 번의 클릭으로 모드를 설치, 제거, 업데이트할 수 있습니다."
+    "message": "AllayHub를 사용하면 모든 모드를 한곳에서 쉽게 관리할 수 있습니다. 한 번의 클릭으로 모드를 설치, 제거, 업데이트할 수 있습니다."
   },
   "app-marketing.features.mod-management.installed-mods": {
     "message": "모드 설치됨"
@@ -96,7 +96,7 @@
     "message": "오프라인 모드"
   },
   "app-marketing.features.open-source.description": {
-    "message": "Modrinth의 런처는 완전히 오픈 소스입니다. <github-link>Github</github-link>에서 소스 코드를 확인하세요!"
+    "message": "AllayHub의 런처는 완전히 오픈 소스입니다. <github-link>Github</github-link>에서 소스 코드를 확인하세요!"
   },
   "app-marketing.features.open-source.title": {
     "message": "오픈 소스"
@@ -108,7 +108,7 @@
     "message": "% CPU"
   },
   "app-marketing.features.performance.description": {
-    "message": "Modrinth App은 단 150mb의 RAM을 사용하여 많은 주요 모드 관리자들보다 뛰어난 성능을 제공합니다!"
+    "message": "AllayLauncher은 단 150mb의 RAM을 사용하여 많은 주요 모드 관리자들보다 뛰어난 성능을 제공합니다!"
   },
   "app-marketing.features.performance.discord": {
     "message": "Discord"
@@ -129,7 +129,7 @@
     "message": "< 150 MB"
   },
   "app-marketing.features.performance.modrinth-app": {
-    "message": "Modrinth App"
+    "message": "AllayLauncher"
   },
   "app-marketing.features.performance.one-billion-percent": {
     "message": "10억 %"
@@ -147,13 +147,13 @@
     "message": "퍼포먼스"
   },
   "app-marketing.features.play.description": {
-    "message": "Modrinth App을 통해 여러분이 좋아하는 모드와 모드팩을 다운로드하고 바로 플레이하세요."
+    "message": "AllayLauncher을 통해 여러분이 좋아하는 모드와 모드팩을 다운로드하고 바로 플레이하세요."
   },
   "app-marketing.features.play.title": {
     "message": "좋아하는 mod를 플레이"
   },
   "app-marketing.features.sharing.description": {
-    "message": "Modrinth에 호스팅된 수천 개의 모드와 모드팩을 활용해 만들고, 공유하고, 플레이하세요."
+    "message": "AllayHub에 호스팅된 수천 개의 모드와 모드팩을 활용해 만들고, 공유하고, 플레이하세요."
   },
   "app-marketing.features.sharing.modpack": {
     "message": "모드팩"
@@ -168,7 +168,7 @@
     "message": "다른 런처와 달리"
   },
   "app-marketing.features.website.description": {
-    "message": "Modrinth App은 사이트와 완전히 통합되어 있어, 앱에서 좋아하는 프로젝트에 접근할 수 있습니다!"
+    "message": "AllayLauncher은 사이트와 완전히 통합되어 있어, 앱에서 좋아하는 프로젝트에 접근할 수 있습니다!"
   },
   "app-marketing.features.website.title": {
     "message": "웹사이트와 통합"
@@ -177,19 +177,19 @@
     "message": "이전에 사용"
   },
   "app-marketing.hero.app-screenshot-alt": {
-    "message": "Cobblemon 인스턴스가 ‘콘텐츠’ 페이지에 열려 있는 Modrinth App의 스크린샷."
+    "message": "Cobblemon 인스턴스가 ‘콘텐츠’ 페이지에 열려 있는 AllayLauncher의 스크린샷."
   },
   "app-marketing.hero.description": {
-    "message": "Modrinth App은 좋아하는 모드를 플레이하고 최신 상태로 유지할 수 있는 독특한 오픈 소스 런처로, 하나의 깔끔한 작은 패키지에 모두 포함되어 있습니다."
+    "message": "AllayLauncher은 좋아하는 모드를 플레이하고 최신 상태로 유지할 수 있는 독특한 오픈 소스 런처로, 하나의 깔끔한 작은 패키지에 모두 포함되어 있습니다."
   },
   "app-marketing.hero.download-button": {
-    "message": "Modrinth App 다운로드"
+    "message": "AllayLauncher 다운로드"
   },
   "app-marketing.hero.download-modrinth-app": {
-    "message": "Modrinth App 다운로드"
+    "message": "AllayLauncher 다운로드"
   },
   "app-marketing.hero.download-modrinth-app-for-os": {
-    "message": "{os}용 Modrinth App 다운로드"
+    "message": "{os}용 AllayLauncher 다운로드"
   },
   "app-marketing.hero.minecraft-screenshot-alt": {
     "message": "Cobblemon 인스턴스의 메인 메뉴 스크린샷."
@@ -294,7 +294,7 @@
     "message": "사용자 이름"
   },
   "auth.sign-up.legal-dislaimer": {
-    "message": "계정을 생성함으로써, Modrinth의 <terms-link>이용 약관</terms-link> 및 <privacy-policy-link>개인정보 보호정책</privacy-policy-link>에 동의합니다."
+    "message": "계정을 생성함으로써, AllayHub의 <terms-link>이용 약관</terms-link> 및 <privacy-policy-link>개인정보 보호정책</privacy-policy-link>에 동의합니다."
   },
   "auth.sign-up.notification.password-mismatch.text": {
     "message": "비밀번호가 일치하지 않습니다!"
@@ -306,7 +306,7 @@
     "message": "이미 계정이 있으신가요?"
   },
   "auth.sign-up.subscribe.label": {
-    "message": "Modrinth의 업데이트 소식 전달받기"
+    "message": "AllayHub의 업데이트 소식 전달받기"
   },
   "auth.sign-up.title": {
     "message": "회원 가입"
@@ -351,16 +351,16 @@
     "message": "이메일 인증"
   },
   "auth.welcome.checkbox.subscribe": {
-    "message": "Modrinth의 업데이트 소식 전달받기"
+    "message": "AllayHub의 업데이트 소식 전달받기"
   },
   "auth.welcome.description": {
     "message": "이제 당신은 이미 놀라운 모드를 만들고, 다운로드하고, 최신 상태로 유지하는 훌륭한 크리에이터 및 탐험가들의 모임의 일원이 되었습니다."
   },
   "auth.welcome.label.tos": {
-    "message": "계정을 생성함으로써, Modrinth의 <terms-link>이용 약관</terms-link> 및 <privacy-policy-link>개인정보 보호정책</privacy-policy-link>에 동의하게 됩니다."
+    "message": "계정을 생성함으로써, AllayHub의 <terms-link>이용 약관</terms-link> 및 <privacy-policy-link>개인정보 보호정책</privacy-policy-link>에 동의하게 됩니다."
   },
   "auth.welcome.long-title": {
-    "message": "Modrinth에 오신 걸 환영합니다!"
+    "message": "AllayHub에 오신 걸 환영합니다!"
   },
   "auth.welcome.title": {
     "message": "환영합니다"
@@ -390,7 +390,7 @@
     "message": "이 컬렉션을 삭제하시겠습니까?"
   },
   "collection.description": {
-    "message": "{description} - Modrinth에서 {username}이(가) 만든 컬렉션 {name} 보기"
+    "message": "{description} - AllayHub에서 {username}이(가) 만든 컬렉션 {name} 보기"
   },
   "collection.description.following": {
     "message": "팔로우하는 모든 프로젝트로 자동 생성된 컬렉션입니다."
@@ -747,7 +747,7 @@
     "message": "컬렉션이 비공개일 수 있습니다."
   },
   "error.collection.404.list_item.3": {
-    "message": "컬렉션이 <tou-link>이용약관</tou-link>을 위반하여 Modrinth 관리 팀에서 삭제했을 수 있습니다."
+    "message": "컬렉션이 <tou-link>이용약관</tou-link>을 위반하여 AllayHub 관리 팀에서 삭제했을 수 있습니다."
   },
   "error.collection.404.list_title": {
     "message": "다음 사항을 확인하십시오:"
@@ -762,10 +762,10 @@
     "message": "페이지를 찾을 수 없습니다"
   },
   "error.generic.default.list_item.1": {
-    "message": "<status-link>서버 상태</status-link>에서 Modrinth 서버가 다운되었는지 확인해보세요."
+    "message": "<status-link>서버 상태</status-link>에서 AllayHub 서버가 다운되었는지 확인해보세요."
   },
   "error.generic.default.list_item.2": {
-    "message": "계속 문제가 발생하는 경우, <discord-link>Discord 서버</discord-link>에 접속하여 Modrinth 팀과 연락할 수 있습니다."
+    "message": "계속 문제가 발생하는 경우, <discord-link>Discord 서버</discord-link>에 접속하여 AllayHub 팀과 연락할 수 있습니다."
   },
   "error.generic.default.list_title": {
     "message": "몇 분 뒤에 다시 시도해 보세요."
@@ -783,7 +783,7 @@
     "message": "조직 소유자가 URL을 변경했거나 삭제했을 수 있습니다."
   },
   "error.organization.404.list_item.3": {
-    "message": "조직이 <tou-link>이용약관</tou-link>을 위반하여 Modrinth 관리 팀에서 삭제했을 수 있습니다."
+    "message": "조직이 <tou-link>이용약관</tou-link>을 위반하여 AllayHub 관리 팀에서 삭제했을 수 있습니다."
   },
   "error.organization.404.list_title": {
     "message": "다음 사항을 확인하십시오:"
@@ -798,7 +798,7 @@
     "message": "프로젝트 소유자가 URL을 변경했거나, 비공개로 전환했거나, 삭제했을 수 있습니다."
   },
   "error.project.404.list_item.3": {
-    "message": "프로젝트가 <tou-link>이용약관</tou-link>을 위반하여 Modrinth 관리 팀에서 삭제했을 수 있습니다."
+    "message": "프로젝트가 <tou-link>이용약관</tou-link>을 위반하여 AllayHub 관리 팀에서 삭제했을 수 있습니다."
   },
   "error.project.404.list_title": {
     "message": "다음 사항을 확인하십시오:"
@@ -813,7 +813,7 @@
     "message": "해당 사용자가 이름을 변경했거나 계정을 삭제했을 수도 있습니다."
   },
   "error.user.404.list_item.3": {
-    "message": "해당 사용자의 계정이 Modrinth의 <tou-link>이용 약관</tou-link>을 위반하여 정지되었습니다."
+    "message": "해당 사용자의 계정이 AllayHub의 <tou-link>이용 약관</tou-link>을 위반하여 정지되었습니다."
   },
   "error.user.404.list_title": {
     "message": "다음 사항을 확인하십시오:"
@@ -894,7 +894,7 @@
     "message": "ATLauncher"
   },
   "landing.launcher.modrinth-app-label": {
-    "message": "Modrinth App"
+    "message": "AllayLauncher"
   },
   "landing.launcher.prism-launcher-label": {
     "message": "Prism Launcher"
@@ -939,7 +939,7 @@
     "message": "계정 설정 방문"
   },
   "layout.banner.add-email.description": {
-    "message": "보안상의 이유로 Modrinth 계정에 이메일을 등록해야 합니다."
+    "message": "보안상의 이유로 AllayHub 계정에 이메일을 등록해야 합니다."
   },
   "layout.banner.subscription-payment-failed.button": {
     "message": "결제 정보 갱신"
@@ -954,7 +954,7 @@
     "message": "인증 이메일 재전송"
   },
   "layout.banner.verify-email.description": {
-    "message": "보안상의 이유로 Modrinth 계정에 연결된 이메일 주소를 인증해야 합니다."
+    "message": "보안상의 이유로 AllayHub 계정에 연결된 이메일 주소를 인증해야 합니다."
   },
   "layout.footer.about": {
     "message": "소개"
@@ -996,7 +996,7 @@
     "message": "이용 약관"
   },
   "layout.footer.modrinth-information": {
-    "message": "Modrinth 정보"
+    "message": "AllayHub 정보"
   },
   "layout.footer.open-source": {
     "message": "AllayHub는 <github-link>오픈 소스</github-link>입니다."
@@ -1008,10 +1008,10 @@
     "message": "AllayLauncher"
   },
   "layout.footer.products.plus": {
-    "message": "Modrinth+"
+    "message": "AllayHub+"
   },
   "layout.footer.products.servers": {
-    "message": "Modrinth Hosting"
+    "message": "AllayHub Hosting"
   },
   "layout.footer.resources": {
     "message": "정보"
@@ -1047,7 +1047,7 @@
     "message": "메뉴 전환"
   },
   "layout.meta.description": {
-    "message": "Modrinth에서 Minecraft 모드, 플러그인, 데이터 팩, 셰이더, 리소스 팩, 그리고 모드팩을 다운로드하세요. 현대적이고 사용하기 쉬운 인터페이스 및 API를 통해 Modrinth에서 프로젝트를 탐색하고 게시하세요."
+    "message": "AllayHub에서 Minecraft 모드, 플러그인, 데이터 팩, 셰이더, 리소스 팩, 그리고 모드팩을 다운로드하세요. 현대적이고 사용하기 쉬운 인터페이스 및 API를 통해 AllayHub에서 프로젝트를 탐색하고 게시하세요."
   },
   "layout.meta.og-description": {
     "message": "Minecraft 콘텐츠를 탐색하고 게시하세요!"
@@ -1083,10 +1083,10 @@
     "message": "서버 호스트하기"
   },
   "layout.nav.modrinth-app": {
-    "message": "Modrinth App"
+    "message": "AllayLauncher"
   },
   "layout.nav.modrinth-home-page": {
-    "message": "Modrinth 홈페이지"
+    "message": "AllayHub 홈페이지"
   },
   "layout.nav.my-servers": {
     "message": "내 서버"
@@ -1110,7 +1110,7 @@
     "message": "검색"
   },
   "layout.nav.upgrade-to-modrinth-plus": {
-    "message": "Modrinth+로 업그레이드"
+    "message": "AllayHub+로 업그레이드"
   },
   "moderation.filter.by": {
     "message": "필터링 기준"
@@ -1401,10 +1401,10 @@
     "message": "지갑 주소를 다시 확인하세요. 잘못된 주소로 송금된 자금은 회수할 수 없습니다."
   },
   "profile.bio.fallback.creator": {
-    "message": "Modrinth의 창작자입니다."
+    "message": "AllayHub의 창작자입니다."
   },
   "profile.bio.fallback.user": {
-    "message": "Modrinth의 사용자입니다."
+    "message": "AllayHub의 사용자입니다."
   },
   "profile.button.edit-role": {
     "message": "역할 수정"
@@ -1488,10 +1488,10 @@
     "message": "예"
   },
   "profile.meta.description": {
-    "message": "Modrinth에서 {username}의 프로젝트 다운로드"
+    "message": "AllayHub에서 {username}의 프로젝트 다운로드"
   },
   "profile.meta.description-with-bio": {
-    "message": "{bio} - Modrinth에서 {username}의 프로젝트 다운로드"
+    "message": "{bio} - AllayHub에서 {username}의 프로젝트 다운로드"
   },
   "profile.stats.projects-followers": {
     "message": "{count, plural, other {<stat>{count}</stat> 프로젝트 팔로워}}"
@@ -1641,7 +1641,7 @@
     "message": "프로젝트 검토"
   },
   "project.actions.servers-promo.description": {
-    "message": "Modrinth Hosting은 친구들과 번거로움 없이 플레이할 수 있는 가장 쉬운 방법입니다!"
+    "message": "AllayHub Hosting은 친구들과 번거로움 없이 플레이할 수 있는 가장 쉬운 방법입니다!"
   },
   "project.actions.servers-promo.pricing": {
     "message": "{price}<small> / 월</small>부터 시작"
@@ -1674,10 +1674,10 @@
     "message": "{title}은(는) {platform}용 {gameVersion}을(를) 지원하지 않습니다"
   },
   "project.download.install-with-app": {
-    "message": "Modrinth App으로 설치"
+    "message": "AllayLauncher으로 설치"
   },
   "project.download.no-app": {
-    "message": "Modrinth App을 설치하지 않으셨나요?"
+    "message": "AllayLauncher을 설치하지 않으셨나요?"
   },
   "project.download.platform": {
     "message": "플랫폼: {platform}"
@@ -1812,7 +1812,7 @@
     "message": "{item}을(를) 찾을 수 없음"
   },
   "report.for.violation": {
-    "message": "Modrinth <rules-link>규칙</rules-link> 또는 <terms-link>이용 약관</terms-link>을 위반함"
+    "message": "AllayHub <rules-link>규칙</rules-link> 또는 <terms-link>이용 약관</terms-link>을 위반함"
   },
   "report.for.violation.description": {
     "message": "악성 코드, 스팸, 사기, 불법적 콘텐츠, 폭력적 또는 오해의 소지가 있습니다."
@@ -1857,7 +1857,7 @@
     "message": "신고하려는 콘텐츠의 유형이 무엇입니까?"
   },
   "report.question.report-reason": {
-    "message": "{item}이(가) 위반하고 있는 Modrinth의 규칙은 무엇입니까?"
+    "message": "{item}이(가) 위반하고 있는 AllayHub의 규칙은 무엇입니까?"
   },
   "report.report-content": {
     "message": "관리자에게 콘텐츠 신고"
@@ -2025,7 +2025,7 @@
     "message": "신고 쓰기"
   },
   "scopes.sessionAccess.description": {
-    "message": "Modrinth 발급 세션에 접근하기"
+    "message": "AllayHub 발급 세션에 접근하기"
   },
   "scopes.sessionAccess.label": {
     "message": "세션 접근"
@@ -2244,13 +2244,13 @@
     "message": "Visa"
   },
   "settings.billing.pyro_subscription.description": {
-    "message": "당신의 Modrinth 서버 구독을 관리하세요."
+    "message": "당신의 AllayHub 서버 구독을 관리하세요."
   },
   "settings.billing.pyro_subscription.title": {
-    "message": "Modrinth 서버 구독"
+    "message": "AllayHub 서버 구독"
   },
   "settings.billing.subscription.description": {
-    "message": "당신의 Modrinth 구독을 관리하세요."
+    "message": "당신의 AllayHub 구독을 관리하세요."
   },
   "settings.billing.subscription.title": {
     "message": "구독"
@@ -2259,7 +2259,7 @@
     "message": "개발자 모드 비활성화"
   },
   "settings.display.banner.developer-mode.description": {
-    "message": "<strong>개발자 모드</strong>가 활성화되어 있습니다. 이를 통해 Modrinth API를 사용하는 개발자인 경우 도움이 될 수 있는 Modrinth 전체의 여러 내부 ID를 확인할 수 있습니다. 페이지 하단의 Modrinth 로고를 5번 클릭하여 개발자 모드를 전환합니다."
+    "message": "<strong>개발자 모드</strong>가 활성화되어 있습니다. 이를 통해 AllayHub API를 사용하는 개발자인 경우 도움이 될 수 있는 AllayHub 전체의 여러 내부 ID를 확인할 수 있습니다. 페이지 하단의 AllayHub 로고를 5번 클릭하여 개발자 모드를 전환합니다."
   },
   "settings.display.flags.description": {
     "message": "이 장치에서 특정 기능을 사용하거나 사용하지 않도록 설정합니다."
@@ -2304,16 +2304,16 @@
     "message": "고급 렌더링"
   },
   "settings.display.sidebar.external-links-new-tab.description": {
-    "message": "Modrinth 외부로 나가는 링크를 새 탭에서 엽니다. 이 설정에 상관없이 동일한 도메인과 마크다운 설명의 링크가 같은 탭에서 열리고 광고 및 편집 페이지의 링크가 새 탭에서 열립니다."
+    "message": "AllayHub 외부로 나가는 링크를 새 탭에서 엽니다. 이 설정에 상관없이 동일한 도메인과 마크다운 설명의 링크가 같은 탭에서 열리고 광고 및 편집 페이지의 링크가 새 탭에서 열립니다."
   },
   "settings.display.sidebar.external-links-new-tab.title": {
     "message": "새 탭에서 외부 링크 열기"
   },
   "settings.display.sidebar.hide-app-promos.description": {
-    "message": "기본 네비게이선에서 \"Modrinth App 받기\" 버튼을 숨깁니다. Modrinth App 페이지는 여전히 시작 페이지 또는 하단에서 찾을 수 있습니다."
+    "message": "기본 네비게이선에서 \"AllayLauncher 받기\" 버튼을 숨깁니다. AllayLauncher 페이지는 여전히 시작 페이지 또는 하단에서 찾을 수 있습니다."
   },
   "settings.display.sidebar.hide-app-promos.title": {
-    "message": "Modrinth App 프로모션 숨기기"
+    "message": "AllayLauncher 프로모션 숨기기"
   },
   "settings.display.sidebar.left-aligned-content-sidebar.title": {
     "message": "콘텐츠 페이지에서 사이드바를 왼쪽으로 정렬"
@@ -2328,7 +2328,7 @@
     "message": "검색 페이지에서 필터 사이트바를 오른쪽으로 정렬"
   },
   "settings.display.theme.description": {
-    "message": "이 디바이스에서 선호하는 Modrinth의 색상 테마를 선택합니다."
+    "message": "이 디바이스에서 선호하는 AllayHub의 색상 테마를 선택합니다."
   },
   "settings.display.theme.title": {
     "message": "색상 테마"
@@ -2337,7 +2337,7 @@
     "message": "PAT 생성"
   },
   "settings.pats.description": {
-    "message": "PAT는 Modrinth API 접근에 사용됩니다. 자세한 내용 <doc-link>Modrinth API 문서</doc-link>를 확인하세요. 언제든지 생성 및 해지가 가능합니다."
+    "message": "PAT는 AllayHub API 접근에 사용됩니다. 자세한 내용 <doc-link>AllayHub API 문서</doc-link>를 확인하세요. 언제든지 생성 및 해지가 가능합니다."
   },
   "settings.pats.modal.create.action": {
     "message": "PAT 생성"
@@ -2391,7 +2391,7 @@
     "message": "자기소개"
   },
   "settings.profile.description": {
-    "message": "당신의 프로필 정보는 Modrinth나 <docs-link>Modrinth API</docs-link>를 통해 공개될 수 있습니다."
+    "message": "당신의 프로필 정보는 AllayHub나 <docs-link>AllayHub API</docs-link>를 통해 공개될 수 있습니다."
   },
   "settings.profile.profile-info": {
     "message": "프로필 정보"
@@ -2418,7 +2418,7 @@
     "message": "현재 세션"
   },
   "settings.sessions.description": {
-    "message": "현재 Modrinth 계정으로 로그인 중인 장치 목록입니다. 여기서 각 장치를 개별적으로 로그아웃시키실 수 있습니다.\n\n만약 확인되지 않는 장치가 있다면 장치를 로그아웃시키신 후 즉시 Modrinth 계정 비밀번호를 변경하세요."
+    "message": "현재 AllayHub 계정으로 로그인 중인 장치 목록입니다. 여기서 각 장치를 개별적으로 로그아웃시키실 수 있습니다.\n\n만약 확인되지 않는 장치가 있다면 장치를 로그아웃시키신 후 즉시 AllayHub 계정 비밀번호를 변경하세요."
   },
   "settings.sessions.last-accessed-ago": {
     "message": "{ago} 전에 접근함"
@@ -2430,7 +2430,7 @@
     "message": "알 수 없는 플랫폼"
   },
   "ui.latest-news-row.latest-news": {
-    "message": "Modrinth의 최신 뉴스"
+    "message": "AllayHub의 최신 뉴스"
   },
   "ui.latest-news-row.view-all": {
     "message": "모든 뉴스 보기"

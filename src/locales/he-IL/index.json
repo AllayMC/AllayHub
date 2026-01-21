@@ -129,7 +129,7 @@
     "message": "פחות מ-150 מגה-בייט"
   },
   "app-marketing.features.performance.modrinth-app": {
-    "message": "Modrinth App"
+    "message": "AllayLauncher"
   },
   "app-marketing.features.performance.one-billion-percent": {
     "message": "1 מיליארד %"
@@ -147,7 +147,7 @@
     "message": "ביצועי"
   },
   "app-marketing.features.play.description": {
-    "message": "השתמש ב-Modrinth App כדי להוריד ולשחק עם המודים וחבילות המודים המועדפים עליך."
+    "message": "השתמש ב-AllayLauncher כדי להוריד ולשחק עם המודים וחבילות המודים המועדפים עליך."
   },
   "app-marketing.features.play.title": {
     "message": "שחק עם המודים האהובים עליך"
@@ -183,13 +183,13 @@
     "message": "אפליקציית מודרינת' היא משגר (launcher) מיוחד, קוד פתוח, שמאפשר לכם לשחק עם המודים שאתם אוהבים, ושומר עליהם מעודכנים. הכל בחבילה אחת, קומפקטית ומסודרת."
   },
   "app-marketing.hero.download-button": {
-    "message": "הורד את Modrinth App"
+    "message": "הורד את AllayLauncher"
   },
   "app-marketing.hero.download-modrinth-app": {
     "message": "הורד את אפליקציית מודרינת'"
   },
   "app-marketing.hero.download-modrinth-app-for-os": {
-    "message": "הורד את Modrinth App עבור {os}"
+    "message": "הורד את AllayLauncher עבור {os}"
   },
   "app-marketing.hero.minecraft-screenshot-alt": {
     "message": "תמונה ראשית מהפנורמה של המודפק cobblemon."
@@ -294,7 +294,7 @@
     "message": "שם משתמש"
   },
   "auth.sign-up.legal-dislaimer": {
-    "message": "כליצור את החשבון, אתם מסכימים ל<terms-link>תנאים</terms-link> ו<privacy-policy-link>מדיניות פרטיות</privacy-policy-link> של Modrinth."
+    "message": "כליצור את החשבון, אתם מסכימים ל<terms-link>תנאים</terms-link> ו<privacy-policy-link>מדיניות פרטיות</privacy-policy-link> של AllayHub."
   },
   "auth.sign-up.notification.password-mismatch.text": {
     "message": "סיסמאות לא תואמות!"
@@ -306,7 +306,7 @@
     "message": "כבר יש לכם חשבון?"
   },
   "auth.sign-up.subscribe.label": {
-    "message": "להרשם לעדכונים על Modrinth"
+    "message": "להרשם לעדכונים על AllayHub"
   },
   "auth.sign-up.title": {
     "message": "הרשם"
@@ -351,7 +351,7 @@
     "message": "אמת אימייל"
   },
   "auth.welcome.checkbox.subscribe": {
-    "message": "הירשם לעדכונים על Modrinth"
+    "message": "הירשם לעדכונים על AllayHub"
   },
   "auth.welcome.description": {
     "message": "אתה עכשיו חלק מהקהילה המדהימה של יוצרים ומשתמשים שכבר בונים, מורידים ומתעדכנים עם מודים מגניבים."
@@ -360,7 +360,7 @@
     "message": "ע\"י יצירת חשבון, אתה הסכמת ל<terms-link>תנאים</terms-link> של מודרינפ ו<privacy-policy-link>מדיניות הפרטיות</privacy-policy-link>."
   },
   "auth.welcome.long-title": {
-    "message": "ברוכים הבאים ל-Modrinth!"
+    "message": "ברוכים הבאים ל-AllayHub!"
   },
   "auth.welcome.title": {
     "message": "ברוכים הבאים"
@@ -585,7 +585,7 @@
     "message": "קובץ מס"
   },
   "dashboard.creator-tax-form-modal.security.description": {
-    "message": "Modrinth משתמשים בגוף החיצוני Track1099 על מנת לאסוף ולשמור בבטיחות את קבצי המס שלך.\n<security-link>עוד מידע כאן.</security-link>"
+    "message": "AllayHub משתמשים בגוף החיצוני Track1099 על מנת לאסוף ולשמור בבטיחות את קבצי המס שלך.\n<security-link>עוד מידע כאן.</security-link>"
   },
   "dashboard.creator-tax-form-modal.security.header": {
     "message": "הליכים בטחונים"
@@ -603,7 +603,7 @@
     "message": "ייתכן שהאוסף פרטי."
   },
   "error.collection.404.list_item.3": {
-    "message": "יכול להיות שהקובץ שלך נסתר על ידי צוות Modrinth משום שפגע ב<tou-link>תנאי השימוש</tou-link>."
+    "message": "יכול להיות שהקובץ שלך נסתר על ידי צוות AllayHub משום שפגע ב<tou-link>תנאי השימוש</tou-link>."
   },
   "error.collection.404.list_title": {
     "message": "למה?"
@@ -624,10 +624,10 @@
     "message": "תוכן לא נגיש מסיבות משפטיות"
   },
   "error.generic.default.list_item.1": {
-    "message": "בדוק אם Modrinth אינו זמין ב<status-link>דף הסטטוס</status-link> שלנו."
+    "message": "בדוק אם AllayHub אינו זמין ב<status-link>דף הסטטוס</status-link> שלנו."
   },
   "error.generic.default.list_item.2": {
-    "message": "אם זה ממשיך לקרות, אנא ידע/י את צוות Modrinth דרך <discord-server>שרת הדיסקורד</discord-link>."
+    "message": "אם זה ממשיך לקרות, אנא ידע/י את צוות AllayHub דרך <discord-server>שרת הדיסקורד</discord-link>."
   },
   "error.generic.default.list_title": {
     "message": "נסו שוב בעוד מספר דקות."
@@ -645,7 +645,7 @@
     "message": "ייתכן שבעל הארגון שינה את כתובת ה-URL או מחק אותה."
   },
   "error.organization.404.list_item.3": {
-    "message": "ייתכן שצוות הפיקוח והבקרה של Modrinth הסיר את הארגון בשל הפרת <tou-link>תנאי השימוש</tou-link> שלנו."
+    "message": "ייתכן שצוות הפיקוח והבקרה של AllayHub הסיר את הארגון בשל הפרת <tou-link>תנאי השימוש</tou-link> שלנו."
   },
   "error.organization.404.list_title": {
     "message": "מדוע?"
@@ -660,7 +660,7 @@
     "message": "ייתכן שבעל הפרויקט שינה את כתובת ה-URL, הפך את הפרויקט לפרטי או מחק אותו."
   },
   "error.project.404.list_item.3": {
-    "message": "ייתכן שצוות הפיקוח והבקרה של Modrinth הסיר את הארגון בשל הפרת <tou-link>תנאי השימוש</tou-link> שלנו."
+    "message": "ייתכן שצוות הפיקוח והבקרה של AllayHub הסיר את הארגון בשל הפרת <tou-link>תנאי השימוש</tou-link> שלנו."
   },
   "error.project.404.list_title": {
     "message": "מדוע?"
@@ -675,7 +675,7 @@
     "message": "אולי משתמש זה שונה את השם המשתמש או מחק את החשבון."
   },
   "error.user.404.list_item.3": {
-    "message": "אולי חשבון של משתמש זה היה מושעה בגלל <tou-link>תנאי שימוש</tou-link> של Modrinth."
+    "message": "אולי חשבון של משתמש זה היה מושעה בגלל <tou-link>תנאי שימוש</tou-link> של AllayHub."
   },
   "error.user.404.list_title": {
     "message": "למה?"
@@ -705,7 +705,7 @@
     "message": "עבור ללוח הבקרה"
   },
   "landing.creator.feature.constantly-evolving.description": {
-    "message": "קבל את חוויית המודים הכי טובה שאפשר עם עדכונים שוטפים מצוות Modrinth"
+    "message": "קבל את חוויית המודים הכי טובה שאפשר עם עדכונים שוטפים מצוות AllayHub"
   },
   "landing.creator.feature.constantly-evolving.title": {
     "message": "בפיתוח מתמיד"
@@ -789,10 +789,10 @@
     "message": "ATLauncher"
   },
   "landing.launcher.graphic-alt": {
-    "message": "הצגה של חלון מיינקראפט מופשט, עם לוגו Mojang בצבע ירוק Modrinth."
+    "message": "הצגה של חלון מיינקראפט מופשט, עם לוגו Mojang בצבע ירוק AllayHub."
   },
   "landing.launcher.modrinth-app-label": {
-    "message": "Modrinth App"
+    "message": "AllayLauncher"
   },
   "landing.launcher.prism-launcher-label": {
     "message": "Prism Launcher"
@@ -891,19 +891,19 @@
     "message": "תנאי שימוש"
   },
   "layout.footer.modrinth-information": {
-    "message": "מידע על Modrinth"
+    "message": "מידע על AllayHub"
   },
   "layout.footer.open-source": {
-    "message": "Modrinth הוא <github-link>קוד פתוח</github-link>."
+    "message": "AllayHub הוא <github-link>קוד פתוח</github-link>."
   },
   "layout.footer.products": {
     "message": "מוצרים"
   },
   "layout.footer.products.app": {
-    "message": "Modrinth App"
+    "message": "AllayLauncher"
   },
   "layout.footer.products.plus": {
-    "message": "Modrinth+"
+    "message": "AllayHub+"
   },
   "layout.footer.resources": {
     "message": "משאבים"
@@ -936,7 +936,7 @@
     "message": "X"
   },
   "layout.nav.modrinth-app": {
-    "message": "Modrinth App"
+    "message": "AllayLauncher"
   },
   "moderation.page.projects": {
     "message": "פרויקטים"
@@ -969,7 +969,7 @@
     "message": "תיאור"
   },
   "project.download.install-with-app": {
-    "message": "התקן באמצעות Modrinth App"
+    "message": "התקן באמצעות AllayLauncher"
   },
   "project.settings.general.name.title": {
     "message": "שם"

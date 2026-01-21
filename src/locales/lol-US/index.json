@@ -27,7 +27,7 @@
     "message": "Nerdnux"
   },
   "app-marketing.download.linux-disclaimer": {
-    "message": "Modrinth Appz on Nerdnux <issues-link>haz sum bugz</issues-link> on sum sysytems n setups. If it go boom on ur compooter, try odder appz like <prism-link>Prism Launcher</prism-link> fur easy kitteh installz."
+    "message": "AllayLauncherz on Nerdnux <issues-link>haz sum bugz</issues-link> on sum sysytems n setups. If it go boom on ur compooter, try odder appz like <prism-link>Prism Launcher</prism-link> fur easy kitteh installz."
   },
   "app-marketing.download.mac": {
     "message": "Macz"
@@ -36,13 +36,13 @@
     "message": "Downloaf optshunz"
   },
   "app-marketing.download.terms": {
-    "message": "If u snatch Modrinth App, u haz agreed to <terms-link>Termz</terms-link> n <privacy-link>Privacy Pawlicy</privacy-link>."
+    "message": "If u snatch AllayLauncher, u haz agreed to <terms-link>Termz</terms-link> n <privacy-link>Privacy Pawlicy</privacy-link>."
   },
   "app-marketing.download.third-party-packages": {
     "message": "Other kitteh ackz"
   },
   "app-marketing.download.title": {
-    "message": "Downloaf Modrinth Appz (testie verzhun)"
+    "message": "Downloaf AllayLauncherz (testie verzhun)"
   },
   "app-marketing.download.windows": {
     "message": "Windozeh"
@@ -54,7 +54,7 @@
     "message": "Stalk pawject"
   },
   "app-marketing.features.importing.description": {
-    "message": "Pull in all ur fav kitteh profiles from ur old launcher n start Modrinth App in no time!"
+    "message": "Pull in all ur fav kitteh profiles from ur old launcher n start AllayLauncher in no time!"
   },
   "app-marketing.features.importing.gdlauncher-alt": {
     "message": "GDLauncher"
@@ -72,7 +72,7 @@
     "message": "frum {author}"
   },
   "app-marketing.features.mod-management.description": {
-    "message": "Modrinth makes it ez to handle all ur mods in one spot. U can install, uninstall, n update dem wif one click."
+    "message": "AllayHub makes it ez to handle all ur mods in one spot. U can install, uninstall, n update dem wif one click."
   },
   "app-marketing.features.mod-management.installed-mods": {
     "message": "Snugged tweakiez"
@@ -96,7 +96,7 @@
     "message": "No-net mode"
   },
   "app-marketing.features.open-source.description": {
-    "message": "Modrinth launcher iz full free codez. U can peek teh code on our <github-link>GitHub</github-link>!"
+    "message": "AllayHub launcher iz full free codez. U can peek teh code on our <github-link>GitHub</github-link>!"
   },
   "app-marketing.features.open-source.title": {
     "message": "Iz freez codez"
@@ -108,7 +108,7 @@
     "message": "% CPU"
   },
   "app-marketing.features.performance.description": {
-    "message": "Modrinth App iz faster than lotsa mod managers, only nommin 150mb of RAM!"
+    "message": "AllayLauncher iz faster than lotsa mod managers, only nommin 150mb of RAM!"
   },
   "app-marketing.features.performance.discord": {
     "message": "Kittehcord"
@@ -129,7 +129,7 @@
     "message": "< 150 MB"
   },
   "app-marketing.features.performance.modrinth-app": {
-    "message": "Modrinth Appz"
+    "message": "AllayLauncherz"
   },
   "app-marketing.features.performance.one-billion-percent": {
     "message": "1 billiun %"
@@ -147,13 +147,13 @@
     "message": "Perfurrmant"
   },
   "app-marketing.features.play.description": {
-    "message": "Use Modrinth App to grab n play ur fav mods n modpackz."
+    "message": "Use AllayLauncher to grab n play ur fav mods n modpackz."
   },
   "app-marketing.features.play.title": {
     "message": "Play wif ur fav tweakiez"
   },
   "app-marketing.features.sharing.description": {
-    "message": "Build, spread out, n play tweakie bundlez usin all da kitteh tweakiezs on Modrinth."
+    "message": "Build, spread out, n play tweakie bundlez usin all da kitteh tweakiezs on AllayHub."
   },
   "app-marketing.features.sharing.modpack": {
     "message": "Tweakie bundle"
@@ -168,7 +168,7 @@
     "message": "Diffrent from all launcherz"
   },
   "app-marketing.features.website.description": {
-    "message": "Modrinth App iz all mashed up wif teh website, so u can grab all ur fav pawjectz projects from da app!"
+    "message": "AllayLauncher iz all mashed up wif teh website, so u can grab all ur fav pawjectz projects from da app!"
   },
   "app-marketing.features.website.title": {
     "message": "Site mashie"
@@ -177,19 +177,19 @@
     "message": "kitteh stuff u touched befurr"
   },
   "app-marketing.hero.app-screenshot-alt": {
-    "message": "Pic of Modrinth App wif Cobblemon open on 'Content' pawge."
+    "message": "Pic of AllayLauncher wif Cobblemon open on 'Content' pawge."
   },
   "app-marketing.hero.description": {
-    "message": "Modrinth App iz a special open floof launcher, lets u play ur fav mods n keep dem fresh, all in one tidy pawckage."
+    "message": "AllayLauncher iz a special open floof launcher, lets u play ur fav mods n keep dem fresh, all in one tidy pawckage."
   },
   "app-marketing.hero.download-button": {
-    "message": "Downloaf Modrinth App"
+    "message": "Downloaf AllayLauncher"
   },
   "app-marketing.hero.download-modrinth-app": {
-    "message": "Downloaf Modrinth App"
+    "message": "Downloaf AllayLauncher"
   },
   "app-marketing.hero.download-modrinth-app-for-os": {
-    "message": "Downloaf Modrinth App fur {os}"
+    "message": "Downloaf AllayLauncher fur {os}"
   },
   "app-marketing.hero.minecraft-screenshot-alt": {
     "message": "Pic of Cobblemon main menu."
@@ -294,7 +294,7 @@
     "message": "Hoominname"
   },
   "auth.sign-up.legal-dislaimer": {
-    "message": "Oh hai! By makin' an account, you agrees to Modrinth's <terms-link>Termz</terms-link> and <privacy-policy-link>Privacy Policy</privacy-policy-link>."
+    "message": "Oh hai! By makin' an account, you agrees to AllayHub's <terms-link>Termz</terms-link> and <privacy-policy-link>Privacy Policy</privacy-policy-link>."
   },
   "auth.sign-up.notification.password-mismatch.text": {
     "message": "Secwet no matchy matchy!"
@@ -306,7 +306,7 @@
     "message": "Haz u gots an account already?"
   },
   "auth.sign-up.subscribe.label": {
-    "message": "Gib teh Modrinth updatz"
+    "message": "Gib teh AllayHub updatz"
   },
   "auth.sign-up.title": {
     "message": "Signz upz"
@@ -351,16 +351,16 @@
     "message": "Verifyz emeowl"
   },
   "auth.welcome.checkbox.subscribe": {
-    "message": "Subscrube teh updaets 'bout Modrinth"
+    "message": "Subscrube teh updaets 'bout AllayHub"
   },
   "auth.welcome.description": {
     "message": "Oh hai! Ur now part of teh amazin' club o' peeps makin' stuff, grabbin' stuff, n' keepin' up wif all teh kewl tweakiez."
   },
   "auth.welcome.label.tos": {
-    "message": "Oh hai! By makin' an account, you agrees to Modrinth's <terms-link>Termz</terms-link> and <privacy-policy-link>Privacy Policy</privacy-policy-link>."
+    "message": "Oh hai! By makin' an account, you agrees to AllayHub's <terms-link>Termz</terms-link> and <privacy-policy-link>Privacy Policy</privacy-policy-link>."
   },
   "auth.welcome.long-title": {
-    "message": "Oh hai! Welcomez to Modrinth!"
+    "message": "Oh hai! Welcomez to AllayHub!"
   },
   "auth.welcome.title": {
     "message": "Hai guise"
@@ -384,7 +384,7 @@
     "message": "U sure wanna delete dis hoardz?"
   },
   "collection.description": {
-    "message": "{description} - Iz lookin' at teh stash {name} by {username} on Modrinth"
+    "message": "{description} - Iz lookin' at teh stash {name} by {username} on AllayHub"
   },
   "collection.description.following": {
     "message": "Iz auto-genrated pile o' all teh pawjectz u iz stalkin'."
@@ -468,7 +468,7 @@
     "message": "Da hoardz might be secretz."
   },
   "error.collection.404.list_item.3": {
-    "message": "Oh noe! Da hoardz iz gone! Modrinth's hoomanz took it down cuz it broke <tou-link>da rulez</tou-link>."
+    "message": "Oh noe! Da hoardz iz gone! AllayHub's hoomanz took it down cuz it broke <tou-link>da rulez</tou-link>."
   },
   "error.collection.404.list_title": {
     "message": "Y?"
@@ -483,10 +483,10 @@
     "message": "Page not herez"
   },
   "error.generic.default.list_item.1": {
-    "message": "Checkses if Modrinth iz downz on our <status-link>Status page</status-link> nao."
+    "message": "Checkses if AllayHub iz downz on our <status-link>Status page</status-link> nao."
   },
   "error.generic.default.list_item.2": {
-    "message": "Oh hai! If dis keeps happenin', u mite wanna tell da Modrinth Team by joinin' our <discord-link>Kittehcord</discord-link>."
+    "message": "Oh hai! If dis keeps happenin', u mite wanna tell da AllayMC Team by joinin' our <discord-link>Kittehcord</discord-link>."
   },
   "error.generic.default.list_title": {
     "message": "Oh hai! Pwease tryz againz in lik, sum minutez."
@@ -504,7 +504,7 @@
     "message": "Oh hai! Da club's hooman probly changed teh URLz or deletd itz. Sad kitteh."
   },
   "error.organization.404.list_item.3": {
-    "message": "Oh noes! Da kitteh clubz iz gonez! Modrinth admins tooked it awayz cuz it brokez da rulez, ya knowz, da <tou-link>Termz of Usez</tou-link>."
+    "message": "Oh noes! Da kitteh clubz iz gonez! AllayHub admins tooked it awayz cuz it brokez da rulez, ya knowz, da <tou-link>Termz of Usez</tou-link>."
   },
   "error.organization.404.list_title": {
     "message": "Y?"
@@ -519,7 +519,7 @@
     "message": "Da pawject ownah mebbe changed da URL, madez itz allz privatez, orz evenz deletedz itz."
   },
   "error.project.404.list_item.3": {
-    "message": "Da pawject mays has been taked downz by Modrinth's hoomanz cuz it brokez <tou-link>da rulez</tou-link>, ya knowz."
+    "message": "Da pawject mays has been taked downz by AllayHub's hoomanz cuz it brokez <tou-link>da rulez</tou-link>, ya knowz."
   },
   "error.project.404.list_title": {
     "message": "Y?"
@@ -534,7 +534,7 @@
     "message": "Da hooman mite haz changedz da hoominname or iz gone furrevers."
   },
   "error.user.404.list_item.3": {
-    "message": "Da hooman's 'count mighta been termin8ed 'cause dey brokez Modrinth's <tou-link>rulez</tou-link>."
+    "message": "Da hooman's 'count mighta been termin8ed 'cause dey brokez AllayHub's <tou-link>rulez</tou-link>."
   },
   "error.user.404.list_title": {
     "message": "Y?"
@@ -564,7 +564,7 @@
     "message": "Go to da dashyboard"
   },
   "landing.creator.feature.constantly-evolving.description": {
-    "message": "Haz da best modding fun wif constant patchez from Modrinth kittehs"
+    "message": "Haz da best modding fun wif constant patchez from AllayHub kittehs"
   },
   "landing.creator.feature.constantly-evolving.title": {
     "message": "Furrever changin'"
@@ -648,10 +648,10 @@
     "message": "ATLauncher"
   },
   "landing.launcher.graphic-alt": {
-    "message": "A smol Minecraft window wif Mojang logo dyed Modrinth green."
+    "message": "A smol Minecraft window wif Mojang logo dyed AllayHub green."
   },
   "landing.launcher.modrinth-app-label": {
-    "message": "Modrinth Appz"
+    "message": "AllayLauncherz"
   },
   "landing.launcher.prism-launcher-label": {
     "message": "Prism Launcher"
@@ -741,19 +741,19 @@
     "message": "Visit teh accownt tweakz"
   },
   "layout.banner.add-email.description": {
-    "message": "Oh hai! For teh securitiez, Modrinth needs u to gib ur emeowl to ur accountz."
+    "message": "Oh hai! For teh securitiez, AllayHub needs u to gib ur emeowl to ur accountz."
   },
   "layout.banner.build-fail.description": {
-    "message": "Oh noes! Da Modrinth frontendy deploy went belly up! Cants haz state from da API. Maybe API is down, or sumthin' is borked! Rebuilds when API is bak! Error codes: {errors}; Current API URL is: {url}"
+    "message": "Oh noes! Da AllayHub frontendy deploy went belly up! Cants haz state from da API. Maybe API is down, or sumthin' is borked! Rebuilds when API is bak! Error codes: {errors}; Current API URL is: {url}"
   },
   "layout.banner.build-fail.title": {
     "message": "Uh oh! Sumthin' went wrong makin' da state frum da API when I wuz buildin' it."
   },
   "layout.banner.staging.description": {
-    "message": "Oh hai! Staging place iz totally 'wayz from da real Modrinth! Iz for testin' and fixin' stuff, maybe runnin' new Modrinth backend or frontend dat's not even on da real site yet."
+    "message": "Oh hai! Staging place iz totally 'wayz from da real AllayHub! Iz for testin' and fixin' stuff, maybe runnin' new AllayHub backend or frontend dat's not even on da real site yet."
   },
   "layout.banner.staging.title": {
-    "message": "Ur lookin' at Modrinth's stagey place"
+    "message": "Ur lookin' at AllayHub's stagey place"
   },
   "layout.banner.subscription-payment-failed.button": {
     "message": "Updatin' billin' stuffz"
@@ -774,7 +774,7 @@
     "message": "Sendz teh verify emailz againz, plz"
   },
   "layout.banner.verify-email.description": {
-    "message": "Oh hai! For teh sekurity reasons, Modrinth needs u to make sure teh emeowl addy wiff ur account iz legit."
+    "message": "Oh hai! For teh sekurity reasons, AllayHub needs u to make sure teh emeowl addy wiff ur account iz legit."
   },
   "layout.footer.about": {
     "message": "Abawt"
@@ -816,22 +816,22 @@
     "message": "Rulez for Hoominz"
   },
   "layout.footer.modrinth-information": {
-    "message": "Modrinth knoledgez"
+    "message": "AllayHub knoledgez"
   },
   "layout.footer.open-source": {
-    "message": "Modrinth iz <github-link>kitteh sorce code</github-link>."
+    "message": "AllayHub iz <github-link>kitteh sorce code</github-link>."
   },
   "layout.footer.products": {
     "message": "Kitteh Stuffz"
   },
   "layout.footer.products.app": {
-    "message": "Modrinth Appz"
+    "message": "AllayLauncherz"
   },
   "layout.footer.products.plus": {
-    "message": "Modrinth Pawwers"
+    "message": "AllayHub Pawwers"
   },
   "layout.footer.products.servers": {
-    "message": "Modrinth Servahz"
+    "message": "AllayHub Servahz"
   },
   "layout.footer.resources": {
     "message": "Kitteh Goodiez"
@@ -867,7 +867,7 @@
     "message": "Flip flop menu"
   },
   "layout.meta.description": {
-    "message": "Downloadz Minecwaft tweakiez, pluginz, nerdy packz, fanceh lights, resource packz, n' wweakie bundlez on Modrinth! Discover n' publish pawject on Modrinth wif a modern, easy-to-use interface n' API."
+    "message": "Downloadz Minecwaft tweakiez, pluginz, nerdy packz, fanceh lights, resource packz, n' wweakie bundlez on AllayHub! Discover n' publish pawject on AllayHub wif a modern, easy-to-use interface n' API."
   },
   "layout.meta.og-description": {
     "message": "Findz and sharez Minecwaft stuffz!"
@@ -894,10 +894,10 @@
     "message": "Throwz a server pawrty"
   },
   "layout.nav.modrinth-app": {
-    "message": "Modrinth Appz"
+    "message": "AllayLauncherz"
   },
   "layout.nav.modrinth-home-page": {
-    "message": "Modrinth haus pawge"
+    "message": "AllayHub haus pawge"
   },
   "layout.nav.organizations": {
     "message": "Kitteh clubz"
@@ -918,7 +918,7 @@
     "message": "Searchez"
   },
   "layout.nav.upgrade-to-modrinth-plus": {
-    "message": "Levelz up to Modrinth+"
+    "message": "Levelz up to AllayHub+"
   },
   "moderation.filter.by": {
     "message": "Picn'"
@@ -981,10 +981,10 @@
     "message": "Kitteh clubz"
   },
   "profile.meta.description": {
-    "message": "I grabz {username}'z pawjectz on Modrinth"
+    "message": "I grabz {username}'z pawjectz on AllayHub"
   },
   "profile.meta.description-with-bio": {
-    "message": "{bio} - I snatchz {username}'z Kitteh pawjectz on Modrinth"
+    "message": "{bio} - I snatchz {username}'z Kitteh pawjectz on AllayHub"
   },
   "profile.stats.downloads": {
     "message": "{count, plural, one {<stat>{count}</stat> pawject grab} other {<stat>{count}</stat> pawject grabz}}"
@@ -1041,7 +1041,7 @@
     "message": "I sendz pawject again for kitteh check"
   },
   "project-moderation-nags.resubmit-for-review-desc": {
-    "message": "Ur pawject got {status} by da Modrinth hoomins. Usually, u can sendz it pawject again for kitteh check after readin da staff note."
+    "message": "Ur pawject got {status} by da AllayHub hoomins. Usually, u can sendz it pawject again for kitteh check after readin da staff note."
   },
   "project-moderation-nags.submit-checklist-tooltip": {
     "message": "U haz to finish all da must haz steps in da Kitteh ready-to-post pawlist!"
@@ -1140,7 +1140,7 @@
     "message": "Kitteh check pawject"
   },
   "project.actions.servers-promo.description": {
-    "message": "Modrinth Servahz is the easiest way to play with your friends without hassle!"
+    "message": "AllayHub Servahz is the easiest way to play with your friends without hassle!"
   },
   "project.actions.servers-promo.monthly": {
     "message": " purr munth"
@@ -1176,10 +1176,10 @@
     "message": "{title} can’t runz {gameVersion} on {platform}"
   },
   "project.download.install-with-app": {
-    "message": "Installz wif Modrinth App"
+    "message": "Installz wif AllayLauncher"
   },
   "project.download.no-app": {
-    "message": "No haz Modrinth App?"
+    "message": "No haz AllayLauncher?"
   },
   "project.download.no-versions-available": {
     "message": "No versionz haz for {gameVersion} an {platform}."
@@ -1215,7 +1215,7 @@
     "message": "Downloaf {title}"
   },
   "project.environment.migration-no-permission.message": {
-    "message": "Weez jusht overhauled teh Environmints systemz on Modrinth and new optionz iz now availabull. U dun haz permissionz to pawditz dese settingz, but plz let anuther kitteh of teh pawject knowz dat teh environmint meta needz checkin."
+    "message": "Weez jusht overhauled teh Environmints systemz on AllayHub and new optionz iz now availabull. U dun haz permissionz to pawditz dese settingz, but plz let anuther kitteh of teh pawject knowz dat teh environmint meta needz checkin."
   },
   "project.environment.migration-no-permission.title": {
     "message": "Environmint meta needz to be kitteh checked"
@@ -1224,7 +1224,7 @@
     "message": "Findz out moar on dis changz"
   },
   "project.environment.migration.message": {
-    "message": "Kittehz did a big overhaul on Modrinth Enviromint an new choicez r here. Peek at ur project settings an verify da metadata."
+    "message": "Kittehz did a big overhaul on AllayHub Enviromint an new choicez r here. Peek at ur project settings an verify da metadata."
   },
   "project.environment.migration.review-button": {
     "message": "Kitteh check where da pawject workz tweakz"
@@ -1284,7 +1284,7 @@
     "message": "Ur pawject haz many environmentz"
   },
   "project.settings.environment.notice.review-options.description": {
-    "message": "Kittehz remade da Modrinth Environments an new choices r here. Check da correct option below an click ‘Checkz’ wen finished!"
+    "message": "Kittehz remade da AllayHub Environments an new choices r here. Check da correct option below an click ‘Checkz’ wen finished!"
   },
   "project.settings.environment.notice.review-options.title": {
     "message": "Pwease look at da options below"
@@ -1392,7 +1392,7 @@
     "message": "Kitteh lookd evrywher but no {item}"
   },
   "report.for.violation": {
-    "message": "Breakin da Modrinth <rules-link>Roolz</rules-link> or <terms-link>Rulez for Hoominz</terms-link>"
+    "message": "Breakin da AllayHub <rules-link>Roolz</rules-link> or <terms-link>Rulez for Hoominz</terms-link>"
   },
   "report.for.violation.description": {
     "message": "Examplez iz meany stuffs, spamz, rudeness, tricksy hoomin stuffz, confuzin stuffz, and no-no kitteh stuffz."
@@ -1437,7 +1437,7 @@
     "message": "Wut kind of kitteh stuff u tellin bout?"
   },
   "report.question.report-reason": {
-    "message": "Which of Modrinth's roolz iz dis {item} breakin?"
+    "message": "Which of AllayHub's roolz iz dis {item} breakin?"
   },
   "report.report-content": {
     "message": "Send da sneaky stuffz to da mod kittehz"
@@ -1617,7 +1617,7 @@
     "message": "Mewz repurrtz"
   },
   "scopes.sessionAccess.description": {
-    "message": "Scamperin thru modrinth-issued sessionz"
+    "message": "Scamperin thru AllayHub-issued sessionz"
   },
   "scopes.sessionAccess.label": {
     "message": "Checks sessionz"
@@ -1893,13 +1893,13 @@
     "message": "Veezah"
   },
   "settings.billing.pyro_subscription.description": {
-    "message": "Kitteh manage ur Modrinth Servah sub."
+    "message": "Kitteh manage ur AllayHub Servah sub."
   },
   "settings.billing.pyro_subscription.title": {
-    "message": "Kitteh Modrinth Servah subz"
+    "message": "Kitteh AllayHub Servah subz"
   },
   "settings.billing.subscription.description": {
-    "message": "Kitteh manage ur Modrinth Servah sub."
+    "message": "Kitteh manage ur AllayHub Servah sub."
   },
   "settings.billing.subscription.title": {
     "message": "Subz"
@@ -1908,7 +1908,7 @@
     "message": "Turnz off dev mode"
   },
   "settings.display.banner.developer-mode.description": {
-    "message": "<strong>Developer mode</strong> iz active! Dis lets u peek at internal IDz of stuff all over Modrinth, helpful if u kitteh dev usin da Modrinth API. Click da Modrinth logo 5 times at da bottom to toggle dev mode."
+    "message": "<strong>Developer mode</strong> iz active! Dis lets u peek at internal IDz of stuff all over AllayHub, helpful if u kitteh dev usin da AllayHub API. Click da AllayHub logo 5 times at da bottom to toggle dev mode."
   },
   "settings.display.flags.description": {
     "message": "Turn on or off kitteh features on dis device."
@@ -1953,16 +1953,16 @@
     "message": "Fancy renderin"
   },
   "settings.display.sidebar.external-links-new-tab.description": {
-    "message": "Kitteh makes linkz go outside Modrinth open in new tab. Linkz on same site or in Markdown stayz in same tab. Ads n edit page linkz open new tab."
+    "message": "Kitteh makes linkz go outside AllayHub open in new tab. Linkz on same site or in Markdown stayz in same tab. Ads n edit page linkz open new tab."
   },
   "settings.display.sidebar.external-links-new-tab.title": {
     "message": "Kitteh openz outside linkz in new tab"
   },
   "settings.display.sidebar.hide-app-promos.description": {
-    "message": "Hidez da \"Get Modrinth App\" buttonz from main nav. U can still find Modrinth App page on da landing page or footer."
+    "message": "Hidez da \"Get AllayLauncher\" buttonz from main nav. U can still find AllayLauncher page on da landing page or footer."
   },
   "settings.display.sidebar.hide-app-promos.title": {
-    "message": "Hidez da Modrinth App shoutoutz"
+    "message": "Hidez da AllayLauncher shoutoutz"
   },
   "settings.display.sidebar.left-aligned-content-sidebar.title": {
     "message": "Sidebar snuggled to da left paw"
@@ -1977,7 +1977,7 @@
     "message": "Filter bar hangs out on da right side of searchy pages"
   },
   "settings.display.theme.description": {
-    "message": "Pick ur fave colorz fur Modrinth on dis thingy, plz."
+    "message": "Pick ur fave colorz fur AllayHub on dis thingy, plz."
   },
   "settings.display.theme.title": {
     "message": "Da vibe palette"
@@ -2031,7 +2031,7 @@
     "message": "Maek a PAWT"
   },
   "settings.pats.description": {
-    "message": "PAWTz can be used to paw-access Modrinth’s API. Fur more info, see <doc-link>Modrinth’s AWPI documentation</doc-link>. U can make or revoke dem anytime."
+    "message": "PAWTz can be used to paw-access AllayHub’s API. Fur more info, see <doc-link>AllayHub’s AWPI documentation</doc-link>. U can make or revoke dem anytime."
   },
   "settings.pats.modal.create.action": {
     "message": "Maek PAWT"
@@ -2085,7 +2085,7 @@
     "message": "Mini me story"
   },
   "settings.profile.description": {
-    "message": "Kitteh sez: ur profile info iz viewable by all on Modrinth n thru <docs-link>Modrinth API</docs-link>."
+    "message": "Kitteh sez: ur profile info iz viewable by all on AllayHub n thru <docs-link>AllayHub API</docs-link>."
   },
   "settings.profile.profile-info": {
     "message": "About me stuffs"
@@ -2112,7 +2112,7 @@
     "message": "Dis session"
   },
   "settings.sessions.description": {
-    "message": "Hai! Herez all teh devicez dat iz curruntly loggd in wit ur Modrinth accountz. Yu can haz logoutz of each one individully. If yu seez an entry yu don't knowz, logoutz of dat device and changez ur Modrinth accountz passwordz rite nao."
+    "message": "Hai! Herez all teh devicez dat iz curruntly loggd in wit ur AllayHub accountz. Yu can haz logoutz of each one individully. If yu seez an entry yu don't knowz, logoutz of dat device and changez ur AllayHub accountz passwordz rite nao."
   },
   "settings.sessions.last-accessed-ago": {
     "message": "Last peeked {ago}"
@@ -2124,7 +2124,7 @@
     "message": "Kitteh dunno platfurrms"
   },
   "ui.latest-news-row.latest-news": {
-    "message": "Latest buzz frum Modrinth"
+    "message": "Latest buzz frum AllayHub"
   },
   "ui.latest-news-row.view-all": {
     "message": "Peek all buzz"

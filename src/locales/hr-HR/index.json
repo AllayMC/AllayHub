@@ -102,7 +102,7 @@
     "message": "Korisničko ime"
   },
   "auth.sign-up.legal-dislaimer": {
-    "message": "Izradom računa pristajete na Modrinthove <terms-link>Uvjete</terms-link> i <privacy-policy-link>Pravila o pivatnosti</privacy-policy-link>."
+    "message": "Izradom računa pristajete na AllayHubove <terms-link>Uvjete</terms-link> i <privacy-policy-link>Pravila o pivatnosti</privacy-policy-link>."
   },
   "auth.sign-up.notification.password-mismatch.text": {
     "message": "Lozinke se ne podudaraju!"
@@ -114,7 +114,7 @@
     "message": "Već imate račun?"
   },
   "auth.sign-up.subscribe.label": {
-    "message": "Pretplatite se na obavjesti o Modrinthu"
+    "message": "Pretplatite se na obavjesti o AllayHubu"
   },
   "auth.sign-up.title": {
     "message": "Prijavite se"
@@ -159,13 +159,13 @@
     "message": "Potvrdite e -poštu"
   },
   "auth.welcome.checkbox.subscribe": {
-    "message": "Pretplatite se na obavjesti o Modrinthu"
+    "message": "Pretplatite se na obavjesti o AllayHubu"
   },
   "auth.welcome.label.tos": {
-    "message": "Izradom računa pristali ste na Modrinthove <terms-link>Uvjete</terms-link> i <privacy-policy-link>Pravila o privatnosti</privacy-policy-link>."
+    "message": "Izradom računa pristali ste na AllayHubove <terms-link>Uvjete</terms-link> i <privacy-policy-link>Pravila o privatnosti</privacy-policy-link>."
   },
   "auth.welcome.long-title": {
-    "message": "Dobro došli u Modrinth!"
+    "message": "Dobro došli u AllayHub!"
   },
   "auth.welcome.title": {
     "message": "Dobro došli"
@@ -183,7 +183,7 @@
     "message": "Jeste li sigurni da želite izbrisati ovu kolekciju?"
   },
   "collection.description": {
-    "message": "{description} - Pogledajte kolekciju {name} od {username} na Modrinthu"
+    "message": "{description} - Pogledajte kolekciju {name} od {username} na AllayHubu"
   },
   "layout.avatar.alt": {
     "message": "Vaš avatar"
@@ -195,6 +195,6 @@
     "message": "Posjetite postavke računa"
   },
   "layout.banner.add-email.description": {
-    "message": "Za sigurnosne razloge, Modrinth treba da registrirate e -poštu na ovaj račun."
+    "message": "Za sigurnosne razloge, AllayHub treba da registrirate e -poštu na ovaj račun."
   }
 }

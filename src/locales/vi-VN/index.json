@@ -27,7 +27,7 @@
     "message": "Linux"
   },
   "app-marketing.download.linux-disclaimer": {
-    "message": "Các phiên bản Linux của Modrinth App được <issues-link>biết là có vấn đề</issues-link> trên một số hệ thống và cấu hình nhất định. Nếu Modrinth App không ổn định trên hệ thống của bạn, chúng tôi khuyến khích bạn thử các ứng dụng khác như <prism-link>Prism Launcher</prism-link> để dễ dàng cài đặt nội dung của Modrinth."
+    "message": "Các phiên bản Linux của AllayLauncher được <issues-link>biết là có vấn đề</issues-link> trên một số hệ thống và cấu hình nhất định. Nếu AllayLauncher không ổn định trên hệ thống của bạn, chúng tôi khuyến khích bạn thử các ứng dụng khác như <prism-link>Prism Launcher</prism-link> để dễ dàng cài đặt nội dung của AllayHub."
   },
   "app-marketing.download.mac": {
     "message": "Mac"
@@ -36,13 +36,13 @@
     "message": "Tuỳ chọn tải về"
   },
   "app-marketing.download.terms": {
-    "message": "Bằng cách tải xuống Modrinth App, bạn đồng ý với <terms-link>Điều khoản</terms-link> và <privacy-link>Chính sách quyền riêng tư</privacy-link> của chúng tôi."
+    "message": "Bằng cách tải xuống AllayLauncher, bạn đồng ý với <terms-link>Điều khoản</terms-link> và <privacy-link>Chính sách quyền riêng tư</privacy-link> của chúng tôi."
   },
   "app-marketing.download.third-party-packages": {
     "message": "Gói của bên thứ ba"
   },
   "app-marketing.download.title": {
-    "message": "Tải xuống Modrinth App (Beta)"
+    "message": "Tải xuống AllayLauncher (Beta)"
   },
   "app-marketing.download.windows": {
     "message": "Windows"
@@ -54,7 +54,7 @@
     "message": "Theo dõi các dự án"
   },
   "app-marketing.features.importing.description": {
-    "message": "Nhập tất cả các hồ sơ yêu thích của bạn từ trình khởi chạy bạn đã sử dụng trước đó và bắt đầu với Modrinth App chỉ trong vài giây!"
+    "message": "Nhập tất cả các hồ sơ yêu thích của bạn từ trình khởi chạy bạn đã sử dụng trước đó và bắt đầu với AllayLauncher chỉ trong vài giây!"
   },
   "app-marketing.features.importing.gdlauncher-alt": {
     "message": "GDLauncher"
@@ -72,7 +72,7 @@
     "message": "bởi {author}"
   },
   "app-marketing.features.mod-management.description": {
-    "message": "Modrinth giúp bạn dễ dàng quản lý tất cả các mod ở một nơi. Bạn có thể cài đặt, gỡ cài đặt và cập nhật các mod chỉ bằng một cú nhấp chuột."
+    "message": "AllayHub giúp bạn dễ dàng quản lý tất cả các mod ở một nơi. Bạn có thể cài đặt, gỡ cài đặt và cập nhật các mod chỉ bằng một cú nhấp chuột."
   },
   "app-marketing.features.mod-management.installed-mods": {
     "message": "Các mod đã cài đặt"
@@ -96,7 +96,7 @@
     "message": "Chế độ ngoại tuyến"
   },
   "app-marketing.features.open-source.description": {
-    "message": "Trình khởi chạy của Modrinth là mã nguồn mở hoàn toàn. Bạn có thể xem mã nguồn trên <github-link>GitHub</github-link> của chúng tôi!"
+    "message": "Trình khởi chạy của AllayHub là mã nguồn mở hoàn toàn. Bạn có thể xem mã nguồn trên <github-link>GitHub</github-link> của chúng tôi!"
   },
   "app-marketing.features.open-source.title": {
     "message": "Mã nguồn mở"
@@ -108,7 +108,7 @@
     "message": "% CPU"
   },
   "app-marketing.features.performance.description": {
-    "message": "Modrinth App hoạt động tốt hơn nhiều trình quản lý mod hàng đầu, chỉ sử dụng 150MB RAM!"
+    "message": "AllayLauncher hoạt động tốt hơn nhiều trình quản lý mod hàng đầu, chỉ sử dụng 150MB RAM!"
   },
   "app-marketing.features.performance.discord": {
     "message": "Discord"
@@ -129,7 +129,7 @@
     "message": "< 150 MB"
   },
   "app-marketing.features.performance.modrinth-app": {
-    "message": "App Modrinth"
+    "message": "App AllayHub"
   },
   "app-marketing.features.performance.one-billion-percent": {
     "message": "1 tỉ %"
@@ -147,13 +147,13 @@
     "message": "Hiệu năng"
   },
   "app-marketing.features.play.description": {
-    "message": "Sử dụng Modrinth App để tải xuống và chơi với các mod và modpack yêu thích của bạn."
+    "message": "Sử dụng AllayLauncher để tải xuống và chơi với các mod và modpack yêu thích của bạn."
   },
   "app-marketing.features.play.title": {
     "message": "Chơi với các mod yêu thích của bạn"
   },
   "app-marketing.features.sharing.description": {
-    "message": "Xây dựng, chia sẻ và chơi các modpack với bất kỳ mod và modpack nào trong hàng nghìn mod và modpack được lưu trữ tại Modrinth."
+    "message": "Xây dựng, chia sẻ và chơi các modpack với bất kỳ mod và modpack nào trong hàng nghìn mod và modpack được lưu trữ tại AllayHub."
   },
   "app-marketing.features.sharing.modpack": {
     "message": "Gói mod"
@@ -168,7 +168,7 @@
     "message": "Khác biệt so với bất kỳ launcher nào"
   },
   "app-marketing.features.website.description": {
-    "message": "Modrinth App được tích hợp hoàn toàn với trang web, vì vậy bạn có thể truy cập tất cả các dự án yêu thích của mình ngay từ ứng dụng!"
+    "message": "AllayLauncher được tích hợp hoàn toàn với trang web, vì vậy bạn có thể truy cập tất cả các dự án yêu thích của mình ngay từ ứng dụng!"
   },
   "app-marketing.features.website.title": {
     "message": "Tích hợp với trang web"
@@ -177,19 +177,19 @@
     "message": "bạn đã từng sử dụng trước đây"
   },
   "app-marketing.hero.app-screenshot-alt": {
-    "message": "Ảnh chụp màn hình Modrinth App với một instance Cobblemon được mở ở trang \"Nội dung\"."
+    "message": "Ảnh chụp màn hình AllayLauncher với một instance Cobblemon được mở ở trang \"Nội dung\"."
   },
   "app-marketing.hero.description": {
-    "message": "Modrinth App là một launcher mã nguồn mở độc đáo, cho phép bạn chơi các mod yêu thích và giữ chúng luôn được cập nhật, tất cả gói gọn trong một ứng dụng nhỏ gọn."
+    "message": "AllayLauncher là một launcher mã nguồn mở độc đáo, cho phép bạn chơi các mod yêu thích và giữ chúng luôn được cập nhật, tất cả gói gọn trong một ứng dụng nhỏ gọn."
   },
   "app-marketing.hero.download-button": {
-    "message": "Tải App Modrinth"
+    "message": "Tải App AllayHub"
   },
   "app-marketing.hero.download-modrinth-app": {
-    "message": "Tải App Modrinth"
+    "message": "Tải App AllayHub"
   },
   "app-marketing.hero.download-modrinth-app-for-os": {
-    "message": "Tải xuống Modrinth App cho {os}"
+    "message": "Tải xuống AllayLauncher cho {os}"
   },
   "app-marketing.hero.minecraft-screenshot-alt": {
     "message": "Ảnh chụp màn hình menu chính của instance Cobblemon."
@@ -294,7 +294,7 @@
     "message": "Tên người dùng"
   },
   "auth.sign-up.legal-dislaimer": {
-    "message": "Khi bạn tạo tài khoản, bạn đồng ý với <terms-link>Điều khoản sử dụng</terms-link> và <privacy-policy-link>Chính sách quyền riêng tư</privacy-policy-link> của Modrinth."
+    "message": "Khi bạn tạo tài khoản, bạn đồng ý với <terms-link>Điều khoản sử dụng</terms-link> và <privacy-policy-link>Chính sách quyền riêng tư</privacy-policy-link> của AllayHub."
   },
   "auth.sign-up.notification.password-mismatch.text": {
     "message": "Mật khẩu không khớp!"
@@ -306,7 +306,7 @@
     "message": "Đã có tài khoản rồi à?"
   },
   "auth.sign-up.subscribe.label": {
-    "message": "Đăng kí để nhận cập nhật về Modrinth"
+    "message": "Đăng kí để nhận cập nhật về AllayHub"
   },
   "auth.sign-up.title": {
     "message": "Đăng ký"
@@ -351,16 +351,16 @@
     "message": "Xác nhận email"
   },
   "auth.welcome.checkbox.subscribe": {
-    "message": "Đăng kí để nhận cập nhật về Modrinth"
+    "message": "Đăng kí để nhận cập nhật về AllayHub"
   },
   "auth.welcome.description": {
     "message": "Bạn hiện đã là một phần của cộng đồng tuyệt vời gồm những người sáng tạo và khám phá, những người đang xây dựng, tải xuống và luôn cập nhật với các mod tuyệt vời."
   },
   "auth.welcome.label.tos": {
-    "message": "Khi bạn tạo tài khoản, bạn đồng ý với <terms-link>Điều khoản sử dụng</terms-link> và <privacy-policy-link>Chính sách quyền riêng tư</privacy-policy-link> của Modrinth."
+    "message": "Khi bạn tạo tài khoản, bạn đồng ý với <terms-link>Điều khoản sử dụng</terms-link> và <privacy-policy-link>Chính sách quyền riêng tư</privacy-policy-link> của AllayHub."
   },
   "auth.welcome.long-title": {
-    "message": "Chào mừng đến với Modrinth!"
+    "message": "Chào mừng đến với AllayHub!"
   },
   "auth.welcome.title": {
     "message": "Chào mừng"
@@ -390,7 +390,7 @@
     "message": "Bạn có chắc chắn muốn xóa bộ sưu tập này không?"
   },
   "collection.description": {
-    "message": "{description} - Xem bộ sưu tập {name} của {username} trên Modrinth"
+    "message": "{description} - Xem bộ sưu tập {name} của {username} trên AllayHub"
   },
   "collection.description.following": {
     "message": "Bộ sưu tập được tạo tự động từ tất cả các dự án bạn đang theo dõi."
@@ -639,7 +639,7 @@
     "message": "Biểu mẫu thuế"
   },
   "dashboard.creator-tax-form-modal.security.description": {
-    "message": "Modrinth sử dụng nhà cung cấp bên thứ ba Track1099 để thu thập và lưu trữ an toàn các biểu mẫu thuế của bạn. <security-link>Tìm hiểu thêm tại đây.</security-link>"
+    "message": "AllayHub sử dụng nhà cung cấp bên thứ ba Track1099 để thu thập và lưu trữ an toàn các biểu mẫu thuế của bạn. <security-link>Tìm hiểu thêm tại đây.</security-link>"
   },
   "dashboard.creator-tax-form-modal.security.header": {
     "message": "Thực hành bảo mật"
@@ -819,7 +819,7 @@
     "message": "Để rút toàn bộ số dư khả dụng <b>{available}</b>, vui lòng hoàn tất biểu mẫu bên dưới. Biểu mẫu này là bắt buộc cho việc khai báo thuế và chỉ cần thực hiện một lần."
   },
   "dashboard.creator-withdraw-modal.tax-form-required.body-with-limit": {
-    "message": "Bạn phải hoàn thành biểu mẫu W-9 hoặc W-8 cho hồ sơ thuế của Modrinth để chúng tôi tuân thủ các quy định về thuế."
+    "message": "Bạn phải hoàn thành biểu mẫu W-9 hoặc W-8 cho hồ sơ thuế của AllayHub để chúng tôi tuân thủ các quy định về thuế."
   },
   "dashboard.creator-withdraw-modal.tax-form-required.header": {
     "message": "Yêu cầu biểu mẫu thuế"
@@ -861,7 +861,7 @@
     "message": "Email chưa được xác minh"
   },
   "dashboard.creator-withdraw-modal.tremendous-details.unverified-email-message": {
-    "message": "Email nhận thưởng bạn đã nhập không được liên kết với tài khoản Modrinth của bạn. Modrinth không thể khôi phục các phần thưởng được gửi đến địa chỉ email không chính xác."
+    "message": "Email nhận thưởng bạn đã nhập không được liên kết với tài khoản AllayHub của bạn. AllayHub không thể khôi phục các phần thưởng được gửi đến địa chỉ email không chính xác."
   },
   "dashboard.creator-withdraw-modal.tremendous-details.usd-paypal-warning-header": {
     "message": "Có tùy chọn phí thấp hơn"
@@ -888,7 +888,7 @@
     "message": "Doanh thu ước tính có thể thay đổi cho đến khi được chuyển sang trạng thái khả dụng."
   },
   "dashboard.revenue.estimated-tooltip.msg2": {
-    "message": "Nhấp để tìm hiểu cách Modrinth xử lý doanh thu của bạn."
+    "message": "Nhấp để tìm hiểu cách AllayHub xử lý doanh thu của bạn."
   },
   "dashboard.revenue.estimated-with-date": {
     "message": "Ước tính {date}"
@@ -909,7 +909,7 @@
     "message": "Đã rút"
   },
   "dashboard.revenue.tos": {
-    "message": "Bằng việc tải dự án lên Modrinth và rút tiền từ tài khoản của bạn, bạn đồng ý với <terms-link>Điều Khoản Chương Trình Phần Thưởng</terms-link>. Tìm hiểu thêm về <info-link>Chương Trình Phần Thưởng</info-link>."
+    "message": "Bằng việc tải dự án lên AllayHub và rút tiền từ tài khoản của bạn, bạn đồng ý với <terms-link>Điều Khoản Chương Trình Phần Thưởng</terms-link>. Tìm hiểu thêm về <info-link>Chương Trình Phần Thưởng</info-link>."
   },
   "dashboard.revenue.transactions.btn.download-csv": {
     "message": "Tải xuống dưới dạng CSV"
@@ -1020,7 +1020,7 @@
     "message": "Bộ sưu tập có thể là riêng tư."
   },
   "error.collection.404.list_item.3": {
-    "message": "Bộ sưu tập có thể đã bị gỡ xuống bởi đội ngũ kiểm duyệt của Modrinth do vi phạm <tou-link>Điều khoản Sử dụng</tou-link> của chúng tôi."
+    "message": "Bộ sưu tập có thể đã bị gỡ xuống bởi đội ngũ kiểm duyệt của AllayHub do vi phạm <tou-link>Điều khoản Sử dụng</tou-link> của chúng tôi."
   },
   "error.collection.404.list_title": {
     "message": "Tại sao?"
@@ -1041,10 +1041,10 @@
     "message": "Nội dung không khả dụng vì lý do pháp lý"
   },
   "error.generic.default.list_item.1": {
-    "message": "Kiểm tra xem Modrinth có đang gặp sự cố không trên <status-link>Trang trạng thái</status-link> của chúng tôi."
+    "message": "Kiểm tra xem AllayHub có đang gặp sự cố không trên <status-link>Trang trạng thái</status-link> của chúng tôi."
   },
   "error.generic.default.list_item.2": {
-    "message": "Nếu điều này tiếp tục xảy ra, bạn có thể thông báo cho Đội ngũ Modrinth bằng cách tham gia <discord-link>máy chủ Discord</discord-link> của chúng tôi."
+    "message": "Nếu điều này tiếp tục xảy ra, bạn có thể thông báo cho Đội ngũ AllayHub bằng cách tham gia <discord-link>máy chủ Discord</discord-link> của chúng tôi."
   },
   "error.generic.default.list_title": {
     "message": "Vui lòng thử lại sau vài phút."
@@ -1062,7 +1062,7 @@
     "message": "Chủ dự án có thể đã thay đổi URL, hoặc đã xóa nó."
   },
   "error.organization.404.list_item.3": {
-    "message": "Tổ chức có thể đã bị gỡ xuống bởi đội ngũ kiểm duyệt của Modrinth do vi phạm <tou-link>Điều khoản Sử dụng</tou-link> của chúng tôi."
+    "message": "Tổ chức có thể đã bị gỡ xuống bởi đội ngũ kiểm duyệt của AllayHub do vi phạm <tou-link>Điều khoản Sử dụng</tou-link> của chúng tôi."
   },
   "error.organization.404.list_title": {
     "message": "Tại sao?"
@@ -1077,7 +1077,7 @@
     "message": "Chủ sở hữu dự án có thể đã thay đổi URL, đặt dự án ở chế độ riêng tư hoặc đã xóa dự án."
   },
   "error.project.404.list_item.3": {
-    "message": "Dự án có thể đã bị gỡ xuống bởi đội ngũ kiểm duyệt của Modrinth do vi phạm <tou-link>Điều khoản Sử dụng</tou-link> của chúng tôi."
+    "message": "Dự án có thể đã bị gỡ xuống bởi đội ngũ kiểm duyệt của AllayHub do vi phạm <tou-link>Điều khoản Sử dụng</tou-link> của chúng tôi."
   },
   "error.project.404.list_title": {
     "message": "Tại sao?"
@@ -1092,7 +1092,7 @@
     "message": "Người dùng có thể đã thay đổi tên người dùng hoặc xóa tài khoản của họ."
   },
   "error.user.404.list_item.3": {
-    "message": "Tài khoản của người dùng có thể đã bị chấm dứt do vi phạm <tou-link>Điều khoản Sử dụng</tou-link> của Modrinth."
+    "message": "Tài khoản của người dùng có thể đã bị chấm dứt do vi phạm <tou-link>Điều khoản Sử dụng</tou-link> của AllayHub."
   },
   "error.user.404.list_title": {
     "message": "Tại sao?"
@@ -1122,7 +1122,7 @@
     "message": "Đi tới bảng điều khiển"
   },
   "landing.creator.feature.constantly-evolving.description": {
-    "message": "Tận hưởng trải nghiệm modding tốt nhất với các bản cập nhật liên tục từ đội ngũ Modrinth"
+    "message": "Tận hưởng trải nghiệm modding tốt nhất với các bản cập nhật liên tục từ đội ngũ AllayHub"
   },
   "landing.creator.feature.constantly-evolving.title": {
     "message": "Không ngừng phát triển"
@@ -1206,10 +1206,10 @@
     "message": "ATLauncher"
   },
   "landing.launcher.graphic-alt": {
-    "message": "Hình minh hoạ đơn giản của một cửa sổ Minecraft, với logo Mojang Studios màu xanh Modrinth."
+    "message": "Hình minh hoạ đơn giản của một cửa sổ Minecraft, với logo Mojang Studios màu xanh AllayHub."
   },
   "landing.launcher.modrinth-app-label": {
-    "message": "Ứng dụng Modrinth"
+    "message": "Ứng dụng AllayHub"
   },
   "landing.launcher.prism-launcher-label": {
     "message": "Prism Launcher"
@@ -1302,19 +1302,19 @@
     "message": "Truy cập cài đặt tài khoản"
   },
   "layout.banner.add-email.description": {
-    "message": "Vì lý do bảo mật, Modrinth yêu cầu bạn đăng ký một địa chỉ email cho tài khoản của mình."
+    "message": "Vì lý do bảo mật, AllayHub yêu cầu bạn đăng ký một địa chỉ email cho tài khoản của mình."
   },
   "layout.banner.build-fail.description": {
-    "message": "Lần triển khai frontend của Modrinth này không thể tạo trạng thái từ API. Nguyên nhân có thể do sự cố hệ thống hoặc lỗi cấu hình. Hãy build lại khi API khả dụng. Mã lỗi: {errors}; URL API hiện tại: {url}"
+    "message": "Lần triển khai frontend của AllayHub này không thể tạo trạng thái từ API. Nguyên nhân có thể do sự cố hệ thống hoặc lỗi cấu hình. Hãy build lại khi API khả dụng. Mã lỗi: {errors}; URL API hiện tại: {url}"
   },
   "layout.banner.build-fail.title": {
     "message": "Lỗi tạo trạng thái từ API trong quá trình build."
   },
   "layout.banner.staging.description": {
-    "message": "Môi trường staging hoàn toàn tách biệt với cơ sở dữ liệu Modrinth đang vận hành chính thức. Môi trường này được dùng cho mục đích thử nghiệm và gỡ lỗi, và có thể đang chạy các phiên bản backend hoặc frontend Modrinth đang phát triển, mới hơn bản production."
+    "message": "Môi trường staging hoàn toàn tách biệt với cơ sở dữ liệu AllayHub đang vận hành chính thức. Môi trường này được dùng cho mục đích thử nghiệm và gỡ lỗi, và có thể đang chạy các phiên bản backend hoặc frontend AllayHub đang phát triển, mới hơn bản production."
   },
   "layout.banner.staging.title": {
-    "message": "Bạn đang xem môi trường staging của Modrinth"
+    "message": "Bạn đang xem môi trường staging của AllayHub"
   },
   "layout.banner.subscription-payment-failed.button": {
     "message": "Cập nhật thông tin thanh toán"
@@ -1329,7 +1329,7 @@
     "message": "Hoàn thành biểu mẫu thuế"
   },
   "layout.banner.tax.description": {
-    "message": "Bạn đã rút hơn 600 Usd từ Modrinth trong năm nay. Để tuân thủ quy định thuế, bạn cần hoàn tất biểu mẫu thuế. Việc rút tiền sẽ tạm dừng cho đến khi biểu mẫu này được gửi."
+    "message": "Bạn đã rút hơn 600 Usd từ AllayHub trong năm nay. Để tuân thủ quy định thuế, bạn cần hoàn tất biểu mẫu thuế. Việc rút tiền sẽ tạm dừng cho đến khi biểu mẫu này được gửi."
   },
   "layout.banner.tax.title": {
     "message": "Yêu cầu biểu mẫu thuế"
@@ -1347,7 +1347,7 @@
     "message": "Gửi lại email xác minh"
   },
   "layout.banner.verify-email.description": {
-    "message": "Vì lý do bảo mật, Modrinth yêu cầu bạn xác minh địa chỉ email được liên kết với tài khoản của mình."
+    "message": "Vì lý do bảo mật, AllayHub yêu cầu bạn xác minh địa chỉ email được liên kết với tài khoản của mình."
   },
   "layout.footer.about": {
     "message": "Giới thiệu"
@@ -1389,7 +1389,7 @@
     "message": "Điều khoản sử dụng"
   },
   "layout.footer.modrinth-information": {
-    "message": "Thông tin Modrinth"
+    "message": "Thông tin AllayHub"
   },
   "layout.footer.open-source": {
     "message": "AllayHub là <github-link>mã nguồn mở</github-link>."
@@ -1398,13 +1398,13 @@
     "message": "Sản phẩm"
   },
   "layout.footer.products.app": {
-    "message": "Ứng dụng Modrinth"
+    "message": "Ứng dụng AllayHub"
   },
   "layout.footer.products.plus": {
-    "message": "Modrinth+"
+    "message": "AllayHub+"
   },
   "layout.footer.products.servers": {
-    "message": "Modrinth Hosting"
+    "message": "AllayHub Hosting"
   },
   "layout.footer.resources": {
     "message": "Tài nguyên"
@@ -1440,7 +1440,7 @@
     "message": "Chuyển đổi menu"
   },
   "layout.meta.description": {
-    "message": "Tải xuống các mod Minecraft, plugin, datapack, shader, gói tài nguyên và modpack trên Modrinth. Khám phá và xuất bản các dự án trên Modrinth với giao diện và API hiện đại, dễ sử dụng."
+    "message": "Tải xuống các mod Minecraft, plugin, datapack, shader, gói tài nguyên và modpack trên AllayHub. Khám phá và xuất bản các dự án trên AllayHub với giao diện và API hiện đại, dễ sử dụng."
   },
   "layout.meta.og-description": {
     "message": "Khám phá và xuất bản nội dung Minecraft!"
@@ -1476,10 +1476,10 @@
     "message": "Tạo máy chủ"
   },
   "layout.nav.modrinth-app": {
-    "message": "Ứng dụng Modrinth"
+    "message": "Ứng dụng AllayHub"
   },
   "layout.nav.modrinth-home-page": {
-    "message": "Trang chủ Modrinth"
+    "message": "Trang chủ AllayHub"
   },
   "layout.nav.my-servers": {
     "message": "Máy chủ của tôi"
@@ -1503,7 +1503,7 @@
     "message": "Tìm kiếm"
   },
   "layout.nav.upgrade-to-modrinth-plus": {
-    "message": "Nâng cấp lên Modrinth+"
+    "message": "Nâng cấp lên AllayHub+"
   },
   "moderation.filter.by": {
     "message": "Lọc theo"
@@ -1776,10 +1776,10 @@
     "message": "Tổ chức"
   },
   "profile.meta.description": {
-    "message": "Tải xuống các dự án của {username} trên Modrinth"
+    "message": "Tải xuống các dự án của {username} trên AllayHub"
   },
   "profile.meta.description-with-bio": {
-    "message": "{bio} - Tải xuống các dự án của {username} trên Modrinth"
+    "message": "{bio} - Tải xuống các dự án của {username} trên AllayHub"
   },
   "profile.stats.projects-followers": {
     "message": "{count, plural, other {<stat>{count}</stat> người theo dõi dự án}}"
@@ -2061,7 +2061,7 @@
     "message": "Viết báo cáo"
   },
   "scopes.sessionAccess.description": {
-    "message": "Truy cập vào các phiên do Modrinth tạo"
+    "message": "Truy cập vào các phiên do AllayHub tạo"
   },
   "scopes.sessionAccess.label": {
     "message": "Truy cập vào phiên"
@@ -2136,7 +2136,7 @@
     "message": "Visa"
   },
   "settings.display.sidebar.hide-app-promos.title": {
-    "message": "Ẩn quảng cáo ứng dụng Modrinth"
+    "message": "Ẩn quảng cáo ứng dụng AllayHub"
   },
   "settings.pats.modal.create.name.label": {
     "message": "Tên"

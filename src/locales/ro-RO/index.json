@@ -27,7 +27,7 @@
     "message": "Linux"
   },
   "app-marketing.download.linux-disclaimer": {
-    "message": "Versiunea de Linux a Modrinth App <issues-link>este cunoscută să aiba probleme</issues-link> pe anumite sisteme și configurări. Dacă Modrinth App este instabilă pe sistemul tău, te încurajăm să încerci și alte aplicații precum <prism-link>Prism Launcher</prism-link> pentru a instala ușor conținut de pe Modrinth."
+    "message": "Versiunea de Linux a AllayLauncher <issues-link>este cunoscută să aiba probleme</issues-link> pe anumite sisteme și configurări. Dacă AllayLauncher este instabilă pe sistemul tău, te încurajăm să încerci și alte aplicații precum <prism-link>Prism Launcher</prism-link> pentru a instala ușor conținut de pe AllayHub."
   },
   "app-marketing.download.mac": {
     "message": "Mac"
@@ -36,13 +36,13 @@
     "message": "Opțiuni descărcare"
   },
   "app-marketing.download.terms": {
-    "message": "Prin descărcarea Modrinth App ești de acord cu ai noștri <terms-link>Termeni</terms-link> și <privacy-link>Politica de confidențialitate</privacy-link>."
+    "message": "Prin descărcarea AllayLauncher ești de acord cu ai noștri <terms-link>Termeni</terms-link> și <privacy-link>Politica de confidențialitate</privacy-link>."
   },
   "app-marketing.download.third-party-packages": {
     "message": "Pachete terță"
   },
   "app-marketing.download.title": {
-    "message": "Descarcă Modrinth App (Beta)"
+    "message": "Descarcă AllayLauncher (Beta)"
   },
   "app-marketing.download.windows": {
     "message": "Windows"
@@ -54,7 +54,7 @@
     "message": "Urmărește proiecte"
   },
   "app-marketing.features.importing.description": {
-    "message": "Importă toate profilurile tale favorite de pe aplicația pe care o foloseai înainte, și începe cu Modrinth App în secunde!"
+    "message": "Importă toate profilurile tale favorite de pe aplicația pe care o foloseai înainte, și începe cu AllayLauncher în secunde!"
   },
   "app-marketing.features.importing.gdlauncher-alt": {
     "message": "GDLauncher"
@@ -72,7 +72,7 @@
     "message": "de {author}"
   },
   "app-marketing.features.mod-management.description": {
-    "message": "Modrinth face mai ușor de administrat toate modurile tale într-un singur loc. Poți instala, dezinstala, și actualiza modurile cu un singur click."
+    "message": "AllayHub face mai ușor de administrat toate modurile tale într-un singur loc. Poți instala, dezinstala, și actualiza modurile cu un singur click."
   },
   "app-marketing.features.mod-management.installed-mods": {
     "message": "Moduri instalate"
@@ -96,7 +96,7 @@
     "message": "Modul offline"
   },
   "app-marketing.features.open-source.description": {
-    "message": "Lansatorul Modrinth este complet cu sursă deschisă. Poți vedea codul sursă pe <github-link>GitHub</github-link>-ul nostru!"
+    "message": "Lansatorul AllayHub este complet cu sursă deschisă. Poți vedea codul sursă pe <github-link>GitHub</github-link>-ul nostru!"
   },
   "app-marketing.features.open-source.title": {
     "message": "Sursă deschisă"
@@ -108,7 +108,7 @@
     "message": "% CPU"
   },
   "app-marketing.features.performance.description": {
-    "message": "Modrinth App funcționează mai bine decât multe dintre cele mai populare aplicații de gestionare a modurilor, utilizând doar 150 MB de memorie RAM!"
+    "message": "AllayLauncher funcționează mai bine decât multe dintre cele mai populare aplicații de gestionare a modurilor, utilizând doar 150 MB de memorie RAM!"
   },
   "app-marketing.features.performance.discord": {
     "message": "Discord"
@@ -129,7 +129,7 @@
     "message": "< 150 MB"
   },
   "app-marketing.features.performance.modrinth-app": {
-    "message": "Modrinth App"
+    "message": "AllayLauncher"
   },
   "app-marketing.features.performance.one-billion-percent": {
     "message": "1 miliard %"
@@ -147,13 +147,13 @@
     "message": "Performant"
   },
   "app-marketing.features.play.description": {
-    "message": "Folosește Modrinth App pentru a descărca și a te juca împreună cu modurile și pachetele de moduri preferate."
+    "message": "Folosește AllayLauncher pentru a descărca și a te juca împreună cu modurile și pachetele de moduri preferate."
   },
   "app-marketing.features.play.title": {
     "message": "Joacă-te cu modurile tale favorite"
   },
   "app-marketing.features.sharing.description": {
-    "message": "Construiește, distribuie și joacă pachete de moduri cu oricare dintre miile de moduri și pachete de moduri găzduite aici pe Modrinth."
+    "message": "Construiește, distribuie și joacă pachete de moduri cu oricare dintre miile de moduri și pachete de moduri găzduite aici pe AllayHub."
   },
   "app-marketing.features.sharing.modpack": {
     "message": "Pachet de Moduri"
@@ -168,7 +168,7 @@
     "message": "Diferit de orice alt lansator pe care l-ai folosit vreodată"
   },
   "app-marketing.features.website.description": {
-    "message": "Modrinth App este complet integrat cu site-ul, astfel că poți accesa toate proiectele tale preferate direct din aplicație!"
+    "message": "AllayLauncher este complet integrat cu site-ul, astfel că poți accesa toate proiectele tale preferate direct din aplicație!"
   },
   "app-marketing.features.website.title": {
     "message": "Integrare cu site-ul web"
@@ -177,19 +177,19 @@
     "message": "pe care le-ai folosit anterior"
   },
   "app-marketing.hero.app-screenshot-alt": {
-    "message": "Captură de ecran a Modrinth App cu o instanță Cobblemon deschisă la pagina 'Conținut'."
+    "message": "Captură de ecran a AllayLauncher cu o instanță Cobblemon deschisă la pagina 'Conținut'."
   },
   "app-marketing.hero.description": {
-    "message": "Modrinth App este un lansator unic, cu sursă deschisă, care îți permite să joci modurile tale preferate și să le menții mereu actualizate, totul într-un pachet mic și ordonat."
+    "message": "AllayLauncher este un lansator unic, cu sursă deschisă, care îți permite să joci modurile tale preferate și să le menții mereu actualizate, totul într-un pachet mic și ordonat."
   },
   "app-marketing.hero.download-button": {
-    "message": "Descarcă Modrinth App"
+    "message": "Descarcă AllayLauncher"
   },
   "app-marketing.hero.download-modrinth-app": {
-    "message": "Descarcă Modrinth App"
+    "message": "Descarcă AllayLauncher"
   },
   "app-marketing.hero.download-modrinth-app-for-os": {
-    "message": "Descarcă Modrinth App pentru {os}"
+    "message": "Descarcă AllayLauncher pentru {os}"
   },
   "app-marketing.hero.minecraft-screenshot-alt": {
     "message": "Captură de ecran a ecranului principal al meniului instanței Cobblemon."
@@ -294,7 +294,7 @@
     "message": "Nume de utilizator"
   },
   "auth.sign-up.legal-dislaimer": {
-    "message": "Prin crearea unui cont, ești de acord cu <terms-link>Termenii</terms-link> și <privacy-policy-link>Politica de confidențialitate</privacy-policy-link> Modrinth."
+    "message": "Prin crearea unui cont, ești de acord cu <terms-link>Termenii</terms-link> și <privacy-policy-link>Politica de confidențialitate</privacy-policy-link> AllayHub."
   },
   "auth.sign-up.notification.password-mismatch.text": {
     "message": "Parolele nu se potrivesc!"
@@ -306,7 +306,7 @@
     "message": "Aveți deja un cont?"
   },
   "auth.sign-up.subscribe.label": {
-    "message": "Abonați-vă la actualizările despre Modrinth"
+    "message": "Abonați-vă la actualizările despre AllayHub"
   },
   "auth.sign-up.title": {
     "message": "Înregistrare"
@@ -351,16 +351,16 @@
     "message": "Verifică email-ul"
   },
   "auth.welcome.checkbox.subscribe": {
-    "message": "Abonați-vă la actualizările despre Modrinth"
+    "message": "Abonați-vă la actualizările despre AllayHub"
   },
   "auth.welcome.description": {
     "message": "Acum faci parte din minunata comunitate de creatori și exploratori care deja creează, descarcă și rămân la curent cu moduri extraordinare."
   },
   "auth.welcome.label.tos": {
-    "message": "Prin crearea unui cont, ești de acord cu <terms-link>Termenii</terms-link> și <privacy-policy-link>Politica de confidențialitate</privacy-policy-link> Modrinth."
+    "message": "Prin crearea unui cont, ești de acord cu <terms-link>Termenii</terms-link> și <privacy-policy-link>Politica de confidențialitate</privacy-policy-link> AllayHub."
   },
   "auth.welcome.long-title": {
-    "message": "Bine ați venit pe Modrinth!"
+    "message": "Bine ați venit pe AllayHub!"
   },
   "auth.welcome.title": {
     "message": "Bine ați venit"
@@ -378,7 +378,7 @@
     "message": "Sunteți sigur(ă) că doriți să ștergeți această colecție?"
   },
   "collection.description": {
-    "message": "{description} - Vizualizați colecția {name} de la {username} pe Modrinth"
+    "message": "{description} - Vizualizați colecția {name} de la {username} pe AllayHub"
   },
   "collection.description.following": {
     "message": "Colecție generată automat cu toate proiectele pe care le urmăriți."
@@ -585,7 +585,7 @@
     "message": "Formular fiscal"
   },
   "dashboard.creator-tax-form-modal.security.description": {
-    "message": "Modrinth folosește furnizorul terț Track1099 pentru a colecta și stoca în siguranță formularele tale fiscale. <security-link>Află mai multe aici.</security-link>"
+    "message": "AllayHub folosește furnizorul terț Track1099 pentru a colecta și stoca în siguranță formularele tale fiscale. <security-link>Află mai multe aici.</security-link>"
   },
   "dashboard.creator-tax-form-modal.security.header": {
     "message": "Practici de securitate"
@@ -600,7 +600,7 @@
     "message": "Colecția se poate să fie privată."
   },
   "error.collection.404.list_item.3": {
-    "message": "Colecția se poate să fie blocată de către moderatorii Modrinth pentru violarea <tou-link>Termenilor de Utilizare</tou-link>."
+    "message": "Colecția se poate să fie blocată de către moderatorii AllayHub pentru violarea <tou-link>Termenilor de Utilizare</tou-link>."
   },
   "error.collection.404.list_title": {
     "message": "De ce?"
@@ -621,10 +621,10 @@
     "message": "Conținut indisponibil din motive legale"
   },
   "error.generic.default.list_item.1": {
-    "message": "Verifică dacă Modrinth este picat pe a noastră <status-link>Pagină de status</status-link>."
+    "message": "Verifică dacă AllayHub este picat pe a noastră <status-link>Pagină de status</status-link>."
   },
   "error.generic.default.list_item.2": {
-    "message": "Dacă asta continuă să se întâmple, poate vrei să anunți echipa Modrinth alăturându-te serverului nostru de <discord-link>Discord</discord-link>."
+    "message": "Dacă asta continuă să se întâmple, poate vrei să anunți echipa AllayHub alăturându-te serverului nostru de <discord-link>Discord</discord-link>."
   },
   "error.generic.default.list_title": {
     "message": "Te rog încercă din nou în câteva minute."
@@ -642,7 +642,7 @@
     "message": "Deținătorul organizației a schimbat URL-ul sau l-a șters."
   },
   "error.organization.404.list_item.3": {
-    "message": "Organizația se poate să fie ștearsă de către moderatorii Modrinth pentru violarea <tou-link>Termenilor de Utilizare</tou-link>."
+    "message": "Organizația se poate să fie ștearsă de către moderatorii AllayHub pentru violarea <tou-link>Termenilor de Utilizare</tou-link>."
   },
   "error.organization.404.list_title": {
     "message": "De ce?"
@@ -657,7 +657,7 @@
     "message": "Proprietarul proiectului s-ar putea să fi schimbat URL-ul, să fi făcut proiectul privat sau să-l fi șters."
   },
   "error.project.404.list_item.3": {
-    "message": "Proiectul se poate să fie blocat de către moderatorii Modrinth pentru violarea <tou-link>Termenilor de Utilizare</tou-link>."
+    "message": "Proiectul se poate să fie blocat de către moderatorii AllayHub pentru violarea <tou-link>Termenilor de Utilizare</tou-link>."
   },
   "error.project.404.list_title": {
     "message": "De ce?"
@@ -672,7 +672,7 @@
     "message": "Acest utilizator se poate să-și fi schimbat numele sau șters contul."
   },
   "error.user.404.list_item.3": {
-    "message": "Acest utilizator se poate să aibă contul terminat pentru violarea <tou-link>Termenilor de Utilizare</tou-link> Modrinth."
+    "message": "Acest utilizator se poate să aibă contul terminat pentru violarea <tou-link>Termenilor de Utilizare</tou-link> AllayHub."
   },
   "error.user.404.list_title": {
     "message": "De ce?"
@@ -702,7 +702,7 @@
     "message": "Du-te la panoul principal"
   },
   "landing.creator.feature.constantly-evolving.description": {
-    "message": "Obține cea mai bună experiență posibilă, cu actualizări constante de la echipa Modrinth."
+    "message": "Obține cea mai bună experiență posibilă, cu actualizări constante de la echipa AllayHub."
   },
   "landing.creator.feature.constantly-evolving.title": {
     "message": "Evoluare Constantă"
@@ -747,7 +747,7 @@
     "message": "Urmărește proiectele pe care le iubești"
   },
   "landing.feature.launcher.description": {
-    "message": "API-ul nostru permite lansatoarelor să adauge o integrare avansată cu Modrinth. Poți folosi <link>aplicația noastră</link> sau unul dintre cele mai populare lansatoare, precum ATLauncher, MultiMC și Prism Launcher."
+    "message": "API-ul nostru permite lansatoarelor să adauge o integrare avansată cu AllayHub. Poți folosi <link>aplicația noastră</link> sau unul dintre cele mai populare lansatoare, precum ATLauncher, MultiMC și Prism Launcher."
   },
   "landing.feature.launcher.heading": {
     "message": "Joacă-te cu lansatorul tău preferat"
@@ -786,10 +786,10 @@
     "message": "ATLauncher"
   },
   "landing.launcher.graphic-alt": {
-    "message": "O reprezentare simplificată a unei ferestre Minecraft, cu logo-ul Mojang Studios în verdele Modrinth."
+    "message": "O reprezentare simplificată a unei ferestre Minecraft, cu logo-ul Mojang Studios în verdele AllayHub."
   },
   "landing.launcher.modrinth-app-label": {
-    "message": "Modrinth App"
+    "message": "AllayLauncher"
   },
   "landing.launcher.prism-launcher-label": {
     "message": "Prism Launcher"
@@ -870,19 +870,19 @@
     "message": "Vizitați setările contului"
   },
   "layout.banner.add-email.description": {
-    "message": "Din motive de securitate, pe Modrinth este necesar să înregistrezi contul cu o adresă de email."
+    "message": "Din motive de securitate, pe AllayHub este necesar să înregistrezi contul cu o adresă de email."
   },
   "layout.banner.build-fail.description": {
-    "message": "Această implementare a interfeței Modrinth a eșuat în generarea stării din API. Acest lucru poate fi cauzat de o întrerupere sau de o eroare de configurare. Reconstruiește atunci când API-ul este disponibil. Coduri de eroare: {errors}; URL-ul curent al API-ului este: {url}"
+    "message": "Această implementare a interfeței AllayHub a eșuat în generarea stării din API. Acest lucru poate fi cauzat de o întrerupere sau de o eroare de configurare. Reconstruiește atunci când API-ul este disponibil. Coduri de eroare: {errors}; URL-ul curent al API-ului este: {url}"
   },
   "layout.banner.build-fail.title": {
     "message": "Eroare la generarea stării din API în timpul construirii."
   },
   "layout.banner.staging.description": {
-    "message": "Mediul de stagiu este complet separat de baza de date Modrinth de producție. Acesta este folosit pentru testare și depanare și poate rula versiuni în dezvoltare ale backend-ului sau frontend-ului Modrinth, mai noi decât instanța de producție."
+    "message": "Mediul de stagiu este complet separat de baza de date AllayHub de producție. Acesta este folosit pentru testare și depanare și poate rula versiuni în dezvoltare ale backend-ului sau frontend-ului AllayHub, mai noi decât instanța de producție."
   },
   "layout.banner.staging.title": {
-    "message": "Vizualizați mediul de testare Modrinth"
+    "message": "Vizualizați mediul de testare AllayHub"
   },
   "layout.banner.subscription-payment-failed.button": {
     "message": "Actualizează informația facturii"
@@ -903,7 +903,7 @@
     "message": "Retrimiteți emailul de verificare"
   },
   "layout.banner.verify-email.description": {
-    "message": "Din motive de securitate, pe Modrinth este necesar să verifici adresa de email asociată contului."
+    "message": "Din motive de securitate, pe AllayHub este necesar să verifici adresa de email asociată contului."
   },
   "layout.footer.about": {
     "message": "Despre"
@@ -945,19 +945,19 @@
     "message": "Termeni de Utilizare"
   },
   "layout.footer.modrinth-information": {
-    "message": "Informații Modrinth"
+    "message": "Informații AllayHub"
   },
   "layout.footer.open-source": {
-    "message": "Modrinth are <github-link>sursa deschisă</github-link>."
+    "message": "AllayHub are <github-link>sursa deschisă</github-link>."
   },
   "layout.footer.products": {
     "message": "Produse"
   },
   "layout.footer.products.app": {
-    "message": "Modrinth App"
+    "message": "AllayLauncher"
   },
   "layout.footer.products.plus": {
-    "message": "Modrinth+"
+    "message": "AllayHub+"
   },
   "layout.footer.resources": {
     "message": "Resurse"
@@ -993,7 +993,7 @@
     "message": "Comută meniul"
   },
   "layout.meta.description": {
-    "message": "Descarcă moduri, pluginuri, pachete de date, shadere, pachete de resurse și pachete de moduri pentru Minecraft de pe Modrinth. Descoperă și publică proiecte pe Modrinth cu o interfață modernă și ușor de folosit și cu un API accesibil."
+    "message": "Descarcă moduri, pluginuri, pachete de date, shadere, pachete de resurse și pachete de moduri pentru Minecraft de pe AllayHub. Descoperă și publică proiecte pe AllayHub cu o interfață modernă și ușor de folosit și cu un API accesibil."
   },
   "layout.meta.og-description": {
     "message": "Descoperă și publică conținut pentru Minecraft!"
@@ -1020,10 +1020,10 @@
     "message": "Găzduiește un server"
   },
   "layout.nav.modrinth-app": {
-    "message": "Modrinth App"
+    "message": "AllayLauncher"
   },
   "layout.nav.modrinth-home-page": {
-    "message": "Pagina de pornire Modrinth"
+    "message": "Pagina de pornire AllayHub"
   },
   "layout.nav.organizations": {
     "message": "Organizații"
@@ -1044,7 +1044,7 @@
     "message": "Caută"
   },
   "layout.nav.upgrade-to-modrinth-plus": {
-    "message": "Treci la Modrinth+"
+    "message": "Treci la AllayHub+"
   },
   "moderation.filter.by": {
     "message": "Filtrează după"
@@ -1104,10 +1104,10 @@
     "message": "Organizații"
   },
   "profile.meta.description": {
-    "message": "Descarcă proiectele lui {username} pe Modrinth"
+    "message": "Descarcă proiectele lui {username} pe AllayHub"
   },
   "profile.meta.description-with-bio": {
-    "message": "{bio} - Descarcă proiectele lui {username} pe Modrinth"
+    "message": "{bio} - Descarcă proiectele lui {username} pe AllayHub"
   },
   "profile.stats.projects-followers": {
     "message": "{count, plural, one {<stat>{count}</stat> urmăritor} other {<stat>{count}</stat> urmăritori}}"
@@ -1287,10 +1287,10 @@
     "message": "{title} nu este compatibil cu {gameVersion} pentru {platform}"
   },
   "project.download.install-with-app": {
-    "message": "Instalează cu Modrinth App"
+    "message": "Instalează cu AllayLauncher"
   },
   "project.download.no-app": {
-    "message": "Nu ai Modrinth App?"
+    "message": "Nu ai AllayLauncher?"
   },
   "project.download.no-versions-available": {
     "message": "Nu există versiuni disponibile pentru {gameVersion} și {platform}."
@@ -1326,7 +1326,7 @@
     "message": "Descarcă {title}"
   },
   "project.environment.migration-no-permission.message": {
-    "message": "Am refăcut sistemul de medii pe Modrinth, iar acum sunt disponibile opțiuni noi. Nu ai permisiunea de a modifica aceste setări, dar te rugăm să informezi un alt membru al proiectului că metadatele mediului trebuie verificate."
+    "message": "Am refăcut sistemul de medii pe AllayHub, iar acum sunt disponibile opțiuni noi. Nu ai permisiunea de a modifica aceste setări, dar te rugăm să informezi un alt membru al proiectului că metadatele mediului trebuie verificate."
   },
   "project.environment.migration-no-permission.title": {
     "message": "Metadatele mediului trebuie revizuite"
@@ -1464,7 +1464,7 @@
     "message": "Nu s-a putut găsi {item}"
   },
   "report.for.violation": {
-    "message": "Încălcarea <rules-link>Regulilor</rules-link> sau a <terms-link>Termenilor de Utilizare</terms-link> Modrinth"
+    "message": "Încălcarea <rules-link>Regulilor</rules-link> sau a <terms-link>Termenilor de Utilizare</terms-link> AllayHub"
   },
   "report.for.violation.description": {
     "message": "Exemplele includ conținut rău intenționat, spam, ofensator, înșelător, care poate induce în eroare sau ilegal."
@@ -1509,7 +1509,7 @@
     "message": "Ce tip de conținut raportezi?"
   },
   "report.question.report-reason": {
-    "message": "Care dintre regulile Modrinth încalcă acest {item}?"
+    "message": "Care dintre regulile AllayHub încalcă acest {item}?"
   },
   "report.report-content": {
     "message": "Raportează conținutul moderatorilor"
@@ -1677,7 +1677,7 @@
     "message": "Scrie rapoarte"
   },
   "scopes.sessionAccess.description": {
-    "message": "Accesează sesiunile emise de Modrinth"
+    "message": "Accesează sesiunile emise de AllayHub"
   },
   "scopes.sessionAccess.label": {
     "message": "Accesează sesiunile"
@@ -1899,13 +1899,13 @@
     "message": "Visa"
   },
   "settings.billing.pyro_subscription.description": {
-    "message": "Gestionează-ți abonamentele la Modrinth Server."
+    "message": "Gestionează-ți abonamentele la AllayHub Server."
   },
   "settings.billing.pyro_subscription.title": {
-    "message": "Abonamente pentru Modrinth Servers"
+    "message": "Abonamente pentru AllayHub Servers"
   },
   "settings.billing.subscription.description": {
-    "message": "Administrează-ți abonamentele Modrinth."
+    "message": "Administrează-ți abonamentele AllayHub."
   },
   "settings.billing.subscription.title": {
     "message": "Abonamente"
@@ -1914,7 +1914,7 @@
     "message": "Dezactivați modul de dezvoltator"
   },
   "settings.display.banner.developer-mode.description": {
-    "message": "<strong>Modul de dezvoltator</strong> este activ. Acest lucru vă va permite să vizualizați ID-urile interne ale diverselor lucruri din Modrinth, ceea ce poate fi util dacă sunteți un dezvoltator care folosește API-ul Modrinth. Faceți clic pe sigla Modrinth din partea de jos a paginii de 5 ori pentru a activa sau dezactiva modul de dezvoltator."
+    "message": "<strong>Modul de dezvoltator</strong> este activ. Acest lucru vă va permite să vizualizați ID-urile interne ale diverselor lucruri din AllayHub, ceea ce poate fi util dacă sunteți un dezvoltator care folosește API-ul AllayHub. Faceți clic pe sigla AllayHub din partea de jos a paginii de 5 ori pentru a activa sau dezactiva modul de dezvoltator."
   },
   "settings.display.flags.description": {
     "message": "Activați sau dezactivați anumite caracteristici pe acest dispozitiv."
@@ -1959,16 +1959,16 @@
     "message": "Redare avansată"
   },
   "settings.display.sidebar.external-links-new-tab.description": {
-    "message": "Deschide linkurile externe de pe Modrinth într-o pagină nouă. Indiferent de această setare, linkurile de pe același domeniu și din descrierile Markdown se vor deschide în aceeași pagină, iar linkurile din reclame și paginile de editare se vor deschide într-o pagină nouă."
+    "message": "Deschide linkurile externe de pe AllayHub într-o pagină nouă. Indiferent de această setare, linkurile de pe același domeniu și din descrierile Markdown se vor deschide în aceeași pagină, iar linkurile din reclame și paginile de editare se vor deschide într-o pagină nouă."
   },
   "settings.display.sidebar.external-links-new-tab.title": {
     "message": "Deschide linkurile externe într-o pagină nouă"
   },
   "settings.display.sidebar.hide-app-promos.description": {
-    "message": "Ascunde butoanele \"Descarcă Modrinth App\" din navigarea principală. Pagina aplicației Modrinth poate fi găsită în continuare pe pagina de destinație sau în subsol."
+    "message": "Ascunde butoanele \"Descarcă AllayLauncher\" din navigarea principală. Pagina aplicației AllayHub poate fi găsită în continuare pe pagina de destinație sau în subsol."
   },
   "settings.display.sidebar.hide-app-promos.title": {
-    "message": "Ascunde promoțiile Modrinth App"
+    "message": "Ascunde promoțiile AllayLauncher"
   },
   "settings.display.sidebar.left-aligned-content-sidebar.title": {
     "message": "Bară laterală aliniată la stânga pe paginile de conținut"
@@ -1983,7 +1983,7 @@
     "message": "Aliniază bara laterală de filtre la dreapta rezultatelor căutării"
   },
   "settings.display.theme.description": {
-    "message": "Selectează tema de culori preferată pentru Modrinth pe acest dispozitiv."
+    "message": "Selectează tema de culori preferată pentru AllayHub pe acest dispozitiv."
   },
   "settings.display.theme.title": {
     "message": "Temă de culori"
@@ -1992,7 +1992,7 @@
     "message": "Creează un token PAT"
   },
   "settings.pats.description": {
-    "message": "Token-urile PAT pot fi folosite pentru a accesa API-ul Modrinths. Pentru mai multe informații, consultați <doc-link>Documentația API a Modrinth's</doc-link>. Acestea pot fi create și revocate în orice moment."
+    "message": "Token-urile PAT pot fi folosite pentru a accesa API-ul AllayHubs. Pentru mai multe informații, consultați <doc-link>Documentația API a AllayHub's</doc-link>. Acestea pot fi create și revocate în orice moment."
   },
   "settings.pats.modal.create.action": {
     "message": "Creează token PAT"
@@ -2046,7 +2046,7 @@
     "message": "Biografie"
   },
   "settings.profile.description": {
-    "message": "Informațiile profilului tău sunt vizibile public pe Modrinth și prin intermediul <docs-link>API-ului Modrinth</docs-link>."
+    "message": "Informațiile profilului tău sunt vizibile public pe AllayHub și prin intermediul <docs-link>API-ului AllayHub</docs-link>."
   },
   "settings.profile.profile-info": {
     "message": "Informațiile profilului"
@@ -2073,7 +2073,7 @@
     "message": "Sesiune curentă"
   },
   "settings.sessions.description": {
-    "message": "Acestea sunt toate dispozitivele pe care ești conectat(ă) la contul tău Modrinth. Te poți deconecta de pe fiecare în parte.\n\nDacă observi o intrare pe care nu o recunoști, deconectează-te de pe acel dispozitiv și schimbă imediat parola contului tău Modrinth."
+    "message": "Acestea sunt toate dispozitivele pe care ești conectat(ă) la contul tău AllayHub. Te poți deconecta de pe fiecare în parte.\n\nDacă observi o intrare pe care nu o recunoști, deconectează-te de pe acel dispozitiv și schimbă imediat parola contului tău AllayHub."
   },
   "settings.sessions.last-accessed-ago": {
     "message": "Ultima accesare în urmă cu {ago}"
@@ -2085,7 +2085,7 @@
     "message": "Platformă necunoscută"
   },
   "ui.latest-news-row.latest-news": {
-    "message": "Cele mai recente noutăți de pe Modrinth"
+    "message": "Cele mai recente noutăți de pe AllayHub"
   },
   "ui.latest-news-row.view-all": {
     "message": "Vedeți toate noutățile"

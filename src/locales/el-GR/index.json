@@ -24,7 +24,7 @@
     "message": "Linux"
   },
   "app-marketing.download.linux-disclaimer": {
-    "message": "Οι εκδόσεις Linux της εφαρμογής Modrinth είναι <issues-link>γνωστό ότι παρουσιάζουν προβλήματα</issues-link> σε ορισμένα συστήματα και διαμορφώσεις. Εάν η εφαρμογή Modrinth είναι ασταθής στο σύστημά σας, σας ενθαρρύνουμε να δοκιμάσετε άλλες εφαρμογές όπως το <prism-link>Prism Launcher</prism-link> για να εγκαταστήσετε εύκολα το περιεχόμενο του Modrinth."
+    "message": "Οι εκδόσεις Linux της εφαρμογής AllayHub είναι <issues-link>γνωστό ότι παρουσιάζουν προβλήματα</issues-link> σε ορισμένα συστήματα και διαμορφώσεις. Εάν η εφαρμογή AllayHub είναι ασταθής στο σύστημά σας, σας ενθαρρύνουμε να δοκιμάσετε άλλες εφαρμογές όπως το <prism-link>Prism Launcher</prism-link> για να εγκαταστήσετε εύκολα το περιεχόμενο του AllayHub."
   },
   "app-marketing.download.mac": {
     "message": "Mac"
@@ -33,7 +33,7 @@
     "message": "Επιλογές λήψης"
   },
   "app-marketing.download.terms": {
-    "message": "Με τη λήψη του Modrinth App, συμφωνείτε με τους <terms-link>Όρους</terms-link> και την <privacy-link>Πολιτική Απορρήτου</privacy-link> μας."
+    "message": "Με τη λήψη του AllayLauncher, συμφωνείτε με τους <terms-link>Όρους</terms-link> και την <privacy-link>Πολιτική Απορρήτου</privacy-link> μας."
   },
   "app-marketing.download.third-party-packages": {
     "message": "Πακέτα τρίτων"
@@ -135,7 +135,7 @@
     "message": "Όνομα Χρήστη"
   },
   "auth.sign-up.legal-dislaimer": {
-    "message": "Με τη δημιουργία λογαριασμού, συμφωνείτε με τους <terms-link>Όρους</terms-link> και την <privacy-policy-link>Πολιτική απορρήτου</privacy-policy-link> του Modrinth."
+    "message": "Με τη δημιουργία λογαριασμού, συμφωνείτε με τους <terms-link>Όρους</terms-link> και την <privacy-policy-link>Πολιτική απορρήτου</privacy-policy-link> του AllayHub."
   },
   "auth.sign-up.notification.password-mismatch.text": {
     "message": "Οι κωδικοί δεν ταιριάζουν!"
@@ -147,7 +147,7 @@
     "message": "Έχω ήδη λογαριασμό"
   },
   "auth.sign-up.subscribe.label": {
-    "message": "Εγγραφή σε ενημερώσεις σχετικά με το Modrinth"
+    "message": "Εγγραφή σε ενημερώσεις σχετικά με το AllayHub"
   },
   "auth.sign-up.title": {
     "message": "Εγγραφή"
@@ -195,7 +195,7 @@
     "message": "Ο χρήστης μπορεί να έχει αλλάξει το όνομά του ή διαγράψει τον λογαριασμό του."
   },
   "error.user.404.list_item.3": {
-    "message": "Ο λογαριασμός του χρήστη μπορεί να έχει τερματιστεί για παραβίαση των <tou-link>Όρων Χρήσης</tou-link> του Modrinth."
+    "message": "Ο λογαριασμός του χρήστη μπορεί να έχει τερματιστεί για παραβίαση των <tou-link>Όρων Χρήσης</tou-link> του AllayHub."
   },
   "error.user.404.list_title": {
     "message": "Γιατί;"
@@ -216,6 +216,6 @@
     "message": "Επίσκεψη ρυθμίσεων λογαριασμού"
   },
   "layout.banner.add-email.description": {
-    "message": "Για λόγους ασφάλειας, το Modrinth χρειάζεται να πρεσθέσετε διεύθυνση email στον λογαριασμό σας."
+    "message": "Για λόγους ασφάλειας, το AllayHub χρειάζεται να πρεσθέσετε διεύθυνση email στον λογαριασμό σας."
   }
 }

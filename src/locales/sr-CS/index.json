@@ -99,7 +99,7 @@
     "message": "Korisničko ime"
   },
   "auth.sign-up.legal-dislaimer": {
-    "message": "Kreiranjem naloga prihvatate <terms-link>Uslove</terms-link> i <privacy-policy-link>Pravila privatnosti</privacy-policy-link> Modrintha."
+    "message": "Kreiranjem naloga prihvatate <terms-link>Uslove</terms-link> i <privacy-policy-link>Pravila privatnosti</privacy-policy-link> AllayHuba."
   },
   "auth.sign-up.notification.password-mismatch.text": {
     "message": "Lozinke se ne poklapaju!"
@@ -111,7 +111,7 @@
     "message": "Već imate nalog?"
   },
   "auth.sign-up.subscribe.label": {
-    "message": "Pretplatite se za novosti o Modrinthu"
+    "message": "Pretplatite se za novosti o AllayHubu"
   },
   "auth.sign-up.title": {
     "message": "Registracija"
@@ -156,13 +156,13 @@
     "message": "Verifikujte email"
   },
   "auth.welcome.checkbox.subscribe": {
-    "message": "Pretplatite se za novosti o Modrinthu"
+    "message": "Pretplatite se za novosti o AllayHubu"
   },
   "auth.welcome.label.tos": {
-    "message": "Kreiranjem naloga pristali ste na <terms-link>Uslove</terms-link> i <privacy-policy-link>Pravila privatnosti</privacy-policy-link> Modrintha."
+    "message": "Kreiranjem naloga pristali ste na <terms-link>Uslove</terms-link> i <privacy-policy-link>Pravila privatnosti</privacy-policy-link> AllayHuba."
   },
   "auth.welcome.long-title": {
-    "message": "Dobrodošli na Modrinth!"
+    "message": "Dobrodošli na AllayHub!"
   },
   "auth.welcome.title": {
     "message": "Dobrodošli"
@@ -180,7 +180,7 @@
     "message": "Da li ste sigurni da želite da obrišete ovu kolekciju?"
   },
   "collection.description": {
-    "message": "{description} - Pogledajte kolekciju {name} korisnika {username} na Modrinthu"
+    "message": "{description} - Pogledajte kolekciju {name} korisnika {username} na AllayHubu"
   },
   "collection.description.following": {
     "message": "Automatski generisana kolekcija svih projekata koje pratite."
@@ -219,7 +219,7 @@
     "message": "Kolekcija može biti privatna."
   },
   "error.collection.404.list_item.3": {
-    "message": "Kolekcija je možda uklonjena od strane Modrinth tima za moderaciju zbog kršenja naših <tou-link>Uslova korišćenja</tou-link>."
+    "message": "Kolekcija je možda uklonjena od strane AllayHub tima za moderaciju zbog kršenja naših <tou-link>Uslova korišćenja</tou-link>."
   },
   "error.collection.404.list_title": {
     "message": "Zašto?"
@@ -234,10 +234,10 @@
     "message": "Stranica nije pronađena"
   },
   "error.generic.default.list_item.1": {
-    "message": "Proverite da li je Modrinth nedostupan na našoj <status-link>stranici statusa</status-link>."
+    "message": "Proverite da li je AllayHub nedostupan na našoj <status-link>stranici statusa</status-link>."
   },
   "error.generic.default.list_item.2": {
-    "message": "Ako se ovo nastavi dešavati, možete obavestiti Modrinth tim pridruživši se našem <discord-link>Discord serveru</discord-link>."
+    "message": "Ako se ovo nastavi dešavati, možete obavestiti AllayHub tim pridruživši se našem <discord-link>Discord serveru</discord-link>."
   },
   "error.generic.default.list_title": {
     "message": "Molimo pokušajte ponovo za nekoliko minuta."
@@ -255,7 +255,7 @@
     "message": "Vlasnik organizacije je možda promenio URL ili ga obrisao."
   },
   "error.organization.404.list_item.3": {
-    "message": "Organizacija je možda uklonjena od strane Modrinthovog tima za moderaciju zbog kršenja naših <tou-link>Uslova korišćenja</tou-link>."
+    "message": "Organizacija je možda uklonjena od strane AllayHubovog tima za moderaciju zbog kršenja naših <tou-link>Uslova korišćenja</tou-link>."
   },
   "error.organization.404.list_title": {
     "message": "Zašto?"
@@ -270,7 +270,7 @@
     "message": "Vlasnik projekta je možda promenio URL, postavio projekat kao privatan ili ga obrisao."
   },
   "error.project.404.list_item.3": {
-    "message": "Projekat je možda uklonjen od strane Modrinthovog tima za moderaciju zbog kršenja naših <tou-link>Uslova korišćenja</tou-link>."
+    "message": "Projekat je možda uklonjen od strane AllayHubovog tima za moderaciju zbog kršenja naših <tou-link>Uslova korišćenja</tou-link>."
   },
   "error.project.404.list_title": {
     "message": "Zašto?"
@@ -285,7 +285,7 @@
     "message": "Korisnik je možda promenio korisničko ime ili obrisao nalog."
   },
   "error.user.404.list_item.3": {
-    "message": "Nalog korisnika je možda ugašen zbog kršenja Modrinthovih <tou-link>Uslova korišćenja</tou-link>."
+    "message": "Nalog korisnika je možda ugašen zbog kršenja AllayHubovih <tou-link>Uslova korišćenja</tou-link>."
   },
   "error.user.404.list_title": {
     "message": "Zašto?"
@@ -321,19 +321,19 @@
     "message": "Posetite podešavanja naloga"
   },
   "layout.banner.add-email.description": {
-    "message": "Iz sigurnosnih razloga, Modrinth traži da registrujete email adresu na svom nalogu."
+    "message": "Iz sigurnosnih razloga, AllayHub traži da registrujete email adresu na svom nalogu."
   },
   "layout.banner.build-fail.description": {
-    "message": "Ovo izdanje Modrinth frontend-a nije uspelo da generiše stanje iz API-ja. To može biti zbog prekida rada ili greške u konfiguraciji. Ponovo izgradite kada API bude dostupan. Kodovi grešaka: {errors}; Trenutni API URL je: {url}"
+    "message": "Ovo izdanje AllayHub frontend-a nije uspelo da generiše stanje iz API-ja. To može biti zbog prekida rada ili greške u konfiguraciji. Ponovo izgradite kada API bude dostupan. Kodovi grešaka: {errors}; Trenutni API URL je: {url}"
   },
   "layout.banner.build-fail.title": {
-    "message": "Pregledate testno okruženje Modrintha."
+    "message": "Pregledate testno okruženje AllayHuba."
   },
   "layout.banner.staging.description": {
-    "message": "Staging okruženje je potpuno odvojeno od produkcione Modrinth baze podataka. Koristi se za testiranje i debagovanje i može pokretati razvojne verzije backend-a ili frontend-a koje su novije od produkcije."
+    "message": "Staging okruženje je potpuno odvojeno od produkcione AllayHub baze podataka. Koristi se za testiranje i debagovanje i može pokretati razvojne verzije backend-a ili frontend-a koje su novije od produkcije."
   },
   "layout.banner.staging.title": {
-    "message": "Pregledate testno okruženje Modrintha"
+    "message": "Pregledate testno okruženje AllayHuba"
   },
   "layout.banner.subscription-payment-failed.button": {
     "message": "Ažurirajte podatke za plaćanje"
@@ -348,7 +348,7 @@
     "message": "Ponovo pošaljite email za verifikaciju"
   },
   "layout.banner.verify-email.description": {
-    "message": "Iz sigurnosnih razloga, Modrinth zahteva da verifikujete email adresu povezanu sa vašim nalogom."
+    "message": "Iz sigurnosnih razloga, AllayHub zahteva da verifikujete email adresu povezanu sa vašim nalogom."
   },
   "layout.footer.about": {
     "message": "O nama"
@@ -390,16 +390,16 @@
     "message": "Uslovi korištenja"
   },
   "layout.footer.open-source": {
-    "message": "Modrinth je <github-link>otvorenog koda</github-link>."
+    "message": "AllayHub je <github-link>otvorenog koda</github-link>."
   },
   "layout.footer.products": {
     "message": "Proizvodi"
   },
   "layout.footer.products.app": {
-    "message": "Modrinth App"
+    "message": "AllayLauncher"
   },
   "layout.footer.products.plus": {
-    "message": "Modrinth+"
+    "message": "AllayHub+"
   },
   "layout.footer.resources": {
     "message": "Resursi"
@@ -435,7 +435,7 @@
     "message": "Prebaci meni"
   },
   "layout.meta.description": {
-    "message": "Preuzimajte Minecraft modove, plugine, datapackove, shadere, resourcepackove i modpackove na Modrinthu. Otkrijte i objavite projekte na Modrinthu koristeći moderan, jednostavan interfejs i API."
+    "message": "Preuzimajte Minecraft modove, plugine, datapackove, shadere, resourcepackove i modpackove na AllayHubu. Otkrijte i objavite projekte na AllayHubu koristeći moderan, jednostavan interfejs i API."
   },
   "layout.meta.og-description": {
     "message": "Otkrijte i objavite Minecraft sadržaj!"
@@ -501,10 +501,10 @@
     "message": "Organizacije"
   },
   "profile.meta.description": {
-    "message": "Preuzmite projekte korisnika {username} na Modrinthu"
+    "message": "Preuzmite projekte korisnika {username} na AllayHubu"
   },
   "profile.meta.description-with-bio": {
-    "message": "{bio} - Preuzmite projekte korisnika {username} na Modrinthu"
+    "message": "{bio} - Preuzmite projekte korisnika {username} na AllayHubu"
   },
   "profile.stats.projects-followers": {
     "message": "{count, plural, one {<stat>{count}</stat> pratilac projekta} few {<stat>{count}</stat> pratioca projekta} other {<stat>{count}</stat> pratilaca projekta}}"
@@ -648,7 +648,7 @@
     "message": "Nije moguće pronaći {item}"
   },
   "report.for.violation": {
-    "message": "Kršenje Modrinth-ovih <rules-link>Pravila</rules-link> ili <terms-link>Uslova korišćenja</terms-link>"
+    "message": "Kršenje AllayHub-ovih <rules-link>Pravila</rules-link> ili <terms-link>Uslova korišćenja</terms-link>"
   },
   "report.for.violation.description": {
     "message": "Primeri uključuju maliciozan, spam, uvredljiv, obmanjujući i nezakonit sadržaj."
@@ -693,7 +693,7 @@
     "message": "Koju vrstu sadržaja prijavljujete?"
   },
   "report.question.report-reason": {
-    "message": "Koje pravilo Modrintha krši ovaj {item}?"
+    "message": "Koje pravilo AllayHuba krši ovaj {item}?"
   },
   "report.report-content": {
     "message": "Prijavi sadržaj moderatorima"
@@ -861,7 +861,7 @@
     "message": "Uređivanje prijava"
   },
   "scopes.sessionAccess.description": {
-    "message": "Omogućava pristup Modrinth-izdatim sesijama"
+    "message": "Omogućava pristup AllayHub-izdatim sesijama"
   },
   "scopes.sessionAccess.label": {
     "message": "Pristup sesijama"
@@ -1083,13 +1083,13 @@
     "message": "Visa"
   },
   "settings.billing.pyro_subscription.description": {
-    "message": "Upravljajte svojim Modrinth Server pretplatama."
+    "message": "Upravljajte svojim AllayHub Server pretplatama."
   },
   "settings.billing.pyro_subscription.title": {
-    "message": "Modrinth Server Pretplate"
+    "message": "AllayHub Server Pretplate"
   },
   "settings.billing.subscription.description": {
-    "message": "Upravljate svojim Modrinth pretplatama."
+    "message": "Upravljate svojim AllayHub pretplatama."
   },
   "settings.billing.subscription.title": {
     "message": "Pretplate"
@@ -1098,7 +1098,7 @@
     "message": "Deaktiviraj developerski režim"
   },
   "settings.display.banner.developer-mode.description": {
-    "message": "<strong>Developerski režim</strong> je aktivan. Ovo će vam omogućiti da vidite interne ID-je raznih stvari na Modrinthu, što može biti korisno ako ste developer koji koristi Modrinth API. Kliknite na Modrinth logo na dnu stranice 5 puta da biste uključili/isključili developerski režim."
+    "message": "<strong>Developerski režim</strong> je aktivan. Ovo će vam omogućiti da vidite interne ID-je raznih stvari na AllayHubu, što može biti korisno ako ste developer koji koristi AllayHub API. Kliknite na AllayHub logo na dnu stranice 5 puta da biste uključili/isključili developerski režim."
   },
   "settings.display.flags.description": {
     "message": "Uključite ili isključite određene funkcije na ovom uređaju."
@@ -1143,16 +1143,16 @@
     "message": "Napredno renderovanje"
   },
   "settings.display.sidebar.external-links-new-tab.description": {
-    "message": "Otvarajte linkove koji vode izvan Modrintha u novom tabu. Bez obzira na ovo podešavanje, linkovi na istoj domeni i u Markdown opisima otvaraju se u istom tabu, a linkovi u oglasima i na stranicama za uređivanje otvaraju se u novom tabu."
+    "message": "Otvarajte linkove koji vode izvan AllayHuba u novom tabu. Bez obzira na ovo podešavanje, linkovi na istoj domeni i u Markdown opisima otvaraju se u istom tabu, a linkovi u oglasima i na stranicama za uređivanje otvaraju se u novom tabu."
   },
   "settings.display.sidebar.external-links-new-tab.title": {
     "message": "Otvaraj spoljne linkove u novom tabu"
   },
   "settings.display.sidebar.hide-app-promos.description": {
-    "message": "Sakriva dugmad \"Preuzmite Modrinth App\" iz primarne navigacije. Stranicu Modrinth App i dalje možete naći na početnoj strani ili u footeru."
+    "message": "Sakriva dugmad \"Preuzmite AllayLauncher\" iz primarne navigacije. Stranicu AllayLauncher i dalje možete naći na početnoj strani ili u footeru."
   },
   "settings.display.sidebar.hide-app-promos.title": {
-    "message": "Sakrij promocije Modrinth App-a"
+    "message": "Sakrij promocije AllayLauncher-a"
   },
   "settings.display.sidebar.left-aligned-content-sidebar.title": {
     "message": "Levo poravnata bočna traka na stranicama sa sadržajem"
@@ -1167,7 +1167,7 @@
     "message": "Desno poravnata bočna traka filtera na stranicama za pretragu"
   },
   "settings.display.theme.description": {
-    "message": "Izaberite željenu temu boja za Modrinth na ovom uređaju."
+    "message": "Izaberite željenu temu boja za AllayHub na ovom uređaju."
   },
   "settings.display.theme.title": {
     "message": "Tema boja"
@@ -1176,7 +1176,7 @@
     "message": "Kreirajte PAT"
   },
   "settings.pats.description": {
-    "message": "PAT-ovi se mogu koristiti za pristup Modrinth API-ju. Za više informacija, pogledajte <doc-link>dokumentaciju Modrinth API-ja</doc-link>. Mogu se kreirati i opozvati u bilo kom trenutku."
+    "message": "PAT-ovi se mogu koristiti za pristup AllayHub API-ju. Za više informacija, pogledajte <doc-link>dokumentaciju AllayHub API-ja</doc-link>. Mogu se kreirati i opozvati u bilo kom trenutku."
   },
   "settings.pats.modal.create.action": {
     "message": "Kreirajte PAT"
@@ -1230,7 +1230,7 @@
     "message": "Bio"
   },
   "settings.profile.description": {
-    "message": "Informacije na vašem profilu su javno vidljive na Modrinthu i putem <docs-link>Modrinth API-ja</docs-link>."
+    "message": "Informacije na vašem profilu su javno vidljive na AllayHubu i putem <docs-link>AllayHub API-ja</docs-link>."
   },
   "settings.profile.profile-info": {
     "message": "Informacije o profilu"
@@ -1257,7 +1257,7 @@
     "message": "Trenutna sesija"
   },
   "settings.sessions.description": {
-    "message": "Ovo su svi uređaji koji su trenutno prijavljeni na vaš Modrinth nalog. Možete se odjaviti sa svakog pojedinačno.\n\nAko vidite unos koji ne prepoznajete, odjavite se sa tog uređaja i odmah promenite lozinku za svoj Modrinth nalog."
+    "message": "Ovo su svi uređaji koji su trenutno prijavljeni na vaš AllayHub nalog. Možete se odjaviti sa svakog pojedinačno.\n\nAko vidite unos koji ne prepoznajete, odjavite se sa tog uređaja i odmah promenite lozinku za svoj AllayHub nalog."
   },
   "settings.sessions.last-accessed-ago": {
     "message": "Posljednji pristup {ago}"

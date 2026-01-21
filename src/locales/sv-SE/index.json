@@ -27,7 +27,7 @@
     "message": "Linux"
   },
   "app-marketing.download.linux-disclaimer": {
-    "message": "Linux-versionerna av Modrinth App <issues-link>kan ha problem</issues-link> på vissa system och konfigurationer. Om Modrinth App är instabilt på ditt system rekommenderar vi dig att testa andra appar som <prism-link>Prism Launcher</prism-link> för att enkelt installera innehåll från Modrinth."
+    "message": "Linux-versionerna av AllayLauncher <issues-link>kan ha problem</issues-link> på vissa system och konfigurationer. Om AllayLauncher är instabilt på ditt system rekommenderar vi dig att testa andra appar som <prism-link>Prism Launcher</prism-link> för att enkelt installera innehåll från AllayHub."
   },
   "app-marketing.download.mac": {
     "message": "Mac"
@@ -36,13 +36,13 @@
     "message": "Nedladdningsalternativ"
   },
   "app-marketing.download.terms": {
-    "message": "När du laddar ner Modrinth App godkänner du våra <terms-link>Villkor</terms-link> och vår <privacy-link>Integritetspolicy</privacy-link>."
+    "message": "När du laddar ner AllayLauncher godkänner du våra <terms-link>Villkor</terms-link> och vår <privacy-link>Integritetspolicy</privacy-link>."
   },
   "app-marketing.download.third-party-packages": {
     "message": "Paket från tredje part"
   },
   "app-marketing.download.title": {
-    "message": "Ladda ner Modrinth App (Beta)"
+    "message": "Ladda ner AllayLauncher (Beta)"
   },
   "app-marketing.download.windows": {
     "message": "Windows"
@@ -54,7 +54,7 @@
     "message": "Följ projekt"
   },
   "app-marketing.features.importing.description": {
-    "message": "Importera alla dina favoritprofiler från din tidigare launcher och kom igång med Modrinth App på ett ögonblick!"
+    "message": "Importera alla dina favoritprofiler från din tidigare launcher och kom igång med AllayLauncher på ett ögonblick!"
   },
   "app-marketing.features.importing.gdlauncher-alt": {
     "message": "GDLauncher"
@@ -72,7 +72,7 @@
     "message": "av {author}"
   },
   "app-marketing.features.mod-management.description": {
-    "message": "Modrinth för det enkelt att hantera alla dina mods på ett och samma ställe. Du kan installera, avinstallera och uppdatera mods med ett enda klick."
+    "message": "AllayHub för det enkelt att hantera alla dina mods på ett och samma ställe. Du kan installera, avinstallera och uppdatera mods med ett enda klick."
   },
   "app-marketing.features.mod-management.installed-mods": {
     "message": "Installerade mods"
@@ -96,7 +96,7 @@
     "message": "Offlineläge"
   },
   "app-marketing.features.open-source.description": {
-    "message": "Modrinths launcher har helt öppen källkod. Du kan se källkoden på vår <github-link>GitHub</github-link>!"
+    "message": "AllayHubs launcher har helt öppen källkod. Du kan se källkoden på vår <github-link>GitHub</github-link>!"
   },
   "app-marketing.features.open-source.title": {
     "message": "Öppen källkod"
@@ -108,7 +108,7 @@
     "message": "% CPU"
   },
   "app-marketing.features.performance.description": {
-    "message": "Modrinth App presterar bättre än många av de ledande modhanterarna och använder bara 150mb RAM!"
+    "message": "AllayLauncher presterar bättre än många av de ledande modhanterarna och använder bara 150mb RAM!"
   },
   "app-marketing.features.performance.discord": {
     "message": "Discord"
@@ -129,7 +129,7 @@
     "message": "< 150 MB"
   },
   "app-marketing.features.performance.modrinth-app": {
-    "message": "Modrinth App"
+    "message": "AllayLauncher"
   },
   "app-marketing.features.performance.one-billion-percent": {
     "message": "1 miljard %"
@@ -147,13 +147,13 @@
     "message": "Effektiv"
   },
   "app-marketing.features.play.description": {
-    "message": "Använd Modrinth App för att ladda ner och spela dina favoritmods och modpacks."
+    "message": "Använd AllayLauncher för att ladda ner och spela dina favoritmods och modpacks."
   },
   "app-marketing.features.play.title": {
     "message": "Spela dina favoritmods"
   },
   "app-marketing.features.sharing.description": {
-    "message": "Skapa, dela och spela modpacks från alla tusentals mods och modpacks som finns här på Modrinth."
+    "message": "Skapa, dela och spela modpacks från alla tusentals mods och modpacks som finns här på AllayHub."
   },
   "app-marketing.features.sharing.modpack": {
     "message": "Modpack"
@@ -168,7 +168,7 @@
     "message": "Inte som någon annan launcher"
   },
   "app-marketing.features.website.description": {
-    "message": "Modrinth-appen är helt integrerad med webbsidan, så att du kan använda alla dina favoritprojekt i appen!"
+    "message": "AllayHub-appen är helt integrerad med webbsidan, så att du kan använda alla dina favoritprojekt i appen!"
   },
   "app-marketing.features.website.title": {
     "message": "Webbsidaintegrering"
@@ -177,19 +177,19 @@
     "message": "du använt förut"
   },
   "app-marketing.hero.app-screenshot-alt": {
-    "message": "Skärmdump av Modrinth App med en Cobblemon-instans öppen på sidan ”Innehåll”."
+    "message": "Skärmdump av AllayLauncher med en Cobblemon-instans öppen på sidan ”Innehåll”."
   },
   "app-marketing.hero.description": {
-    "message": "Modrinth App är en unik launcher med öppen källkod som låter dig spela dina favoritmods och hålla de uppdaterade, allt i ett smidigt litet paket."
+    "message": "AllayLauncher är en unik launcher med öppen källkod som låter dig spela dina favoritmods och hålla de uppdaterade, allt i ett smidigt litet paket."
   },
   "app-marketing.hero.download-button": {
-    "message": "Ladda ner Modrinth App"
+    "message": "Ladda ner AllayLauncher"
   },
   "app-marketing.hero.download-modrinth-app": {
-    "message": "Ladda ner Modrinth App"
+    "message": "Ladda ner AllayLauncher"
   },
   "app-marketing.hero.download-modrinth-app-for-os": {
-    "message": "Ladda ner Modrinth App för {os}"
+    "message": "Ladda ner AllayLauncher för {os}"
   },
   "app-marketing.hero.minecraft-screenshot-alt": {
     "message": "Skärmdump av huvudmenyn i Cobblemon-instansen."
@@ -294,7 +294,7 @@
     "message": "Användarnamn"
   },
   "auth.sign-up.legal-dislaimer": {
-    "message": "Genom att skapa ett konto godkänner du Modrinths <terms-link>Villkor</terms-link> och <privacy-policy-link>sekretesspolicy</privacy-policy-link>."
+    "message": "Genom att skapa ett konto godkänner du AllayHubs <terms-link>Villkor</terms-link> och <privacy-policy-link>sekretesspolicy</privacy-policy-link>."
   },
   "auth.sign-up.notification.password-mismatch.text": {
     "message": "Lösenorden stämmer inte överens!"
@@ -306,7 +306,7 @@
     "message": "Har du redan ett konto?"
   },
   "auth.sign-up.subscribe.label": {
-    "message": "Jag vill få uppdateringar om Modrinth"
+    "message": "Jag vill få uppdateringar om AllayHub"
   },
   "auth.sign-up.title": {
     "message": "Registrera dig"
@@ -357,10 +357,10 @@
     "message": "Du är nu en del av ett grymt community av skapare och utforskare som redan bygger, laddar ner och håller sig uppdaterade med fantastiska mods."
   },
   "auth.welcome.label.tos": {
-    "message": "När du skapar ett konto godkänner du Modrinths <terms-link>villkor</terms-link> och <privacy-policy-link>sekretesspolicy</privacy-policy-link>."
+    "message": "När du skapar ett konto godkänner du AllayHubs <terms-link>villkor</terms-link> och <privacy-policy-link>sekretesspolicy</privacy-policy-link>."
   },
   "auth.welcome.long-title": {
-    "message": "Välkommen till Modrinth!"
+    "message": "Välkommen till AllayHub!"
   },
   "auth.welcome.title": {
     "message": "Välkommen"
@@ -387,7 +387,7 @@
     "message": "Är du säker på att du vill radera samlingen?"
   },
   "collection.description": {
-    "message": "{description} - Visa samlingen {name} av {username} på Modrinth"
+    "message": "{description} - Visa samlingen {name} av {username} på AllayHub"
   },
   "collection.description.following": {
     "message": "Auto-genererad samling av projekten du följer."
@@ -606,7 +606,7 @@
     "message": "Samlingen kan vara privat."
   },
   "error.collection.404.list_item.3": {
-    "message": "Samlingen kan ha tagits ner av Modrinths modereringsteam eftersom att den bryter mot våra <tou-link>användarvillkor</tou-link>."
+    "message": "Samlingen kan ha tagits ner av AllayHubs modereringsteam eftersom att den bryter mot våra <tou-link>användarvillkor</tou-link>."
   },
   "error.collection.404.list_title": {
     "message": "Varför?"
@@ -621,10 +621,10 @@
     "message": "Sidan hittades inte"
   },
   "error.generic.default.list_item.1": {
-    "message": "Se om Modrinth är nere på vår <status-link>statussida</status-link>."
+    "message": "Se om AllayHub är nere på vår <status-link>statussida</status-link>."
   },
   "error.generic.default.list_item.2": {
-    "message": "Om detta fortsätter hända borde du kontakta Modrinth-teamet via vår <discord-link>Discord server</discord-link>."
+    "message": "Om detta fortsätter hända borde du kontakta AllayHub-teamet via vår <discord-link>Discord server</discord-link>."
   },
   "error.generic.default.list_title": {
     "message": "Vänligen försök igenom om några minuter."
@@ -642,7 +642,7 @@
     "message": "Organisationens ägare kan ha ändrat webbadressen eller tagit bort den."
   },
   "error.organization.404.list_item.3": {
-    "message": "Organisationen kan ha tagits ner av Modrinths moderatorer då den bryter mot våra <tou-link>användarvillkor</tou-link>."
+    "message": "Organisationen kan ha tagits ner av AllayHubs moderatorer då den bryter mot våra <tou-link>användarvillkor</tou-link>."
   },
   "error.organization.404.list_title": {
     "message": "Varför?"
@@ -657,7 +657,7 @@
     "message": "Projektets ägare kan ha tagit bort webbadressen, gjort projektet privat eller tagit bort det."
   },
   "error.project.404.list_item.3": {
-    "message": "Projektet kan ha tagits ner av Modrinths moderatorer då den bryter mot våra <tou-link>användarvillkor</tou-link>."
+    "message": "Projektet kan ha tagits ner av AllayHubs moderatorer då den bryter mot våra <tou-link>användarvillkor</tou-link>."
   },
   "error.project.404.list_title": {
     "message": "Varför?"
@@ -672,7 +672,7 @@
     "message": "Användaren kan ha bytt användarnamn eller tagit bort deras konto."
   },
   "error.user.404.list_item.3": {
-    "message": "Användarens konto kan ha terminerats då den bryter mot Modrinths <tou-link>användarvillkor</tou-link>."
+    "message": "Användarens konto kan ha terminerats då den bryter mot AllayHubs <tou-link>användarvillkor</tou-link>."
   },
   "error.user.404.list_title": {
     "message": "Varför?"
@@ -702,7 +702,7 @@
     "message": "Gå till dashboarden"
   },
   "landing.creator.feature.constantly-evolving.description": {
-    "message": "Få den bästa möjliga modupplevelsen med kontinuerliga uppdateringar från Modrinthteamet"
+    "message": "Få den bästa möjliga modupplevelsen med kontinuerliga uppdateringar från AllayHubteamet"
   },
   "landing.creator.feature.constantly-evolving.title": {
     "message": "Konstant utvecklande"
@@ -783,10 +783,10 @@
     "message": "ATLauncher"
   },
   "landing.launcher.graphic-alt": {
-    "message": "En förenklad representation av ett Minecraftfönster med Mojang Studios logga i Modrinths gröna färg."
+    "message": "En förenklad representation av ett Minecraftfönster med Mojang Studios logga i AllayHubs gröna färg."
   },
   "landing.launcher.modrinth-app-label": {
-    "message": "Modrinth App"
+    "message": "AllayLauncher"
   },
   "landing.launcher.prism-launcher-label": {
     "message": "Prism Launcher"
@@ -861,19 +861,19 @@
     "message": "Besök kontoinställningar"
   },
   "layout.banner.add-email.description": {
-    "message": "Modrinth kräver att du registrerar en e-postadress till ditt konto av säkerhetsskäl."
+    "message": "AllayHub kräver att du registrerar en e-postadress till ditt konto av säkerhetsskäl."
   },
   "layout.banner.build-fail.description": {
-    "message": "Denna distribution av Modrinths frontend kunde inte generera status från API:et. Detta kan bero på ett avbrott eller ett fel i konfigurationen. Bygg om när API:et är tillgängligt. Felkoder: {errors}; Nuvarande API-URL är: {url}"
+    "message": "Denna distribution av AllayHubs frontend kunde inte generera status från API:et. Detta kan bero på ett avbrott eller ett fel i konfigurationen. Bygg om när API:et är tillgängligt. Felkoder: {errors}; Nuvarande API-URL är: {url}"
   },
   "layout.banner.build-fail.title": {
     "message": "Fel inträffade vid generering av status från API vid kompilering."
   },
   "layout.banner.staging.description": {
-    "message": "Staging miljön är helt separat från Modrinths databas. Detta används för test och felsökning och må köra experimentella versioner av Modrinth som inte släppts än."
+    "message": "Staging miljön är helt separat från AllayHubs databas. Detta används för test och felsökning och må köra experimentella versioner av AllayHub som inte släppts än."
   },
   "layout.banner.staging.title": {
-    "message": "Du använder Modrinths staging miljö"
+    "message": "Du använder AllayHubs staging miljö"
   },
   "layout.banner.subscription-payment-failed.button": {
     "message": "Uppdatera faktureringsinfo"
@@ -888,7 +888,7 @@
     "message": "Skicka nytt bekräftelsemejl"
   },
   "layout.banner.verify-email.description": {
-    "message": "Modrinth kräver att du verifierar din e-postadress associerat med ditt konto av säkerhetsskäl."
+    "message": "AllayHub kräver att du verifierar din e-postadress associerat med ditt konto av säkerhetsskäl."
   },
   "layout.footer.about": {
     "message": "Om"
@@ -930,19 +930,19 @@
     "message": "Användarvillkor"
   },
   "layout.footer.modrinth-information": {
-    "message": "Modrinth information"
+    "message": "AllayHub information"
   },
   "layout.footer.open-source": {
-    "message": "Modrinth har <github-link>öppen källkod</github-link>."
+    "message": "AllayHub har <github-link>öppen källkod</github-link>."
   },
   "layout.footer.products": {
     "message": "Produkter"
   },
   "layout.footer.products.app": {
-    "message": "Modrinth App"
+    "message": "AllayLauncher"
   },
   "layout.footer.products.plus": {
-    "message": "Modrinth+"
+    "message": "AllayHub+"
   },
   "layout.footer.resources": {
     "message": "Resurser"
@@ -978,7 +978,7 @@
     "message": "Växla meny"
   },
   "layout.meta.description": {
-    "message": "Ladda ned Minecraft moddar, plugins, datapaket, shaders, resurspaket och modpaket på Modrinth. Upptäck och lägg upp projekt på Modrinth med ett modernt, enkelt att använda gränssnitt och API."
+    "message": "Ladda ned Minecraft moddar, plugins, datapaket, shaders, resurspaket och modpaket på AllayHub. Upptäck och lägg upp projekt på AllayHub med ett modernt, enkelt att använda gränssnitt och API."
   },
   "layout.meta.og-description": {
     "message": "Utforska och lägg upp Minecraft innehåll!"
@@ -1005,10 +1005,10 @@
     "message": "Skaffa en server"
   },
   "layout.nav.modrinth-app": {
-    "message": "Modrinth App"
+    "message": "AllayLauncher"
   },
   "layout.nav.modrinth-home-page": {
-    "message": "Modrinth hem sida"
+    "message": "AllayHub hem sida"
   },
   "layout.nav.my-servers": {
     "message": "Mina servrar"
@@ -1032,7 +1032,7 @@
     "message": "Sök"
   },
   "layout.nav.upgrade-to-modrinth-plus": {
-    "message": "Uppgradera till Modrinth+"
+    "message": "Uppgradera till AllayHub+"
   },
   "moderation.filter.by": {
     "message": "Filtrera via"
@@ -1125,10 +1125,10 @@
     "message": "Telefonnummer"
   },
   "profile.bio.fallback.creator": {
-    "message": "En Modrinth kreatör."
+    "message": "En AllayHub kreatör."
   },
   "profile.bio.fallback.user": {
-    "message": "En Modrinth användare."
+    "message": "En AllayHub användare."
   },
   "profile.button.billing": {
     "message": "Hantera användarfakturering"
@@ -1200,10 +1200,10 @@
     "message": "Ja"
   },
   "profile.meta.description": {
-    "message": "Ladda ner {username}s projekt på Modrinth"
+    "message": "Ladda ner {username}s projekt på AllayHub"
   },
   "profile.meta.description-with-bio": {
-    "message": "{bio} - Ladda ned {username}s projekt på Modrinth"
+    "message": "{bio} - Ladda ned {username}s projekt på AllayHub"
   },
   "profile.stats.projects-followers": {
     "message": "{count, plural, one {<stat>{count}</stat> följare} other {<stat>{count}</stat> följare}}"
@@ -1377,10 +1377,10 @@
     "message": "{title} stöttar inte {gameVersion} för {platform}"
   },
   "project.download.install-with-app": {
-    "message": "Installera med Modrinth appen"
+    "message": "Installera med AllayHub appen"
   },
   "project.download.no-app": {
-    "message": "Har du inte Modrinth appen?"
+    "message": "Har du inte AllayHub appen?"
   },
   "project.download.no-versions-available": {
     "message": "Inga versioner finns tillgängliga för {gameVersion} och {platform}."
@@ -1416,7 +1416,7 @@
     "message": "Ladda ner {title}"
   },
   "project.environment.migration-no-permission.message": {
-    "message": "Vi har förbättrat miljösystemet på Modrinth och nya inställningar är tillgängliga. Du har inte behörighet att ändra dessa inställningar, men meddela en annan medlem i projektet att miljömetadatan måste verifieras."
+    "message": "Vi har förbättrat miljösystemet på AllayHub och nya inställningar är tillgängliga. Du har inte behörighet att ändra dessa inställningar, men meddela en annan medlem i projektet att miljömetadatan måste verifieras."
   },
   "project.environment.migration-no-permission.title": {
     "message": "Miljömetadata måste verifieras"
@@ -1515,7 +1515,7 @@
     "message": "Kunde inte hitta {item}"
   },
   "report.for.violation": {
-    "message": "Detta bryter mot Modrinths <rules-link>regler</rules-link> eller våra <terms-link>användarvillkor</terms-link>"
+    "message": "Detta bryter mot AllayHubs <rules-link>regler</rules-link> eller våra <terms-link>användarvillkor</terms-link>"
   },
   "report.form-not-for": {
     "message": "Detta formulär är inte för:"
@@ -1794,7 +1794,7 @@
     "message": "Visa"
   },
   "settings.billing.subscription.description": {
-    "message": "Hantera dina Modrinth-prenumerationer."
+    "message": "Hantera dina AllayHub-prenumerationer."
   },
   "settings.billing.subscription.title": {
     "message": "Prenumerationer"
@@ -1866,7 +1866,7 @@
     "message": "Om mig"
   },
   "settings.profile.description": {
-    "message": "Din profilinformation visas offentligt på Modrinth och genom <docs-link>Modrinth API:t</docs-link>."
+    "message": "Din profilinformation visas offentligt på AllayHub och genom <docs-link>AllayHub API:t</docs-link>."
   },
   "settings.profile.profile-info": {
     "message": "Profilinformation"
@@ -1899,7 +1899,7 @@
     "message": "Okänd plattform"
   },
   "ui.latest-news-row.latest-news": {
-    "message": "Senaste nytt från Modrinth"
+    "message": "Senaste nytt från AllayHub"
   },
   "ui.latest-news-row.view-all": {
     "message": "Visa alla nyheter"

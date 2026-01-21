@@ -27,7 +27,7 @@
     "message": "Linux"
   },
   "app-marketing.download.linux-disclaimer": {
-    "message": "Ang bersiyong Linux ng Modrinth App ay <issues-link>alam na may suliranin</issues-link> sa iilang mga sistema at konpigurasyon. Kapag ang Modrinth App ay hindi matatag sa iyong sistema, hinihikayat ka namin na subukan ang ibang mga aplikasyon tulad ng <prism-link>Prism Launcher</prism-link> upang mapadali ang pag-i-install ng kontentong Modrinth."
+    "message": "Ang bersiyong Linux ng AllayLauncher ay <issues-link>alam na may suliranin</issues-link> sa iilang mga sistema at konpigurasyon. Kapag ang AllayLauncher ay hindi matatag sa iyong sistema, hinihikayat ka namin na subukan ang ibang mga aplikasyon tulad ng <prism-link>Prism Launcher</prism-link> upang mapadali ang pag-i-install ng kontentong AllayHub."
   },
   "app-marketing.download.mac": {
     "message": "Mac"
@@ -36,13 +36,13 @@
     "message": "Mga pagpipilian sa pagdownload"
   },
   "app-marketing.download.terms": {
-    "message": "Sa pagdownload ng Modrinth App, sumasang-ayon ka sa aming <terms-link>Mga Tuntunin</terms-link> at <privacy-link>Patakaran sa Pribasiya</privacy-link>."
+    "message": "Sa pagdownload ng AllayLauncher, sumasang-ayon ka sa aming <terms-link>Mga Tuntunin</terms-link> at <privacy-link>Patakaran sa Pribasiya</privacy-link>."
   },
   "app-marketing.download.third-party-packages": {
     "message": "Mga third-party package"
   },
   "app-marketing.download.title": {
-    "message": "I-download ang Modrinth App (Beta)"
+    "message": "I-download ang AllayLauncher (Beta)"
   },
   "app-marketing.download.windows": {
     "message": "Windows"
@@ -54,7 +54,7 @@
     "message": "Sundan ang mga proyekto"
   },
   "app-marketing.features.importing.description": {
-    "message": "I-import ang lahat ng mga paboritong profile mo galing sa launcher na dating ginagamit mo, at magsimula na sa Modrinth App is iilang segundo!"
+    "message": "I-import ang lahat ng mga paboritong profile mo galing sa launcher na dating ginagamit mo, at magsimula na sa AllayLauncher is iilang segundo!"
   },
   "app-marketing.features.importing.gdlauncher-alt": {
     "message": "GDLauncher"
@@ -72,7 +72,7 @@
     "message": "ni/ng {author}"
   },
   "app-marketing.features.mod-management.description": {
-    "message": "Pinapadali ng Modrinth na ma-manage ang lahat ng iyong mod sa iisang lugar. Makaka-install, uninstall, at update ng mga mod sa iisang pindot lang."
+    "message": "Pinapadali ng AllayHub na ma-manage ang lahat ng iyong mod sa iisang lugar. Makaka-install, uninstall, at update ng mga mod sa iisang pindot lang."
   },
   "app-marketing.features.mod-management.installed-mods": {
     "message": "Mga na-install na mod"
@@ -96,7 +96,7 @@
     "message": "Offline mode"
   },
   "app-marketing.features.open-source.description": {
-    "message": "Buong naka-open-source ang launcher ng Modrinth. Maaari mong matingnan ang source code sa aming <github-link>GitHub</github-link>!"
+    "message": "Buong naka-open-source ang launcher ng AllayHub. Maaari mong matingnan ang source code sa aming <github-link>GitHub</github-link>!"
   },
   "app-marketing.features.open-source.title": {
     "message": "Open source"
@@ -108,7 +108,7 @@
     "message": "% CPU"
   },
   "app-marketing.features.performance.description": {
-    "message": "Ang Modrinth App ay mas mahusay mag-perform kaysa sa maraming nangungunang mod manager, gumagamit lamang ng 150mb ng RAM!"
+    "message": "Ang AllayLauncher ay mas mahusay mag-perform kaysa sa maraming nangungunang mod manager, gumagamit lamang ng 150mb ng RAM!"
   },
   "app-marketing.features.performance.discord": {
     "message": "Discord"
@@ -129,7 +129,7 @@
     "message": "< 150 MB"
   },
   "app-marketing.features.performance.modrinth-app": {
-    "message": "Modrinth App"
+    "message": "AllayLauncher"
   },
   "app-marketing.features.performance.one-billion-percent": {
     "message": "1 bilyong %"
@@ -147,13 +147,13 @@
     "message": "Performant"
   },
   "app-marketing.features.play.description": {
-    "message": "Gamitin ang Modrinth App sa pagdownload at paglaro ng iyong mga paboritong mods at modpacks."
+    "message": "Gamitin ang AllayLauncher sa pagdownload at paglaro ng iyong mga paboritong mods at modpacks."
   },
   "app-marketing.features.play.title": {
     "message": "Malaro ang mga paboritong mod mo"
   },
   "app-marketing.features.sharing.description": {
-    "message": "Mag-build, magbahagi, at maglaro ng mga modpack kasama ang ilan sa libong-libong mod at modpack na naka-host dito sa Modrinth."
+    "message": "Mag-build, magbahagi, at maglaro ng mga modpack kasama ang ilan sa libong-libong mod at modpack na naka-host dito sa AllayHub."
   },
   "app-marketing.features.sharing.modpack": {
     "message": "Modpack"
@@ -168,7 +168,7 @@
     "message": "'Di katulad ng ibang launcher"
   },
   "app-marketing.features.website.description": {
-    "message": "Ang Modrinth App ay buong naka-integrate sa website, kaya maakses mo ang lahat ng itong paboritong proyekto galing sa app!"
+    "message": "Ang AllayLauncher ay buong naka-integrate sa website, kaya maakses mo ang lahat ng itong paboritong proyekto galing sa app!"
   },
   "app-marketing.features.website.title": {
     "message": "Website integration"
@@ -177,19 +177,19 @@
     "message": "na iyong nagamit dati"
   },
   "app-marketing.hero.app-screenshot-alt": {
-    "message": "Screenshot ng Modrinth App na nakabukas ang pahinang 'Content' ng Cobblemon instance."
+    "message": "Screenshot ng AllayLauncher na nakabukas ang pahinang 'Content' ng Cobblemon instance."
   },
   "app-marketing.hero.description": {
-    "message": "Kaisa-isahang open-source launcher ang Modrinth App na binibigyang-daan kang makapaglaro sa iyong mga paboritong mod, at mapanatili silang up to date, lahat sa iisang siksik na package."
+    "message": "Kaisa-isahang open-source launcher ang AllayLauncher na binibigyang-daan kang makapaglaro sa iyong mga paboritong mod, at mapanatili silang up to date, lahat sa iisang siksik na package."
   },
   "app-marketing.hero.download-button": {
-    "message": "I-download ang Modrinth App"
+    "message": "I-download ang AllayLauncher"
   },
   "app-marketing.hero.download-modrinth-app": {
-    "message": "I-download ang Modrinth App"
+    "message": "I-download ang AllayLauncher"
   },
   "app-marketing.hero.download-modrinth-app-for-os": {
-    "message": "I-download ang Modrinth App para sa {os}"
+    "message": "I-download ang AllayLauncher para sa {os}"
   },
   "app-marketing.hero.minecraft-screenshot-alt": {
     "message": "Screenshot ng main menu screen ng Cobblemon instance."
@@ -294,7 +294,7 @@
     "message": "Username"
   },
   "auth.sign-up.legal-dislaimer": {
-    "message": "Sa paggawa ng account, sumasang-ayon ka sa <terms-link>Mga Tuntunin</terms-link> at <privacy-policy-link>Patakaran sa Pribasiya</privacy-policy-link> ng Modrinth."
+    "message": "Sa paggawa ng account, sumasang-ayon ka sa <terms-link>Mga Tuntunin</terms-link> at <privacy-policy-link>Patakaran sa Pribasiya</privacy-policy-link> ng AllayHub."
   },
   "auth.sign-up.notification.password-mismatch.text": {
     "message": "Hindi magkatugma ang mga password!"
@@ -306,7 +306,7 @@
     "message": "Mayroon ka nang account?"
   },
   "auth.sign-up.subscribe.label": {
-    "message": "Mag-subscribe ukol sa mga update sa Modrinth"
+    "message": "Mag-subscribe ukol sa mga update sa AllayHub"
   },
   "auth.sign-up.title": {
     "message": "Mag-sign Up"
@@ -351,16 +351,16 @@
     "message": "Patunayan ang Email"
   },
   "auth.welcome.checkbox.subscribe": {
-    "message": "Mag-subscribe ukol sa mga update ng Modrinth"
+    "message": "Mag-subscribe ukol sa mga update ng AllayHub"
   },
   "auth.welcome.description": {
     "message": "Ikaw ay parte na ngayon ng kahanga-hangang komunidad na ito ng mga tagagawa at manlalalakbay na nagtataguyod, nagda-download, at nananatiling napapanahon sa mga nakamamanghang na mga mod."
   },
   "auth.welcome.label.tos": {
-    "message": "Sa paggawa ng account, sumang-ayon ka na sa <terms-link>Mga Tuntunin</terms-link> at <privacy-policy-link>Patakaran sa Pribasiya</privacy-policy-link> ng Modrinth."
+    "message": "Sa paggawa ng account, sumang-ayon ka na sa <terms-link>Mga Tuntunin</terms-link> at <privacy-policy-link>Patakaran sa Pribasiya</privacy-policy-link> ng AllayHub."
   },
   "auth.welcome.long-title": {
-    "message": "Maligayang pagdating sa Modrinth!"
+    "message": "Maligayang pagdating sa AllayHub!"
   },
   "auth.welcome.title": {
     "message": "Maligayang Pagdating"
@@ -390,7 +390,7 @@
     "message": "Sigurado ka bang gusto mong i-delete ang koleksiyong ito?"
   },
   "collection.description": {
-    "message": "{description} - Tingnan ang koleksiyon {name} ni {username} sa Modrinth"
+    "message": "{description} - Tingnan ang koleksiyon {name} ni {username} sa AllayHub"
   },
   "collection.description.following": {
     "message": "Koleksiyong awtomatikong binuo ng lahat ng proyektong sinusundan mo."
@@ -642,7 +642,7 @@
     "message": "Tax form"
   },
   "dashboard.creator-tax-form-modal.security.description": {
-    "message": "And Modrinth ay gumagamit ng third-party provider Track1099 upang masiguro ang pagkolekta at pagsilid ng iyong mga tax form. <security-link>Dito matuto pa.</security-link>"
+    "message": "And AllayHub ay gumagamit ng third-party provider Track1099 upang masiguro ang pagkolekta at pagsilid ng iyong mga tax form. <security-link>Dito matuto pa.</security-link>"
   },
   "dashboard.creator-tax-form-modal.security.header": {
     "message": "Security practices"
@@ -822,7 +822,7 @@
     "message": "Mangyaring kumpletuhin ang form sa ibaba upang ma-withdraw ang buong <b>{available}</b> na magagamit na balanse. Ito ay kinakailangan para pag-uulat ng buwis at kaisahan lamang gagawin."
   },
   "dashboard.creator-withdraw-modal.tax-form-required.body-with-limit": {
-    "message": "Nangangailangan kang kumumpleto ng W-9 o W-8 na form para sa mga tax record ng Modrinth upang makapanatili tayong nakasusunod sa mga regulasyon sa buwis."
+    "message": "Nangangailangan kang kumumpleto ng W-9 o W-8 na form para sa mga tax record ng AllayHub upang makapanatili tayong nakasusunod sa mga regulasyon sa buwis."
   },
   "dashboard.creator-withdraw-modal.tax-form-required.header": {
     "message": "Kailangan ng tax form"
@@ -864,7 +864,7 @@
     "message": "Hindi napatunayang email"
   },
   "dashboard.creator-withdraw-modal.tremendous-details.unverified-email-message": {
-    "message": "Ang delivery email na iyong inilagay ay hindi magkaugnay sa iyong Modrinth account. Hindi maaaring masauli ng Modrinth ang mga gantimpalang pinadala sa maling email address."
+    "message": "Ang delivery email na iyong inilagay ay hindi magkaugnay sa iyong AllayHub account. Hindi maaaring masauli ng AllayHub ang mga gantimpalang pinadala sa maling email address."
   },
   "dashboard.creator-withdraw-modal.tremendous-details.usd-paypal-warning-header": {
     "message": "Lower fees available"
@@ -891,7 +891,7 @@
     "message": "Ang tinanatayang revenu ay maaari pang magbagi hanggang lamang na ito ay magiging available na."
   },
   "dashboard.revenue.estimated-tooltip.msg2": {
-    "message": "Pindutin upang matuto kung paano pinamamahalaan ng Modrinth ang iyong revenue."
+    "message": "Pindutin upang matuto kung paano pinamamahalaan ng AllayHub ang iyong revenue."
   },
   "dashboard.revenue.estimated-with-date": {
     "message": "Tinantiyang {date}"
@@ -912,7 +912,7 @@
     "message": "Withdrawn"
   },
   "dashboard.revenue.tos": {
-    "message": "Sa pg-upload ng mga proyekto sa Modrinth at pag-withdraw ng pera galing sa iyong account, sumasang-ayon ka sa aming <terms-link>Mga Tuntunin sa Rewards Program</terms-link>. Matuto pa ukol sa aming <info-link>Rewards Program</info-link>."
+    "message": "Sa pg-upload ng mga proyekto sa AllayHub at pag-withdraw ng pera galing sa iyong account, sumasang-ayon ka sa aming <terms-link>Mga Tuntunin sa Rewards Program</terms-link>. Matuto pa ukol sa aming <info-link>Rewards Program</info-link>."
   },
   "dashboard.revenue.transactions.btn.download-csv": {
     "message": "I-download bilang CSV"
@@ -1023,7 +1023,7 @@
     "message": "Ang koleksiyong ito ay maaaring prinibado."
   },
   "error.collection.404.list_item.3": {
-    "message": "Tinanggal ng moderation team ng Modrinth ang koleksiyong ito dahil sa paglabag nito sa aming <tou-link>Mga Tuntunun sa Paggamit</tou-link>."
+    "message": "Tinanggal ng moderation team ng AllayHub ang koleksiyong ito dahil sa paglabag nito sa aming <tou-link>Mga Tuntunun sa Paggamit</tou-link>."
   },
   "error.collection.404.list_title": {
     "message": "Bakit?"
@@ -1044,10 +1044,10 @@
     "message": "Hindi maaabot na kontento dahil sa legal na rason"
   },
   "error.generic.default.list_item.1": {
-    "message": "Tingnan if wala ba ang Modrinth sa ngayon gamit ang aming <status-link>Status page</status-link>."
+    "message": "Tingnan if wala ba ang AllayHub sa ngayon gamit ang aming <status-link>Status page</status-link>."
   },
   "error.generic.default.list_item.2": {
-    "message": "Kung mangyayari pa ito muli, mangyaring ipaalam sa Modrinth Team sa pagsali sa aming <discord-link>Discord server</discord-link>."
+    "message": "Kung mangyayari pa ito muli, mangyaring ipaalam sa AllayMC Team sa pagsali sa aming <discord-link>Discord server</discord-link>."
   },
   "error.generic.default.list_title": {
     "message": "Mangyaring subukan muli sa iilang minuto."
@@ -1065,7 +1065,7 @@
     "message": "Maaaring pinalit ng may-ari ng organisasyon ang URL nito o kaya ay na-delete na."
   },
   "error.organization.404.list_item.3": {
-    "message": "Tinanggal ng moderation team ng Modrinth ang organisasyong ito dahil sa paglabag nito sa aming <tou-link>Mga Tuntunin sa Paggamit</tou-link>."
+    "message": "Tinanggal ng moderation team ng AllayHub ang organisasyong ito dahil sa paglabag nito sa aming <tou-link>Mga Tuntunin sa Paggamit</tou-link>."
   },
   "error.organization.404.list_title": {
     "message": "Bakit?"
@@ -1080,7 +1080,7 @@
     "message": "Maaaring pinalit ng may-ari ng proyekto ang URL nito, prinibado ang proyekto, o kaya ay na-delete na."
   },
   "error.project.404.list_item.3": {
-    "message": "Tinanggal ng moderation team ng Modrinth ang proyektong ito dahil sa paglabag nito sa aming <tou-link>Mga Tuntunin sa Paggamit</tou-link>."
+    "message": "Tinanggal ng moderation team ng AllayHub ang proyektong ito dahil sa paglabag nito sa aming <tou-link>Mga Tuntunin sa Paggamit</tou-link>."
   },
   "error.project.404.list_title": {
     "message": "Bakit?"
@@ -1095,7 +1095,7 @@
     "message": "Maaaring nagpalit ng pangalan o dinelete ng may-ari ang kanilang account."
   },
   "error.user.404.list_item.3": {
-    "message": "Maaaring tinapos ang kanyang account dahil sa paglabag sa <tou-link>Mga Tuntunin sa Paggamit</tou-link> ng Modrinth."
+    "message": "Maaaring tinapos ang kanyang account dahil sa paglabag sa <tou-link>Mga Tuntunin sa Paggamit</tou-link> ng AllayHub."
   },
   "error.user.404.list_title": {
     "message": "Bakit?"
@@ -1125,7 +1125,7 @@
     "message": "Pumunta sa dashboard"
   },
   "landing.creator.feature.constantly-evolving.description": {
-    "message": "Ranasan ang pinakamagaling na karanasan sa modding kasali ang palaging mga update galing sa Modrinth team"
+    "message": "Ranasan ang pinakamagaling na karanasan sa modding kasali ang palaging mga update galing sa AllayHub team"
   },
   "landing.creator.feature.constantly-evolving.title": {
     "message": "Laging Umuunlad"
@@ -1209,10 +1209,10 @@
     "message": "ATLauncher"
   },
   "landing.launcher.graphic-alt": {
-    "message": "Pinasimpleng representasyon ng isang Minecraft window, na may logo ng Mojang Studios sa Modrinth na berde."
+    "message": "Pinasimpleng representasyon ng isang Minecraft window, na may logo ng Mojang Studios sa AllayHub na berde."
   },
   "landing.launcher.modrinth-app-label": {
-    "message": "Modrinth App"
+    "message": "AllayLauncher"
   },
   "landing.launcher.prism-launcher-label": {
     "message": "Prism Launcher"
@@ -1305,19 +1305,19 @@
     "message": "Bisitahin ang mga setting sa account"
   },
   "layout.banner.add-email.description": {
-    "message": "Dahil sa mga kadahilang pangseguridad, kailangan ng Modrinth na makapag-register ka ng email address sa iyong account."
+    "message": "Dahil sa mga kadahilang pangseguridad, kailangan ng AllayHub na makapag-register ka ng email address sa iyong account."
   },
   "layout.banner.build-fail.description": {
-    "message": "Itong pinakalat na frontend ng Modrinth ay bigong makabuo ng estato galing sa API. Maaaring dahil ito sa isang outage o error sa konpigurasyon. Muling itayo kapag magagamit na ang API. Error codes: {errors}; Kasalukuyang URL ng API ay: {url}"
+    "message": "Itong pinakalat na frontend ng AllayHub ay bigong makabuo ng estato galing sa API. Maaaring dahil ito sa isang outage o error sa konpigurasyon. Muling itayo kapag magagamit na ang API. Error codes: {errors}; Kasalukuyang URL ng API ay: {url}"
   },
   "layout.banner.build-fail.title": {
     "message": "May error sa pagbuo ng estado galing sa API habang nagpapatayo."
   },
   "layout.banner.staging.description": {
-    "message": "Buong magkahiwalay ang staging environment sa production Modrinth database. Ginagamit ito sa pagsusuri at pag-debug, at maaaring pinatatakbo sa mga bersiyong in-development ng backend o frontend sa bagong production instance ng Modrinth."
+    "message": "Buong magkahiwalay ang staging environment sa production AllayHub database. Ginagamit ito sa pagsusuri at pag-debug, at maaaring pinatatakbo sa mga bersiyong in-development ng backend o frontend sa bagong production instance ng AllayHub."
   },
   "layout.banner.staging.title": {
-    "message": "Tinitingnan mo ang staging environment ng Modrinth"
+    "message": "Tinitingnan mo ang staging environment ng AllayHub"
   },
   "layout.banner.subscription-payment-failed.button": {
     "message": "I-update ang billing info"
@@ -1332,7 +1332,7 @@
     "message": "Kumpletuhin ang tax form"
   },
   "layout.banner.tax.description": {
-    "message": "Naka-withdraw na ikaw ng humigit $600 galing sa Modrinth ngayong taon. Upang makasunod sa regulasyon sa buwis, kinakailangan na kumumpleto ka ng tax form. Pinahinto muna ang iyong pag-withdraw hanggang ikaw ay nakapagsumite ma ng form na ito."
+    "message": "Naka-withdraw na ikaw ng humigit $600 galing sa AllayHub ngayong taon. Upang makasunod sa regulasyon sa buwis, kinakailangan na kumumpleto ka ng tax form. Pinahinto muna ang iyong pag-withdraw hanggang ikaw ay nakapagsumite ma ng form na ito."
   },
   "layout.banner.tax.title": {
     "message": "Nangangailangan ng tax form"
@@ -1350,7 +1350,7 @@
     "message": "Muling ipadala ang email ng pagpapatunay"
   },
   "layout.banner.verify-email.description": {
-    "message": "Dahil sa mga kadahilang pangseguridad, kailangan ng Modrinth na mapatunayan ang email address sa iyong account."
+    "message": "Dahil sa mga kadahilang pangseguridad, kailangan ng AllayHub na mapatunayan ang email address sa iyong account."
   },
   "layout.footer.about": {
     "message": "Tungkol"
@@ -1392,22 +1392,22 @@
     "message": "Mga Tuntunin sa Paggamit"
   },
   "layout.footer.modrinth-information": {
-    "message": "Impormasyon ng Modrinth"
+    "message": "Impormasyon ng AllayHub"
   },
   "layout.footer.open-source": {
-    "message": "<github-link>Open source</github-link> ang Modrinth."
+    "message": "<github-link>Open source</github-link> ang AllayHub."
   },
   "layout.footer.products": {
     "message": "Mga Produkto"
   },
   "layout.footer.products.app": {
-    "message": "Modrinth App"
+    "message": "AllayLauncher"
   },
   "layout.footer.products.plus": {
-    "message": "Modrinth+"
+    "message": "AllayHub+"
   },
   "layout.footer.products.servers": {
-    "message": "Modrinth Hosting"
+    "message": "AllayHub Hosting"
   },
   "layout.footer.resources": {
     "message": "Mga Mapagkukunan"
@@ -1443,7 +1443,7 @@
     "message": "I-toggle ang menu"
   },
   "layout.meta.description": {
-    "message": "Mag-download ng mga Minecraft mod, plugin, datapack, shader, resourcepack, at modpack sa Modrinth. Tumuklas at mag-publish ng mga proyekto sa Modrinth na may modernong, madaling gamitin na interface at API."
+    "message": "Mag-download ng mga Minecraft mod, plugin, datapack, shader, resourcepack, at modpack sa AllayHub. Tumuklas at mag-publish ng mga proyekto sa AllayHub na may modernong, madaling gamitin na interface at API."
   },
   "layout.meta.og-description": {
     "message": "Tumuklas ang lumathala ng mga kontentong Minecraft!"
@@ -1479,10 +1479,10 @@
     "message": "Mag-host ng server"
   },
   "layout.nav.modrinth-app": {
-    "message": "Modrinth App"
+    "message": "AllayLauncher"
   },
   "layout.nav.modrinth-home-page": {
-    "message": "Modrinth home page"
+    "message": "AllayHub home page"
   },
   "layout.nav.my-servers": {
     "message": "Aking mga server"
@@ -1506,7 +1506,7 @@
     "message": "Maghanap"
   },
   "layout.nav.upgrade-to-modrinth-plus": {
-    "message": "Mag-upgrade sa Modrinth+"
+    "message": "Mag-upgrade sa AllayHub+"
   },
   "moderation.filter.by": {
     "message": "I-filter ayon sa"
@@ -1797,10 +1797,10 @@
     "message": "Pakisuri muli ng iyong wallet address. Ang mga pundong nahatid sa maling address ay hindi na mababawi."
   },
   "profile.bio.fallback.creator": {
-    "message": "Isang tagagawa sa Modrinth."
+    "message": "Isang tagagawa sa AllayHub."
   },
   "profile.bio.fallback.user": {
-    "message": "Isang tagagamit sa Modrinth."
+    "message": "Isang tagagamit sa AllayHub."
   },
   "profile.button.billing": {
     "message": "Pamahalaan ang billing ng tagagamit"
@@ -1893,10 +1893,10 @@
     "message": "Oo"
   },
   "profile.meta.description": {
-    "message": "Magdownload ng mga proyekto ni {username} sa Modrinth"
+    "message": "Magdownload ng mga proyekto ni {username} sa AllayHub"
   },
   "profile.meta.description-with-bio": {
-    "message": "{bio} - Magdownload ng mga proyekto ni {username} sa Modrinth"
+    "message": "{bio} - Magdownload ng mga proyekto ni {username} sa AllayHub"
   },
   "profile.stats.projects-followers": {
     "message": "{count, plural, one {<stat>{count}</stat> follower ng proyekto} other {<stat>{count}</stat> na follower ng proyekto}}"
@@ -1947,7 +1947,7 @@
     "message": "Sumitehin muli upang muling mapasuri"
   },
   "project-moderation-nags.resubmit-for-review-desc": {
-    "message": "Ang iyong proyekto ay {status, select, rejected {tinanggihan} withheld {na-withdhold} other {{status}}} ng staff ng Modrinth. Sa kadalasan, maaari mong sumitehin muli upang muling mapasuri matapos tugunan ang mensahe ng staff."
+    "message": "Ang iyong proyekto ay {status, select, rejected {tinanggihan} withheld {na-withdhold} other {{status}}} ng staff ng AllayHub. Sa kadalasan, maaari mong sumitehin muli upang muling mapasuri matapos tugunan ang mensahe ng staff."
   },
   "project-moderation-nags.submit-checklist-tooltip": {
     "message": "Nangangailangang makumpleto mo ang mga hakbang sa checklist ng paglalathala!"
@@ -2049,7 +2049,7 @@
     "message": "Suriin ang proyekto"
   },
   "project.actions.servers-promo.description": {
-    "message": "Ang Modrinth Hosting ang pinakamadaling paraang makapaglaro sa iyong mga kalaro ng walang kahadlangan!"
+    "message": "Ang AllayHub Hosting ang pinakamadaling paraang makapaglaro sa iyong mga kalaro ng walang kahadlangan!"
   },
   "project.actions.servers-promo.pricing": {
     "message": "Nagsisinula sa {price}<small> / buwan</small>"
@@ -2082,10 +2082,10 @@
     "message": "Hindi masuporta ng {title} ang {gameVersion} para sa {platform}"
   },
   "project.download.install-with-app": {
-    "message": "I-install gamit ang Modrinth App"
+    "message": "I-install gamit ang AllayLauncher"
   },
   "project.download.no-app": {
-    "message": "Wala kang Modrinth App?"
+    "message": "Wala kang AllayLauncher?"
   },
   "project.download.no-versions-available": {
     "message": "Walang bersiyong magagamit para sa {gameVersion} at {platform}."
@@ -2121,7 +2121,7 @@
     "message": "I-download ang {title}"
   },
   "project.environment.migration-no-permission.message": {
-    "message": "Kakaunlad lang ng aming sistema sa Mga Environment sa Modrinth at magagamit na ngayon ang mga bagong pagpipilian. Wala kang pahintulot na magbago sa mga setting na ito, mangyaring ipaalam sa isa pang miyembro ng proyekto na kailangang mapatunayan ang metadata ng environment."
+    "message": "Kakaunlad lang ng aming sistema sa Mga Environment sa AllayHub at magagamit na ngayon ang mga bagong pagpipilian. Wala kang pahintulot na magbago sa mga setting na ito, mangyaring ipaalam sa isa pang miyembro ng proyekto na kailangang mapatunayan ang metadata ng environment."
   },
   "project.environment.migration-no-permission.title": {
     "message": "Kailangang suriin ang metadata ng environment"
@@ -2130,7 +2130,7 @@
     "message": "Matuto pa ukol sa pagbabagong ito"
   },
   "project.environment.migration.message": {
-    "message": "Kakaunlad lang ng aming sistema sa Mga Environment sa Modrinth at magagamit na ngayon ang mga bagong pagpipilian. Mangyaring patunayan na wasto ang metadata."
+    "message": "Kakaunlad lang ng aming sistema sa Mga Environment sa AllayHub at magagamit na ngayon ang mga bagong pagpipilian. Mangyaring patunayan na wasto ang metadata."
   },
   "project.environment.migration.review-button": {
     "message": "Suriin ang mga setting sa environment"
@@ -2262,7 +2262,7 @@
     "message": "Hindi mahanap ang {item}"
   },
   "report.for.violation": {
-    "message": "Paglabag sa <rules-link>Mga Patakaran</rules-link> o <terms-link>Mga Tuntunin sa Paggamit</terms-link> ng Modrinth"
+    "message": "Paglabag sa <rules-link>Mga Patakaran</rules-link> o <terms-link>Mga Tuntunin sa Paggamit</terms-link> ng AllayHub"
   },
   "report.for.violation.description": {
     "message": "Halimbawa ay malisyoso, spam, nakasasakit, mapanlinlang, o ilegal na kontento."
@@ -2307,7 +2307,7 @@
     "message": "Anong uri ng kontento ang iyong isusumbong?"
   },
   "report.question.report-reason": {
-    "message": "Anong patakaran ng Modrinth ang linalabag ng {item}?"
+    "message": "Anong patakaran ng AllayHub ang linalabag ng {item}?"
   },
   "report.report-content": {
     "message": "Isumbong ang kontento sa mga moderator"
@@ -2475,7 +2475,7 @@
     "message": "Write reports"
   },
   "scopes.sessionAccess.description": {
-    "message": "Umakses sa mga session na inisyu ng Modrinth"
+    "message": "Umakses sa mga session na inisyu ng AllayHub"
   },
   "scopes.sessionAccess.label": {
     "message": "Access sessions"
@@ -2697,13 +2697,13 @@
     "message": "Visa"
   },
   "settings.billing.pyro_subscription.description": {
-    "message": "Pamahalaan ang iyong mga Modrinth Server subscription."
+    "message": "Pamahalaan ang iyong mga AllayHub Server subscription."
   },
   "settings.billing.pyro_subscription.title": {
-    "message": "Mga Modrinth Server Subscription"
+    "message": "Mga AllayHub Server Subscription"
   },
   "settings.billing.subscription.description": {
-    "message": "Pamahalaan ang iyong mga subscription sa Modrinth."
+    "message": "Pamahalaan ang iyong mga subscription sa AllayHub."
   },
   "settings.billing.subscription.title": {
     "message": "Mga subscription"
@@ -2712,7 +2712,7 @@
     "message": "Patayin ang developer mode"
   },
   "settings.display.banner.developer-mode.description": {
-    "message": "<strong>Developer mode</strong> ay aktibo. Binibigyang-daan ka nitong malaman ang internal ID ng samut-saring bagay sa Modrinth na nakakatulong sa mga developer sa paggamit ng Modrinth API. Pinduting ang logo ng Modrinth sa ibaba ng pahina ng 5 beses upang ma-toggle ang developer mode."
+    "message": "<strong>Developer mode</strong> ay aktibo. Binibigyang-daan ka nitong malaman ang internal ID ng samut-saring bagay sa AllayHub na nakakatulong sa mga developer sa paggamit ng AllayHub API. Pinduting ang logo ng AllayHub sa ibaba ng pahina ng 5 beses upang ma-toggle ang developer mode."
   },
   "settings.display.flags.description": {
     "message": "Magpagana o huwag magpagana ng mga tiyak na feature sa iyong device."
@@ -2757,16 +2757,16 @@
     "message": "Advanced rendering"
   },
   "settings.display.sidebar.external-links-new-tab.description": {
-    "message": "Gagawa ng mga link na pupunta sa labas ng Modrinth na magbubukas ng bagong tab. Kahit ano pang lagay, ang mga link sa magkatulad na domain at nasa paglalarawang Markdown ay bubukas sa iisang tab, at ang mga link sa ads at edit page ay magbubukas sa bagong tab."
+    "message": "Gagawa ng mga link na pupunta sa labas ng AllayHub na magbubukas ng bagong tab. Kahit ano pang lagay, ang mga link sa magkatulad na domain at nasa paglalarawang Markdown ay bubukas sa iisang tab, at ang mga link sa ads at edit page ay magbubukas sa bagong tab."
   },
   "settings.display.sidebar.external-links-new-tab.title": {
     "message": "Buksan ang pabasang link sa bagong tab"
   },
   "settings.display.sidebar.hide-app-promos.description": {
-    "message": "Itatago ang \"Kunin ang Modrinth App\" na mga pindutan sa pangunahing navigation. Ang pahina ng Modrinth App ay maaari pa ring mahanap sa landing page o kaya sa footer."
+    "message": "Itatago ang \"Kunin ang AllayLauncher\" na mga pindutan sa pangunahing navigation. Ang pahina ng AllayLauncher ay maaari pa ring mahanap sa landing page o kaya sa footer."
   },
   "settings.display.sidebar.hide-app-promos.title": {
-    "message": "Itago ang mga promosyong Modrinth App"
+    "message": "Itago ang mga promosyong AllayLauncher"
   },
   "settings.display.sidebar.left-aligned-content-sidebar.title": {
     "message": "Pinakaliwang sidebar sa mga content page"
@@ -2781,7 +2781,7 @@
     "message": "Pinakanang sidebar ng pansala sa mga search page"
   },
   "settings.display.theme.description": {
-    "message": "Pumili ng iyong gugustohing paksang kulay para sa Modrinth ng nitong device."
+    "message": "Pumili ng iyong gugustohing paksang kulay para sa AllayHub ng nitong device."
   },
   "settings.display.theme.title": {
     "message": "Paksang kulay"
@@ -2790,7 +2790,7 @@
     "message": "Gumawa ng PAT"
   },
   "settings.pats.description": {
-    "message": "Maaaring maaksea ang mga PAT gamit ang API ng Modrinth. Para sa mga karagdagang impormasyon, tingnan ang <doc-link>dokentasyon ng API ng Modrinth</doc-link>. Maaari silang malikha at mabawi sa kahit anong panahon."
+    "message": "Maaaring maaksea ang mga PAT gamit ang API ng AllayHub. Para sa mga karagdagang impormasyon, tingnan ang <doc-link>dokentasyon ng API ng AllayHub</doc-link>. Maaari silang malikha at mabawi sa kahit anong panahon."
   },
   "settings.pats.modal.create.action": {
     "message": "Gumawa ng PAT"
@@ -2844,7 +2844,7 @@
     "message": "Biyograpiya"
   },
   "settings.profile.description": {
-    "message": "Makikita ng publiko ang impormasyon ng iyong profile at sa <docs-link>API ng Modrinth</docs-link>."
+    "message": "Makikita ng publiko ang impormasyon ng iyong profile at sa <docs-link>API ng AllayHub</docs-link>."
   },
   "settings.profile.profile-info": {
     "message": "Impormasyon ng profile"
@@ -2871,7 +2871,7 @@
     "message": "Kasalukuyang session"
   },
   "settings.sessions.description": {
-    "message": "Narito ang lahat ng mga device na kasalukuyang nakalog-in sa iyong Modrinth account. Maaari mong maisaisang malog-out ang bawat isa.\n\nKung makakita ka ng isang hindi mo nakikilala, maglog-out sa device na iyon at agarang palitan ang password ng iyong Modrinth account."
+    "message": "Narito ang lahat ng mga device na kasalukuyang nakalog-in sa iyong AllayHub account. Maaari mong maisaisang malog-out ang bawat isa.\n\nKung makakita ka ng isang hindi mo nakikilala, maglog-out sa device na iyon at agarang palitan ang password ng iyong AllayHub account."
   },
   "settings.sessions.last-accessed-ago": {
     "message": "Huling inakses {ago}"
@@ -2883,7 +2883,7 @@
     "message": "Hindi kilalang plataforma"
   },
   "ui.latest-news-row.latest-news": {
-    "message": "Mga nagbabagang balita galing sa Modrinth"
+    "message": "Mga nagbabagang balita galing sa AllayHub"
   },
   "ui.latest-news-row.view-all": {
     "message": "Tingnan ang lahat ng balita"

@@ -27,7 +27,7 @@
     "message": "Linux"
   },
   "app-marketing.download.linux-disclaimer": {
-    "message": "A Linux verziója a Modrinth Appnak <issues-link>problémái vannak</issues-link> bizonyos rendszereken és a konfigurációin. Ha a Modrinth App instabil a rendszereden akkor próbáld ki a <prism-link>Prism Launcher</prism-link>t, ahol nagyon könnyen lehet Modrinth tartalmat telepíteni."
+    "message": "A Linux verziója a AllayLaunchernak <issues-link>problémái vannak</issues-link> bizonyos rendszereken és a konfigurációin. Ha a AllayLauncher instabil a rendszereden akkor próbáld ki a <prism-link>Prism Launcher</prism-link>t, ahol nagyon könnyen lehet AllayHub tartalmat telepíteni."
   },
   "app-marketing.download.mac": {
     "message": "Mac"
@@ -36,13 +36,13 @@
     "message": "Letöltési opciók"
   },
   "app-marketing.download.terms": {
-    "message": "A Modrinth App letöltésével elfogadod <terms-link>feltételeket</terms-link> és a <privacy-link>biztonsági szabályzatot</privacy-link>."
+    "message": "A AllayLauncher letöltésével elfogadod <terms-link>feltételeket</terms-link> és a <privacy-link>biztonsági szabályzatot</privacy-link>."
   },
   "app-marketing.download.third-party-packages": {
     "message": "Harmadik féltül származó csomagok"
   },
   "app-marketing.download.title": {
-    "message": "Modrinth App (Béta) letöltése"
+    "message": "AllayLauncher (Béta) letöltése"
   },
   "app-marketing.download.windows": {
     "message": "Windows"
@@ -54,7 +54,7 @@
     "message": "Projektek követése"
   },
   "app-marketing.features.importing.description": {
-    "message": "Importálja az összes kedvenc profilját a korábban használt launcherből, és néhány másodperc alatt elindíthatja a Modrinth alkalmazást!"
+    "message": "Importálja az összes kedvenc profilját a korábban használt launcherből, és néhány másodperc alatt elindíthatja a AllayHub alkalmazást!"
   },
   "app-marketing.features.importing.gdlauncher-alt": {
     "message": "GDLauncher"
@@ -72,7 +72,7 @@
     "message": "{author} által"
   },
   "app-marketing.features.mod-management.description": {
-    "message": "A Modrinth könnyűvé teszi az összes telepített modjaidnak a kezelését egy helyen. Telepíthetsz, eltávolíthatsz és frissíthetsz modokat egyetlen kattintással."
+    "message": "A AllayHub könnyűvé teszi az összes telepített modjaidnak a kezelését egy helyen. Telepíthetsz, eltávolíthatsz és frissíthetsz modokat egyetlen kattintással."
   },
   "app-marketing.features.mod-management.installed-mods": {
     "message": "Telepített modok"
@@ -96,7 +96,7 @@
     "message": "Offline mód"
   },
   "app-marketing.features.open-source.description": {
-    "message": "A Modrinth inditóprogramja teljesen nyílt forráskódú. Ellenőrízheted a forráskódot a <github-link>GitHub</github-link> oldalunkon!"
+    "message": "A AllayHub inditóprogramja teljesen nyílt forráskódú. Ellenőrízheted a forráskódot a <github-link>GitHub</github-link> oldalunkon!"
   },
   "app-marketing.features.open-source.title": {
     "message": "Nyílt forráskódú"
@@ -108,7 +108,7 @@
     "message": "% CPU"
   },
   "app-marketing.features.performance.description": {
-    "message": "A Modrinth App jobb teljesítményt nyújt, mint sok vezető mod menedzser, és csak 150 MB RAM-ot használ!"
+    "message": "A AllayLauncher jobb teljesítményt nyújt, mint sok vezető mod menedzser, és csak 150 MB RAM-ot használ!"
   },
   "app-marketing.features.performance.discord": {
     "message": "Discord"
@@ -129,7 +129,7 @@
     "message": "< 150 MB"
   },
   "app-marketing.features.performance.modrinth-app": {
-    "message": "Modrinth App"
+    "message": "AllayLauncher"
   },
   "app-marketing.features.performance.one-billion-percent": {
     "message": "1 milliárd %"
@@ -153,7 +153,7 @@
     "message": "Játssz a kedvenc modjaiddal"
   },
   "app-marketing.features.sharing.description": {
-    "message": "Készíts, ossz meg és játssz a Modrinthen fentartott több ezer modok és modpackek közül bármelyikkel."
+    "message": "Készíts, ossz meg és játssz a AllayHuben fentartott több ezer modok és modpackek közül bármelyikkel."
   },
   "app-marketing.features.sharing.modpack": {
     "message": "Modpack"
@@ -168,7 +168,7 @@
     "message": "Olyan Minecraft inditóprogram"
   },
   "app-marketing.features.website.description": {
-    "message": "A Modrinth alkalmazás teljes mértékben integrálva van a weboldallal, így az alkalmazásból elérheted az összes kedvenc projektedet!"
+    "message": "A AllayHub alkalmazás teljes mértékben integrálva van a weboldallal, így az alkalmazásból elérheted az összes kedvenc projektedet!"
   },
   "app-marketing.features.website.title": {
     "message": "Weboldal integráció"
@@ -177,19 +177,19 @@
     "message": "ami eltérő"
   },
   "app-marketing.hero.app-screenshot-alt": {
-    "message": "A Modrinth alkalmazás képernyőképe, amelyen a Cobblemon profil a „Tartalom” oldalon van megnyitva."
+    "message": "A AllayHub alkalmazás képernyőképe, amelyen a Cobblemon profil a „Tartalom” oldalon van megnyitva."
   },
   "app-marketing.hero.description": {
-    "message": "A Modrinth App egy egyedülálló, nyílt forráskódú kliens, amely lehetővé teszi, hogy kedvenc modjaidat játssz, és naprakészen tartsd őket, mindezt egy kis, praktikus csomagban."
+    "message": "A AllayLauncher egy egyedülálló, nyílt forráskódú kliens, amely lehetővé teszi, hogy kedvenc modjaidat játssz, és naprakészen tartsd őket, mindezt egy kis, praktikus csomagban."
   },
   "app-marketing.hero.download-button": {
-    "message": "Modrinth App letöltése"
+    "message": "AllayLauncher letöltése"
   },
   "app-marketing.hero.download-modrinth-app": {
-    "message": "Modrinth App letöltése"
+    "message": "AllayLauncher letöltése"
   },
   "app-marketing.hero.download-modrinth-app-for-os": {
-    "message": "Modrinth App letöltése {os} re/ra"
+    "message": "AllayLauncher letöltése {os} re/ra"
   },
   "app-marketing.hero.minecraft-screenshot-alt": {
     "message": "A Cobblemon profil főmenüjének képernyőképe."
@@ -294,7 +294,7 @@
     "message": "Felhasználónév"
   },
   "auth.sign-up.legal-dislaimer": {
-    "message": "Fiók létrehozásával Ön elfogadja a Modrinth <terms-link>Felhasználási feltételeit</terms-link> és <privacy-policy-link>Adatvédelmi irányelveit</privacy-policy-link>."
+    "message": "Fiók létrehozásával Ön elfogadja a AllayHub <terms-link>Felhasználási feltételeit</terms-link> és <privacy-policy-link>Adatvédelmi irányelveit</privacy-policy-link>."
   },
   "auth.sign-up.notification.password-mismatch.text": {
     "message": "A jelszavak nem jegyeznek!"
@@ -306,7 +306,7 @@
     "message": "Már van fiókod?"
   },
   "auth.sign-up.subscribe.label": {
-    "message": "Iratkozzon fel a Modrinth frissítéseiről szóló értesítésekre"
+    "message": "Iratkozzon fel a AllayHub frissítéseiről szóló értesítésekre"
   },
   "auth.sign-up.title": {
     "message": "Regisztráció"
@@ -351,16 +351,16 @@
     "message": "Email-cím megerősítése"
   },
   "auth.welcome.checkbox.subscribe": {
-    "message": "Iratkozzon fel a Modrinth frissítéseiről szóló értesítésekre"
+    "message": "Iratkozzon fel a AllayHub frissítéseiről szóló értesítésekre"
   },
   "auth.welcome.description": {
     "message": "Most már része vagy annak a fantasztikus alkotók és felfedezők közösségének, akik már építenek, letöltenek és naprakészek maradnak a csodálatos modokkal kapcsolatban."
   },
   "auth.welcome.label.tos": {
-    "message": "Fiók létrehozásával Ön elfogadja a Modrinth <terms-link>Felhasználási feltételeit</terms-link> és <privacy-policy-link>Adatvédelmi irányelveit</privacy-policy-link>."
+    "message": "Fiók létrehozásával Ön elfogadja a AllayHub <terms-link>Felhasználási feltételeit</terms-link> és <privacy-policy-link>Adatvédelmi irányelveit</privacy-policy-link>."
   },
   "auth.welcome.long-title": {
-    "message": "Üdvözlünk a Modrinth-onl!"
+    "message": "Üdvözlünk a AllayHub-onl!"
   },
   "auth.welcome.title": {
     "message": "Üdvözlünk"
@@ -390,7 +390,7 @@
     "message": "Biztos vagy hogy törölni akarod ezt a gyűjteményt?"
   },
   "collection.description": {
-    "message": "{description}- Nézd meg a {name} nevű gyűjtemény {username} által Modrinth-on"
+    "message": "{description}- Nézd meg a {name} nevű gyűjtemény {username} által AllayHub-on"
   },
   "collection.description.following": {
     "message": "Az összes követett projekt automatikusan generált gyűjteménye."
@@ -642,7 +642,7 @@
     "message": "Adóűrlap"
   },
   "dashboard.creator-tax-form-modal.security.description": {
-    "message": "A Modrinth a Track1099 nevű harmadik fél szolgáltatót használja az adóűrlapjaid biztonságos begyűjtésére és tárolására. <security-link>További információk itt.</security-link>"
+    "message": "A AllayHub a Track1099 nevű harmadik fél szolgáltatót használja az adóűrlapjaid biztonságos begyűjtésére és tárolására. <security-link>További információk itt.</security-link>"
   },
   "dashboard.creator-tax-form-modal.security.header": {
     "message": "Biztonsági gyakorlatok"
@@ -807,7 +807,7 @@
     "message": "Ahhoz, hogy kivedd a teljes <b>{available}</b> rendelkezésre álló összeget, kérlek töltsd ki az űrlapot. Szükséges az adóbevalláshoz és csak egyszer kell megcsinálni."
   },
   "dashboard.creator-withdraw-modal.tax-form-required.body-with-limit": {
-    "message": "Ki kell töltened egy W-9 vagy egy W-8 adóbevallási űrlapot Modrinth adóügyi nyilvántartásaihoz, hogy az adóügyi előírásoknak eleget tegyünk."
+    "message": "Ki kell töltened egy W-9 vagy egy W-8 adóbevallási űrlapot AllayHub adóügyi nyilvántartásaihoz, hogy az adóügyi előírásoknak eleget tegyünk."
   },
   "dashboard.creator-withdraw-modal.tax-form-required.header": {
     "message": "Adóbevallási űrlap szükséges"
@@ -828,7 +828,7 @@
     "message": "Megerősítettlen E-mail"
   },
   "dashboard.creator-withdraw-modal.tremendous-details.unverified-email-message": {
-    "message": "A kiszállítási E-mail, amit megadtál nincs hozzákapcsolva a Modrinth fiókodhoz. A Modrinth nem tudja visszaállítani a jutalmakat, amik rossz E-mail címre lettek küldve."
+    "message": "A kiszállítási E-mail, amit megadtál nincs hozzákapcsolva a AllayHub fiókodhoz. A AllayHub nem tudja visszaállítani a jutalmakat, amik rossz E-mail címre lettek küldve."
   },
   "dashboard.creator-withdraw-modal.tremendous-details.usd-paypal-warning-header": {
     "message": "Alacsonyabb díjak elérhetőek"
@@ -846,7 +846,7 @@
     "message": "A becsült bevételek a rendelkezésre bocsátásig változhatnak."
   },
   "dashboard.revenue.estimated-tooltip.msg2": {
-    "message": "Kattints ide, hogy elolvasd, hogyan kezeli a Modrinth a bevételeidet."
+    "message": "Kattints ide, hogy elolvasd, hogyan kezeli a AllayHub a bevételeidet."
   },
   "dashboard.revenue.estimated-with-date": {
     "message": "Becsült {date}"
@@ -864,7 +864,7 @@
     "message": "Tranzakciók"
   },
   "dashboard.revenue.tos": {
-    "message": "A projektek Modrinth-ra való feltöltésével és a számládról történő pénzfelvétellel elfogadod a <terms-link>Jutalomprogram feltételeit</terms-link>. Tudj meg többet a <info-link>Jutalomprogramról</info-link>."
+    "message": "A projektek AllayHub-ra való feltöltésével és a számládról történő pénzfelvétellel elfogadod a <terms-link>Jutalomprogram feltételeit</terms-link>. Tudj meg többet a <info-link>Jutalomprogramról</info-link>."
   },
   "dashboard.revenue.transactions.btn.download-csv": {
     "message": "Letöltés CSV formátumban"
@@ -897,7 +897,7 @@
     "message": "Ez a gyűjtemény lehet hogy privát."
   },
   "error.collection.404.list_item.3": {
-    "message": "Gyűjteményt a Modrinth moderációs csapata eltávolíthatta, mert megsértette a <tou-link>Felhasználási feltételeinket</tou-link>."
+    "message": "Gyűjteményt a AllayHub moderációs csapata eltávolíthatta, mert megsértette a <tou-link>Felhasználási feltételeinket</tou-link>."
   },
   "error.collection.404.list_title": {
     "message": "Miért?"
@@ -918,10 +918,10 @@
     "message": "Tartalom nem elérhető legális okok miatt"
   },
   "error.generic.default.list_item.1": {
-    "message": "Ellenőrizd, hogy a Modrinth elérhető-e a <status-link>Állapotoldalon</status-link>."
+    "message": "Ellenőrizd, hogy a AllayHub elérhető-e a <status-link>Állapotoldalon</status-link>."
   },
   "error.generic.default.list_item.2": {
-    "message": "Ha ez továbbra is történik, valószínűleg tudatni szeretnéd a Modrinth csapatával. Ezt úgy tehetet meg, hogy csatlakozol a <discord-link>Discord szerverünkre</discord-link>."
+    "message": "Ha ez továbbra is történik, valószínűleg tudatni szeretnéd a AllayHub csapatával. Ezt úgy tehetet meg, hogy csatlakozol a <discord-link>Discord szerverünkre</discord-link>."
   },
   "error.generic.default.list_title": {
     "message": "Kerjük próbáld újra pár perc múlva."
@@ -939,7 +939,7 @@
     "message": "A szervezet készítője megváltoztathatta, vagy törölhette az URL-t."
   },
   "error.organization.404.list_item.3": {
-    "message": "A szervezet törölve lehetett a Modrinth moderációs csapata által, amiért megsértette a <tou-link>Terms of Use</tou-link>-t."
+    "message": "A szervezet törölve lehetett a AllayHub moderációs csapata által, amiért megsértette a <tou-link>Terms of Use</tou-link>-t."
   },
   "error.organization.404.list_title": {
     "message": "Miért?"
@@ -954,7 +954,7 @@
     "message": "A projekt lészítője megváltoztathatta az URL címet, vagy a projektet privátta tette, esetleg ki is törölte."
   },
   "error.project.404.list_item.3": {
-    "message": "A projekt valószínűleg le lett törölve a Modrinth moderációs csapat által, amiért megsértette a <tou-link>Felhasználási feltételek</tou-link>et."
+    "message": "A projekt valószínűleg le lett törölve a AllayHub moderációs csapat által, amiért megsértette a <tou-link>Felhasználási feltételek</tou-link>et."
   },
   "error.project.404.list_title": {
     "message": "Miért?"
@@ -969,7 +969,7 @@
     "message": "A felhasználó megváltoztathatta a nevét, vagy törölhette fiókját."
   },
   "error.user.404.list_item.3": {
-    "message": "A felhasználó fiókja fel lehet függesztve, amiért megsértette a Modrinth <tou-link>Terms of Use</tou-link>-t."
+    "message": "A felhasználó fiókja fel lehet függesztve, amiért megsértette a AllayHub <tou-link>Terms of Use</tou-link>-t."
   },
   "error.user.404.list_title": {
     "message": "Miért?"
@@ -999,7 +999,7 @@
     "message": "Vissza a főoldalra"
   },
   "landing.creator.feature.constantly-evolving.description": {
-    "message": "Kapd meg a legjobb modolási élményt folyamatos frissítésekkel a Modrinth csapattól"
+    "message": "Kapd meg a legjobb modolási élményt folyamatos frissítésekkel a AllayHub csapattól"
   },
   "landing.creator.feature.constantly-evolving.title": {
     "message": "Folyamatos Változás"
@@ -1053,10 +1053,10 @@
     "message": "ATLauncher"
   },
   "landing.launcher.graphic-alt": {
-    "message": "A Minecraft ablak egyszerűsített ábrázolása, a Mojang Studios logójával Modrinth-zöldben."
+    "message": "A Minecraft ablak egyszerűsített ábrázolása, a Mojang Studios logójával AllayHub-zöldben."
   },
   "landing.launcher.modrinth-app-label": {
-    "message": "Modrinth App"
+    "message": "AllayLauncher"
   },
   "landing.launcher.prism-launcher-label": {
     "message": "Prism Launcher"
@@ -1137,10 +1137,10 @@
     "message": "Nézd meg fiókbeállításaidat"
   },
   "layout.banner.add-email.description": {
-    "message": "Biztonsági okok miatt a Modrinthon kell egy e-mail cím a fiókodhoz."
+    "message": "Biztonsági okok miatt a AllayHubon kell egy e-mail cím a fiókodhoz."
   },
   "layout.banner.staging.title": {
-    "message": "A Modrinth színreviteli környezetét nézed"
+    "message": "A AllayHub színreviteli környezetét nézed"
   },
   "layout.banner.subscription-payment-failed.button": {
     "message": "Számlázási információ frissítése"
@@ -1155,7 +1155,7 @@
     "message": "Ellenőrző e-mail újraküldése"
   },
   "layout.banner.verify-email.description": {
-    "message": "Biztonsági okokból a Modrinth megköveteli, hogy igazold a fiókodhoz tartozó e-mail címet."
+    "message": "Biztonsági okokból a AllayHub megköveteli, hogy igazold a fiókodhoz tartozó e-mail címet."
   },
   "layout.footer.about": {
     "message": "Rólunk"
@@ -1194,16 +1194,16 @@
     "message": "Felhasználási feltételek"
   },
   "layout.footer.open-source": {
-    "message": "A Modrinth <github-link>nyílt forráskódú</github-link>"
+    "message": "A AllayHub <github-link>nyílt forráskódú</github-link>"
   },
   "layout.footer.products": {
     "message": "Termékek"
   },
   "layout.footer.products.app": {
-    "message": "Modrinth App"
+    "message": "AllayLauncher"
   },
   "layout.footer.products.plus": {
-    "message": "Modrinth+"
+    "message": "AllayHub+"
   },
   "layout.footer.resources": {
     "message": "Források"
@@ -1233,7 +1233,7 @@
     "message": "Menü ki-be"
   },
   "layout.meta.description": {
-    "message": "Tölts le Minecraft modokat, pluginokat, adatcsomagokat, shadereket, forráscsomagokat és modcsomagokat a Modrinthról. Fedezd fel és tedd közzé projektjeidet a Modrinthon egy modern, könnyen használható felületen és API-n keresztül."
+    "message": "Tölts le Minecraft modokat, pluginokat, adatcsomagokat, shadereket, forráscsomagokat és modcsomagokat a AllayHubról. Fedezd fel és tedd közzé projektjeidet a AllayHubon egy modern, könnyen használható felületen és API-n keresztül."
   },
   "layout.nav.analytics": {
     "message": "Elemzés"
@@ -1251,10 +1251,10 @@
     "message": "Kezdőlap"
   },
   "layout.nav.modrinth-app": {
-    "message": "Modrinth App"
+    "message": "AllayLauncher"
   },
   "layout.nav.modrinth-home-page": {
-    "message": "Modrinth kezdőlap"
+    "message": "AllayHub kezdőlap"
   },
   "layout.nav.my-servers": {
     "message": "Szervereim"
@@ -1278,7 +1278,7 @@
     "message": "Keresés"
   },
   "layout.nav.upgrade-to-modrinth-plus": {
-    "message": "Frissíts a Modrinth+-ra"
+    "message": "Frissíts a AllayHub+-ra"
   },
   "moderation.filter.by": {
     "message": "Szűrés"
@@ -1362,10 +1362,10 @@
     "message": "Telefonszám"
   },
   "profile.bio.fallback.creator": {
-    "message": "Egy Modrinth alkotó."
+    "message": "Egy AllayHub alkotó."
   },
   "profile.bio.fallback.user": {
-    "message": "Egy Modrinth felhasználó."
+    "message": "Egy AllayHub felhasználó."
   },
   "profile.button.billing": {
     "message": "Felhasználói számlázás kezelése"
@@ -1440,10 +1440,10 @@
     "message": "Igen"
   },
   "profile.meta.description": {
-    "message": "Töltsd le {username} projektjeit a Modrinthon"
+    "message": "Töltsd le {username} projektjeit a AllayHubon"
   },
   "profile.meta.description-with-bio": {
-    "message": "{bio} - Töltsd le {username} projektjeit a Modrinthon"
+    "message": "{bio} - Töltsd le {username} projektjeit a AllayHubon"
   },
   "profile.stats.projects-followers": {
     "message": "{count, plural, one {<stat>{count}</stat> project follower} other {<stat>{count}</stat> project followers}}"
@@ -1656,7 +1656,7 @@
     "message": "{item} nem található"
   },
   "report.for.violation": {
-    "message": "A Modrinth <rules-link>Szabályzat</rules-link> vagy <terms-link>Felhasználási feltételek</terms-link> megsértése"
+    "message": "A AllayHub <rules-link>Szabályzat</rules-link> vagy <terms-link>Felhasználási feltételek</terms-link> megsértése"
   },
   "report.for.violation.description": {
     "message": "Példák: rosszindulatú, spam, sértő, megtévesztő, félrevezető és illegális tartalom."
@@ -1686,7 +1686,7 @@
     "message": "Milyen típusú tartalmat jelentesz?"
   },
   "report.question.report-reason": {
-    "message": "Modrinth melyik szabályát szegi meg ez a(z) {item}?"
+    "message": "AllayHub melyik szabályát szegi meg ez a(z) {item}?"
   },
   "report.report-content": {
     "message": "Tartalom jelentése a moderátoroknak"
@@ -1740,7 +1740,7 @@
     "message": "Előfizetések"
   },
   "settings.display.banner.developer-mode.description": {
-    "message": "A <strong>fejlesztői mód</strong> aktív. Ez lehetővé teszi, hogy megtekintsd a Modrinth különböző elemeinek belső azonosítóit, ami hasznos lehet, ha a Modrinth API-t használó fejlesztő vagy. Kattints ötször a lap alján található Modrinth logóra a fejlesztői mód bekapcsolásához."
+    "message": "A <strong>fejlesztői mód</strong> aktív. Ez lehetővé teszi, hogy megtekintsd a AllayHub különböző elemeinek belső azonosítóit, ami hasznos lehet, ha a AllayHub API-t használó fejlesztő vagy. Kattints ötször a lap alján található AllayHub logóra a fejlesztői mód bekapcsolásához."
   },
   "settings.display.flags.title": {
     "message": "Funkciók be-/kikapcsolása"
@@ -1782,19 +1782,19 @@
     "message": "Összetett renderelés"
   },
   "settings.display.sidebar.external-links-new-tab.description": {
-    "message": "A Modrinthon kívüli linkeket új lapon nyílnak meg. Ettől a beállítástól függetlenül az azonos domainen található linkek és a Markdown leírásokban szereplő linkek ugyanazon a lapon nyílnak meg, míg a hirdetésekben és a szerkesztési oldalakon található linkek új lapon nyílnak meg."
+    "message": "A AllayHubon kívüli linkeket új lapon nyílnak meg. Ettől a beállítástól függetlenül az azonos domainen található linkek és a Markdown leírásokban szereplő linkek ugyanazon a lapon nyílnak meg, míg a hirdetésekben és a szerkesztési oldalakon található linkek új lapon nyílnak meg."
   },
   "settings.display.sidebar.external-links-new-tab.title": {
     "message": "Külső linkek megnyitása új lapon"
   },
   "settings.display.sidebar.hide-app-promos.description": {
-    "message": "Elrejti a „Szerezd meg a Modrinth Appot” gombokat az elsődleges navigációból. A Modrinth App oldal továbbra is megtalálható a nyitóoldalon vagy a láblécben."
+    "message": "Elrejti a „Szerezd meg a AllayLauncherot” gombokat az elsődleges navigációból. A AllayLauncher oldal továbbra is megtalálható a nyitóoldalon vagy a láblécben."
   },
   "settings.display.sidebar.hide-app-promos.title": {
-    "message": "Modrinth App promóciók elrejtése"
+    "message": "AllayLauncher promóciók elrejtése"
   },
   "settings.display.theme.description": {
-    "message": "Válaszd ki a Modrinth számára a kívánt színsémát ezen az eszközön."
+    "message": "Válaszd ki a AllayHub számára a kívánt színsémát ezen az eszközön."
   },
   "settings.pats.modal.create.name.label": {
     "message": "Név"
@@ -1809,7 +1809,7 @@
     "message": "Bemutatkozás"
   },
   "settings.profile.description": {
-    "message": "A rofiladataid nyilvánosan megtekinthetők a Modrinth oldalon és a <docs-link>Modrinth API</docs-link>-n keresztül."
+    "message": "A rofiladataid nyilvánosan megtekinthetők a AllayHub oldalon és a <docs-link>AllayHub API</docs-link>-n keresztül."
   },
   "settings.profile.profile-info": {
     "message": "Profilinformációk"
@@ -1830,10 +1830,10 @@
     "message": "Létrehozva {ago}"
   },
   "settings.sessions.description": {
-    "message": "Itt találhatók azok az eszközök, amelyek jelenleg be vannak jelentkezve a Modrinth fiókodba. Mindegyikről külön-külön kijelentkezhet.\n\nHa nem ismerős bejegyzést látsz, jelentkezz ki az adott eszközről, és azonnal változtasd meg Modrinth fiókod jelszavát."
+    "message": "Itt találhatók azok az eszközök, amelyek jelenleg be vannak jelentkezve a AllayHub fiókodba. Mindegyikről külön-külön kijelentkezhet.\n\nHa nem ismerős bejegyzést látsz, jelentkezz ki az adott eszközről, és azonnal változtasd meg AllayHub fiókod jelszavát."
   },
   "ui.latest-news-row.latest-news": {
-    "message": "A legújabb hírek a Modrinthról"
+    "message": "A legújabb hírek a AllayHubról"
   },
   "ui.latest-news-row.view-all": {
     "message": "Összes hír"

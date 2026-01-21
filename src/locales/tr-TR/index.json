@@ -27,7 +27,7 @@
     "message": "Linux"
   },
   "app-marketing.download.linux-disclaimer": {
-    "message": "Modrinth App'in Linux sürümleri bazı sistemlerde <issues-link>sorunlu olabilir</issues-link>. Modrinth App sisteminizde stabil değilse, <prism-link>Prism Launcher</prism-link> gibi başka uygulamalarla Modrinth içeriklerini indirmenizi tavsiye ediyoruz."
+    "message": "AllayLauncher'in Linux sürümleri bazı sistemlerde <issues-link>sorunlu olabilir</issues-link>. AllayLauncher sisteminizde stabil değilse, <prism-link>Prism Launcher</prism-link> gibi başka uygulamalarla AllayHub içeriklerini indirmenizi tavsiye ediyoruz."
   },
   "app-marketing.download.mac": {
     "message": "Mac"
@@ -36,13 +36,13 @@
     "message": "İndirme seçenekleri"
   },
   "app-marketing.download.terms": {
-    "message": "Modrinth App indirerek <terms-link>Koşullarımızı</terms-link> ve <privacy-link>Gizlilik İlkemizi</privacy-link> kabul etmiş olursunuz."
+    "message": "AllayLauncher indirerek <terms-link>Koşullarımızı</terms-link> ve <privacy-link>Gizlilik İlkemizi</privacy-link> kabul etmiş olursunuz."
   },
   "app-marketing.download.third-party-packages": {
     "message": "Üçüncü parti paketler"
   },
   "app-marketing.download.title": {
-    "message": "Modrinth App'i İndir (Beta)"
+    "message": "AllayLauncher'i İndir (Beta)"
   },
   "app-marketing.download.windows": {
     "message": "Windows"
@@ -54,7 +54,7 @@
     "message": "Proje takibi"
   },
   "app-marketing.features.importing.description": {
-    "message": "Sevdiğin profilleri önceden kullandığın başlatıcıdan buraya aktar, saniyeler içinde Modrinth App'i kullanmaya başla!"
+    "message": "Sevdiğin profilleri önceden kullandığın başlatıcıdan buraya aktar, saniyeler içinde AllayLauncher'i kullanmaya başla!"
   },
   "app-marketing.features.importing.gdlauncher-alt": {
     "message": "GDLauncher"
@@ -72,7 +72,7 @@
     "message": "{author} tarafından"
   },
   "app-marketing.features.mod-management.description": {
-    "message": "Modrinth tüm modlarınızı bir yerde toplayıp yönetmenizi kolaylaştırır. Tek tuşla mod kurabilir, silebilir ve güncelleyebilirsiniz."
+    "message": "AllayHub tüm modlarınızı bir yerde toplayıp yönetmenizi kolaylaştırır. Tek tuşla mod kurabilir, silebilir ve güncelleyebilirsiniz."
   },
   "app-marketing.features.mod-management.installed-mods": {
     "message": "Yüklü modlar"
@@ -96,7 +96,7 @@
     "message": "Çevrim dışı mod"
   },
   "app-marketing.features.open-source.description": {
-    "message": "Modrinth'in başlatıcısı tamamen açık kaynak kodludur. <github-link>GitHub</github-link> sayfamızda kaynak kodunu inceleyebilirsin!"
+    "message": "AllayHub'in başlatıcısı tamamen açık kaynak kodludur. <github-link>GitHub</github-link> sayfamızda kaynak kodunu inceleyebilirsin!"
   },
   "app-marketing.features.open-source.title": {
     "message": "Açık kaynak"
@@ -108,7 +108,7 @@
     "message": "% CPU"
   },
   "app-marketing.features.performance.description": {
-    "message": "Modrinth App, öne çıkan çoğu mod yöneticisinden daha hafiftir, sadece 150mb RAM kullanır!"
+    "message": "AllayLauncher, öne çıkan çoğu mod yöneticisinden daha hafiftir, sadece 150mb RAM kullanır!"
   },
   "app-marketing.features.performance.discord": {
     "message": "Discord"
@@ -129,7 +129,7 @@
     "message": "< 150 MB"
   },
   "app-marketing.features.performance.modrinth-app": {
-    "message": "Modrinth App"
+    "message": "AllayLauncher"
   },
   "app-marketing.features.performance.one-billion-percent": {
     "message": "% 1 milyar"
@@ -147,13 +147,13 @@
     "message": "Verimli"
   },
   "app-marketing.features.play.description": {
-    "message": "Modrinth App ile favori mod ve mod paketlerinizi indirin ve oynayın."
+    "message": "AllayLauncher ile favori mod ve mod paketlerinizi indirin ve oynayın."
   },
   "app-marketing.features.play.title": {
     "message": "Favori modlarınız ile oynayın"
   },
   "app-marketing.features.sharing.description": {
-    "message": "Modrinth'teki herhangi binlerce mod ile mod paketi oluşturun, paylaşın ve oynayın."
+    "message": "AllayHub'teki herhangi binlerce mod ile mod paketi oluşturun, paylaşın ve oynayın."
   },
   "app-marketing.features.sharing.modpack": {
     "message": "Mod Paketi"
@@ -168,7 +168,7 @@
     "message": "Daha önce kullandığınız"
   },
   "app-marketing.features.website.description": {
-    "message": "Modrinth App, web sitesi ile tamamem bağlantılı, yani uygulamadan favori projelerinizin tamamına erişebilirsiniz!"
+    "message": "AllayLauncher, web sitesi ile tamamem bağlantılı, yani uygulamadan favori projelerinizin tamamına erişebilirsiniz!"
   },
   "app-marketing.features.website.title": {
     "message": "Website entegrasyonu"
@@ -177,19 +177,19 @@
     "message": "hiç bir başlatıcıya benzemez"
   },
   "app-marketing.hero.app-screenshot-alt": {
-    "message": "Cobblemon kurulumunun ‘İçerik’ sayfasında olduğu Modrinth App ekran görüntüsü."
+    "message": "Cobblemon kurulumunun ‘İçerik’ sayfasında olduğu AllayLauncher ekran görüntüsü."
   },
   "app-marketing.hero.description": {
-    "message": "Modrinth App, favori modlarınızı güncel şekilde oynayabileceğiniz özgün ve açık kaynaklı bir başlatıcı."
+    "message": "AllayLauncher, favori modlarınızı güncel şekilde oynayabileceğiniz özgün ve açık kaynaklı bir başlatıcı."
   },
   "app-marketing.hero.download-button": {
-    "message": "Modrinth App İndir"
+    "message": "AllayLauncher İndir"
   },
   "app-marketing.hero.download-modrinth-app": {
-    "message": "Modrinth App İndir"
+    "message": "AllayLauncher İndir"
   },
   "app-marketing.hero.download-modrinth-app-for-os": {
-    "message": "{os} için Modrinth App İndir"
+    "message": "{os} için AllayLauncher İndir"
   },
   "app-marketing.hero.minecraft-screenshot-alt": {
     "message": "Cobblemon kurulumunun ana menü ekranının ekran görüntüsü."
@@ -294,7 +294,7 @@
     "message": "Kullanıcı adı"
   },
   "auth.sign-up.legal-dislaimer": {
-    "message": "Bir hesap oluşturarak, Modrinth'in <terms-link>Kurallar</terms-link> ve <privacy-policy-link>Gizlilik İlkeleri </privacy-policy-link>'ni kabul etmiş bulunursunuz."
+    "message": "Bir hesap oluşturarak, AllayHub'in <terms-link>Kurallar</terms-link> ve <privacy-policy-link>Gizlilik İlkeleri </privacy-policy-link>'ni kabul etmiş bulunursunuz."
   },
   "auth.sign-up.notification.password-mismatch.text": {
     "message": "Parolalar uyuşmuyor!"
@@ -306,7 +306,7 @@
     "message": "Zaten bir hesabınız var mı?"
   },
   "auth.sign-up.subscribe.label": {
-    "message": "Modrinth hakkında güncellemelere abone ol"
+    "message": "AllayHub hakkında güncellemelere abone ol"
   },
   "auth.sign-up.title": {
     "message": "Kaydol"
@@ -351,16 +351,16 @@
     "message": "E-postayı Doğrula"
   },
   "auth.welcome.checkbox.subscribe": {
-    "message": "Modrinth'le ilgili güncellemelere abone ol"
+    "message": "AllayHub'le ilgili güncellemelere abone ol"
   },
   "auth.welcome.description": {
     "message": "Artık çoktan kurulumu yapan, indiren ve inanılmaz modlarla güncelde kalan yaratıcıların ve kaşiflerin havalı topluluğunun bir parçasısın."
   },
   "auth.welcome.label.tos": {
-    "message": "Bir hesap oluşturarak, Modrinth'in <terms-link>Şartlar</terms-link>'ını ve <privacy-policy-link>Gizlilik İlkeleri</privacy-policy-link>'ni kabul etmiş sayılırsınız."
+    "message": "Bir hesap oluşturarak, AllayHub'in <terms-link>Şartlar</terms-link>'ını ve <privacy-policy-link>Gizlilik İlkeleri</privacy-policy-link>'ni kabul etmiş sayılırsınız."
   },
   "auth.welcome.long-title": {
-    "message": "Modrinth'e hoş geldiniz!"
+    "message": "AllayHub'e hoş geldiniz!"
   },
   "auth.welcome.title": {
     "message": "Hoş geldiniz"
@@ -390,7 +390,7 @@
     "message": "Bu koleksiyonu silmek istediğinizden emin misiniz?"
   },
   "collection.description": {
-    "message": "{description} - Modrinth'te {username} tarafından oluşturulan {name} koleksiyonunu göster"
+    "message": "{description} - AllayHub'te {username} tarafından oluşturulan {name} koleksiyonunu göster"
   },
   "collection.description.following": {
     "message": "Takip ettiğin projelerden oluşturulmuş otomatik koleksiyon."
@@ -642,7 +642,7 @@
     "message": "Vergi formu"
   },
   "dashboard.creator-tax-form-modal.security.description": {
-    "message": "Modrinth, vergi formlarınızı güvenli bir şekilde toplamak ve saklamak için üçüncü taraf sağlayıcı Track1099'u kullanır. <security-link>Buradan daha fazla bilgi edinebilirsiniz.</security-link>"
+    "message": "AllayHub, vergi formlarınızı güvenli bir şekilde toplamak ve saklamak için üçüncü taraf sağlayıcı Track1099'u kullanır. <security-link>Buradan daha fazla bilgi edinebilirsiniz.</security-link>"
   },
   "dashboard.creator-tax-form-modal.security.header": {
     "message": "Güvenlik uygulamaları"
@@ -822,7 +822,7 @@
     "message": "Mevcut <b>{available}</b> bakiyenizin tamamını çekmek için aşağıdaki formu doldurun. Bu vergi raporlaması için gereklidir ve sadece bir kez yapılması yeterlidir."
   },
   "dashboard.creator-withdraw-modal.tax-form-required.body-with-limit": {
-    "message": "Vergi düzenlemelerine uygun kalmamız için Modrinth'in vergi kayıtları için W-9 veya W-8 formunu doldurmanız gerekir."
+    "message": "Vergi düzenlemelerine uygun kalmamız için AllayHub'in vergi kayıtları için W-9 veya W-8 formunu doldurmanız gerekir."
   },
   "dashboard.creator-withdraw-modal.tax-form-required.header": {
     "message": "Vergi formu gerekli"
@@ -864,7 +864,7 @@
     "message": "Doğrulanmamış E-posta"
   },
   "dashboard.creator-withdraw-modal.tremendous-details.unverified-email-message": {
-    "message": "Girdiğiniz teslimat e-postası Modrinth hesabınızla ilişkili değil. Modrinth yanlış e-posta adresine gönderilen ödülleri kurtaramaz."
+    "message": "Girdiğiniz teslimat e-postası AllayHub hesabınızla ilişkili değil. AllayHub yanlış e-posta adresine gönderilen ödülleri kurtaramaz."
   },
   "dashboard.creator-withdraw-modal.tremendous-details.usd-paypal-warning-header": {
     "message": "Daha düşük ücretler mevcut"
@@ -891,7 +891,7 @@
     "message": "Tahmini gelir, kullanılabilir hale gelene kadar değişikliğe tabi olabilir."
   },
   "dashboard.revenue.estimated-tooltip.msg2": {
-    "message": "Modrinth'in gelirinizi nasıl işlediği hakkında bilgi almak için tıklayın."
+    "message": "AllayHub'in gelirinizi nasıl işlediği hakkında bilgi almak için tıklayın."
   },
   "dashboard.revenue.estimated-with-date": {
     "message": "Tahminen {date}"
@@ -912,7 +912,7 @@
     "message": "Çekilen"
   },
   "dashboard.revenue.tos": {
-    "message": "Modrinth'e proje yükleyerek ve hesabınızdan para çekerek <terms-link>Ödül Programı Şartlarımızı</terms-link> kabul etmiş olursunuz. <info-link>Ödül Programı</info-link> hakkında daha fazla bilgi edinin."
+    "message": "AllayHub'e proje yükleyerek ve hesabınızdan para çekerek <terms-link>Ödül Programı Şartlarımızı</terms-link> kabul etmiş olursunuz. <info-link>Ödül Programı</info-link> hakkında daha fazla bilgi edinin."
   },
   "dashboard.revenue.transactions.btn.download-csv": {
     "message": "CSV olarak indir"
@@ -1023,7 +1023,7 @@
     "message": "Koleksiyon gizli olabilir."
   },
   "error.collection.404.list_item.3": {
-    "message": "Koleksiyon Modrinth'in moderasyon ekibi tarafından <tou-link>Kullanım Koşullarımızı</tou-link> ihlal ettiği için kaldırılmış olabilir."
+    "message": "Koleksiyon AllayHub'in moderasyon ekibi tarafından <tou-link>Kullanım Koşullarımızı</tou-link> ihlal ettiği için kaldırılmış olabilir."
   },
   "error.collection.404.list_title": {
     "message": "Neden?"
@@ -1044,10 +1044,10 @@
     "message": "Bu içerik, yasal nedenlerden dolayı erişilemez"
   },
   "error.generic.default.list_item.1": {
-    "message": "<status-link>Durum sayfamızdan</status-link> Modrinth'in çöküp çökmediğini kontrol edin."
+    "message": "<status-link>Durum sayfamızdan</status-link> AllayHub'in çöküp çökmediğini kontrol edin."
   },
   "error.generic.default.list_item.2": {
-    "message": "Bu yaşanmaya devam ederse Modrinth Ekibini <discord-link>Discord sunucumuza</discord-link> katılarak bilgilendirmek isteyebilirsin."
+    "message": "Bu yaşanmaya devam ederse AllayHub Ekibini <discord-link>Discord sunucumuza</discord-link> katılarak bilgilendirmek isteyebilirsin."
   },
   "error.generic.default.list_title": {
     "message": "Lütfen bir kaç dakika içinde tekrar dene."
@@ -1065,7 +1065,7 @@
     "message": "Organizasyonun sahibi URL'i değiştirmiş veya silmiş olabilir."
   },
   "error.organization.404.list_item.3": {
-    "message": "Organizasyon Modrinth'in moderasyon ekibi tarafından <tou-link>Kullanım Koşullarımızı</tou-link> ihlal ettiği için kaldırılmış olabilir."
+    "message": "Organizasyon AllayHub'in moderasyon ekibi tarafından <tou-link>Kullanım Koşullarımızı</tou-link> ihlal ettiği için kaldırılmış olabilir."
   },
   "error.organization.404.list_title": {
     "message": "Neden?"
@@ -1080,7 +1080,7 @@
     "message": "Projenin sahibi URL'i değiştirmiş, projeyi gizlemiş veya silmiş olabilir."
   },
   "error.project.404.list_item.3": {
-    "message": "Proje Modrinth'in moderasyon ekibi tarafından <tou-link>Kullanım Koşullarımızı</tou-link> ihlal ettiği için kaldırılmış olabilir."
+    "message": "Proje AllayHub'in moderasyon ekibi tarafından <tou-link>Kullanım Koşullarımızı</tou-link> ihlal ettiği için kaldırılmış olabilir."
   },
   "error.project.404.list_title": {
     "message": "Neden?"
@@ -1095,7 +1095,7 @@
     "message": "Kullanıcı, adını değiştirmiş veya hesabını silmiş olabilir."
   },
   "error.user.404.list_item.3": {
-    "message": "Kullanıcının hesabı Modrinth'in <tou-link>Kullanım Koşullarını</tou-link> ihlal ettiği için kaldırılmış olabilir."
+    "message": "Kullanıcının hesabı AllayHub'in <tou-link>Kullanım Koşullarını</tou-link> ihlal ettiği için kaldırılmış olabilir."
   },
   "error.user.404.list_title": {
     "message": "Neden?"
@@ -1125,7 +1125,7 @@
     "message": "Panele git"
   },
   "landing.creator.feature.constantly-evolving.description": {
-    "message": "Modrinth ekibinden sürekli güncellemelerle mümkün olan en iyi modlama deneyimini edinin."
+    "message": "AllayHub ekibinden sürekli güncellemelerle mümkün olan en iyi modlama deneyimini edinin."
   },
   "landing.creator.feature.constantly-evolving.title": {
     "message": "Sürekli Gelişen"
@@ -1209,10 +1209,10 @@
     "message": "ATLauncher"
   },
   "landing.launcher.graphic-alt": {
-    "message": "Basitleştirilmiş bir Minecraft penceresinin temsili, Mojang Studios logosu Modrinth yeşilli."
+    "message": "Basitleştirilmiş bir Minecraft penceresinin temsili, Mojang Studios logosu AllayHub yeşilli."
   },
   "landing.launcher.modrinth-app-label": {
-    "message": "Modrinth App"
+    "message": "AllayLauncher"
   },
   "landing.launcher.prism-launcher-label": {
     "message": "Prism Launcher"
@@ -1305,19 +1305,19 @@
     "message": "Hesap ayarlarını ziyaret et"
   },
   "layout.banner.add-email.description": {
-    "message": "Güvenlik sebebiyle Modrinth hesabınıza bir e-posta adresi kaydetmeniz gerek."
+    "message": "Güvenlik sebebiyle AllayHub hesabınıza bir e-posta adresi kaydetmeniz gerek."
   },
   "layout.banner.build-fail.description": {
-    "message": "Modrinth'in önucunun bu dağıtımı API'den durum oluşturamadı. Bu bir kesintiden veya yapılandırmadaki bir hatadan kaynaklı olabilir. API mevcutken tekrar derleyin. Hata kodları: {errors}; şu anki API adresi: {url}"
+    "message": "AllayHub'in önucunun bu dağıtımı API'den durum oluşturamadı. Bu bir kesintiden veya yapılandırmadaki bir hatadan kaynaklı olabilir. API mevcutken tekrar derleyin. Hata kodları: {errors}; şu anki API adresi: {url}"
   },
   "layout.banner.build-fail.title": {
     "message": "Derleme esnasında API'den durum oluştururken hata."
   },
   "layout.banner.staging.description": {
-    "message": "Hazırlama ortamı, Modrinth yapım veritabanından tamamen ayrıdır. Bu test ve hata ayıklama amaçları için kullanılır ve yapım profilinden daha yeni olan Modrinth'in arka ucunun veya ön ucunun geliştirmekte olan sürümlerini çalıştırıyor olabilir. "
+    "message": "Hazırlama ortamı, AllayHub yapım veritabanından tamamen ayrıdır. Bu test ve hata ayıklama amaçları için kullanılır ve yapım profilinden daha yeni olan AllayHub'in arka ucunun veya ön ucunun geliştirmekte olan sürümlerini çalıştırıyor olabilir. "
   },
   "layout.banner.staging.title": {
-    "message": "Modrinth'in hazırlama ortamını görüntülüyorsunuz"
+    "message": "AllayHub'in hazırlama ortamını görüntülüyorsunuz"
   },
   "layout.banner.subscription-payment-failed.button": {
     "message": "Fatura bilgisini güncelle"
@@ -1332,7 +1332,7 @@
     "message": "Vergi formunu doldurun"
   },
   "layout.banner.tax.description": {
-    "message": "Bu yıl Modrinth'ten $600'dan fazla para çektiniz. Vergi düzenlemelerine uymak için bir vergi formu doldurmanız gerekiyor. Bu form gönderilene kadar para çekme işlemleriniz durdurulmuştur."
+    "message": "Bu yıl AllayHub'ten $600'dan fazla para çektiniz. Vergi düzenlemelerine uymak için bir vergi formu doldurmanız gerekiyor. Bu form gönderilene kadar para çekme işlemleriniz durdurulmuştur."
   },
   "layout.banner.tax.title": {
     "message": "Vergi formu gereklidir"
@@ -1350,7 +1350,7 @@
     "message": "Doğrulama e-postasını yeniden gönder"
   },
   "layout.banner.verify-email.description": {
-    "message": "Güvenlik sebebiyle Modrinth hesabınızın e-posta adresini doğrulamanız gerek."
+    "message": "Güvenlik sebebiyle AllayHub hesabınızın e-posta adresini doğrulamanız gerek."
   },
   "layout.footer.about": {
     "message": "Hakkında"
@@ -1392,7 +1392,7 @@
     "message": "Kullanım Koşulları"
   },
   "layout.footer.modrinth-information": {
-    "message": "Modrinth bilgileri"
+    "message": "AllayHub bilgileri"
   },
   "layout.footer.open-source": {
     "message": "AllayHub <github-link>açık kaynaklıdır</github-link>."
@@ -1401,13 +1401,13 @@
     "message": "Ürünler"
   },
   "layout.footer.products.app": {
-    "message": "Modrinth App"
+    "message": "AllayLauncher"
   },
   "layout.footer.products.plus": {
-    "message": "Modrinth+"
+    "message": "AllayHub+"
   },
   "layout.footer.products.servers": {
-    "message": "Modrinth Hosting"
+    "message": "AllayHub Hosting"
   },
   "layout.footer.resources": {
     "message": "Kaynaklar"
@@ -1443,7 +1443,7 @@
     "message": "Menü aç/kapa"
   },
   "layout.meta.description": {
-    "message": "Modrinth üzerinden Minecraft modları, pluginleri, veri paketleri, shaderları, kaynak paketleri ve mod paketleri indir. Modern ve kullanımı kolay bir arayüz ve API ile Modrinth üzerinden projeler keşfet ve yayınla."
+    "message": "AllayHub üzerinden Minecraft modları, pluginleri, veri paketleri, shaderları, kaynak paketleri ve mod paketleri indir. Modern ve kullanımı kolay bir arayüz ve API ile AllayHub üzerinden projeler keşfet ve yayınla."
   },
   "layout.meta.og-description": {
     "message": "Minecraft içeriği keşfet ve yayınla!"
@@ -1479,10 +1479,10 @@
     "message": "Sunucu kur"
   },
   "layout.nav.modrinth-app": {
-    "message": "Modrinth App"
+    "message": "AllayLauncher"
   },
   "layout.nav.modrinth-home-page": {
-    "message": "Modrinth ana sayfası"
+    "message": "AllayHub ana sayfası"
   },
   "layout.nav.my-servers": {
     "message": "Sunucularım"
@@ -1506,7 +1506,7 @@
     "message": "Arama"
   },
   "layout.nav.upgrade-to-modrinth-plus": {
-    "message": "Modrinth+ Kullan"
+    "message": "AllayHub+ Kullan"
   },
   "moderation.filter.by": {
     "message": "Filtrele"
@@ -1797,10 +1797,10 @@
     "message": "Cüzdan adresinizi iki kez kontrol edin. Yanlış adrese gönderilen fonlar kurtarılamaz."
   },
   "profile.bio.fallback.creator": {
-    "message": "Bir Modrinth içerik üreticisi."
+    "message": "Bir AllayHub içerik üreticisi."
   },
   "profile.bio.fallback.user": {
-    "message": "Bir Modrinth kullanıcısı."
+    "message": "Bir AllayHub kullanıcısı."
   },
   "profile.button.billing": {
     "message": "Kullanıcı faturasını yönet"
@@ -1893,10 +1893,10 @@
     "message": "Evet"
   },
   "profile.meta.description": {
-    "message": "{username} kullanıcısının Modrinth'teki projelerini indir"
+    "message": "{username} kullanıcısının AllayHub'teki projelerini indir"
   },
   "profile.meta.description-with-bio": {
-    "message": "{bio} - {username} kullanıcısının Modrinth'teki projelerini indir"
+    "message": "{bio} - {username} kullanıcısının AllayHub'teki projelerini indir"
   },
   "profile.stats.projects-followers": {
     "message": "{count, plural, one {<stat>{count}</stat> proje takipçisi} other {<stat>{count}</stat> proje takipçisi}}"
@@ -1947,7 +1947,7 @@
     "message": "İncelemeye yeniden gönder"
   },
   "project-moderation-nags.resubmit-for-review-desc": {
-    "message": "Projeniz Modrinth personeli tarafından {status, select, rejected {reddedildi} withheld {alıkonuldu} other {{status}}}. Çoğu durumda, personelin mesajında belirtilen konuları ele aldıktan sonra inceleme için yeniden gönderebilirsiniz."
+    "message": "Projeniz AllayHub personeli tarafından {status, select, rejected {reddedildi} withheld {alıkonuldu} other {{status}}}. Çoğu durumda, personelin mesajında belirtilen konuları ele aldıktan sonra inceleme için yeniden gönderebilirsiniz."
   },
   "project-moderation-nags.submit-checklist-tooltip": {
     "message": "Yayımlama kontrol listesindeki gerekli adımları tamamlamalısınız!"
@@ -2049,7 +2049,7 @@
     "message": "Projeyi incele"
   },
   "project.actions.servers-promo.description": {
-    "message": "Modrinth Hosting arkadaşlarınla uğraşsız oynamanın en kolay yolu!"
+    "message": "AllayHub Hosting arkadaşlarınla uğraşsız oynamanın en kolay yolu!"
   },
   "project.actions.servers-promo.pricing": {
     "message": "{price}<small> / ay</small>'dan başlayan fiyatlarla"
@@ -2082,10 +2082,10 @@
     "message": "{title}, {platform} için {gameVersion} sürümünü desteklemiyor"
   },
   "project.download.install-with-app": {
-    "message": "Modrinth App ile yükle"
+    "message": "AllayLauncher ile yükle"
   },
   "project.download.no-app": {
-    "message": "Modrinth App Yok Mu?"
+    "message": "AllayLauncher Yok Mu?"
   },
   "project.download.no-versions-available": {
     "message": "{gameVersion} ve {platform} için sürüm mevcut değil."
@@ -2121,7 +2121,7 @@
     "message": "{title} Projesini Yükle"
   },
   "project.environment.migration-no-permission.message": {
-    "message": "Daha yeni Modrinth'in Çevre sistemini yeniledik ve yeni seçenekler mevcut. Bu ayarları değiştirmek için yetkiniz yok ama projenin başka bir üyesine çevre meta verisinin doğrulanması gerektiği haberini verebilirsiniz."
+    "message": "Daha yeni AllayHub'in Çevre sistemini yeniledik ve yeni seçenekler mevcut. Bu ayarları değiştirmek için yetkiniz yok ama projenin başka bir üyesine çevre meta verisinin doğrulanması gerektiği haberini verebilirsiniz."
   },
   "project.environment.migration-no-permission.title": {
     "message": "Çevre meta verisi gözden geçirilmesi gerekiyor"
@@ -2130,7 +2130,7 @@
     "message": "Bu değişiklik hakkında daha fazla öğren"
   },
   "project.environment.migration.message": {
-    "message": "Modrinth’te Ortamlar sistemini baştan sona yeniledik ve artık yeni seçenekler mevcut. Lütfen meta verilerin doğru olduğunu doğrulayın."
+    "message": "AllayHub’te Ortamlar sistemini baştan sona yeniledik ve artık yeni seçenekler mevcut. Lütfen meta verilerin doğru olduğunu doğrulayın."
   },
   "project.environment.migration.review-button": {
     "message": "Ortam ayarlarını incele"
@@ -2262,7 +2262,7 @@
     "message": "{item} bulunamadı"
   },
   "report.for.violation": {
-    "message": "Modrinth <rules-link>Kuralları</rules-link> veya <terms-link>Kullanım Koşulları</terms-link> İhlali"
+    "message": "AllayHub <rules-link>Kuralları</rules-link> veya <terms-link>Kullanım Koşulları</terms-link> İhlali"
   },
   "report.for.violation.description": {
     "message": "Örnekler kötü niyetli, spam, saldırgan, aldatıcı, yanıltıcı ve yasak içerikleri barındırır."
@@ -2307,7 +2307,7 @@
     "message": "Ne tür bir içerik bildiriyorsunuz?"
   },
   "report.question.report-reason": {
-    "message": "{item} Modrinth'in hangi kurallarını ihlal ediyor?"
+    "message": "{item} AllayHub'in hangi kurallarını ihlal ediyor?"
   },
   "report.report-content": {
     "message": "Moderatörlere içerik bildir"
@@ -2475,7 +2475,7 @@
     "message": "Bildiri yaz"
   },
   "scopes.sessionAccess.description": {
-    "message": "Modrinth tarafından verilen oturumlara eriş"
+    "message": "AllayHub tarafından verilen oturumlara eriş"
   },
   "scopes.sessionAccess.label": {
     "message": "Oturumlara eriş"
@@ -2697,13 +2697,13 @@
     "message": "Visa"
   },
   "settings.billing.pyro_subscription.description": {
-    "message": "Modrinth Sunucu aboneliklerini yönet."
+    "message": "AllayHub Sunucu aboneliklerini yönet."
   },
   "settings.billing.pyro_subscription.title": {
-    "message": "Modrinth Sunucu Abonelikleri"
+    "message": "AllayHub Sunucu Abonelikleri"
   },
   "settings.billing.subscription.description": {
-    "message": "Modrinth aboneliklerinizi yönetin."
+    "message": "AllayHub aboneliklerinizi yönetin."
   },
   "settings.billing.subscription.title": {
     "message": "Abonelikler"
@@ -2712,7 +2712,7 @@
     "message": "Geliştiri modunu devre dışı bırak"
   },
   "settings.display.banner.developer-mode.description": {
-    "message": "<strong>Geliştirme modu</strong> aktif. Modrinth'te bulunan çeşitli şeylerin dahilî kimliklerini gösterir, Modrinth API kullanan bir geliştiriciyseniz kullanışlı olabilir. Sayfanın en altındaki Modrinth logosuna 5 kere tıklayarak açılır ve kapanır."
+    "message": "<strong>Geliştirme modu</strong> aktif. AllayHub'te bulunan çeşitli şeylerin dahilî kimliklerini gösterir, AllayHub API kullanan bir geliştiriciyseniz kullanışlı olabilir. Sayfanın en altındaki AllayHub logosuna 5 kere tıklayarak açılır ve kapanır."
   },
   "settings.display.flags.description": {
     "message": "Bu cihazdaki belli özellikleri etkinlestir veya devre dışı bırak."
@@ -2757,16 +2757,16 @@
     "message": "Gelişmiş işleme"
   },
   "settings.display.sidebar.external-links-new-tab.description": {
-    "message": "Modrinth'in dışına giden bağlantıların yeni bir sekmede açılmasını sağla. Bu ayara bakılmaksızın, aynı alan adındaki ve Markdown açıklamalarındaki bağlantılar aynı sekmede açılacak ve reklamlardaki, düzenleme sayfalarındaki bağlantılar yeni bir sekmede açılacak."
+    "message": "AllayHub'in dışına giden bağlantıların yeni bir sekmede açılmasını sağla. Bu ayara bakılmaksızın, aynı alan adındaki ve Markdown açıklamalarındaki bağlantılar aynı sekmede açılacak ve reklamlardaki, düzenleme sayfalarındaki bağlantılar yeni bir sekmede açılacak."
   },
   "settings.display.sidebar.external-links-new-tab.title": {
     "message": "Dış bağlantıları yeni sekmede aç"
   },
   "settings.display.sidebar.hide-app-promos.description": {
-    "message": "\"Modrinth App Edin\" tuşlarını ana navigasyondan gizler. Modrinth App sayfası hala açılış sayfasında veya alt bilgide bulunabilir."
+    "message": "\"AllayLauncher Edin\" tuşlarını ana navigasyondan gizler. AllayLauncher sayfası hala açılış sayfasında veya alt bilgide bulunabilir."
   },
   "settings.display.sidebar.hide-app-promos.title": {
-    "message": "Modrinth App tanıtımlarını gizle"
+    "message": "AllayLauncher tanıtımlarını gizle"
   },
   "settings.display.sidebar.left-aligned-content-sidebar.title": {
     "message": "İçerik sayfalarında sola hizalı kenar çubuğu"
@@ -2781,7 +2781,7 @@
     "message": "Arama sayfalarında kenar çubuğunu sağa hizalar"
   },
   "settings.display.theme.description": {
-    "message": "Bu cihazda Modrinth için tercih ettiğiniz renk temasını seçin."
+    "message": "Bu cihazda AllayHub için tercih ettiğiniz renk temasını seçin."
   },
   "settings.display.theme.title": {
     "message": "Renk teması"
@@ -2790,7 +2790,7 @@
     "message": "Bir PAT yarat"
   },
   "settings.pats.description": {
-    "message": "PAT'lar Modrinth'in API'sine erişmekte kullanılabilir. Daha fazla bilgi için, <doc-link>Modrinth API dokümantasyonununa</doc-link>na bakın. Bunlar her zaman oluşturulabilir veya iptal edilebilir."
+    "message": "PAT'lar AllayHub'in API'sine erişmekte kullanılabilir. Daha fazla bilgi için, <doc-link>AllayHub API dokümantasyonununa</doc-link>na bakın. Bunlar her zaman oluşturulabilir veya iptal edilebilir."
   },
   "settings.pats.modal.create.action": {
     "message": "PAT oluştur"
@@ -2844,7 +2844,7 @@
     "message": "Hakkında"
   },
   "settings.profile.description": {
-    "message": "Profil bilgin Modrinth'te ve <docs-link>Modrinth API</docs-link> herkese açık görüntülenebilir."
+    "message": "Profil bilgin AllayHub'te ve <docs-link>AllayHub API</docs-link> herkese açık görüntülenebilir."
   },
   "settings.profile.profile-info": {
     "message": "Profil bilgisi"
@@ -2871,7 +2871,7 @@
     "message": "Mevcut oturum"
   },
   "settings.sessions.description": {
-    "message": "Şu an Modrinth hesabınızla giriş yapılmış tüm cihazlar burada. Her birinden teker teker çıkış yapabilirsiniz.\n\nEğer tanımadığınız bir girdi varsa, o cihazdan çıkış yapın ve Modrinth hesabınızın parolasını derhal değiştirin."
+    "message": "Şu an AllayHub hesabınızla giriş yapılmış tüm cihazlar burada. Her birinden teker teker çıkış yapabilirsiniz.\n\nEğer tanımadığınız bir girdi varsa, o cihazdan çıkış yapın ve AllayHub hesabınızın parolasını derhal değiştirin."
   },
   "settings.sessions.last-accessed-ago": {
     "message": "En son {ago} erişildi"
@@ -2883,7 +2883,7 @@
     "message": "Bilinmeyen platform"
   },
   "ui.latest-news-row.latest-news": {
-    "message": "Modrinth'ten en yeni haberler"
+    "message": "AllayHub'ten en yeni haberler"
   },
   "ui.latest-news-row.view-all": {
     "message": "Bütün haberleri gör"

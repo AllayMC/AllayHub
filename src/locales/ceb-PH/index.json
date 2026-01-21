@@ -21,7 +21,7 @@
     "message": "Linux"
   },
   "app-marketing.download.linux-disclaimer": {
-    "message": "<issues-link>Ila nga naay suliranin</issues-link> ang Linux nga hubad sa Modrinth App sa pipila nga mga sistema ug paghan-ay. Kung dili lig-on ang Modrinth App sa imong sistema, gidasig ka namo sa pagsulay sa uban nga mga aplikasyon sama sa <prism-link>Prism Launcher</prism-link> aron mapadali ang pagtaod sa sulod nga Modrinth."
+    "message": "<issues-link>Ila nga naay suliranin</issues-link> ang Linux nga hubad sa AllayLauncher sa pipila nga mga sistema ug paghan-ay. Kung dili lig-on ang AllayLauncher sa imong sistema, gidasig ka namo sa pagsulay sa uban nga mga aplikasyon sama sa <prism-link>Prism Launcher</prism-link> aron mapadali ang pagtaod sa sulod nga AllayHub."
   },
   "app-marketing.download.mac": {
     "message": "Mac"
@@ -30,10 +30,10 @@
     "message": "Mga kapilian sa pagkarganug"
   },
   "app-marketing.download.terms": {
-    "message": "Sa pagkarganug sa Modrinth App, gauyon ka sa among <terms-link>Mga Kahimtang</terms-link> ug <privacy-link>Palisiya sa Pribasiya</privacy-link>."
+    "message": "Sa pagkarganug sa AllayLauncher, gauyon ka sa among <terms-link>Mga Kahimtang</terms-link> ug <privacy-link>Palisiya sa Pribasiya</privacy-link>."
   },
   "app-marketing.download.title": {
-    "message": "Karganugi ang Modrinth App (Beta)"
+    "message": "Karganugi ang AllayLauncher (Beta)"
   },
   "app-marketing.download.windows": {
     "message": "Windows"
@@ -45,7 +45,7 @@
     "message": "Mga Kalihokan"
   },
   "app-marketing.features.mod-management.description": {
-    "message": "Ginapadali sa Modrinth ang pagpamahala sa tanan nimong kausaban sa mausa nga dapit. Makataud, makatangtang, ug makapasibo sa mga kausaban sa usa ra ka tuplok."
+    "message": "Ginapadali sa AllayHub ang pagpamahala sa tanan nimong kausaban sa mausa nga dapit. Makataud, makatangtang, ug makapasibo sa mga kausaban sa usa ra ka tuplok."
   },
   "app-marketing.features.mod-management.installed-mods": {
     "message": "Mga gitaud nga kausaban"
@@ -75,7 +75,7 @@
     "message": "< 150 MB"
   },
   "app-marketing.features.performance.modrinth-app": {
-    "message": "Modrinth App"
+    "message": "AllayLauncher"
   },
   "app-marketing.features.performance.one-billion-percent": {
     "message": "1 ka wakat nga %"
@@ -87,7 +87,7 @@
     "message": "Gagmay"
   },
   "app-marketing.features.play.description": {
-    "message": "Gamita ang Modrinth App sa pagkarganug ug pagdula sa imong paborito nga mga kausaban ug putos sa kausaban."
+    "message": "Gamita ang AllayLauncher sa pagkarganug ug pagdula sa imong paborito nga mga kausaban ug putos sa kausaban."
   },
   "app-marketing.features.sharing.modpack": {
     "message": "Putos sa kausaban"
@@ -99,13 +99,13 @@
     "message": "Pag-ambit og mga putos sa kausaban"
   },
   "app-marketing.hero.download-button": {
-    "message": "Karganugi ang Modrinth App"
+    "message": "Karganugi ang AllayLauncher"
   },
   "app-marketing.hero.download-modrinth-app": {
-    "message": "Karganugi ang Modrinth App"
+    "message": "Karganugi ang AllayLauncher"
   },
   "app-marketing.hero.download-modrinth-app-for-os": {
-    "message": "Karganugi para sa {os} ang Modrinth App"
+    "message": "Karganugi para sa {os} ang AllayLauncher"
   },
   "app-marketing.hero.more-download-options": {
     "message": "Dugang nga Kapilian sa Pagkarganug"
@@ -144,7 +144,7 @@
     "message": "Dagiwat"
   },
   "auth.sign-up.legal-dislaimer": {
-    "message": "Sa paghimo og kaakohan, gauyon ka sa <terms-link>Mga Kahimtang</terms-link> ug <privacy-policy-link>Palisiya sa Pribasiya</privacy-policy-link> sa Modrinth."
+    "message": "Sa paghimo og kaakohan, gauyon ka sa <terms-link>Mga Kahimtang</terms-link> ug <privacy-policy-link>Palisiya sa Pribasiya</privacy-policy-link> sa AllayHub."
   },
   "auth.sign-up.sign-in-option.title": {
     "message": "Naa na kay kaakohan?"
@@ -171,7 +171,7 @@
     "message": "Lakip na ka karon sa niining makapahinganghang dakbalangay sama sa mga magbubuhat ug manunuhid nga nagatukod, nagakarganug, ug nagasunod sa kapanahonan sa mga makapahibulong nga mga kausaban."
   },
   "auth.welcome.label.tos": {
-    "message": "Sa paghimo og kaakohan, mouyon na ka sa <terms-link>Mga Kahimtang</terms-link> ug <privacy-policy-link>Palisiya sa Pribasiya</privacy-policy-link> sa Modrinth."
+    "message": "Sa paghimo og kaakohan, mouyon na ka sa <terms-link>Mga Kahimtang</terms-link> ug <privacy-policy-link>Palisiya sa Pribasiya</privacy-policy-link> sa AllayHub."
   },
   "auth.welcome.title": {
     "message": "Maayong Pag-abot"
@@ -369,7 +369,7 @@
     "message": "Mahimong naglahi og ngalan o gitangtang sa tag-iya ang ilang kaakohan."
   },
   "error.user.404.list_item.3": {
-    "message": "Mahimong girawot ang kaakohan niya tungod sa paglabag sa <tou-link>Mga Kahimtang sa Paggamit</tou-link> sa Modrinth."
+    "message": "Mahimong girawot ang kaakohan niya tungod sa paglabag sa <tou-link>Mga Kahimtang sa Paggamit</tou-link> sa AllayHub."
   },
   "error.user.404.list_title": {
     "message": "Ngano?"
@@ -393,7 +393,7 @@
     "message": "Makadawat og detalyado nga pagtaho sa mga paglantaw og panid, ihap sa pagkarganug, ug kinitaan"
   },
   "landing.feature.launcher.description": {
-    "message": "Ang bukas nga tinubdan nga API sa Modrinth nagtugot sa mga tiglunsad nga makadugang sa lawom nga panagsama sa Modrinth. Mahimo nimong magamit ang Modrinth pinaagi sa <link>among aplikasyon</link> ug sa pipila nga labing inila nga mga tiglunsad sama sa ATLauncher, MultiMC, ug Prism Launcher."
+    "message": "Ang bukas nga tinubdan nga API sa AllayHub nagtugot sa mga tiglunsad nga makadugang sa lawom nga panagsama sa AllayHub. Mahimo nimong magamit ang AllayHub pinaagi sa <link>among aplikasyon</link> ug sa pipila nga labing inila nga mga tiglunsad sama sa ATLauncher, MultiMC, ug Prism Launcher."
   },
   "landing.heading.the-place-for-minecraft": {
     "message": "Dapit alang sa Allay nga {content}"
@@ -447,10 +447,10 @@
     "message": "Duawi ang mga himutangan sa kaakohan"
   },
   "layout.banner.add-email.description": {
-    "message": "Tungod sa mga hinungdan sa kahilwasan, manginahanglan ang Modrinth nga morehistro ka og padad-anan sa dagiwat sa imong kaakohan."
+    "message": "Tungod sa mga hinungdan sa kahilwasan, manginahanglan ang AllayHub nga morehistro ka og padad-anan sa dagiwat sa imong kaakohan."
   },
   "layout.banner.build-fail.description": {
-    "message": "Napakyas sa pagmugna og kahimtang gikan sa API kining pagkatap sa frontend sa Modrinth. Basin tungod sa pagkabalda o sayop sa paghan-ay. Paggama pag-usab kon magamit na ang API. Mga kalagdaan sa sayop: {errors}; Ang kasamtangan nga URL sa API: {url}"
+    "message": "Napakyas sa pagmugna og kahimtang gikan sa API kining pagkatap sa frontend sa AllayHub. Basin tungod sa pagkabalda o sayop sa paghan-ay. Paggama pag-usab kon magamit na ang API. Mga kalagdaan sa sayop: {errors}; Ang kasamtangan nga URL sa API: {url}"
   },
   "layout.banner.build-fail.title": {
     "message": "Naay sayup sa pagmugna sa kahimtang gikan sa API samtang naggama."
@@ -459,7 +459,7 @@
     "message": "Naay mga suskripsiyong napakyas sa paglab-as. Palihug sa pagpasibo sa imong pamaagi sa pagbayad aron dili mawala ang agi!"
   },
   "layout.banner.verify-email.description": {
-    "message": "Tungod sa mga hinungdan sa kahilwasan, manginahanglan ang Modrinth nga mapamatud-an ang padad-anan sa dagiwat sa imong kaakohan."
+    "message": "Tungod sa mga hinungdan sa kahilwasan, manginahanglan ang AllayHub nga mapamatud-an ang padad-anan sa dagiwat sa imong kaakohan."
   },
   "layout.footer.about": {
     "message": "Mahitungod"
@@ -501,16 +501,16 @@
     "message": "Mga Kahimtang sa Paggamit"
   },
   "layout.footer.open-source": {
-    "message": "<github-link>Bukas nga tinubdan</github-link> ang Modrinth."
+    "message": "<github-link>Bukas nga tinubdan</github-link> ang AllayHub."
   },
   "layout.footer.products": {
     "message": "Mga Produkto"
   },
   "layout.footer.products.app": {
-    "message": "Modrinth App"
+    "message": "AllayLauncher"
   },
   "layout.footer.products.plus": {
-    "message": "Modrinth+"
+    "message": "AllayHub+"
   },
   "layout.footer.resources": {
     "message": "Mga Kahinguhaan"
@@ -543,7 +543,7 @@
     "message": "X"
   },
   "layout.meta.description": {
-    "message": "Pagkarganug ug mga pagbag-o, pagsukip, putos sa kalap, tigpandong, putos sa kahinguhaan, ug putos sa pagbag-o sa Modrinth. Pagdiskobre ug pagmantala og mga proyekto sa Modrinth nga adunay moderno, sayon gamiton nga dunggoanan ug API."
+    "message": "Pagkarganug ug mga pagbag-o, pagsukip, putos sa kalap, tigpandong, putos sa kahinguhaan, ug putos sa pagbag-o sa AllayHub. Pagdiskobre ug pagmantala og mga proyekto sa AllayHub nga adunay moderno, sayon gamiton nga dunggoanan ug API."
   },
   "layout.nav.home": {
     "message": "Puloy-anan"
@@ -681,10 +681,10 @@
     "message": "0x..."
   },
   "profile.bio.fallback.creator": {
-    "message": "Usa ka magbubuhat sa Modrinth."
+    "message": "Usa ka magbubuhat sa AllayHub."
   },
   "profile.bio.fallback.user": {
-    "message": "Usa ka tiggamit sa Modrinth."
+    "message": "Usa ka tiggamit sa AllayHub."
   },
   "profile.details.label.email": {
     "message": "Dagiwat"
@@ -708,10 +708,10 @@
     "message": "Oo"
   },
   "profile.meta.description": {
-    "message": "Pagkarganug og mga proyekto ni {username} sa Modrinth"
+    "message": "Pagkarganug og mga proyekto ni {username} sa AllayHub"
   },
   "profile.meta.description-with-bio": {
-    "message": "{bio} - Pagkarganug og mga proyekto ni {username} sa Modrinth"
+    "message": "{bio} - Pagkarganug og mga proyekto ni {username} sa AllayHub"
   },
   "project-member-header.accept": {
     "message": "Dawati"
@@ -780,7 +780,7 @@
     "message": "Itaud gamit ang Modrint App"
   },
   "project.download.no-app": {
-    "message": "Wala kay Modrinth App?"
+    "message": "Wala kay AllayLauncher?"
   },
   "project.download.platform": {
     "message": "Pantawan: {platform}"
@@ -801,13 +801,13 @@
     "message": "Karganugi ang {title}"
   },
   "project.environment.migration-no-permission.message": {
-    "message": "Bag-o ra namo gipalambo ang sistema sa Mga Kalikopan sa Modrinth ug ang mga bag-ong kapilian magamit na karon. Wala kay permiso sa pag-usab sa niining mga gusto, apan palihug pahibaloa ang ubang sakop sa proyekto nga kinahanglan nga mapamatud-an ang metadata sa kalikopan."
+    "message": "Bag-o ra namo gipalambo ang sistema sa Mga Kalikopan sa AllayHub ug ang mga bag-ong kapilian magamit na karon. Wala kay permiso sa pag-usab sa niining mga gusto, apan palihug pahibaloa ang ubang sakop sa proyekto nga kinahanglan nga mapamatud-an ang metadata sa kalikopan."
   },
   "project.environment.migration-no-permission.title": {
     "message": "Kinahanglang masusi ang metadata sa environment"
   },
   "project.environment.migration.message": {
-    "message": "Bag-o ra namo gipalambo ang sistema sa Mga Kalikopan sa Modrinth ug ang mga bag-ong kapilian magamit na karon. Mahimo nga bisitahon ang mga gusto sa imong proyekto ug pamatud-i nga husto ang metadata."
+    "message": "Bag-o ra namo gipalambo ang sistema sa Mga Kalikopan sa AllayHub ug ang mga bag-ong kapilian magamit na karon. Mahimo nga bisitahon ang mga gusto sa imong proyekto ug pamatud-i nga husto ang metadata."
   },
   "project.environment.migration.review-button": {
     "message": "Susihon ang mga gusto sa kalikopan"
@@ -825,7 +825,7 @@
     "message": "Daghang kalikopan ang imong proyekto"
   },
   "project.settings.environment.notice.review-options.description": {
-    "message": "Bag-o ra namo gipalambo ang sistema sa Mga Kalikopan sa Modrinth ug ang mga bag-ong kapilian magamit na karon. Mahimo nga susiha nga husto ang  gipili sa ubos ug tuploka ang 'Pamatud-i' sa imong paghuman!"
+    "message": "Bag-o ra namo gipalambo ang sistema sa Mga Kalikopan sa AllayHub ug ang mga bag-ong kapilian magamit na karon. Mahimo nga susiha nga husto ang  gipili sa ubos ug tuploka ang 'Pamatud-i' sa imong paghuman!"
   },
   "project.settings.environment.verification.verify-button": {
     "message": "Pamatud-i"
@@ -927,7 +927,7 @@
     "message": "Mga paghan-ay sa talaan sa proyekto"
   },
   "settings.display.theme.description": {
-    "message": "Pamili og imong gigusto nga hilisgotanong kolor alang sa Modrinth sa kini nga himan."
+    "message": "Pamili og imong gigusto nga hilisgotanong kolor alang sa AllayHub sa kini nga himan."
   },
   "settings.display.theme.title": {
     "message": "Hilisgotanong Kolor"
@@ -954,7 +954,7 @@
     "message": "Gihimo {ago}"
   },
   "settings.sessions.description": {
-    "message": "Ania dini tanan ang mga himan nga karon nakalog-in sa imong kaakohan sa Modrinth. Mahimo kang maglog-out sa matag usa.\n\nKung makakita ka og usa nga dili nimo mailhan, paglog-out sa maong himan ug usba dayon ang tinago nga pulong sa imong kaakohan sa Modrinth."
+    "message": "Ania dini tanan ang mga himan nga karon nakalog-in sa imong kaakohan sa AllayHub. Mahimo kang maglog-out sa matag usa.\n\nKung makakita ka og usa nga dili nimo mailhan, paglog-out sa maong himan ug usba dayon ang tinago nga pulong sa imong kaakohan sa AllayHub."
   },
   "settings.sessions.unknown-os": {
     "message": "Diinilang OS"

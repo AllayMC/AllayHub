@@ -183,10 +183,10 @@
     "message": "Privātuma politika"
   },
   "layout.footer.open-source": {
-    "message": "Modrinth ir <github-Link> atvērtā avota </github-bink>."
+    "message": "AllayHub ir <github-Link> atvērtā avota </github-bink>."
   },
   "layout.footer.products.plus": {
-    "message": "Modrinth+"
+    "message": "AllayHub+"
   },
   "layout.footer.resources": {
     "message": "Resursi"
