@@ -67,7 +67,7 @@ jobs:
       - name: Restore update progress
         uses: actions/cache/restore@v4
         with:
-          path: AllayHubIndex/.update_progress
+          path: .update_progress
           key: update-progress-${{ steps.date.outputs.today }}-${{ github.run_id }}
           restore-keys: |
             update-progress-${{ steps.date.outputs.today }}-
@@ -75,7 +75,7 @@ jobs:
       - name: Restore last sync
         uses: actions/cache/restore@v4
         with:
-          path: AllayHubIndex/.last_sync
+          path: .last_sync
           key: last-sync-${{ github.run_id }}
           restore-keys: |
             last-sync-
@@ -126,21 +126,34 @@ jobs:
         if: always()
         uses: actions/cache/save@v4
         with:
-          path: AllayHubIndex/.update_progress
+          path: .update_progress
           key: update-progress-${{ steps.date.outputs.today }}-${{ github.run_id }}
 
       - name: Save last sync
         if: always()
         uses: actions/cache/save@v4
         with:
-          path: AllayHubIndex/.last_sync
+          path: .last_sync
           key: last-sync-${{ github.run_id }}
 
-      - name: Commit changes to AllayHubIndex
+      - name: Check for changes
+        id: changes
+        run: |
+          cd AllayHubIndex
+          git add -A
+          if git diff --staged --quiet; then
+            echo "has_changes=false" >> $GITHUB_OUTPUT
+            echo "No changes detected, skipping commit and push"
+          else
+            echo "has_changes=true" >> $GITHUB_OUTPUT
+            echo "Changes detected"
+          fi
+
+      - name: Commit and push changes
+        if: steps.changes.outputs.has_changes == 'true'
         run: |
           cd AllayHubIndex
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
-          git add -A
-          git diff --staged --quiet || git commit -m "chore: sync plugin index"
+          git commit -m "chore: sync plugin index"
           git push
