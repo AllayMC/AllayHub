@@ -1,4 +1,3 @@
-use allayindexer::codegen::write_allayhub_ts;
 use allayindexer::github::{client, init_client};
 use allayindexer::plugin::{load_plugins, write_plugin};
 use allayindexer::search::build_orama_index;
@@ -86,7 +85,6 @@ fn cmd_build() {
     let index_dir = Path::new("AllayHubIndex");
     let output_file = Path::new("src/public/orama-index.bin");
     let builder_path = Path::new("orama_builder.mjs");
-    let allayhub_ts_path = Path::new("src/types/allayhub.ts");
 
     if !index_dir.exists() {
         error!(path = ?index_dir, "Index directory not found");
@@ -102,13 +100,6 @@ fn cmd_build() {
         return;
     }
     info!(count = plugins.len(), "Loaded plugins");
-
-    {
-        let _span = info_span!("generate_ts").entered();
-        if !write_allayhub_ts(allayhub_ts_path) {
-            process::exit(1);
-        }
-    }
 
     {
         let _span = info_span!("build_orama").entered();

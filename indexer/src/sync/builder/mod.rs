@@ -2,8 +2,29 @@ mod image;
 mod link;
 mod version_resolver;
 
-use crate::codegen::CATEGORIES;
 use crate::github::{Contributor, GitTreeEntry, Release, Repository, client};
+
+const CATEGORIES: &[&str] = &[
+    "adventure",
+    "cursed",
+    "decoration",
+    "economy",
+    "equipment",
+    "food",
+    "game-mechanics",
+    "library",
+    "magic",
+    "management",
+    "minigame",
+    "mobs",
+    "optimization",
+    "social",
+    "storage",
+    "technology",
+    "transportation",
+    "utility",
+    "world-generation",
+];
 use crate::gradle::{AllayDsl, VersionRef, parse_build_gradle_kts, parse_plugin_json};
 use crate::plugin::{
     Author, Dependency, GalleryItem, License, Links, Plugin, Version, VersionFile,
@@ -511,8 +532,7 @@ fn build_version(release: &Release) -> Version {
 }
 
 fn build_categories(topics: &[String]) -> Vec<String> {
-    let valid_ids: std::collections::HashSet<&str> =
-        CATEGORIES.iter().map(|(id, _, _)| *id).collect();
+    let valid_ids: std::collections::HashSet<&str> = CATEGORIES.iter().copied().collect();
     let categories: Vec<String> = topics
         .iter()
         .filter(|t| valid_ids.contains(t.as_str()))

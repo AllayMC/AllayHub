@@ -1,5 +1,4 @@
 pub mod cache;
-pub mod codegen;
 pub mod github;
 pub mod gradle;
 pub mod plugin;

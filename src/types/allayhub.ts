@@ -15,12 +15,6 @@ export interface ServerVersion {
   release_date: string
 }
 
-export interface IndexMeta {
-  updated_at: string
-  index_version: string
-  generator: string
-}
-
 export interface Loader {
   id: string
   name: string
@@ -58,12 +52,6 @@ export const LATEST_API_VERSION = '1.0.0'
 export const SERVER_VERSIONS: ServerVersion[] = [
   { version: '1.0.0', api_version: '1.0.0', release_date: '2026-01-01' },
 ]
-
-export const INDEX_META: IndexMeta = {
-  updated_at: '2026-01-20T15:18:17Z',
-  index_version: '1.0',
-  generator: 'allayindexer',
-}
 
 export const LOADERS: Loader[] = [
   { id: 'plugin', name: 'Plugin', icon: 'plugin' },
