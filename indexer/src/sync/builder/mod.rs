@@ -166,10 +166,17 @@ pub fn to_raw_url(owner: &str, repo: &str, branch: &str, path: &str) -> String {
     )
 }
 
+fn find_file_anywhere(tree: &[GitTreeEntry], filename: &str) -> Option<String> {
+    tree.iter()
+        .filter(|e| e.entry_type == "blob")
+        .find(|e| e.path == filename || e.path.ends_with(&format!("/{}", filename)))
+        .map(|e| e.path.clone())
+}
+
 fn find_logo_url(tree: &[GitTreeEntry], owner: &str, repo: &str, branch: &str) -> Option<String> {
     for filename in LOGO_FILENAMES {
-        if tree_has_file(tree, filename) {
-            return Some(to_raw_url(owner, repo, branch, filename));
+        if let Some(path) = find_file_anywhere(tree, filename) {
+            return Some(to_raw_url(owner, repo, branch, &path));
         }
     }
     None
@@ -182,9 +189,9 @@ fn find_gallery_items(tree: &[GitTreeEntry], owner: &str, repo: &str, branch: &s
         let mut found = false;
         for ext in IMAGE_EXTENSIONS {
             let filename = format!("gallery{}.{}", i, ext);
-            if tree_has_file(tree, &filename) {
+            if let Some(path) = find_file_anywhere(tree, &filename) {
                 gallery.push(GalleryItem {
-                    url: to_raw_url(owner, repo, branch, &filename),
+                    url: to_raw_url(owner, repo, branch, &path),
                     title: format!("Gallery {}", i),
                     description: String::new(),
                     created: now.clone(),
@@ -222,7 +229,7 @@ fn find_first_allay_dsl(
             }
         };
 
-        if !content.contains("org.allaymc") && !content.contains("allay") {
+        if !content.contains("org.allaymc") {
             continue;
         }
 
@@ -410,9 +417,14 @@ fn build_plugin_from_repo_data(
     };
     let (processed_readme, readme_gallery) = process_readme(readme, &ctx);
 
-    // Repo gallery (gallery1.png, etc.) first, then README images
     let mut gallery = repo_gallery;
-    gallery.extend(readme_gallery);
+    let existing_urls: std::collections::HashSet<String> =
+        gallery.iter().map(|g| g.url.clone()).collect();
+    for item in readme_gallery {
+        if !existing_urls.contains(&item.url) {
+            gallery.push(item);
+        }
+    }
 
     let api_version = dsl
         .api
