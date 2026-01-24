@@ -65,3 +65,4 @@ allayindexer
 .last_sync
 .data_cache.bin.gz
 .update_progress
+dist

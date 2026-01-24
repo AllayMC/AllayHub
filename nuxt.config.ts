@@ -86,7 +86,31 @@ export default defineNuxtConfig({
         },
       }),
     ],
-    build: {},
+    build: {
+      rollupOptions: {
+        output: {
+          manualChunks(id) {
+            if (id.includes('node_modules')) {
+              if (id.includes('intl-messageformat') || id.includes('@formatjs')) {
+                return 'vendor-i18n'
+              }
+              if (id.includes('highlight.js')) {
+                return 'vendor-highlight'
+              }
+              if (id.includes('markdown-it')) {
+                return 'vendor-markdown'
+              }
+              if (id.includes('@orama')) {
+                return 'vendor-search'
+              }
+              if (id.includes('floating-vue')) {
+                return 'vendor-floating'
+              }
+            }
+          },
+        },
+      },
+    },
     server: {
       fs: {
         // Allow access to test directory for mock data
