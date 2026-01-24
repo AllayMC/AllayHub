@@ -10,7 +10,33 @@ For your repository to be indexed as an Allay plugin, it must meet **all** of th
 2. **Not a fork** - Forked repositories are excluded
 3. **Not archived** - Archived repositories are excluded
 4. **Not a template** - Template repositories are excluded
-5. **Contains Allay dependency** - Your `build.gradle.kts` must contain `org.allaymc`
+5. **Not a `noindex` topic** - Repositories with the `noindex` topic are excluded (see [Plugin Removal](#plugin-removal))
+6. **Discoverable** - At least one of:
+   - Contains `org.allaymc` in `build.gradle` or `build.gradle.kts`
+   - Has the `allaymc-plugin` topic on the repository
+
+## Discovery Methods
+
+AllayHub uses two complementary methods to discover plugins:
+
+### 1. Code Search
+
+Searches for repositories containing `org.allaymc` in Gradle build files. This is the primary discovery method.
+
+> **Note:** GitHub's code search index may have delays or gaps, especially for:
+> - Newly created repositories
+> - Repositories with low activity
+> - Repositories generated from templates
+
+### 2. Topic Search (Recommended)
+
+Searches for repositories with the `allaymc-plugin` topic. This method is more reliable because:
+
+- Repository metadata is indexed faster than code content
+- Works even if the code search index hasn't caught up
+- Explicitly signals that the repository is an Allay plugin
+
+**To add the topic:** Go to your repository → About (gear icon) → Topics → Add `allaymc-plugin`
 
 ## Plugin Metadata
 
@@ -209,11 +235,25 @@ my-allay-plugin/
         └── resources/
 ```
 
+## Plugin Removal
+
+Plugins are automatically removed from the index when any of the following conditions are met during the update cycle (runs hourly):
+
+| Condition | Description |
+|-----------|-------------|
+| Repository deleted | The repository no longer exists (404) |
+| Repository archived | The repository has been archived |
+| Plugin removed | The `plugin.json` or AllayGradle DSL no longer defines the plugin |
+| Opted out | The repository has the `noindex` topic |
+
+To manually remove your plugin from AllayHub, add the `noindex` topic to your repository (About → Topics → add `noindex`).
+
 ## Tips for Better Indexing
 
-1. **Use descriptive topics** - Add relevant category topics to your repository
-2. **Write a good README** - The README becomes your plugin's detailed description
-3. **Create releases** - Only released versions appear in the version list
-4. **Add a logo** - A custom logo helps your plugin stand out
-5. **Include gallery images** - Screenshots help users understand your plugin
-6. **Fill out plugin.json** - Complete metadata improves discoverability
+1. **Add `allaymc-plugin` topic** - Ensures your plugin is discovered even if code search hasn't indexed it yet
+2. **Use category topics** - Add relevant category topics (see [Categories](#categories)) to your repository
+3. **Write a good README** - The README becomes your plugin's detailed description
+4. **Create releases** - Only released versions appear in the version list
+5. **Add a logo** - A custom logo helps your plugin stand out
+6. **Include gallery images** - Screenshots help users understand your plugin
+7. **Fill out plugin.json** - Complete metadata improves discoverability
