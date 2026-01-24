@@ -248,11 +248,10 @@ pub fn collect_string_values(node: &Node, content: &str) -> Vec<String> {
             }
         }
         "call_expression" => {
-            if let Some(name) = get_call_name(node, content) {
-                if name == "listOf" || name == "mutableListOf" {
+            if let Some(name) = get_call_name(node, content)
+                && (name == "listOf" || name == "mutableListOf") {
                     values.extend(collect_call_string_args(node, content));
                 }
-            }
         }
         _ => {
             let mut cursor = node.walk();

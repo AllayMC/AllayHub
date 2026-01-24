@@ -17,14 +17,13 @@ pub fn load_plugins(index_dir: &Path) -> Vec<Plugin> {
 
     for entry in entries.flatten() {
         let path = entry.path();
-        if path.extension().is_some_and(|e| e == "json") {
-            if let Ok(content) = fs::read_to_string(&path) {
+        if path.extension().is_some_and(|e| e == "json")
+            && let Ok(content) = fs::read_to_string(&path) {
                 match parse_plugin_with_preserved_fields(&content) {
                     Ok(plugin) => plugins.push(plugin),
                     Err(e) => warn!(path = ?path, error = %e, "Failed to parse plugin"),
                 }
             }
-        }
     }
 
     plugins

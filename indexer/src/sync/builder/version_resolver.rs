@@ -26,7 +26,7 @@ pub fn resolve_version(
 
 fn is_snapshot_version(version: &str) -> bool {
     let lower = version.to_lowercase();
-    lower.ends_with("-snapshot") && !lower.chars().next().map_or(false, |c| c.is_ascii_digit())
+    lower.ends_with("-snapshot") && !lower.chars().next().is_some_and(|c| c.is_ascii_digit())
 }
 
 pub fn resolve_snapshot_version() -> Option<String> {
@@ -34,11 +34,10 @@ pub fn resolve_snapshot_version() -> Option<String> {
         .get_or_init(|| {
             let releases = client().get_releases("AllayMC", "Allay").ok()?;
             let release = releases.iter().find(|r| !r.prerelease && !r.draft)?;
-            if let Some(name) = &release.name {
-                if let Some(api_ver) = extract_api_version_from_name(name) {
+            if let Some(name) = &release.name
+                && let Some(api_ver) = extract_api_version_from_name(name) {
                     return Some(api_ver);
                 }
-            }
             None
         })
         .clone()
@@ -79,22 +78,18 @@ fn resolve_version_catalog(
 fn parse_allay_version_from_toml(content: &str) -> Option<String> {
     let toml: toml::Value = content.parse().ok()?;
 
-    if let Some(libs) = toml.get("libraries") {
-        if let Some(allay) = libs.get("allay") {
-            if let Some(version) = allay.get("version") {
+    if let Some(libs) = toml.get("libraries")
+        && let Some(allay) = libs.get("allay")
+            && let Some(version) = allay.get("version") {
                 if let Some(v) = version.as_str() {
                     return Some(v.to_string());
                 }
-                if let Some(ref_name) = version.get("ref").and_then(|r| r.as_str()) {
-                    if let Some(versions) = toml.get("versions") {
-                        if let Some(v) = versions.get(ref_name).and_then(|v| v.as_str()) {
+                if let Some(ref_name) = version.get("ref").and_then(|r| r.as_str())
+                    && let Some(versions) = toml.get("versions")
+                        && let Some(v) = versions.get(ref_name).and_then(|v| v.as_str()) {
                             return Some(v.to_string());
                         }
-                    }
-                }
             }
-        }
-    }
 
     if let Some(versions) = toml.get("versions") {
         if let Some(v) = versions.get("allay").and_then(|v| v.as_str()) {
@@ -136,12 +131,11 @@ fn resolve_variable(
         .collect();
 
     for candidate in candidates {
-        if let Ok(content) = client().get_file_content(owner, repo, candidate) {
-            if let Some(version) = extract_allay_version_from_code(&content, var_path) {
+        if let Ok(content) = client().get_file_content(owner, repo, candidate)
+            && let Some(version) = extract_allay_version_from_code(&content, var_path) {
                 debug!(file = candidate, version = %version, "Resolved variable version");
                 return Some(version);
             }
-        }
     }
 
     None
@@ -169,25 +163,22 @@ fn extract_allay_version_from_code(content: &str, var_path: &str) -> Option<Stri
 
         if line_lower.contains("allay")
             && (line_lower.contains("api") || line_lower.contains("version"))
-        {
-            if let Some(version) = extract_version_from_line(line) {
+            && let Some(version) = extract_version_from_line(line) {
                 return Some(version);
             }
-        }
     }
 
     None
 }
 
 fn extract_version_from_line(line: &str) -> Option<String> {
-    if let Some(start) = line.find('"') {
-        if let Some(end) = line[start + 1..].find('"') {
+    if let Some(start) = line.find('"')
+        && let Some(end) = line[start + 1..].find('"') {
             let version = &line[start + 1..start + 1 + end];
             if looks_like_version(version) {
                 return Some(version.to_string());
             }
         }
-    }
 
     None
 }

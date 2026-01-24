@@ -80,12 +80,11 @@ fn build_document(plugin: &Plugin, split_cache: &HashMap<String, Vec<String>>) -
 pub fn build_orama_index(plugins: &[Plugin], output_path: &Path, builder_path: &Path) -> bool {
     let _span = info_span!("build_orama_index", plugins = plugins.len()).entered();
 
-    if let Some(parent) = output_path.parent() {
-        if let Err(e) = fs::create_dir_all(parent) {
+    if let Some(parent) = output_path.parent()
+        && let Err(e) = fs::create_dir_all(parent) {
             error!(error = %e, "Failed to create output directory");
             return false;
         }
-    }
 
     let segmenter = get_segmenter();
     let mut identifiers: HashSet<String> = HashSet::new();
@@ -132,12 +131,11 @@ pub fn build_orama_index(plugins: &[Plugin], output_path: &Path, builder_path: &
         }
     };
 
-    if let Some(mut stdin) = child.stdin.take() {
-        if let Err(e) = stdin.write_all(json.as_bytes()) {
+    if let Some(mut stdin) = child.stdin.take()
+        && let Err(e) = stdin.write_all(json.as_bytes()) {
             error!(error = %e, "Failed to write to stdin");
             return false;
         }
-    }
 
     match child.wait_with_output() {
         Ok(output) => {

@@ -150,11 +150,10 @@ impl GitHubClient {
             AuthMethod::App(app) => {
                 {
                     let cached = self.cached_token.read().unwrap();
-                    if let Some((token, created)) = cached.as_ref() {
-                        if created.elapsed() < TOKEN_REFRESH_MARGIN {
+                    if let Some((token, created)) = cached.as_ref()
+                        && created.elapsed() < TOKEN_REFRESH_MARGIN {
                             return Ok(Some(token.clone()));
                         }
-                    }
                 }
                 let token = app.get_token()?;
                 let mut cached = self.cached_token.write().unwrap();
@@ -484,7 +483,7 @@ impl GitHubClient {
         let stop_flag = Arc::new(AtomicBool::new(false));
         let processed_count = Arc::new(AtomicUsize::new(0));
         let total = items.len();
-        let num_chunks = (total + MAX_CONCURRENT - 1) / MAX_CONCURRENT;
+        let num_chunks = total.div_ceil(MAX_CONCURRENT);
 
         for (chunk_idx, chunk) in items.chunks(MAX_CONCURRENT).enumerate() {
             if stop_flag.load(Ordering::SeqCst) {

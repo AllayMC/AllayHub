@@ -39,7 +39,7 @@ pub fn update_existing_plugins(plugins: &[Plugin], force: bool) -> UpdateResult 
     for (id, status) in batch.results {
         processed_ids.insert(id.clone());
         match status {
-            Ok(UpdateStatus::Updated(plugin)) => updated.push(plugin),
+            Ok(UpdateStatus::Updated(plugin)) => updated.push(*plugin),
             Ok(UpdateStatus::Unchanged) => unchanged.push(id),
             Ok(UpdateStatus::Deleted) => deleted.push(id),
             Err(e) => errors.push((id, e)),
@@ -73,7 +73,7 @@ pub fn update_existing_plugins(plugins: &[Plugin], force: bool) -> UpdateResult 
 
 #[derive(Debug)]
 enum UpdateStatus {
-    Updated(Plugin),
+    Updated(Box<Plugin>),
     Unchanged,
     Deleted,
 }
@@ -118,7 +118,7 @@ fn update_plugin(plugin: &Plugin, force: bool) -> Result<UpdateStatus, String> {
     merge_gallery_created(plugin, &mut new_plugin);
 
     if force || plugin_changed(plugin, &new_plugin) {
-        Ok(UpdateStatus::Updated(new_plugin))
+        Ok(UpdateStatus::Updated(Box::new(new_plugin)))
     } else {
         Ok(UpdateStatus::Unchanged)
     }

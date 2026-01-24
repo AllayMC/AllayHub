@@ -23,15 +23,14 @@ pub fn parse_allay_block(node: &Node, content: &str, dsl: &mut AllayDsl) {
                 }
             }
             "call_expression" => {
-                if let Some(name) = get_call_name(&child, content) {
-                    if name == "plugin" {
+                if let Some(name) = get_call_name(&child, content)
+                    && name == "plugin" {
                         let mut plugin = PluginDsl::default();
                         with_lambda(&child, |lambda| {
                             parse_plugin_block(lambda, content, &mut plugin);
                         });
                         dsl.plugin = Some(plugin);
                     }
-                }
             }
             _ => {}
         }
@@ -72,13 +71,12 @@ pub fn parse_plugin_block(node: &Node, content: &str, plugin: &mut PluginDsl) {
                 }
             }
             "call_expression" => {
-                if let Some(name) = get_call_name(&child, content) {
-                    if name == "dependencies" {
+                if let Some(name) = get_call_name(&child, content)
+                    && name == "dependencies" {
                         plugin
                             .dependencies
                             .extend(extract_dependencies(&child, content));
                     }
-                }
             }
             _ => {}
         }
@@ -142,10 +140,9 @@ fn parse_augmented_assignment(node: &Node, content: &str) -> Option<(String, Vec
         }
     }
 
-    if let Some(k) = lhs {
-        if found_plus_eq {
+    if let Some(k) = lhs
+        && found_plus_eq {
             return Some((k, values));
         }
-    }
     None
 }

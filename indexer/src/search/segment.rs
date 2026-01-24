@@ -11,11 +11,10 @@ pub fn get_segmenter() -> &'static Segmenter {
         let mut unigrams: HashMap<SmartString, f64> = HashMap::new();
 
         for line in UNIGRAMS_DATA.lines() {
-            if let Some((word, count_str)) = line.split_once('\t') {
-                if let Ok(count) = count_str.trim().parse::<f64>() {
+            if let Some((word, count_str)) = line.split_once('\t')
+                && let Ok(count) = count_str.trim().parse::<f64>() {
                     unigrams.insert(word.into(), count);
                 }
-            }
         }
 
         let bigrams: Vec<((SmartString, SmartString), f64)> = Vec::new();

@@ -64,8 +64,8 @@ pub fn extract_allay_dependency(node: &Node, content: &str) -> Option<AllayDepIn
         }
     }
 
-    if !has_allay_group && positional_strings.len() >= 2 {
-        if positional_strings[0] == "org.allaymc.allay" {
+    if !has_allay_group && positional_strings.len() >= 2
+        && positional_strings[0] == "org.allaymc.allay" {
             has_allay_group = true;
             let art = &positional_strings[1];
             if art == "api" || art == "server" {
@@ -75,7 +75,6 @@ pub fn extract_allay_dependency(node: &Node, content: &str) -> Option<AllayDepIn
                 version = Some(positional_strings[2].clone());
             }
         }
-    }
 
     if has_allay_group {
         let version_ref = if let Some(v) = version {
@@ -104,11 +103,10 @@ fn check_version_catalog_ref(node: &Node, content: &str) -> Option<AllayDepInfo>
             if let Some(info) = check_version_catalog_ref(&child, content) {
                 return Some(info);
             }
-        } else if child.kind() == "value_argument" {
-            if let Some(info) = check_nav_expr_in_arg(&child, content) {
+        } else if child.kind() == "value_argument"
+            && let Some(info) = check_nav_expr_in_arg(&child, content) {
                 return Some(info);
             }
-        }
     }
 
     None
@@ -128,11 +126,10 @@ fn check_nav_expr_in_arg(node: &Node, content: &str) -> Option<AllayDepInfo> {
                 }
                 return Some(AllayDepInfo::Api(version_ref));
             }
-        } else if child.kind() == "call_expression" {
-            if let Some(info) = check_call_for_catalog(&child, content) {
+        } else if child.kind() == "call_expression"
+            && let Some(info) = check_call_for_catalog(&child, content) {
                 return Some(info);
             }
-        }
     }
 
     None
@@ -156,15 +153,12 @@ pub fn extract_dependencies(node: &Node, content: &str) -> Vec<GradleDependency>
     let mut cursor = node.walk();
 
     for child in node.children(&mut cursor) {
-        if child.kind() == "call_expression" {
-            if let Some(name) = get_call_name(&child, content) {
-                if name == "dependency" {
-                    if let Some(dep) = parse_dependency_call(&child, content) {
+        if child.kind() == "call_expression"
+            && let Some(name) = get_call_name(&child, content)
+                && name == "dependency"
+                    && let Some(dep) = parse_dependency_call(&child, content) {
                         deps.push(dep);
                     }
-                }
-            }
-        }
         deps.extend(extract_dependencies(&child, content));
     }
 

@@ -16,6 +16,20 @@ pub struct PostProcessContext<'a> {
     pub branch: &'a str,
 }
 
+struct PluginBuildInput<'a> {
+    repo: &'a Repository,
+    dsl: &'a AllayDsl,
+    releases: &'a [Release],
+    readme: &'a str,
+    license: &'a License,
+    contributors: &'a [Contributor],
+    owner: &'a str,
+    repo_name: &'a str,
+    branch: &'a str,
+    icon_url: &'a str,
+    repo_gallery: Vec<GalleryItem>,
+}
+
 type ImageProcessorFn = fn(&str, &PostProcessContext, &mut Vec<GalleryItem>) -> String;
 type LinkProcessorFn = fn(&str, &PostProcessContext) -> String;
 
@@ -81,40 +95,34 @@ fn find_gradle_paths_from_tree(tree: &[GitTreeEntry]) -> Vec<String> {
 
 fn is_branch_snapshot(version: &str) -> bool {
     let lower = version.to_lowercase();
-    lower.ends_with("-snapshot") && !lower.chars().next().map_or(false, |c| c.is_ascii_digit())
+    lower.ends_with("-snapshot") && !lower.chars().next().is_some_and(|c| c.is_ascii_digit())
 }
 
 fn resolve_dsl_versions(dsl: &mut AllayDsl, tree: &[GitTreeEntry], owner: &str, repo: &str) {
-    if !matches!(dsl.api_version_ref, VersionRef::Literal(_)) {
-        if let Some(v) = version_resolver::resolve_version(&dsl.api_version_ref, tree, owner, repo)
+    if !matches!(dsl.api_version_ref, VersionRef::Literal(_))
+        && let Some(v) = version_resolver::resolve_version(&dsl.api_version_ref, tree, owner, repo)
         {
             dsl.api = Some(v);
         }
-    }
 
-    if !matches!(dsl.server_version_ref, VersionRef::Literal(_)) {
-        if let Some(v) =
+    if !matches!(dsl.server_version_ref, VersionRef::Literal(_))
+        && let Some(v) =
             version_resolver::resolve_version(&dsl.server_version_ref, tree, owner, repo)
         {
             dsl.server = Some(v);
         }
-    }
 
-    if let Some(api) = &dsl.api {
-        if is_branch_snapshot(api) {
-            if let Some(v) = version_resolver::resolve_snapshot_version() {
+    if let Some(api) = &dsl.api
+        && is_branch_snapshot(api)
+            && let Some(v) = version_resolver::resolve_snapshot_version() {
                 dsl.api = Some(v);
             }
-        }
-    }
 
-    if let Some(server) = &dsl.server {
-        if is_branch_snapshot(server) {
-            if let Some(v) = version_resolver::resolve_snapshot_version() {
+    if let Some(server) = &dsl.server
+        && is_branch_snapshot(server)
+            && let Some(v) = version_resolver::resolve_snapshot_version() {
                 dsl.server = Some(v);
             }
-        }
-    }
 }
 
 fn find_project_version_from_settings(
@@ -127,15 +135,11 @@ fn find_project_version_from_settings(
         if tree
             .iter()
             .any(|e| e.path == path && e.entry_type == "blob")
-        {
-            if let Ok(content) = client().get_file_content(owner, repo_name, path) {
-                if let Some(dsl) = parse_build_gradle_kts(&content) {
-                    if dsl.project_version.is_some() {
+            && let Ok(content) = client().get_file_content(owner, repo_name, path)
+                && let Some(dsl) = parse_build_gradle_kts(&content)
+                    && dsl.project_version.is_some() {
                         return dsl.project_version;
                     }
-                }
-            }
-        }
     }
     None
 }
@@ -247,28 +251,24 @@ fn find_first_allay_dsl(
             dsl.project_version = version.clone();
         }
 
-        if dsl.plugin.is_none() && dsl.has_allay_dependency {
-            if let Some(module) = gradle_path_to_module(gradle_path) {
+        if dsl.plugin.is_none() && dsl.has_allay_dependency
+            && let Some(module) = gradle_path_to_module(gradle_path) {
                 for json_path in plugin_json_paths_for_module(&module) {
                     if !tree_has_file(tree, &json_path) {
                         continue;
                     }
                     if let Ok(json_content) =
                         client().get_file_content(owner, repo_name, &json_path)
-                    {
-                        if let Some(json) = parse_plugin_json(&json_content) {
-                            if json.entrance.is_some() {
+                        && let Some(json) = parse_plugin_json(&json_content)
+                            && json.entrance.is_some() {
                                 dsl.plugin = Some(json.into_plugin_dsl(
                                     dsl.project_version.as_deref(),
                                     dsl.project_description.as_deref(),
                                 ));
                                 break;
                             }
-                        }
-                    }
                 }
             }
-        }
 
         if dsl.plugin.is_some() || dsl.has_allay_dependency {
             return Some(dsl);
@@ -347,37 +347,40 @@ pub fn build_plugins_from_repo(repo: &Repository, gradle_paths: &[String]) -> Ve
         .unwrap_or_else(|| repo.owner.avatar_url.clone());
     let repo_gallery = find_gallery_items(&tree, owner, repo_name, default_branch);
 
-    match build_plugin_from_repo_data(
+    let input = PluginBuildInput {
         repo,
-        &dsl,
-        &releases,
-        &readme,
-        &license,
-        &contributors,
+        dsl: &dsl,
+        releases: &releases,
+        readme: &readme,
+        license: &license,
+        contributors: &contributors,
         owner,
         repo_name,
-        default_branch,
-        &icon_url,
+        branch: default_branch,
+        icon_url: &icon_url,
         repo_gallery,
-    ) {
+    };
+
+    match build_plugin_from_repo_data(input) {
         Some(plugin) => vec![plugin],
         None => Vec::new(),
     }
 }
 
-fn build_plugin_from_repo_data(
-    repo: &Repository,
-    dsl: &AllayDsl,
-    releases: &[Release],
-    readme: &str,
-    license: &License,
-    contributors: &[Contributor],
-    owner: &str,
-    repo_name: &str,
-    branch: &str,
-    icon_url: &str,
-    repo_gallery: Vec<GalleryItem>,
-) -> Option<Plugin> {
+fn build_plugin_from_repo_data(input: PluginBuildInput) -> Option<Plugin> {
+    let PluginBuildInput {
+        repo,
+        dsl,
+        releases,
+        readme,
+        license,
+        contributors,
+        owner,
+        repo_name,
+        branch,
+        icon_url,
+        repo_gallery,
+    } = input;
     let plugin_dsl = match dsl.plugin.as_ref() {
         Some(p) => p,
         None => {
@@ -393,7 +396,7 @@ fn build_plugin_from_repo_data(
     let versions: Vec<Version> = releases
         .iter()
         .filter(|r| !r.draft)
-        .map(|r| build_version(r))
+        .map(build_version)
         .filter(|v| !v.files.is_empty())
         .collect();
 
