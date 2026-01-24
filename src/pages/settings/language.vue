@@ -55,12 +55,14 @@ async function onLocaleChange(newLocale: string) {
         </IntlFormatted>
       </div>
 
-      <LanguageSelector
-        :current-locale="locale"
-        :locales="LOCALES"
-        :on-locale-change="onLocaleChange"
-        :is-changing="$isChanging"
-      />
+      <ClientOnly>
+        <LanguageSelector
+          :current-locale="locale"
+          :locales="LOCALES"
+          :on-locale-change="onLocaleChange"
+          :is-changing="$isChanging"
+        />
+      </ClientOnly>
     </section>
   </div>
 </template>

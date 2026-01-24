@@ -39,7 +39,6 @@
         "semver": "^7.7.3",
         "three": "^0.182.0",
         "vue-confetti-explosion": "^1.0.2",
-        "vue-multiselect": "^3.4.0",
         "vue-typed-virtual-list": "^1.0.10",
         "vue3-ace-editor": "^2.2.4",
         "vue3-apexcharts": "^1.10.0",
@@ -136,7 +135,6 @@
         "qrcode.vue": "^3.4.1",
         "three": "^0.172.0",
         "vue-i18n": "^10.0.0",
-        "vue-multiselect": "3.0.0",
         "vue-select": "4.0.0-beta.6",
         "vue-typed-virtual-list": "^1.0.10",
         "vue3-ace-editor": "^2.2.4",
@@ -2529,8 +2527,6 @@
 
     "vue-inbrowser-compiler-independent-utils": ["vue-inbrowser-compiler-independent-utils@4.71.1", "", { "peerDependencies": { "vue": ">=2" } }, "sha512-K3wt3iVmNGaFEOUR4JIThQRWfqokxLfnPslD41FDZB2ajXp789+wCqJyGYlIFsvEQ2P61PInw6/ph5iiqg51gg=="],
 
-    "vue-multiselect": ["vue-multiselect@3.4.0", "", {}, "sha512-NtaL1/VOsGsvM+H0EZswy1E+RcA5yeCpCxrhT28CBwKu9D1WbMSXBfIDNDw0v+T4enVRfOD5X7u2gyIJWCFX9w=="],
-
     "vue-resize": ["vue-resize@2.0.0-alpha.1", "", { "peerDependencies": { "vue": "^3.0.0" } }, "sha512-7+iqOueLU7uc9NrMfrzbG8hwMqchfVfSzpVlCMeJQe4pyibqyoifDNbKTZvwxZKDvGkB+PdFeKvnGZMoEb8esg=="],
 
     "vue-router": ["vue-router@4.6.4", "", { "dependencies": { "@vue/devtools-api": "^6.6.4" }, "peerDependencies": { "vue": "^3.5.0" } }, "sha512-Hz9q5sa33Yhduglwz6g9skT8OBPii+4bFn88w6J+J4MfEo4KRRpmiNG/hHHkdbRFlLBOqxN8y8gf2Fb0MTUgVg=="],
@@ -2676,8 +2672,6 @@
     "@modrinth/ui/markdown-it": ["markdown-it@13.0.2", "", { "dependencies": { "argparse": "^2.0.1", "entities": "~3.0.1", "linkify-it": "^4.0.1", "mdurl": "^1.0.1", "uc.micro": "^1.0.5" }, "bin": { "markdown-it": "bin/markdown-it.js" } }, "sha512-FtwnEuuK+2yVU7goGn/MJ0WBZMM9ZPgU9spqlFs7/A/pDIUNSOQZhUgOqYCficIuR2QaFnrt8LHqBWsbTAoI5w=="],
 
     "@modrinth/ui/three": ["three@0.172.0", "", {}, "sha512-6HMgMlzU97MsV7D/tY8Va38b83kz8YJX+BefKjspMNAv0Vx6dxMogHOrnRl/sbMIs3BPUKijPqDqJ/+UwJbIow=="],
-
-    "@modrinth/ui/vue-multiselect": ["vue-multiselect@3.0.0", "", {}, "sha512-uupKdINgz7j83lQToCL7KkgQQxvG43el++hsR39YT9pCe1DwzUGmKzPxjVP6rqskXed5P6DtUASYAlCliW740Q=="],
 
     "@modrinth/utils/@types/three": ["@types/three@0.172.0", "", { "dependencies": { "@tweenjs/tween.js": "~23.1.3", "@types/stats.js": "*", "@types/webxr": "*", "@webgpu/types": "*", "fflate": "~0.8.2", "meshoptimizer": "~0.18.1" } }, "sha512-LrUtP3FEG26Zg5WiF0nbg8VoXiKokBLTcqM2iLvM9vzcfEiYmmBAPGdBgV0OYx9fvWlY3R/3ERTZcD9X5sc0NA=="],
 

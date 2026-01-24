@@ -20,177 +20,183 @@
     <section class="universal-card">
       <h2 class="text-2xl">{{ formatMessage(colorTheme.title) }}</h2>
       <p>{{ formatMessage(colorTheme.description) }}</p>
-      <ThemeSelector
-        :update-color-theme="updateColorTheme"
-        :current-theme="theme.preferred"
-        :theme-options="themeOptions"
-        :system-theme-color="systemTheme"
-      />
+      <ClientOnly>
+        <ThemeSelector
+          :update-color-theme="updateColorTheme"
+          :current-theme="theme.preferred"
+          :theme-options="themeOptions"
+          :system-theme-color="systemTheme"
+        />
+      </ClientOnly>
     </section>
     <section class="universal-card">
       <h2 class="text-2xl">{{ formatMessage(projectListLayouts.title) }}</h2>
       <p class="mb-4">{{ formatMessage(projectListLayouts.description) }}</p>
-      <div class="project-lists">
-        <div
-          v-for="projectType in listTypes"
-          :key="projectType.id + '-project-list-layouts'"
-        >
-          <div class="label">
-            <div class="label__title">
-              {{
-                projectListLayouts[projectType.id]
-                  ? formatMessage(projectListLayouts[projectType.id])
-                  : projectType.id
-              }}
+      <ClientOnly>
+        <div class="project-lists">
+          <div
+            v-for="projectType in listTypes"
+            :key="projectType.id + '-project-list-layouts'"
+          >
+            <div class="label">
+              <div class="label__title">
+                {{
+                  projectListLayouts[projectType.id]
+                    ? formatMessage(projectListLayouts[projectType.id])
+                    : projectType.id
+                }}
+              </div>
+            </div>
+            <div class="project-list-layouts">
+              <button
+                class="preview-radio button-base"
+                :class="{
+                  selected:
+                    cosmetics.searchDisplayMode[projectType.id] === 'list',
+                }"
+                @click="
+                  () => (cosmetics.searchDisplayMode[projectType.id] = 'list')
+                "
+              >
+                <div class="preview">
+                  <div class="layout-list-mode">
+                    <div class="example-card card"></div>
+                    <div class="example-card card"></div>
+                    <div class="example-card card"></div>
+                    <div class="example-card card"></div>
+                  </div>
+                </div>
+                <div class="label">
+                  <RadioButtonCheckedIcon
+                    v-if="cosmetics.searchDisplayMode[projectType.id] === 'list'"
+                    class="radio shrink-0"
+                  />
+                  <RadioButtonIcon v-else class="radio shrink-0" />
+                  Rows
+                </div>
+              </button>
+              <button
+                class="preview-radio button-base"
+                :class="{
+                  selected:
+                    cosmetics.searchDisplayMode[projectType.id] === 'grid',
+                }"
+                @click="
+                  () => (cosmetics.searchDisplayMode[projectType.id] = 'grid')
+                "
+              >
+                <div class="preview">
+                  <div class="layout-grid-mode">
+                    <div class="example-card card"></div>
+                    <div class="example-card card"></div>
+                    <div class="example-card card"></div>
+                    <div class="example-card card"></div>
+                    <div class="example-card card"></div>
+                    <div class="example-card card"></div>
+                  </div>
+                </div>
+                <div class="label">
+                  <RadioButtonCheckedIcon
+                    v-if="cosmetics.searchDisplayMode[projectType.id] === 'grid'"
+                    class="radio shrink-0"
+                  />
+                  <RadioButtonIcon v-else class="radio shrink-0" />
+                  Grid
+                </div>
+              </button>
+              <button
+                class="preview-radio button-base"
+                :class="{
+                  selected:
+                    cosmetics.searchDisplayMode[projectType.id] === 'gallery',
+                }"
+                @click="
+                  () => (cosmetics.searchDisplayMode[projectType.id] = 'gallery')
+                "
+              >
+                <div class="preview">
+                  <div class="layout-gallery-mode">
+                    <div class="example-card card"></div>
+                    <div class="example-card card"></div>
+                    <div class="example-card card"></div>
+                    <div class="example-card card"></div>
+                  </div>
+                </div>
+                <div class="label">
+                  <RadioButtonCheckedIcon
+                    v-if="
+                      cosmetics.searchDisplayMode[projectType.id] === 'gallery'
+                    "
+                    class="radio shrink-0"
+                  />
+                  <RadioButtonIcon v-else class="radio shrink-0" />
+                  Gallery
+                </div>
+              </button>
             </div>
           </div>
-          <div class="project-list-layouts">
-            <button
-              class="preview-radio button-base"
-              :class="{
-                selected:
-                  cosmetics.searchDisplayMode[projectType.id] === 'list',
-              }"
-              @click="
-                () => (cosmetics.searchDisplayMode[projectType.id] = 'list')
-              "
-            >
-              <div class="preview">
-                <div class="layout-list-mode">
-                  <div class="example-card card"></div>
-                  <div class="example-card card"></div>
-                  <div class="example-card card"></div>
-                  <div class="example-card card"></div>
-                </div>
-              </div>
-              <div class="label">
-                <RadioButtonCheckedIcon
-                  v-if="cosmetics.searchDisplayMode[projectType.id] === 'list'"
-                  class="radio shrink-0"
-                />
-                <RadioButtonIcon v-else class="radio shrink-0" />
-                Rows
-              </div>
-            </button>
-            <button
-              class="preview-radio button-base"
-              :class="{
-                selected:
-                  cosmetics.searchDisplayMode[projectType.id] === 'grid',
-              }"
-              @click="
-                () => (cosmetics.searchDisplayMode[projectType.id] = 'grid')
-              "
-            >
-              <div class="preview">
-                <div class="layout-grid-mode">
-                  <div class="example-card card"></div>
-                  <div class="example-card card"></div>
-                  <div class="example-card card"></div>
-                  <div class="example-card card"></div>
-                  <div class="example-card card"></div>
-                  <div class="example-card card"></div>
-                </div>
-              </div>
-              <div class="label">
-                <RadioButtonCheckedIcon
-                  v-if="cosmetics.searchDisplayMode[projectType.id] === 'grid'"
-                  class="radio shrink-0"
-                />
-                <RadioButtonIcon v-else class="radio shrink-0" />
-                Grid
-              </div>
-            </button>
-            <button
-              class="preview-radio button-base"
-              :class="{
-                selected:
-                  cosmetics.searchDisplayMode[projectType.id] === 'gallery',
-              }"
-              @click="
-                () => (cosmetics.searchDisplayMode[projectType.id] = 'gallery')
-              "
-            >
-              <div class="preview">
-                <div class="layout-gallery-mode">
-                  <div class="example-card card"></div>
-                  <div class="example-card card"></div>
-                  <div class="example-card card"></div>
-                  <div class="example-card card"></div>
-                </div>
-              </div>
-              <div class="label">
-                <RadioButtonCheckedIcon
-                  v-if="
-                    cosmetics.searchDisplayMode[projectType.id] === 'gallery'
-                  "
-                  class="radio shrink-0"
-                />
-                <RadioButtonIcon v-else class="radio shrink-0" />
-                Gallery
-              </div>
-            </button>
-          </div>
         </div>
-      </div>
+      </ClientOnly>
     </section>
     <section class="universal-card">
       <h2 class="text-2xl">{{ formatMessage(toggleFeatures.title) }}</h2>
       <p class="mb-4">{{ formatMessage(toggleFeatures.description) }}</p>
-      <div class="adjacent-input small">
-        <label for="advanced-rendering">
-          <span class="label__title">
-            {{ formatMessage(toggleFeatures.advancedRenderingTitle) }}
-          </span>
-          <span class="label__description">
-            {{ formatMessage(toggleFeatures.advancedRenderingDescription) }}
-          </span>
-        </label>
-        <input
-          id="advanced-rendering"
-          v-model="cosmetics.advancedRendering"
-          class="switch stylized-toggle"
-          type="checkbox"
-        />
-      </div>
-      <div class="adjacent-input small">
-        <label for="search-layout-toggle">
-          <span class="label__title">
-            {{ formatMessage(toggleFeatures.rightAlignedFiltersSidebarTitle) }}
-          </span>
-          <span class="label__description">
-            {{
-              formatMessage(
-                toggleFeatures.rightAlignedFiltersSidebarDescription,
-              )
-            }}
-          </span>
-        </label>
-        <input
-          id="search-layout-toggle"
-          v-model="cosmetics.rightSearchLayout"
-          class="switch stylized-toggle"
-          type="checkbox"
-        />
-      </div>
-      <div class="adjacent-input small">
-        <label for="project-layout-toggle">
-          <span class="label__title">
-            {{ formatMessage(toggleFeatures.leftAlignedContentSidebarTitle) }}
-          </span>
-          <span class="label__description">
-            {{
-              formatMessage(toggleFeatures.leftAlignedContentSidebarDescription)
-            }}
-          </span>
-        </label>
-        <input
-          id="project-layout-toggle"
-          v-model="cosmetics.leftContentLayout"
-          class="switch stylized-toggle"
-          type="checkbox"
-        />
-      </div>
+      <ClientOnly>
+        <div class="adjacent-input small">
+          <label for="advanced-rendering">
+            <span class="label__title">
+              {{ formatMessage(toggleFeatures.advancedRenderingTitle) }}
+            </span>
+            <span class="label__description">
+              {{ formatMessage(toggleFeatures.advancedRenderingDescription) }}
+            </span>
+          </label>
+          <input
+            id="advanced-rendering"
+            v-model="cosmetics.advancedRendering"
+            class="switch stylized-toggle"
+            type="checkbox"
+          />
+        </div>
+        <div class="adjacent-input small">
+          <label for="search-layout-toggle">
+            <span class="label__title">
+              {{ formatMessage(toggleFeatures.rightAlignedFiltersSidebarTitle) }}
+            </span>
+            <span class="label__description">
+              {{
+                formatMessage(
+                  toggleFeatures.rightAlignedFiltersSidebarDescription,
+                )
+              }}
+            </span>
+          </label>
+          <input
+            id="search-layout-toggle"
+            v-model="cosmetics.rightSearchLayout"
+            class="switch stylized-toggle"
+            type="checkbox"
+          />
+        </div>
+        <div class="adjacent-input small">
+          <label for="project-layout-toggle">
+            <span class="label__title">
+              {{ formatMessage(toggleFeatures.leftAlignedContentSidebarTitle) }}
+            </span>
+            <span class="label__description">
+              {{
+                formatMessage(toggleFeatures.leftAlignedContentSidebarDescription)
+              }}
+            </span>
+          </label>
+          <input
+            id="project-layout-toggle"
+            v-model="cosmetics.leftContentLayout"
+            class="switch stylized-toggle"
+            type="checkbox"
+          />
+        </div>
+      </ClientOnly>
     </section>
   </div>
 </template>

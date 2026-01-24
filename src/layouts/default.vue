@@ -130,8 +130,13 @@
             {{ formatMessage(commonMessages.settingsLabel) }}
           </NuxtLink>
           <button class="iconified-button" @click="changeTheme">
-            <MoonIcon v-if="$theme.active === 'light'" class="icon" />
-            <SunIcon v-else class="icon" />
+            <ClientOnly>
+              <MoonIcon v-if="$theme.active === 'light'" class="icon" />
+              <SunIcon v-else class="icon" />
+              <template #fallback>
+                <SunIcon class="icon" />
+              </template>
+            </ClientOnly>
             <span class="dropdown-item__text">
               {{ formatMessage(messages.changeTheme) }}
             </span>

@@ -1,5 +1,3 @@
-import { ref } from 'vue'
-
 import { useNativeTheme } from './native-theme.ts'
 import { usePreferredThemes } from './preferred-theme.ts'
 import { useThemeSettings } from './theme-settings.ts'
@@ -10,60 +8,50 @@ export * from './themes.ts'
 export default defineNuxtPlugin({
   name: 'theme',
   dependsOn: ['cosmetics'],
-  setup(nuxtApp) {
+  setup() {
     const $nativeTheme = useNativeTheme()
-
     const $preferredThemes = usePreferredThemes()
 
     function getPreferredNativeTheme() {
-      const nativeTheme = $nativeTheme.value
-      switch (nativeTheme) {
-        case 'light':
-          return $preferredThemes.light
-        case 'dark':
-        case 'unknown':
-          if (
-            import.meta.dev &&
-            import.meta.server &&
-            nativeTheme === 'unknown'
-          ) {
-            console.warn(
-              '[theme] no client hint is available for request, using dark theme as default',
-            )
-          }
-
-          return $preferredThemes.dark
-      }
+      return $nativeTheme.value === 'light'
+        ? $preferredThemes.light
+        : $preferredThemes.dark
     }
 
     const $settings = useThemeSettings(() => getPreferredNativeTheme())
 
-    useHead({ htmlAttrs: { class: () => [`${$settings.active}-mode`] } })
+    useHead({
+      script: [
+        {
+          innerHTML: `(function(){try{var c=document.cookie.match(/color-mode=([^;]+)/);if(c){var t=JSON.parse(decodeURIComponent(c[1]));if(t&&t.value){document.documentElement.classList.add(t.value+'-mode');return}}document.documentElement.classList.add('dark-mode')}catch(e){document.documentElement.classList.add('dark-mode')}})()`,
+          tagPosition: 'head',
+        },
+      ],
+    })
 
     function syncTheme() {
       $settings.active =
         $settings.preferred === 'system'
           ? getPreferredNativeTheme()
           : $settings.preferred
-    }
 
-    if (
-      import.meta.server &&
-      $settings.preferred === 'system' &&
-      $nativeTheme.value !== 'unknown'
-    ) {
-      // take advantage of the client hint
-      syncTheme()
+      if (import.meta.client) {
+        const html = document.documentElement
+        html.classList.forEach((cls) => {
+          if (cls.endsWith('-mode')) {
+            html.classList.remove(cls)
+          }
+        })
+        html.classList.add(`${$settings.active}-mode`)
+      }
     }
 
     if (import.meta.client) {
-      const $clientReady = ref(false)
-
-      nuxtApp.hook('app:suspense:resolve', () => {
-        $clientReady.value = true
+      watchEffect(() => {
+        if ($settings.preferred) {
+          syncTheme()
+        }
       })
-
-      watchEffect(() => $clientReady.value && syncTheme())
     }
 
     function cycle() {
@@ -80,14 +68,7 @@ export default defineNuxtPlugin({
       provide: {
         theme: reactive({
           ...toRefs($settings),
-          /**
-           * Preferred themes for each mode.
-           */
           preferences: $preferredThemes,
-          /**
-           * Current native (system) theme provided through client hint header or
-           * `prefers-color-scheme` media query.
-           */
           native: $nativeTheme,
           cycle,
         }),

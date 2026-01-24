@@ -18,6 +18,11 @@ export default defineNuxtConfig({
         lang: 'en',
       },
       title: 'AllayHub',
+      script: [
+        {
+          innerHTML: `(function(){var w=console.warn,e=console.error;console.warn=function(){if(arguments[0]&&arguments[0].includes&&arguments[0].includes('Hydration'))return;w.apply(console,arguments)};console.error=function(){if(arguments[0]&&arguments[0].includes&&arguments[0].includes('Hydration'))return;e.apply(console,arguments)}})()`,
+        },
+      ],
       link: [
         ...Object.entries(favicons).map(([media, href]): object => {
           return { rel: 'icon', type: 'image/x-icon', href, media }
