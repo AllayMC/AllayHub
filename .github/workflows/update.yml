@@ -86,11 +86,11 @@ jobs:
           if [ "${{ github.event_name }}" = "workflow_dispatch" ] && [ "${{ inputs.mode }}" != "auto" ]; then
             echo "mode=${{ inputs.mode }}" >> $GITHUB_OUTPUT
           else
-            HOUR=$(date -u +%H)
-            if [ "$HOUR" = "00" ]; then
-              echo "mode=discover" >> $GITHUB_OUTPUT
-            else
+            TODAY=$(date -u +%Y-%m-%d)
+            if [ -f .last_sync ] && grep -q "$TODAY" .last_sync; then
               echo "mode=update" >> $GITHUB_OUTPUT
+            else
+              echo "mode=discover" >> $GITHUB_OUTPUT
             fi
           fi
           echo "Running in mode: $(cat $GITHUB_OUTPUT | grep mode | cut -d= -f2)"
