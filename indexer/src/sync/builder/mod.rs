@@ -2,6 +2,7 @@ mod image;
 mod link;
 mod version_resolver;
 
+use crate::codegen::CATEGORIES;
 use crate::github::{Contributor, GitTreeEntry, Release, Repository, client};
 use crate::gradle::{AllayDsl, VersionRef, parse_build_gradle_kts, parse_plugin_json};
 use crate::plugin::{
@@ -438,7 +439,7 @@ fn build_plugin_from_repo_data(
         summary,
         description: processed_readme,
         authors,
-        categories: vec!["utility".to_string()],
+        categories: build_categories(&repo.topics),
         license: license.clone(),
         links: Some(Links {
             homepage: website,
@@ -492,6 +493,21 @@ fn build_version(release: &Release) -> Version {
         files,
         downloads: total_downloads,
         published_at: parse_timestamp(&release.published_at),
+    }
+}
+
+fn build_categories(topics: &[String]) -> Vec<String> {
+    let valid_ids: std::collections::HashSet<&str> =
+        CATEGORIES.iter().map(|(id, _, _)| *id).collect();
+    let categories: Vec<String> = topics
+        .iter()
+        .filter(|t| valid_ids.contains(t.as_str()))
+        .cloned()
+        .collect();
+    if categories.is_empty() {
+        vec!["utility".to_string()]
+    } else {
+        categories
     }
 }
 
