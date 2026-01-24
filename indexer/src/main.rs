@@ -226,6 +226,7 @@ fn cmd_update(args: &[String]) {
         updated = update.updated.len(),
         unchanged = update.unchanged.len(),
         api_calls = client().api_calls(),
+        cache_hits = client().cache_hits(),
         api_remaining = client().rate_limit.remaining(),
         "Update finished"
     );
@@ -303,6 +304,7 @@ fn cmd_discover(args: &[String]) {
         mode = if dry_run { "preview" } else { "complete" },
         found = discover.new_plugins.len(),
         api_calls = client().api_calls(),
+        cache_hits = client().cache_hits(),
         api_remaining = client().rate_limit.remaining(),
         "Discover finished"
     );

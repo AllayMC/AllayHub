@@ -91,6 +91,7 @@ pub struct GitHubClient {
     cached_token: RwLock<Option<(String, Instant)>>,
     pub rate_limit: RateLimit,
     api_calls: AtomicUsize,
+    cache_hits: AtomicUsize,
     cache: Arc<RwLock<ResponseCache>>,
 }
 
@@ -101,6 +102,7 @@ impl Clone for GitHubClient {
             cached_token: RwLock::new(self.cached_token.read().unwrap().clone()),
             rate_limit: self.rate_limit.clone(),
             api_calls: AtomicUsize::new(self.api_calls.load(Ordering::SeqCst)),
+            cache_hits: AtomicUsize::new(self.cache_hits.load(Ordering::SeqCst)),
             cache: Arc::clone(&self.cache),
         }
     }
@@ -117,6 +119,7 @@ impl GitHubClient {
             cached_token: RwLock::new(None),
             rate_limit: RateLimit::new(),
             api_calls: AtomicUsize::new(0),
+            cache_hits: AtomicUsize::new(0),
             cache: Arc::new(RwLock::new(ResponseCache::from_data_cache(data_cache))),
         }
     }
@@ -131,6 +134,7 @@ impl GitHubClient {
             cached_token: RwLock::new(None),
             rate_limit: RateLimit::new(),
             api_calls: AtomicUsize::new(0),
+            cache_hits: AtomicUsize::new(0),
             cache: Arc::new(RwLock::new(ResponseCache::from_data_cache(data_cache))),
         }
     }
@@ -141,6 +145,10 @@ impl GitHubClient {
 
     pub fn api_calls(&self) -> usize {
         self.api_calls.load(Ordering::SeqCst)
+    }
+
+    pub fn cache_hits(&self) -> usize {
+        self.cache_hits.load(Ordering::SeqCst)
     }
 
     fn get_token(&self) -> Result<Option<String>, String> {
@@ -215,6 +223,7 @@ impl GitHubClient {
             self.api_calls.fetch_add(1, Ordering::SeqCst);
             match req.call() {
                 Ok(resp) if resp.status() == 304 => {
+                    self.cache_hits.fetch_add(1, Ordering::SeqCst);
                     return Err("not_modified".to_string());
                 }
                 Ok(mut resp) => {
@@ -244,6 +253,7 @@ impl GitHubClient {
                     return Ok((data, new_etag));
                 }
                 Err(ureq::Error::StatusCode(304)) => {
+                    self.cache_hits.fetch_add(1, Ordering::SeqCst);
                     return Err("not_modified".to_string());
                 }
                 Err(ureq::Error::StatusCode(code)) if code == 403 || code == 429 => {
