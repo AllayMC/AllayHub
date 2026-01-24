@@ -1,6 +1,5 @@
 use std::collections::HashSet;
 use std::fs;
-use std::path::Path;
 
 pub fn has_flag(args: &[String], flag: &str) -> bool {
     args.iter().any(|a| a == flag)
@@ -37,21 +36,18 @@ pub fn write_last_sync() {
     let _ = fs::write(".last_sync", &date);
 }
 
-pub fn read_processed_ids(index_dir: &Path) -> HashSet<String> {
-    let path = index_dir.join(".update_progress");
-    fs::read_to_string(path)
+pub fn read_processed_ids() -> HashSet<String> {
+    fs::read_to_string(".update_progress")
         .ok()
         .map(|s| s.lines().map(|l| l.to_string()).collect())
         .unwrap_or_default()
 }
 
-pub fn write_processed_ids(index_dir: &Path, ids: &HashSet<String>) {
-    let path = index_dir.join(".update_progress");
+pub fn write_processed_ids(ids: &HashSet<String>) {
     let content: Vec<_> = ids.iter().map(|s| s.as_str()).collect();
-    let _ = fs::write(path, content.join("\n"));
+    let _ = fs::write(".update_progress", content.join("\n"));
 }
 
-pub fn clear_processed_ids(index_dir: &Path) {
-    let path = index_dir.join(".update_progress");
-    let _ = fs::remove_file(path);
+pub fn clear_processed_ids() {
+    let _ = fs::remove_file(".update_progress");
 }

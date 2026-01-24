@@ -1,5 +1,7 @@
 use super::auth::GitHubAppAuth;
 use super::types::*;
+use crate::cache::{CacheEntry, DataCache};
+use std::collections::HashMap;
 use std::sync::atomic::{AtomicBool, AtomicUsize, Ordering};
 use std::sync::{Arc, Mutex, RwLock};
 use std::thread;
@@ -11,6 +13,33 @@ const MAX_CONCURRENT: usize = 10;
 const API_BASE: &str = "https://api.github.com";
 const TOKEN_REFRESH_MARGIN: Duration = Duration::from_secs(3600 - 300);
 const RATE_LIMIT_BUFFER: usize = 5;
+
+const USER_AGENT: &str = concat!(
+    "AllayIndexer/",
+    env!("CARGO_PKG_VERSION"),
+    " (+https://github.com/AllayMC/AllayHub)"
+);
+
+struct ResponseCache {
+    repositories: HashMap<String, CacheEntry<Repository>>,
+    trees: HashMap<String, CacheEntry<GitTree>>,
+}
+
+impl ResponseCache {
+    fn from_data_cache(cache: DataCache) -> Self {
+        Self {
+            repositories: cache.repositories,
+            trees: cache.trees,
+        }
+    }
+
+    fn to_data_cache(&self) -> DataCache {
+        DataCache {
+            repositories: self.repositories.clone(),
+            trees: self.trees.clone(),
+        }
+    }
+}
 
 #[derive(Clone)]
 pub enum AuthMethod {
@@ -62,6 +91,7 @@ pub struct GitHubClient {
     cached_token: RwLock<Option<(String, Instant)>>,
     pub rate_limit: RateLimit,
     api_calls: AtomicUsize,
+    cache: Arc<RwLock<ResponseCache>>,
 }
 
 impl Clone for GitHubClient {
@@ -71,27 +101,42 @@ impl Clone for GitHubClient {
             cached_token: RwLock::new(self.cached_token.read().unwrap().clone()),
             rate_limit: self.rate_limit.clone(),
             api_calls: AtomicUsize::new(self.api_calls.load(Ordering::SeqCst)),
+            cache: Arc::clone(&self.cache),
         }
     }
 }
 
 impl GitHubClient {
     pub fn new(token: Option<String>) -> Self {
+        Self::new_with_cache(token, DataCache::default())
+    }
+
+    pub fn new_with_cache(token: Option<String>, data_cache: DataCache) -> Self {
         Self {
             auth: token.map(AuthMethod::Token).unwrap_or(AuthMethod::None),
             cached_token: RwLock::new(None),
             rate_limit: RateLimit::new(),
             api_calls: AtomicUsize::new(0),
+            cache: Arc::new(RwLock::new(ResponseCache::from_data_cache(data_cache))),
         }
     }
 
     pub fn with_app(app_auth: GitHubAppAuth) -> Self {
+        Self::with_app_and_cache(app_auth, DataCache::default())
+    }
+
+    pub fn with_app_and_cache(app_auth: GitHubAppAuth, data_cache: DataCache) -> Self {
         Self {
             auth: AuthMethod::App(app_auth),
             cached_token: RwLock::new(None),
             rate_limit: RateLimit::new(),
             api_calls: AtomicUsize::new(0),
+            cache: Arc::new(RwLock::new(ResponseCache::from_data_cache(data_cache))),
         }
+    }
+
+    pub fn export_data_cache(&self) -> DataCache {
+        self.cache.read().unwrap().to_data_cache()
     }
 
     pub fn api_calls(&self) -> usize {
@@ -143,21 +188,36 @@ impl GitHubClient {
     }
 
     fn request<T: serde::de::DeserializeOwned>(&self, url: &str) -> Result<T, String> {
+        self.request_with_etag(url, None).map(|(data, _)| data)
+    }
+
+    fn request_with_etag<T: serde::de::DeserializeOwned>(
+        &self,
+        url: &str,
+        etag: Option<&str>,
+    ) -> Result<(T, Option<String>), String> {
         let _span = debug_span!("api_request", url = %url).entered();
         let token = self.get_token()?;
 
         for attempt in 0..3 {
             let mut req = ureq::get(url)
                 .header("Accept", "application/vnd.github+json")
-                .header("User-Agent", "allayindexer")
+                .header("User-Agent", USER_AGENT)
                 .header("X-GitHub-Api-Version", "2022-11-28");
 
             if let Some(t) = &token {
                 req = req.header("Authorization", &format!("Bearer {}", t));
             }
 
+            if let Some(etag_val) = etag {
+                req = req.header("If-None-Match", etag_val);
+            }
+
             self.api_calls.fetch_add(1, Ordering::SeqCst);
             match req.call() {
+                Ok(resp) if resp.status() == 304 => {
+                    return Err("not_modified".to_string());
+                }
                 Ok(mut resp) => {
                     self.update_rate_limit_from_headers(
                         resp.headers()
@@ -170,19 +230,31 @@ impl GitHubClient {
                             .get("X-RateLimit-Reset")
                             .and_then(|h| h.to_str().ok()),
                     );
-                    return resp
+
+                    let new_etag = resp
+                        .headers()
+                        .get("ETag")
+                        .and_then(|h| h.to_str().ok())
+                        .map(String::from);
+
+                    let data = resp
                         .body_mut()
                         .read_json()
-                        .map_err(|e| format!("Parse error: {}", e));
+                        .map_err(|e| format!("Parse error: {}", e))?;
+
+                    return Ok((data, new_etag));
+                }
+                Err(ureq::Error::StatusCode(304)) => {
+                    return Err("not_modified".to_string());
                 }
                 Err(ureq::Error::StatusCode(code)) if code == 403 || code == 429 => {
                     if attempt < 2 {
-                        let wait = 60;
+                        let wait = 30u64 * (1 << attempt);
                         warn!(
                             code = code,
-                            wait = wait,
+                            wait_secs = wait,
                             attempt = attempt + 1,
-                            "Rate limited, waiting"
+                            "Rate limited, exponential backoff"
                         );
                         thread::sleep(Duration::from_secs(wait));
                         continue;
@@ -202,7 +274,7 @@ impl GitHubClient {
         for attempt in 0..3 {
             let mut req = ureq::get(url)
                 .header("Accept", "application/vnd.github.raw+json")
-                .header("User-Agent", "allayindexer")
+                .header("User-Agent", USER_AGENT)
                 .header("X-GitHub-Api-Version", "2022-11-28");
 
             if let Some(t) = &token {
@@ -228,12 +300,12 @@ impl GitHubClient {
                 Err(ureq::Error::StatusCode(404)) => return Err("not found".to_string()),
                 Err(ureq::Error::StatusCode(code)) if code == 403 || code == 429 => {
                     if attempt < 2 {
-                        let wait = 60;
+                        let wait = 30u64 * (1 << attempt);
                         warn!(
                             code = code,
-                            wait = wait,
+                            wait_secs = wait,
                             attempt = attempt + 1,
-                            "Rate limited, waiting"
+                            "Rate limited, exponential backoff"
                         );
                         thread::sleep(Duration::from_secs(wait));
                         continue;
@@ -247,8 +319,34 @@ impl GitHubClient {
     }
 
     pub fn get_repository(&self, owner: &str, repo: &str) -> Result<Repository, String> {
+        let cache_key = format!("{}/{}", owner, repo);
         let url = format!("{}/repos/{}/{}", API_BASE, owner, repo);
-        self.request(&url)
+
+        let cached = {
+            let cache = self.cache.read().unwrap();
+            cache.repositories.get(&cache_key).cloned()
+        };
+
+        let etag = cached.as_ref().and_then(|e| e.etag.as_deref());
+
+        match self.request_with_etag::<Repository>(&url, etag) {
+            Ok((data, new_etag)) => {
+                let mut cache = self.cache.write().unwrap();
+                cache.repositories.insert(
+                    cache_key,
+                    CacheEntry {
+                        data: data.clone(),
+                        etag: new_etag,
+                    },
+                );
+                Ok(data)
+            }
+            Err(e) if e == "not_modified" => {
+                debug!(key = %cache_key, "Cache hit (304)");
+                Ok(cached.unwrap().data)
+            }
+            Err(e) => Err(e),
+        }
     }
 
     pub fn get_latest_release(&self, owner: &str, repo: &str) -> Result<Release, String> {
@@ -333,11 +431,37 @@ impl GitHubClient {
     }
 
     pub fn get_tree(&self, owner: &str, repo: &str, branch: &str) -> Result<GitTree, String> {
+        let cache_key = format!("{}/{}/{}", owner, repo, branch);
         let url = format!(
             "{}/repos/{}/{}/git/trees/{}?recursive=1",
             API_BASE, owner, repo, branch
         );
-        self.request(&url)
+
+        let cached = {
+            let cache = self.cache.read().unwrap();
+            cache.trees.get(&cache_key).cloned()
+        };
+
+        let etag = cached.as_ref().and_then(|e| e.etag.as_deref());
+
+        match self.request_with_etag::<GitTree>(&url, etag) {
+            Ok((data, new_etag)) => {
+                let mut cache = self.cache.write().unwrap();
+                cache.trees.insert(
+                    cache_key,
+                    CacheEntry {
+                        data: data.clone(),
+                        etag: new_etag,
+                    },
+                );
+                Ok(data)
+            }
+            Err(e) if e == "not_modified" => {
+                debug!(key = %cache_key, "Cache hit (304)");
+                Ok(cached.unwrap().data)
+            }
+            Err(e) => Err(e),
+        }
     }
 
     pub fn get_contributors_by_url(&self, url: &str) -> Result<Vec<Contributor>, String> {

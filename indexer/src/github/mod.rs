@@ -6,6 +6,7 @@ pub use api::{BatchResult, GitHubClient};
 pub use auth::GitHubAppAuth;
 pub use types::*;
 
+use crate::cache::DataCache;
 use crate::util::get_arg;
 use std::env;
 use std::fs;
@@ -31,6 +32,8 @@ fn create_client(args: &[String]) -> Result<GitHubClient, String> {
     let private_key_file = get_arg(args, "--private-key-file");
     let private_key_env = env::var("GITHUB_PRIVATE_KEY").ok();
 
+    let data_cache = DataCache::load();
+
     if let (Some(app_id), Some(installation_id)) = (app_id, installation_id) {
         let private_key = if let Some(path) = private_key_file {
             fs::read_to_string(&path).map_err(|e| format!("Failed to read private key: {}", e))?
@@ -41,17 +44,20 @@ fn create_client(args: &[String]) -> Result<GitHubClient, String> {
         };
 
         println!("Using GitHub App authentication (15,000 req/hour)");
-        return Ok(GitHubClient::with_app(GitHubAppAuth {
-            app_id,
-            installation_id,
-            private_key,
-        }));
+        return Ok(GitHubClient::with_app_and_cache(
+            GitHubAppAuth {
+                app_id,
+                installation_id,
+                private_key,
+            },
+            data_cache,
+        ));
     }
 
     let token = get_arg(args, "--token").or_else(|| env::var("GITHUB_TOKEN").ok());
     if let Some(t) = token {
         println!("Using personal token authentication (5,000 req/hour)");
-        return Ok(GitHubClient::new(Some(t)));
+        return Ok(GitHubClient::new_with_cache(Some(t), data_cache));
     }
 
     Err("No authentication provided. Use --token or GitHub App options.".to_string())

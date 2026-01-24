@@ -80,6 +80,14 @@ jobs:
           restore-keys: |
             last-sync-
 
+      - name: Restore data cache
+        uses: actions/cache/restore@v4
+        with:
+          path: .data_cache.bin.gz
+          key: data-cache-${{ github.run_id }}
+          restore-keys: |
+            data-cache-
+
       - name: Determine run mode
         id: mode
         run: |
@@ -123,18 +131,25 @@ jobs:
         run: rm -f /tmp/app-private-key.pem
 
       - name: Save update progress
-        if: always()
+        if: always() && hashFiles('.update_progress') != ''
         uses: actions/cache/save@v4
         with:
           path: .update_progress
           key: update-progress-${{ steps.date.outputs.today }}-${{ github.run_id }}
 
       - name: Save last sync
-        if: always()
+        if: always() && hashFiles('.last_sync') != ''
         uses: actions/cache/save@v4
         with:
           path: .last_sync
           key: last-sync-${{ github.run_id }}
+
+      - name: Save data cache
+        if: always() && hashFiles('.data_cache.bin.gz') != ''
+        uses: actions/cache/save@v4
+        with:
+          path: .data_cache.bin.gz
+          key: data-cache-${{ github.run_id }}
 
       - name: Check for changes
         id: changes

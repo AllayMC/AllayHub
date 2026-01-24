@@ -67,8 +67,7 @@ fn print_usage() {
     println!("  allayindexer discover [OPTIONS]       Discover new plugins");
     println!();
     println!("Options:");
-    println!("  --force                      Force update all plugins (ignore progress)");
-    println!("  --full                       Force full scan (ignore last sync time)");
+    println!("  --force                      Force full run (ignore saved state)");
     println!("  --dry-run                    Preview changes without applying");
     println!("  --debug                      Enable debug logging");
     println!();
@@ -149,10 +148,10 @@ fn cmd_update(args: &[String]) {
 
     let (remaining, mut processed_ids) = if force {
         info!("Force mode: updating all plugins");
-        clear_processed_ids(index_dir);
+        clear_processed_ids();
         (plugins.clone(), HashSet::new())
     } else {
-        let processed = read_processed_ids(index_dir);
+        let processed = read_processed_ids();
         let remaining: Vec<_> = plugins
             .iter()
             .filter(|p| !processed.contains(&p.id))
@@ -163,7 +162,7 @@ fn cmd_update(args: &[String]) {
 
     if remaining.is_empty() {
         info!("All plugins already updated today");
-        clear_processed_ids(index_dir);
+        clear_processed_ids();
         return;
     }
     info!(count = remaining.len(), "Plugins to update");
@@ -210,10 +209,10 @@ fn cmd_update(args: &[String]) {
         processed_ids.extend(update.processed_ids);
 
         if update.stopped_by_rate_limit {
-            write_processed_ids(index_dir, &processed_ids);
+            write_processed_ids(&processed_ids);
             warn!(processed = processed_ids.len(), "Stopped due to rate limit");
         } else {
-            clear_processed_ids(index_dir);
+            clear_processed_ids();
         }
     }
 
@@ -230,6 +229,8 @@ fn cmd_update(args: &[String]) {
         api_remaining = client().rate_limit.remaining(),
         "Update finished"
     );
+
+    client().export_data_cache().save();
 }
 
 fn cmd_discover(args: &[String]) {
@@ -260,7 +261,7 @@ fn cmd_discover(args: &[String]) {
         .filter_map(|p| extract_repo_full_name(&p.source))
         .collect();
 
-    let last_sync = if has_flag(args, "--full") {
+    let last_sync = if has_flag(args, "--force") {
         info!("Full scan mode");
         None
     } else {
@@ -305,4 +306,6 @@ fn cmd_discover(args: &[String]) {
         api_remaining = client().rate_limit.remaining(),
         "Discover finished"
     );
+
+    client().export_data_cache().save();
 }

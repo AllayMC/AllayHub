@@ -100,7 +100,6 @@ fn resolve_dsl_versions(dsl: &mut AllayDsl, tree: &[GitTreeEntry], owner: &str, 
         }
     }
 
-    // Resolve branch-based SNAPSHOT (e.g., "master-SNAPSHOT") to latest API version
     if let Some(api) = &dsl.api {
         if is_branch_snapshot(api) {
             if let Some(v) = version_resolver::resolve_snapshot_version() {

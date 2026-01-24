@@ -97,6 +97,10 @@ fn update_plugin(plugin: &Plugin, force: bool) -> Result<UpdateStatus, String> {
         debug!(id = %plugin.id, "Plugin repo archived, marking deleted");
         return Ok(UpdateStatus::Deleted);
     }
+    if repo.topics.iter().any(|t| t == "noindex") {
+        debug!(id = %plugin.id, "Plugin has noindex topic, marking deleted");
+        return Ok(UpdateStatus::Deleted);
+    }
 
     let new_plugins = build_plugins_from_repo(&repo, &[]);
 
