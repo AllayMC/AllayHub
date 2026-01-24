@@ -14,6 +14,11 @@ on:
           - auto
           - update
           - discover
+      force:
+        description: 'Force full scan (ignore last_sync)'
+        required: false
+        default: false
+        type: boolean
 
 concurrency:
   group: sync-index
@@ -120,7 +125,11 @@ jobs:
       - name: Run discover
         if: steps.mode.outputs.mode == 'discover'
         run: |
-          ./allayindexer discover \
+          FORCE_FLAG=""
+          if [ "${{ inputs.force }}" = "true" ]; then
+            FORCE_FLAG="--force"
+          fi
+          ./allayindexer discover $FORCE_FLAG \
             --app-id ${{ vars.APP_ID }} \
             --installation-id ${{ vars.APP_INSTALLATION_ID }} \
             --private-key-file /tmp/app-private-key.pem \
