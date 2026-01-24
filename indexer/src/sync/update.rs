@@ -1,7 +1,7 @@
 use super::builder::{build_plugins_from_repo, parse_github_url};
 use crate::github::client;
 use crate::plugin::Plugin;
-use std::collections::HashSet;
+use std::collections::{HashMap, HashSet};
 use tracing::{debug, debug_span, info, warn};
 
 pub struct UpdateResult {
@@ -111,6 +111,7 @@ fn update_plugin(plugin: &Plugin, force: bool) -> Result<UpdateStatus, String> {
     };
 
     merge_preserved_fields(plugin, &mut new_plugin);
+    merge_gallery_created(plugin, &mut new_plugin);
 
     if force || plugin_changed(plugin, &new_plugin) {
         Ok(UpdateStatus::Updated(new_plugin))
@@ -138,6 +139,25 @@ fn merge_preserved_fields(old: &Plugin, new: &mut Plugin) {
     }
 
     new.preserved_fields = old.preserved_fields.clone();
+}
+
+fn merge_gallery_created(old: &Plugin, new: &mut Plugin) {
+    let old_created: HashMap<&str, &str> = old
+        .gallery
+        .iter()
+        .filter(|g| !g.created.is_empty())
+        .map(|g| (g.url.as_str(), g.created.as_str()))
+        .collect();
+
+    let now = chrono::Utc::now().format("%Y-%m-%d").to_string();
+
+    for item in &mut new.gallery {
+        if let Some(&created) = old_created.get(item.url.as_str()) {
+            item.created = created.to_string();
+        } else if item.created.is_empty() {
+            item.created = now.clone();
+        }
+    }
 }
 
 fn plugin_changed(old: &Plugin, new: &Plugin) -> bool {

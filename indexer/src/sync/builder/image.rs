@@ -19,10 +19,11 @@ fn is_relative_path(src: &str) -> bool {
 
 fn to_raw_url(src: &str, ctx: &PostProcessContext) -> String {
     let path = src.trim_start_matches("./");
-    format!(
-        "https://raw.githubusercontent.com/{}/{}/{}/{}",
-        ctx.owner, ctx.repo, ctx.branch, path
-    )
+    super::to_raw_url(ctx.owner, ctx.repo, ctx.branch, path)
+}
+
+fn now_date() -> String {
+    chrono::Utc::now().format("%Y-%m-%d").to_string()
 }
 
 pub fn process_html_images(
@@ -51,7 +52,7 @@ pub fn process_html_images(
                 url: raw_url,
                 title,
                 description: String::new(),
-                created: String::new(),
+                created: now_date(),
             });
         }
     }
@@ -80,7 +81,7 @@ pub fn process_md_images(
                 url: raw_url,
                 title: alt.to_string(),
                 description: String::new(),
-                created: String::new(),
+                created: now_date(),
             });
         }
     }

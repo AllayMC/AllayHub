@@ -145,6 +145,60 @@ fn tree_has_file(tree: &[GitTreeEntry], path: &str) -> bool {
         .any(|e| e.entry_type == "blob" && e.path == path)
 }
 
+const LOGO_FILENAMES: &[&str] = &[
+    "logo.png",
+    "icon.png",
+    "logo.jpg",
+    "icon.jpg",
+    "logo.svg",
+    "icon.svg",
+    "logo.webp",
+    "icon.webp",
+];
+
+const IMAGE_EXTENSIONS: &[&str] = &["png", "jpg", "jpeg", "svg", "webp", "gif"];
+
+pub fn to_raw_url(owner: &str, repo: &str, branch: &str, path: &str) -> String {
+    format!(
+        "https://raw.githubusercontent.com/{}/{}/{}/{}",
+        owner, repo, branch, path
+    )
+}
+
+fn find_logo_url(tree: &[GitTreeEntry], owner: &str, repo: &str, branch: &str) -> Option<String> {
+    for filename in LOGO_FILENAMES {
+        if tree_has_file(tree, filename) {
+            return Some(to_raw_url(owner, repo, branch, filename));
+        }
+    }
+    None
+}
+
+fn find_gallery_items(tree: &[GitTreeEntry], owner: &str, repo: &str, branch: &str) -> Vec<GalleryItem> {
+    let now = chrono::Utc::now().format("%Y-%m-%d").to_string();
+    let mut gallery = Vec::new();
+    for i in 1..=10 {
+        let mut found = false;
+        for ext in IMAGE_EXTENSIONS {
+            let filename = format!("gallery{}.{}", i, ext);
+            if tree_has_file(tree, &filename) {
+                gallery.push(GalleryItem {
+                    url: to_raw_url(owner, repo, branch, &filename),
+                    title: format!("Gallery {}", i),
+                    description: String::new(),
+                    created: now.clone(),
+                });
+                found = true;
+                break;
+            }
+        }
+        if !found {
+            break;
+        }
+    }
+    gallery
+}
+
 fn find_first_allay_dsl(
     owner: &str,
     repo_name: &str,
@@ -282,6 +336,10 @@ pub fn build_plugins_from_repo(repo: &Repository, gradle_paths: &[String]) -> Ve
         },
     );
 
+    let icon_url = find_logo_url(&tree, owner, repo_name, default_branch)
+        .unwrap_or_else(|| repo.owner.avatar_url.clone());
+    let repo_gallery = find_gallery_items(&tree, owner, repo_name, default_branch);
+
     match build_plugin_from_repo_data(
         repo,
         &dsl,
@@ -292,6 +350,8 @@ pub fn build_plugins_from_repo(repo: &Repository, gradle_paths: &[String]) -> Ve
         owner,
         repo_name,
         default_branch,
+        &icon_url,
+        repo_gallery,
     ) {
         Some(plugin) => vec![plugin],
         None => Vec::new(),
@@ -308,6 +368,8 @@ fn build_plugin_from_repo_data(
     owner: &str,
     repo_name: &str,
     branch: &str,
+    icon_url: &str,
+    repo_gallery: Vec<GalleryItem>,
 ) -> Option<Plugin> {
     let plugin_dsl = match dsl.plugin.as_ref() {
         Some(p) => p,
@@ -345,7 +407,11 @@ fn build_plugin_from_repo_data(
         repo: repo_name,
         branch,
     };
-    let (processed_readme, gallery) = process_readme(readme, &ctx);
+    let (processed_readme, readme_gallery) = process_readme(readme, &ctx);
+
+    // Repo gallery (gallery1.png, etc.) first, then README images
+    let mut gallery = repo_gallery;
+    gallery.extend(readme_gallery);
 
     let api_version = dsl
         .api
@@ -383,7 +449,7 @@ fn build_plugin_from_repo_data(
         stars: repo.stargazers_count,
         created_at: parse_timestamp(&repo.created_at),
         updated_at: parse_timestamp(&repo.updated_at),
-        icon_url: repo.owner.avatar_url.clone(),
+        icon_url: icon_url.to_string(),
         gallery,
         versions,
         api_version,
