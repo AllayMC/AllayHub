@@ -25,7 +25,7 @@ const CATEGORIES: &[&str] = &[
     "utility",
     "world-generation",
 ];
-use crate::gradle::{AllayDsl, VersionRef, parse_build_gradle_kts, parse_plugin_json};
+use crate::gradle::{AllayDsl, VersionRef, parse_build_gradle, parse_build_gradle_kts, parse_gradle_settings, parse_plugin_json};
 use crate::plugin::{
     Author, Dependency, GalleryItem, License, Links, Plugin, Version, VersionFile,
 };
@@ -108,10 +108,19 @@ fn find_gradle_paths_from_tree(tree: &[GitTreeEntry]) -> Vec<String> {
     tree.iter()
         .filter(|e| {
             e.entry_type == "blob"
-                && (e.path.ends_with("build.gradle.kts"))
+                && (e.path.ends_with("build.gradle.kts")
+                    || e.path.ends_with("build.gradle"))
         })
         .map(|e| e.path.clone())
         .collect()
+}
+
+fn parse_gradle_file(path: &str, content: &str) -> Option<AllayDsl> {
+    if path.ends_with(".gradle.kts") {
+        parse_build_gradle_kts(content)
+    } else {
+        parse_build_gradle(content)
+    }
 }
 
 fn is_branch_snapshot(version: &str) -> bool {
@@ -146,23 +155,36 @@ fn resolve_dsl_versions(dsl: &mut AllayDsl, tree: &[GitTreeEntry], owner: &str, 
             }
 }
 
-fn find_project_version_from_settings(
+struct SettingsMetadata {
+    project_name: Option<String>,
+    project_version: Option<String>,
+}
+
+fn find_settings_metadata(
     owner: &str,
     repo_name: &str,
     tree: &[GitTreeEntry],
-) -> Option<String> {
+) -> SettingsMetadata {
     let settings_paths = ["settings.gradle.kts", "settings.gradle"];
     for path in settings_paths {
         if tree
             .iter()
             .any(|e| e.path == path && e.entry_type == "blob")
             && let Ok(content) = client().get_file_content(owner, repo_name, path)
-                && let Some(dsl) = parse_build_gradle_kts(&content)
-                    && dsl.project_version.is_some() {
-                        return dsl.project_version;
-                    }
+        {
+            let dsl = parse_gradle_settings(path, &content);
+            if dsl.project_name.is_some() || dsl.project_version.is_some() {
+                return SettingsMetadata {
+                    project_name: dsl.project_name,
+                    project_version: dsl.project_version,
+                };
+            }
+        }
     }
-    None
+    SettingsMetadata {
+        project_name: None,
+        project_version: None,
+    }
 }
 
 fn tree_has_file(tree: &[GitTreeEntry], path: &str) -> bool {
@@ -238,7 +260,7 @@ fn find_first_allay_dsl(
     full_name: &str,
     tree: &[GitTreeEntry],
 ) -> Option<AllayDsl> {
-    let mut settings_version: Option<Option<String>> = None;
+    let mut settings_meta: Option<SettingsMetadata> = None;
 
     for gradle_path in paths {
         let content = match client().get_file_content(owner, repo_name, gradle_path) {
@@ -254,7 +276,7 @@ fn find_first_allay_dsl(
             continue;
         }
 
-        let mut dsl = match parse_build_gradle_kts(&content) {
+        let mut dsl = match parse_gradle_file(gradle_path, &content) {
             Some(d) => d,
             None => {
                 debug!(repo = %full_name, path = %gradle_path, "Skip: failed to parse gradle file");
@@ -262,11 +284,14 @@ fn find_first_allay_dsl(
             }
         };
 
+        let meta = settings_meta.get_or_insert_with(|| {
+            find_settings_metadata(owner, repo_name, tree)
+        });
+        if dsl.project_name.is_none() {
+            dsl.project_name = meta.project_name.clone();
+        }
         if dsl.project_version.is_none() {
-            let version = settings_version.get_or_insert_with(|| {
-                find_project_version_from_settings(owner, repo_name, tree)
-            });
-            dsl.project_version = version.clone();
+            dsl.project_version = meta.project_version.clone();
         }
 
         if dsl.plugin.is_none() && dsl.has_allay_dependency
@@ -280,6 +305,7 @@ fn find_first_allay_dsl(
                         && let Some(json) = parse_plugin_json(&json_content)
                             && json.entrance.is_some() {
                                 dsl.plugin = Some(json.into_plugin_dsl(
+                                    dsl.project_name.as_deref(),
                                     dsl.project_version.as_deref(),
                                     dsl.project_description.as_deref(),
                                 ));

@@ -7,7 +7,7 @@ use tracing::{debug, debug_span, info, info_span, warn};
 
 const CODE_SEARCH_QUERY: &str = "org.allaymc filename:build.gradle -repo:AllayMC/Allay -repo:AllayMC/StateUpdater -repo:AllayMC/EncryptMyPack -repo:AllayMC/AllayGradle -repo:AllayMC/NBT -repo:AllayMC/JavaPluginTemplate -repo:AllayPlus/AllayPlus -repo:MineBuilders/allaymc-kotlin-plugin-template -user:Buddelbubi";
 
-const TOPIC_QUERIES: &[&str] = &["topic:allaymc-plugin"];
+const TOPIC_QUERIES: &[&str] = &["topic:allaymc-plugin fork:true"];
 
 const EXCLUDED_REPOS: &[&str] = &[
     "AllayMC/Allay",
@@ -349,7 +349,9 @@ fn find_gradle_files(owner: &str, repo_name: &str, repo: &crate::github::Reposit
             tree.tree
                 .iter()
                 .filter(|entry| {
-                    entry.entry_type == "blob" && entry.path.ends_with("build.gradle.kts")
+                    entry.entry_type == "blob"
+                        && (entry.path.ends_with("build.gradle.kts")
+                            || entry.path.ends_with("build.gradle"))
                 })
                 .map(|entry| entry.path.clone())
                 .collect()

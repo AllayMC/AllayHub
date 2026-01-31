@@ -9,7 +9,7 @@ use tree_sitter::Node;
 
 use allay_block::parse_allay_block;
 use dependency::extract_allay_dependency;
-use util::{extract_string, get_call_path, get_text, with_lambda};
+use util::{extract_string, get_call_path, get_navigation_path, get_text, with_lambda};
 
 fn version_ref_to_string(version_ref: &VersionRef) -> String {
     match version_ref {
@@ -29,12 +29,14 @@ pub fn parse(node: &Node, content: &str, dsl: &mut AllayDsl) {
                     let has_dep = dsl.has_allay_dependency;
                     let api_ref = std::mem::take(&mut dsl.api_version_ref);
                     let server_ref = std::mem::take(&mut dsl.server_version_ref);
+                    let proj_name = dsl.project_name.take();
                     let proj_ver = dsl.project_version.take();
                     let proj_desc = dsl.project_description.take();
                     *dsl = AllayDsl {
                         has_allay_dependency: has_dep,
                         api_version_ref: api_ref,
                         server_version_ref: server_ref,
+                        project_name: proj_name,
                         project_version: proj_ver,
                         project_description: proj_desc,
                         ..Default::default()
@@ -71,6 +73,9 @@ pub fn parse(node: &Node, content: &str, dsl: &mut AllayDsl) {
                 if let Some(desc) = try_parse_property_assignment(&child, content, "description") {
                     dsl.project_description = Some(desc);
                 }
+                if let Some(name) = try_parse_dotted_assignment(&child, content, "rootProject.name") {
+                    dsl.project_name = Some(name);
+                }
             }
             _ => {}
         }
@@ -106,6 +111,39 @@ fn try_parse_property_assignment(node: &Node, content: &str, property_name: &str
                 for inner in child.children(&mut inner_cursor) {
                     if (inner.kind() == "identifier" || inner.kind() == "simple_identifier")
                         && get_text(&inner, content) == property_name
+                    {
+                        found_property = true;
+                    }
+                }
+            }
+            "string_literal" | "line_string_literal" | "multiline_string_literal" => {
+                property_value = extract_string(&child, content);
+            }
+            _ => {}
+        }
+    }
+
+    if found_property { property_value } else { None }
+}
+
+/// Parse a dotted assignment like `rootProject.name = "value"`.
+fn try_parse_dotted_assignment(node: &Node, content: &str, dotted_name: &str) -> Option<String> {
+    let mut cursor = node.walk();
+    let mut found_property = false;
+    let mut property_value = None;
+
+    for child in node.children(&mut cursor) {
+        match child.kind() {
+            "navigation_expression" => {
+                if get_navigation_path(&child, content) == dotted_name {
+                    found_property = true;
+                }
+            }
+            "directly_assignable_expression" => {
+                let mut inner_cursor = child.walk();
+                for inner in child.children(&mut inner_cursor) {
+                    if inner.kind() == "navigation_expression"
+                        && get_navigation_path(&inner, content) == dotted_name
                     {
                         found_property = true;
                     }

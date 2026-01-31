@@ -22,6 +22,8 @@ pub struct AllayDsl {
     #[serde(skip)]
     pub server_version_ref: VersionRef,
     #[serde(skip)]
+    pub project_name: Option<String>,
+    #[serde(skip)]
     pub project_version: Option<String>,
     #[serde(skip)]
     pub project_description: Option<String>,
@@ -71,16 +73,22 @@ pub struct PluginJsonDependency {
 impl PluginJson {
     pub fn into_plugin_dsl(
         self,
+        project_name: Option<&str>,
         project_version: Option<&str>,
         project_description: Option<&str>,
     ) -> PluginDsl {
+        let ctx = TemplateContext {
+            name: project_name,
+            version: project_version,
+            description: project_description,
+        };
         PluginDsl {
             entrance: self.entrance,
-            name: self.name,
-            version: resolve_template_var(self.version.as_deref(), project_version),
+            name: resolve_template(self.name.as_deref(), &ctx),
+            version: resolve_template(self.version.as_deref(), &ctx),
             authors: self.authors,
-            description: resolve_description_var(self.description.as_deref(), project_description),
-            website: self.website,
+            description: resolve_template(self.description.as_deref(), &ctx),
+            website: resolve_template(self.website.as_deref(), &ctx),
             api_version: self.api_version,
             dependencies: self
                 .dependencies
@@ -97,38 +105,55 @@ impl PluginJson {
 
 impl From<PluginJson> for PluginDsl {
     fn from(json: PluginJson) -> Self {
-        json.into_plugin_dsl(None, None)
+        json.into_plugin_dsl(None, None, None)
     }
 }
 
-fn resolve_template_var(value: Option<&str>, project_version: Option<&str>) -> Option<String> {
-    match value {
-        Some(v) if v.contains("${project.version}") => {
-            project_version.map(|pv| v.replace("${project.version}", pv))
-        }
-        Some(v) => Some(v.to_string()),
-        None => None,
-    }
+struct TemplateContext<'a> {
+    name: Option<&'a str>,
+    version: Option<&'a str>,
+    description: Option<&'a str>,
 }
 
-fn resolve_description_var(
-    value: Option<&str>,
-    project_description: Option<&str>,
-) -> Option<String> {
-    match value {
-        Some(v)
-            if v.contains("${description}")
-                || v.contains("${project.description}")
-                || v.contains("@DESCRIPTION@") =>
-        {
-            project_description.map(|pd| {
-                v.replace("${description}", pd)
-                    .replace("${project.description}", pd)
-                    .replace("@DESCRIPTION@", pd)
-            })
-        }
-        Some(v) => Some(v.to_string()),
-        None => None,
+/// Resolve Gradle `processResources` template variables in a string.
+/// Known patterns: `${name}`, `${project.name}`, `${version}`, `${project.version}`,
+/// `${description}`, `${project.description}`, `@DESCRIPTION@`.
+/// Returns None if any `${...}` placeholder remains unresolved.
+fn resolve_template(value: Option<&str>, ctx: &TemplateContext) -> Option<String> {
+    let v = value?;
+    if !v.contains("${") && !v.contains("@DESCRIPTION@") {
+        return Some(v.to_string());
+    }
+
+    let mut result = v.to_string();
+
+    // Resolve name
+    if let Some(name) = ctx.name {
+        result = result
+            .replace("${name}", name)
+            .replace("${project.name}", name);
+    }
+
+    // Resolve version
+    if let Some(version) = ctx.version {
+        result = result
+            .replace("${version}", version)
+            .replace("${project.version}", version);
+    }
+
+    // Resolve description
+    if let Some(description) = ctx.description {
+        result = result
+            .replace("${description}", description)
+            .replace("${project.description}", description)
+            .replace("@DESCRIPTION@", description);
+    }
+
+    // If any template variable remains unresolved, return None
+    if result.contains("${") || result.contains("@DESCRIPTION@") {
+        None
+    } else {
+        Some(result)
     }
 }
 
@@ -185,7 +210,7 @@ mod tests {
             authors: vec!["Author".to_string()],
             ..Default::default()
         };
-        let dsl = json.into_plugin_dsl(Some("1.2.3"), None);
+        let dsl = json.into_plugin_dsl(None, Some("1.2.3"), None);
         assert_eq!(dsl.version, Some("1.2.3".to_string()));
     }
 
@@ -198,7 +223,7 @@ mod tests {
             authors: vec!["Author".to_string()],
             ..Default::default()
         };
-        let dsl = json.into_plugin_dsl(None, None);
+        let dsl = json.into_plugin_dsl(None, None, None);
         assert_eq!(dsl.version, None);
     }
 
@@ -212,7 +237,7 @@ mod tests {
             authors: vec!["Author".to_string()],
             ..Default::default()
         };
-        let dsl = json.into_plugin_dsl(None, Some("A test plugin"));
+        let dsl = json.into_plugin_dsl(None, None, Some("A test plugin"));
         assert_eq!(dsl.description, Some("A test plugin".to_string()));
     }
 
@@ -226,7 +251,7 @@ mod tests {
             authors: vec!["Author".to_string()],
             ..Default::default()
         };
-        let dsl = json.into_plugin_dsl(None, Some("Project description"));
+        let dsl = json.into_plugin_dsl(None, None, Some("Project description"));
         assert_eq!(dsl.description, Some("Project description".to_string()));
     }
 
@@ -240,8 +265,22 @@ mod tests {
             authors: vec!["Author".to_string()],
             ..Default::default()
         };
-        let dsl = json.into_plugin_dsl(None, Some("Plugin from @DESCRIPTION@"));
-        assert_eq!(dsl.description, Some("Plugin from @DESCRIPTION@".to_string()));
+        let dsl = json.into_plugin_dsl(None, None, Some("An awesome plugin"));
+        assert_eq!(dsl.description, Some("An awesome plugin".to_string()));
+    }
+
+    #[test]
+    fn test_plugin_json_with_at_description_template_no_project_desc() {
+        let json = PluginJson {
+            entrance: Some("com.example.Plugin".to_string()),
+            name: Some("TestPlugin".to_string()),
+            version: Some("1.0.0".to_string()),
+            description: Some("@DESCRIPTION@".to_string()),
+            authors: vec!["Author".to_string()],
+            ..Default::default()
+        };
+        let dsl = json.into_plugin_dsl(None, None, None);
+        assert_eq!(dsl.description, None);
     }
 
     #[test]
@@ -254,7 +293,33 @@ mod tests {
             authors: vec!["Author".to_string()],
             ..Default::default()
         };
-        let dsl = json.into_plugin_dsl(None, None);
+        let dsl = json.into_plugin_dsl(None, None, None);
         assert_eq!(dsl.description, None);
+    }
+
+    #[test]
+    fn test_plugin_json_with_name_template() {
+        let json = PluginJson {
+            entrance: Some("com.example.Plugin".to_string()),
+            name: Some("${name}".to_string()),
+            version: Some("${version}".to_string()),
+            authors: vec!["Author".to_string()],
+            ..Default::default()
+        };
+        let dsl = json.into_plugin_dsl(Some("Pronouns"), Some("2.0.0"), None);
+        assert_eq!(dsl.name, Some("Pronouns".to_string()));
+        assert_eq!(dsl.version, Some("2.0.0".to_string()));
+    }
+
+    #[test]
+    fn test_plugin_json_with_name_template_no_project_name() {
+        let json = PluginJson {
+            entrance: Some("com.example.Plugin".to_string()),
+            name: Some("${name}".to_string()),
+            authors: vec!["Author".to_string()],
+            ..Default::default()
+        };
+        let dsl = json.into_plugin_dsl(None, None, None);
+        assert_eq!(dsl.name, None);
     }
 }
