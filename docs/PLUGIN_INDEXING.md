@@ -7,11 +7,10 @@ This document describes how AllayHub indexes plugins from GitHub repositories. F
 For your repository to be indexed as an Allay plugin, it must meet **all** of the following criteria:
 
 1. **Public GitHub repository** - Private repositories are not indexed
-2. **Not a fork** - Forked repositories are excluded
-3. **Not archived** - Archived repositories are excluded
-4. **Not a template** - Template repositories are excluded
-5. **Not a `noindex` topic** - Repositories with the `noindex` topic are excluded (see [Plugin Removal](#plugin-removal))
-6. **Discoverable** - At least one of:
+2. **Not archived** - Archived repositories are excluded
+3. **Not a template** - Template repositories are excluded
+4. **Not a `noindex` topic** - Repositories with the `noindex` topic are excluded (see [Plugin Removal](#plugin-removal))
+5. **Discoverable** - At least one of:
    - Contains `org.allaymc` in `build.gradle` or `build.gradle.kts`
    - Has the `allaymc-plugin` topic on the repository
 
@@ -37,6 +36,21 @@ Searches for repositories with the `allaymc-plugin` topic. This method is more r
 - Explicitly signals that the repository is an Allay plugin
 
 **To add the topic:** Go to your repository → About (gear icon) → Topics → Add `allaymc-plugin`
+
+> **Note:** Forked repositories are indexed only when discovered via the topic search method. If your plugin is a fork, add the `allaymc-plugin` topic to ensure it is discovered.
+
+## Plugin ID Format
+
+Each plugin is assigned an ID in the `owner/name` format (all lowercase), where:
+
+- `owner` is the GitHub repository owner (user or organization)
+- `name` is the plugin name (from AllayGradle DSL, `plugin.json`, or repository name as fallback)
+
+For example, a plugin named "MyPlugin" in a repository owned by "CoolLoong" would have the ID `coolloong/myplugin`.
+
+Plugin data files are stored in a nested directory structure: `AllayHubIndex/{owner}/{name}.json`.
+
+Frontend URLs follow the same pattern: `/plugin/{owner}/{name}`.
 
 ## Plugin Metadata
 
