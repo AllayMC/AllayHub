@@ -241,10 +241,6 @@ fn find_first_allay_dsl(
     let mut settings_version: Option<Option<String>> = None;
 
     for gradle_path in paths {
-        if !tree_has_file(tree, gradle_path) {
-            continue;
-        }
-
         let content = match client().get_file_content(owner, repo_name, gradle_path) {
             Ok(c) => c,
             Err(e) => {
@@ -254,6 +250,7 @@ fn find_first_allay_dsl(
         };
 
         if !content.contains("org.allaymc") {
+            debug!(repo = %full_name, path = %gradle_path, "Skip: no org.allaymc dependency");
             continue;
         }
 
@@ -412,7 +409,7 @@ fn build_plugin_from_repo_data(input: PluginBuildInput) -> Option<Plugin> {
 
     let plugin_name = plugin_dsl.name.clone().unwrap_or_else(|| repo.name.clone());
 
-    let plugin_id = plugin_name.to_lowercase();
+    let plugin_id = format!("{}/{}", owner, plugin_name).to_lowercase();
 
     let versions: Vec<Version> = releases
         .iter()

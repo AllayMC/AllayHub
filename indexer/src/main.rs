@@ -1,5 +1,5 @@
 use allayindexer::github::{client, init_client};
-use allayindexer::plugin::{load_plugins, write_plugin};
+use allayindexer::plugin::{delete_plugin, load_plugins, write_plugin};
 use allayindexer::search::build_orama_index;
 use allayindexer::sync::{discover_new_plugins, update_existing_plugins};
 use allayindexer::util::{
@@ -131,6 +131,7 @@ fn cmd_update(args: &[String]) {
         process::exit(1);
     }
 
+
     let plugins = {
         let _span = info_span!("load_plugins").entered();
         load_plugins(index_dir)
@@ -191,8 +192,7 @@ fn cmd_update(args: &[String]) {
 
         for id in &update.deleted {
             debug!(id = %id, "Deleted");
-            let path = index_dir.join(format!("{}.json", id));
-            if let Err(e) = fs::remove_file(&path) {
+            if let Err(e) = delete_plugin(id, index_dir) {
                 error!(id = %id, error = %e, "Failed to delete plugin");
             }
         }
@@ -240,6 +240,7 @@ fn cmd_discover(args: &[String]) {
         error!(path = ?index_dir, "Index directory not found");
         process::exit(1);
     }
+
 
     let plugins = {
         let _span = info_span!("load_plugins").entered();

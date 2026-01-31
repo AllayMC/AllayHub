@@ -148,10 +148,6 @@ fn collect_repo_matches_by_topic(
                             debug!(repo = %name, "Skip excluded");
                             continue;
                         }
-                        if repo.fork {
-                            debug!(repo = %name, "Skip fork");
-                            continue;
-                        }
                         if existing_repos.contains(name) {
                             debug!(repo = %name, "Skip existing");
                             continue;

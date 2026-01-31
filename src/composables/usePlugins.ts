@@ -40,8 +40,9 @@ export function useApiVersions() {
 
 // Pre-load all plugin JSON files at build time using Vite's import.meta.glob
 // From src/composables/ to AllayHubIndex/ requires ../../
+// Plugins are stored in subdirectories: AllayHubIndex/{owner}/{name}.json
 const pluginModules = import.meta.glob<AllayIndex.Plugin>(
-  '../../AllayHubIndex/*.json',
+  '../../AllayHubIndex/**/*.json',
   {
     eager: false,
     import: 'default',
@@ -60,6 +61,24 @@ function processPluginData(data: AllayIndex.Plugin): AllayIndex.Plugin {
     }
   }
   return result as unknown as AllayIndex.Plugin
+}
+
+/**
+ * Find all full plugin IDs (owner/name) matching a plugin name.
+ * Used for resolving dependency references which only contain the name.
+ * Returns an array of matching IDs, or [input] if it already contains '/'.
+ */
+export function findPluginIdsByName(name: string): string[] {
+  if (name.includes('/')) return [name]
+  const suffix = `/${name}.json`
+  const results: string[] = []
+  for (const key of Object.keys(pluginModules)) {
+    if (key.toLowerCase().endsWith(suffix.toLowerCase())) {
+      const match = key.match(/AllayHubIndex\/(.+)\.json$/)
+      if (match) results.push(match[1])
+    }
+  }
+  return results.length > 0 ? results : [name]
 }
 
 /**

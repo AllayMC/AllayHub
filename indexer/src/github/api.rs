@@ -354,7 +354,14 @@ impl GitHubClient {
                 debug!(key = %cache_key, "Cache hit (304)");
                 Ok(cached.unwrap().data)
             }
-            Err(e) => Err(e),
+            Err(e) => {
+                if let Some(entry) = cached {
+                    warn!(key = %cache_key, error = %e, "API failed, using cached repository");
+                    Ok(entry.data)
+                } else {
+                    Err(e)
+                }
+            }
         }
     }
 
@@ -469,7 +476,14 @@ impl GitHubClient {
                 debug!(key = %cache_key, "Cache hit (304)");
                 Ok(cached.unwrap().data)
             }
-            Err(e) => Err(e),
+            Err(e) => {
+                if let Some(entry) = cached {
+                    warn!(key = %cache_key, error = %e, "API failed, using cached tree");
+                    Ok(entry.data)
+                } else {
+                    Err(e)
+                }
+            }
         }
     }
 

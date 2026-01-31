@@ -3,8 +3,12 @@ use std::fs;
 use std::path::Path;
 
 pub fn write_plugin(plugin: &Plugin, output_dir: &Path) -> Result<(), String> {
-    let filename = format!("{}.json", plugin.id);
-    let path = output_dir.join(filename);
+    let path = plugin_path(output_dir, &plugin.id);
+
+    if let Some(parent) = path.parent() {
+        fs::create_dir_all(parent)
+            .map_err(|e| format!("Failed to create dir {:?}: {}", parent, e))?;
+    }
 
     let mut value = serde_json::to_value(plugin).map_err(|e| e.to_string())?;
 
@@ -21,11 +25,21 @@ pub fn write_plugin(plugin: &Plugin, output_dir: &Path) -> Result<(), String> {
 }
 
 pub fn delete_plugin(plugin_id: &str, output_dir: &Path) -> Result<(), String> {
-    let filename = format!("{}.json", plugin_id);
-    let path = output_dir.join(filename);
+    let path = plugin_path(output_dir, plugin_id);
     if path.exists() {
-        fs::remove_file(&path).map_err(|e| format!("Failed to delete {:?}: {}", path, e))
+        fs::remove_file(&path).map_err(|e| format!("Failed to delete {:?}: {}", path, e))?;
+        // Clean up empty owner directory
+        if let Some(parent) = path.parent() {
+            if parent != output_dir {
+                let _ = fs::remove_dir(parent); // ignore error if not empty
+            }
+        }
+        Ok(())
     } else {
         Ok(())
     }
+}
+
+fn plugin_path(output_dir: &Path, plugin_id: &str) -> std::path::PathBuf {
+    output_dir.join(format!("{}.json", plugin_id))
 }

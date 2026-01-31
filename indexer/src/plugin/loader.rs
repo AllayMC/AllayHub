@@ -6,18 +6,24 @@ use tracing::{error, warn};
 
 pub fn load_plugins(index_dir: &Path) -> Vec<Plugin> {
     let mut plugins = Vec::new();
+    load_plugins_recursive(index_dir, &mut plugins);
+    plugins
+}
 
-    let entries = match fs::read_dir(index_dir) {
+fn load_plugins_recursive(dir: &Path, plugins: &mut Vec<Plugin>) {
+    let entries = match fs::read_dir(dir) {
         Ok(e) => e,
         Err(e) => {
-            error!(path = ?index_dir, error = %e, "Failed to read directory");
-            return plugins;
+            error!(path = ?dir, error = %e, "Failed to read directory");
+            return;
         }
     };
 
     for entry in entries.flatten() {
         let path = entry.path();
-        if path.extension().is_some_and(|e| e == "json")
+        if path.is_dir() {
+            load_plugins_recursive(&path, plugins);
+        } else if path.extension().is_some_and(|e| e == "json")
             && let Ok(content) = fs::read_to_string(&path) {
                 match parse_plugin_with_preserved_fields(&content) {
                     Ok(plugin) => plugins.push(plugin),
@@ -25,8 +31,6 @@ pub fn load_plugins(index_dir: &Path) -> Vec<Plugin> {
                 }
             }
     }
-
-    plugins
 }
 
 pub fn load_plugin(path: &Path) -> Result<Plugin, String> {

@@ -709,9 +709,15 @@ const filteredBeta = computed(() => {
   )
 })
 
+const projectOwner = computed(() => {
+  const owner = route.params.owner
+  return Array.isArray(owner) ? owner[0] : owner
+})
+
 const projectId = computed(() => {
   const id = route.params.id
-  return Array.isArray(id) ? id[0] : id
+  const rawId = Array.isArray(id) ? id[0] : id
+  return `${projectOwner.value}/${rawId}`
 })
 
 // Load plugin data from AllayHub Index
@@ -884,11 +890,11 @@ const resetOrganization = async () => {}
 if (
   project.value.id &&
   (project.value.project_type !== route.params.type ||
-    (route.params.id !== project.value.id &&
+    (projectId.value !== project.value.id &&
       !flags.value.disablePrettyProjectUrlRedirects))
 ) {
   let path = route.fullPath.split('/')
-  path.splice(0, 3)
+  path.splice(0, 4)
   path = path.filter((x) => x)
 
   await navigateTo(

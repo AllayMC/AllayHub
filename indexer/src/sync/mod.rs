@@ -1,4 +1,4 @@
-mod builder;
+pub(crate) mod builder;
 pub mod discover;
 pub mod update;
 
