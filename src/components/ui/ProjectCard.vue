@@ -34,7 +34,7 @@
       </nuxt-link>
       <p v-if="author" class="author">
         by
-        <nuxt-link class="title-link" :to="'/user/' + author">
+        <nuxt-link class="title-link" :to="`/discover/plugin?q=${author}`">
           {{ author }}
         </nuxt-link>
       </p>
