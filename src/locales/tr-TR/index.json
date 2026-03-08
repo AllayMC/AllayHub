@@ -1121,8 +1121,17 @@
   "landing.button.discover-mods": {
     "message": "Modları keşfet"
   },
+  "landing.button.discover-plugins": {
+    "message": "Eklentileri keşfet"
+  },
   "landing.button.go-to-dashboard": {
     "message": "Panele git"
+  },
+  "landing.creator.feature.auto-tracking.description": {
+    "message": "GitHub deponuz otomatik olarak indekslenir. README, sürümler, değişiklik günlükleri ve sürüm geçmişi otomatik olarak senkronize edilir."
+  },
+  "landing.creator.feature.auto-tracking.title": {
+    "message": "Otomatik Takip"
   },
   "landing.creator.feature.constantly-evolving.description": {
     "message": "AllayHub ekibinden sürekli güncellemelerle mümkün olan en iyi modlama deneyimini edinin."
@@ -1153,6 +1162,18 @@
   },
   "landing.creator.feature.monetization.title": {
     "message": "Para Kazanma"
+  },
+  "landing.creator.feature.open-source.description": {
+    "message": "AllayHub tamamen açık kaynaktır. PR ile eklenti gönderin, platforma katkıda bulunun ve AllayMC ekosisteminin büyümesine yardımcı olun."
+  },
+  "landing.creator.feature.open-source.title": {
+    "message": "Açık Kaynak"
+  },
+  "landing.creator.feature.statistics.description": {
+    "message": "GitHub yıldızları, forkları ve sürüm indirme sayıları ile eklentinizin popülerliğini takip edin."
+  },
+  "landing.creator.feature.statistics.title": {
+    "message": "İstatistikler"
   },
   "landing.creator.feature.team-management.description": {
     "message": "Kolaylıkla takım arkadaşlarınızı davet edin ve rol ve izinleri yönetin"
@@ -1370,6 +1391,27 @@
   "layout.footer.about.status": {
     "message": "Durum"
   },
+  "layout.footer.allay": {
+    "message": "Nukkit-MOT"
+  },
+  "layout.footer.allay.docs": {
+    "message": "Belgeler"
+  },
+  "layout.footer.allay.server": {
+    "message": "Nukkit-MOT Server"
+  },
+  "layout.footer.allayhub-information": {
+    "message": "NukkitHub bilgileri"
+  },
+  "layout.footer.community": {
+    "message": "Topluluk"
+  },
+  "layout.footer.community.discord": {
+    "message": "Discord"
+  },
+  "layout.footer.community.github": {
+    "message": "GitHub"
+  },
   "layout.footer.legal": {
     "message": "Yasal"
   },
@@ -1403,11 +1445,17 @@
   "layout.footer.products.app": {
     "message": "AllayLauncher"
   },
+  "layout.footer.products.plugins": {
+    "message": "Eklentiler"
+  },
   "layout.footer.products.plus": {
     "message": "AllayHub+"
   },
   "layout.footer.products.servers": {
     "message": "AllayHub Hosting"
+  },
+  "layout.footer.project-attribution": {
+    "message": "Bu proje, <allayhub-link>AllayMC'nin açık kaynak projesi AllayHub</allayhub-link> temel alınarak geliştirilmiştir ve AGPL lisansı altında <nukkithub-link>MemoriesOfTime/NukkitHub</nukkithub-link> üzerinde yayınlanmıştır."
   },
   "layout.footer.resources": {
     "message": "Kaynaklar"
@@ -1420,6 +1468,9 @@
   },
   "layout.footer.resources.report-issues": {
     "message": "Sorunları bildir"
+  },
+  "layout.footer.resources.source-code": {
+    "message": "Kaynak Kodu"
   },
   "layout.footer.resources.translate": {
     "message": "Çevir"
@@ -1435,6 +1486,9 @@
   },
   "layout.footer.social.mastodon": {
     "message": "Mastodon"
+  },
+  "layout.footer.social.twitter": {
+    "message": "Twitter"
   },
   "layout.footer.social.x": {
     "message": "X"
@@ -1457,6 +1511,12 @@
   "layout.nav.active-reports": {
     "message": "Aktif Raporlar"
   },
+  "layout.nav.allay-launcher": {
+    "message": "Başlatıcı"
+  },
+  "layout.nav.allayhub-home-page": {
+    "message": "NukkitHub ana sayfası"
+  },
   "layout.nav.analytics": {
     "message": "Veriler"
   },
@@ -1468,6 +1528,9 @@
   },
   "layout.nav.feature-flags": {
     "message": "Özellik bayrakları"
+  },
+  "layout.nav.get-allay-launcher": {
+    "message": "Başlatıcıyı indir"
   },
   "layout.nav.get-modrinth-app": {
     "message": "Allay Edinin"
@@ -2899,50 +2962,5 @@
   },
   "version.environment.unknown.title": {
     "message": "Bilinmeyen ortam"
-  },
-  "landing.creator.feature.auto-tracking.title": {
-    "message": "Otomatik Takip"
-  },
-  "landing.creator.feature.auto-tracking.description": {
-    "message": "GitHub deponuz otomatik olarak indekslenir. README, sürümler, değişiklik günlükleri ve sürüm geçmişi otomatik olarak senkronize edilir."
-  },
-  "landing.creator.feature.statistics.title": {
-    "message": "İstatistikler"
-  },
-  "landing.creator.feature.statistics.description": {
-    "message": "GitHub yıldızları, forkları ve sürüm indirme sayıları ile eklentinizin popülerliğini takip edin."
-  },
-  "landing.creator.feature.open-source.title": {
-    "message": "Açık Kaynak"
-  },
-  "landing.creator.feature.open-source.description": {
-    "message": "AllayHub tamamen açık kaynaktır. PR ile eklenti gönderin, platforma katkıda bulunun ve AllayMC ekosisteminin büyümesine yardımcı olun."
-  },
-  "layout.footer.allay": {
-    "message": "Allay"
-  },
-  "layout.footer.allay.server": {
-    "message": "Allay Sunucusu"
-  },
-  "layout.footer.allay.docs": {
-    "message": "Belgeler"
-  },
-  "layout.footer.products.plugins": {
-    "message": "Eklentiler"
-  },
-  "layout.footer.resources.source-code": {
-    "message": "Kaynak Kodu"
-  },
-  "layout.footer.community": {
-    "message": "Topluluk"
-  },
-  "layout.footer.community.discord": {
-    "message": "Discord"
-  },
-  "layout.footer.community.github": {
-    "message": "GitHub"
-  },
-  "layout.footer.social.twitter": {
-    "message": "Twitter"
   }
 }

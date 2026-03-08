@@ -49,6 +49,17 @@ const pluginModules = import.meta.glob<AllayIndex.Plugin>(
   },
 )
 
+function isTemplatePlaceholder(value: unknown): value is string {
+  if (typeof value !== 'string') return false
+  const text = value.trim()
+  return /^\$\{[^}]+\}$/.test(text) || /^@[^@\r\n]+@$/.test(text)
+}
+
+function getRepoNameFromId(id: string): string {
+  const [, repo] = id.split('/')
+  return repo || id
+}
+
 function processPluginData(data: AllayIndex.Plugin): AllayIndex.Plugin {
   const result: Record<string, unknown> = { ...data }
   for (const key of Object.keys(result)) {
@@ -60,6 +71,20 @@ function processPluginData(data: AllayIndex.Plugin): AllayIndex.Plugin {
       delete result[key]
     }
   }
+
+  const pluginId = typeof result.id === 'string' ? result.id : ''
+  const fallbackName = getRepoNameFromId(pluginId)
+  const rawName = typeof result.name === 'string' ? result.name.trim() : ''
+  if (!rawName || isTemplatePlaceholder(rawName)) {
+    result.name = fallbackName || 'Unknown Plugin'
+  }
+
+  const rawSummary =
+    typeof result.summary === 'string' ? result.summary.trim() : ''
+  if (isTemplatePlaceholder(rawSummary)) {
+    result.summary = ''
+  }
+
   return result as unknown as AllayIndex.Plugin
 }
 
@@ -171,10 +196,20 @@ export function getTotalPages(totalItems: number, perPage: number): number {
 }
 
 function toPluginSummary(doc: PluginDocument): AllayIndex.PluginSummary {
+  const displayName = doc.display_name?.trim() || ''
+  const fallbackName = getRepoNameFromId(doc.id)
+  const safeName =
+    displayName && !isTemplatePlaceholder(displayName)
+      ? displayName
+      : fallbackName
+
+  const summary = doc.summary?.trim() || ''
+  const safeSummary = isTemplatePlaceholder(summary) ? '' : summary
+
   return {
     id: doc.id,
-    name: doc.display_name,
-    summary: doc.summary,
+    name: safeName,
+    summary: safeSummary,
     author: doc.author,
     categories: doc.categories,
     api_version: doc.api_version,

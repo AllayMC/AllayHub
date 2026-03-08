@@ -78,10 +78,10 @@
     "message": "AllayHub เป็น<github-link>โอเพนซอร์ส</github-link>"
   },
   "layout.footer.allay": {
-    "message": "Allay"
+    "message": "Nukkit-MOT"
   },
   "layout.footer.allay.server": {
-    "message": "เซิร์ฟเวอร์ Allay"
+    "message": "Nukkit-MOT Server"
   },
   "layout.footer.allay.docs": {
     "message": "เอกสาร"

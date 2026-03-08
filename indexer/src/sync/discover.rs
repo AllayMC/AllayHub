@@ -33,7 +33,7 @@ pub fn discover_new_plugins(
     existing_repos: &HashSet<String>,
     last_sync: Option<&str>,
 ) -> DiscoverResult {
-    let matches = {
+    let mut matches = {
         let _span = info_span!("collect_repos").entered();
         match last_sync {
             Some(date) => {
@@ -46,6 +46,13 @@ pub fn discover_new_plugins(
             None => collect_repo_matches_full(existing_repos),
         }
     };
+
+    // Append repos from motci.cn Jenkins
+    let jenkins_matches = collect_repo_matches_from_jenkins(existing_repos, &matches);
+    if !jenkins_matches.is_empty() {
+        info!(count = jenkins_matches.len(), "Found repos via motci.cn");
+        merge_repo_matches(&mut matches, jenkins_matches);
+    }
 
     info!(count = matches.len(), "Found repos to process");
     if matches.is_empty() {
@@ -88,7 +95,10 @@ fn collect_repo_matches_by_year(existing_repos: &HashSet<String>) -> Vec<RepoMat
 
     for year in START_YEAR..=current_year {
         let _span = debug_span!("search_year", year = year).entered();
-        let query = format!("{} pushed:{}-01-01..{}-12-31", CODE_SEARCH_QUERY, year, year);
+        let query = format!(
+            "{} pushed:{}-01-01..{}-12-31",
+            CODE_SEARCH_QUERY, year, year
+        );
         let matches = match collect_repo_matches(&query, existing_repos) {
             Ok(m) => m,
             Err(total) => {
@@ -340,27 +350,54 @@ fn process_single_repo(repo_match: RepoMatch) -> Result<Vec<Plugin>, String> {
     if plugins.is_empty() {
         debug!(repo = %repo_match.full_name, "No plugins built");
     }
-    
+
     Ok(plugins)
 }
 
-fn find_plugin_yml(owner: &str, repo_name: &str, repo: &crate::github::Repository) -> Option<String> {
+fn find_plugin_yml(
+    owner: &str,
+    repo_name: &str,
+    repo: &crate::github::Repository,
+) -> Option<String> {
     let branch = repo.default_branch.as_deref().unwrap_or("main");
 
     match client().get_tree(owner, repo_name, branch) {
-        Ok(tree) => {
-            tree.tree
-                .iter()
-                .find(|entry| {
-                    entry.entry_type == "blob" 
-                        && entry.path.ends_with("plugin.yml")
-                        && entry.path.contains("src/main/resources")
-                })
-                .map(|entry| entry.path.clone())
-        }
+        Ok(tree) => tree
+            .tree
+            .iter()
+            .find(|entry| {
+                entry.entry_type == "blob"
+                    && entry.path.ends_with("plugin.yml")
+                    && entry.path.contains("src/main/resources")
+            })
+            .map(|entry| entry.path.clone()),
         Err(e) => {
             debug!(repo = %format!("{}/{}", owner, repo_name), error = %e, "Failed to get tree");
             None
         }
     }
+}
+
+fn collect_repo_matches_from_jenkins(
+    existing_repos: &HashSet<String>,
+    current_matches: &[RepoMatch],
+) -> Vec<RepoMatch> {
+    let current: HashSet<String> = current_matches
+        .iter()
+        .map(|m| m.full_name.to_lowercase())
+        .collect();
+
+    crate::jenkins::jenkins_index()
+        .repo_names()
+        .filter(|name| {
+            !existing_repos
+                .iter()
+                .any(|r| r.eq_ignore_ascii_case(name))
+                && !current.contains(&name.to_lowercase())
+        })
+        .map(|name| RepoMatch {
+            full_name: name.to_string(),
+            plugin_yml_path: None,
+        })
+        .collect()
 }

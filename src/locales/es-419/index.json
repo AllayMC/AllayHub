@@ -1121,8 +1121,17 @@
   "landing.button.discover-mods": {
     "message": "Descubre mods"
   },
+  "landing.button.discover-plugins": {
+    "message": "Descubrir plugins"
+  },
   "landing.button.go-to-dashboard": {
     "message": "Ir al panel de control"
+  },
+  "landing.creator.feature.auto-tracking.description": {
+    "message": "Tus repositorios de GitHub se indexan automáticamente. README, lanzamientos, registros de cambios e historial de versiones se sincronizan automáticamente."
+  },
+  "landing.creator.feature.auto-tracking.title": {
+    "message": "Seguimiento automático"
   },
   "landing.creator.feature.constantly-evolving.description": {
     "message": "Obtén la mejor experiencia de modding posible con actualizaciones constantes del equipo de AllayHub"
@@ -1153,6 +1162,18 @@
   },
   "landing.creator.feature.monetization.title": {
     "message": "Monetización"
+  },
+  "landing.creator.feature.open-source.description": {
+    "message": "NukkitHub es completamente de código abierto. Envía plugins mediante PR, contribuye con código a la plataforma y construye juntos el ecosistema Nukkit."
+  },
+  "landing.creator.feature.open-source.title": {
+    "message": "Comunidad de código abierto"
+  },
+  "landing.creator.feature.statistics.description": {
+    "message": "Rastrea la popularidad de tus plugins a través de estrellas, forks y descargas de lanzamientos de GitHub."
+  },
+  "landing.creator.feature.statistics.title": {
+    "message": "Estadísticas"
   },
   "landing.creator.feature.team-management.description": {
     "message": "Invita a tus compañeros de equipo y administra roles y permisos con facilidad"
@@ -1370,6 +1391,27 @@
   "layout.footer.about.status": {
     "message": "Estado"
   },
+  "layout.footer.allay": {
+    "message": "Nukkit-MOT"
+  },
+  "layout.footer.allay.docs": {
+    "message": "Documentación"
+  },
+  "layout.footer.allay.server": {
+    "message": "Nukkit-MOT Server"
+  },
+  "layout.footer.allayhub-information": {
+    "message": "Información de NukkitHub"
+  },
+  "layout.footer.community": {
+    "message": "Comunidad"
+  },
+  "layout.footer.community.discord": {
+    "message": "Discord"
+  },
+  "layout.footer.community.github": {
+    "message": "GitHub"
+  },
   "layout.footer.legal": {
     "message": "Legal"
   },
@@ -1403,11 +1445,17 @@
   "layout.footer.products.app": {
     "message": "AllayLauncher"
   },
+  "layout.footer.products.plugins": {
+    "message": "Plugins"
+  },
   "layout.footer.products.plus": {
     "message": "AllayHub+"
   },
   "layout.footer.products.servers": {
     "message": "AllayHub Hosting"
+  },
+  "layout.footer.project-attribution": {
+    "message": "Este proyecto está basado en el proyecto de código abierto <allayhub-link>AllayHub de AllayMC</allayhub-link> y está disponible bajo la licencia AGPL en <nukkithub-link>MemoriesOfTime/NukkitHub</nukkithub-link>."
   },
   "layout.footer.resources": {
     "message": "Recursos"
@@ -1420,6 +1468,9 @@
   },
   "layout.footer.resources.report-issues": {
     "message": "Reportar problemas"
+  },
+  "layout.footer.resources.source-code": {
+    "message": "Código fuente"
   },
   "layout.footer.resources.translate": {
     "message": "Traducir"
@@ -1435,6 +1486,9 @@
   },
   "layout.footer.social.mastodon": {
     "message": "Mastodon"
+  },
+  "layout.footer.social.twitter": {
+    "message": "Twitter"
   },
   "layout.footer.social.x": {
     "message": "X"
@@ -1457,6 +1511,12 @@
   "layout.nav.active-reports": {
     "message": "Reportes activos"
   },
+  "layout.nav.allay-launcher": {
+    "message": "Launcher"
+  },
+  "layout.nav.allayhub-home-page": {
+    "message": "Página principal de NukkitHub"
+  },
   "layout.nav.analytics": {
     "message": "Estadísticas"
   },
@@ -1468,6 +1528,9 @@
   },
   "layout.nav.feature-flags": {
     "message": "Funciones experimentales"
+  },
+  "layout.nav.get-allay-launcher": {
+    "message": "Obtener el launcher"
   },
   "layout.nav.get-modrinth-app": {
     "message": "Obtener Allay"

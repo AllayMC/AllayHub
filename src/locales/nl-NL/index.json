@@ -1398,10 +1398,10 @@
     "message": "AllayHub is <github-link>open source</github-link>."
   },
   "layout.footer.allay": {
-    "message": "Allay"
+    "message": "Nukkit-MOT"
   },
   "layout.footer.allay.server": {
-    "message": "Allay Server"
+    "message": "Nukkit-MOT Server"
   },
   "layout.footer.allay.docs": {
     "message": "Documentatie"

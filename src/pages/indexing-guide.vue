@@ -12,7 +12,7 @@ const messages = defineMessages({
   },
   description: {
     id: 'indexing-guide.description',
-    defaultMessage: 'Learn how AllayHub indexes plugins from GitHub repositories',
+    defaultMessage: 'Learn how NukkitHub indexes plugins from GitHub repositories',
   },
 })
 

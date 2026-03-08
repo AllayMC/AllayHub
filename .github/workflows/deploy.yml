@@ -31,11 +31,11 @@ jobs:
     steps:
       - uses: actions/checkout@v6
 
-      - name: Checkout AllayHubIndex
+      - name: Checkout NukkitHubIndex
         uses: actions/checkout@v6
         with:
-          repository: AllayMC/AllayHubIndex
-          path: AllayHubIndex
+          repository: MemoriesOfTime/NukkitHubIndex
+          path: NukkitHubIndex
 
       - name: Setup Bun
         uses: oven-sh/setup-bun@v2

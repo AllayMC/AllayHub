@@ -86,24 +86,6 @@
             </div>
           </div>
         </div>
-        <div class="feature-blob">
-          <div class="blob-text">
-            <h3>{{ formatMessage(messages.playWithLauncherHeading) }}</h3>
-            <p>
-              <IntlFormatted :message-id="messages.playWithLauncherDescription">
-                <template #link="{ children }">
-                  <nuxt-link class="title-link" to="/app">
-                    <component :is="() => children" />
-                  </nuxt-link>
-                </template>
-              </IntlFormatted>
-            </p>
-          </div>
-          <img v-if="$theme.active === 'light'" src="~/assets/images/app/AllayLauncher_light.webp"
-            :alt="formatMessage(messages.launcherGraphicAlt)" class="launcher-screen" />
-          <img v-else src="~/assets/images/app/AllayLauncher_dark.webp"
-            :alt="formatMessage(messages.launcherGraphicAlt)" class="launcher-screen" />
-        </div>
       </div>
     </div>
     <div class="creator-section">
@@ -267,12 +249,12 @@ async function updateSearchProjects(): Promise<void> {
 const messages = defineMessages({
   thePlaceForMinecraft: {
     id: 'landing.heading.the-place-for-minecraft',
-    defaultMessage: 'The place for Minecraft {content}',
+    defaultMessage: 'The place for Nukkit-MOT {content}',
   },
   discoverHeading: {
     id: 'landing.subheading',
     defaultMessage:
-      'Discover, play, and share Minecraft content through our open-source platform built for the community.',
+      'Discover and share Nukkit-MOT plugins through our open-source platform built for the community.',
   },
   discoverPlugins: {
     id: 'landing.button.discover-plugins',
@@ -319,7 +301,7 @@ const messages = defineMessages({
   findWhatYouWantDescription: {
     id: 'landing.feature.search.description',
     defaultMessage:
-      "AllayHub's lightning-fast search and powerful filters let you find what you want as you type.",
+      "NukkitHub's lightning-fast search and powerful filters let you find what you want as you type.",
   },
   followProjectsHeading: {
     id: 'landing.feature.follow.heading',
@@ -329,15 +311,6 @@ const messages = defineMessages({
     id: 'landing.feature.follow.description',
     defaultMessage:
       'Get notified every time your favorite projects update and stay in the loop.',
-  },
-  playWithLauncherHeading: {
-    id: 'landing.feature.launcher.heading',
-    defaultMessage: 'Play with your favorite launcher',
-  },
-  playWithLauncherDescription: {
-    id: 'landing.feature.launcher.description',
-    defaultMessage:
-      "AllayHub's open-source API lets launchers add deep integration with AllayHub. You can use AllayHub through <link>our own app</link> and some of the most popular launchers like ATLauncher, MultiMC, and Prism Launcher.",
   },
   searchPlaceholder: {
     id: 'landing.search.placeholder',
@@ -367,14 +340,6 @@ const messages = defineMessages({
     id: 'landing.notifications.received-time',
     defaultMessage: 'Received {time}',
   },
-  launcherGraphicAlt: {
-    id: 'landing.launcher.graphic-alt',
-    defaultMessage: 'A simplified representation of an Allay server window.',
-  },
-  allayLauncherLabel: {
-    id: 'landing.launcher.allay-launcher-label',
-    defaultMessage: 'AllayLauncher',
-  },
 })
 
 const contentTypeMessages = defineMessages({
@@ -392,7 +357,7 @@ const creatorFeatureMessages = defineMessages({
   discoveryDescription: {
     id: 'landing.creator.feature.discovery.description',
     defaultMessage:
-      'Get your plugin discovered by AllayMC server owners through search, categories, and our home page.',
+      'Get your plugin discovered by Nukkit-MOT server owners through search, categories, and our home page.',
   },
   autoTrackingTitle: {
     id: 'landing.creator.feature.auto-tracking.title',
@@ -419,7 +384,7 @@ const creatorFeatureMessages = defineMessages({
   openSourceDescription: {
     id: 'landing.creator.feature.open-source.description',
     defaultMessage:
-      'AllayHub is fully open source. Submit plugins via PR, contribute to the platform, and help grow the AllayMC ecosystem.',
+      'NukkitHub is fully open source. Submit plugins via PR, contribute to the platform, and help grow the Nukkit-MOT ecosystem.',
   },
 })
 </script>
@@ -821,15 +786,6 @@ const creatorFeatureMessages = defineMessages({
         }
       }
 
-      .launcher-screen {
-        padding-top: 3rem;
-        width: 40rem;
-        max-width: 100%;
-        height: auto;
-        object-fit: contain;
-        display: block;
-        border-radius: 1rem;
-      }
     }
   }
 }

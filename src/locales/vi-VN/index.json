@@ -2166,10 +2166,10 @@
     "message": "AllayHub hoàn toàn mã nguồn mở. Gửi plugin qua PR, đóng góp cho nền tảng và giúp phát triển hệ sinh thái AllayMC."
   },
   "layout.footer.allay": {
-    "message": "Allay"
+    "message": "Nukkit-MOT"
   },
   "layout.footer.allay.server": {
-    "message": "Máy chủ Allay"
+    "message": "Nukkit-MOT Server"
   },
   "layout.footer.allay.docs": {
     "message": "Tài liệu"

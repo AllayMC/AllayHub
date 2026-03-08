@@ -1121,8 +1121,17 @@
   "landing.button.discover-mods": {
     "message": "Дослідити моди"
   },
+  "landing.button.discover-plugins": {
+    "message": "Відкрити плагіни"
+  },
   "landing.button.go-to-dashboard": {
     "message": "До панелі керування"
+  },
+  "landing.creator.feature.auto-tracking.description": {
+    "message": "Ваш GitHub-репозиторій автоматично індексується. README, релізи, журнали змін та історія версій синхронізуються автоматично."
+  },
+  "landing.creator.feature.auto-tracking.title": {
+    "message": "Автоматичне відстеження"
   },
   "landing.creator.feature.constantly-evolving.description": {
     "message": "Отримуйте найкращий можливий досвід створення модів завдяки постійним оновленням від команди AllayHub"
@@ -1153,6 +1162,18 @@
   },
   "landing.creator.feature.monetization.title": {
     "message": "Монетизація"
+  },
+  "landing.creator.feature.open-source.description": {
+    "message": "AllayHub повністю відкритий. Надсилайте плагіни через PR, робіть внесок у платформу та допомагайте розвивати екосистему AllayMC."
+  },
+  "landing.creator.feature.open-source.title": {
+    "message": "Відкритий код"
+  },
+  "landing.creator.feature.statistics.description": {
+    "message": "Відстежуйте популярність вашого плагіна за зірками GitHub, форками та кількістю завантажень релізів."
+  },
+  "landing.creator.feature.statistics.title": {
+    "message": "Статистика"
   },
   "landing.creator.feature.team-management.description": {
     "message": "Запрошуйте учасників вашої команди й керуйте їх ролями та дозволами з легкістю"
@@ -1370,6 +1391,27 @@
   "layout.footer.about.status": {
     "message": "Статус"
   },
+  "layout.footer.allay": {
+    "message": "Nukkit-MOT"
+  },
+  "layout.footer.allay.docs": {
+    "message": "Документація"
+  },
+  "layout.footer.allay.server": {
+    "message": "Nukkit-MOT Server"
+  },
+  "layout.footer.allayhub-information": {
+    "message": "Інформація про NukkitHub"
+  },
+  "layout.footer.community": {
+    "message": "Спільнота"
+  },
+  "layout.footer.community.discord": {
+    "message": "Discord"
+  },
+  "layout.footer.community.github": {
+    "message": "GitHub"
+  },
   "layout.footer.legal": {
     "message": "Угоди"
   },
@@ -1403,11 +1445,17 @@
   "layout.footer.products.app": {
     "message": "AllayLauncher"
   },
+  "layout.footer.products.plugins": {
+    "message": "Плагіни"
+  },
   "layout.footer.products.plus": {
     "message": "AllayHub+"
   },
   "layout.footer.products.servers": {
     "message": "Хостинг AllayHub"
+  },
+  "layout.footer.project-attribution": {
+    "message": "Цей проект базується на відкритому проекті <allayhub-link>AllayHub від AllayMC</allayhub-link> і доступний під ліцензією AGPL на <nukkithub-link>MemoriesOfTime/NukkitHub</nukkithub-link>."
   },
   "layout.footer.resources": {
     "message": "Ресурси"
@@ -1420,6 +1468,9 @@
   },
   "layout.footer.resources.report-issues": {
     "message": "Сповістити про проблеми"
+  },
+  "layout.footer.resources.source-code": {
+    "message": "Вихідний код"
   },
   "layout.footer.resources.translate": {
     "message": "Перекласти"
@@ -1435,6 +1486,9 @@
   },
   "layout.footer.social.mastodon": {
     "message": "Mastodon"
+  },
+  "layout.footer.social.twitter": {
+    "message": "Twitter"
   },
   "layout.footer.social.x": {
     "message": "X"
@@ -1457,6 +1511,12 @@
   "layout.nav.active-reports": {
     "message": "Активні звіти"
   },
+  "layout.nav.allay-launcher": {
+    "message": "Лаунчер"
+  },
+  "layout.nav.allayhub-home-page": {
+    "message": "Головна сторінка NukkitHub"
+  },
   "layout.nav.analytics": {
     "message": "Аналітика"
   },
@@ -1468,6 +1528,9 @@
   },
   "layout.nav.feature-flags": {
     "message": "Перемикачі функцій"
+  },
+  "layout.nav.get-allay-launcher": {
+    "message": "Завантажити лаунчер"
   },
   "layout.nav.get-modrinth-app": {
     "message": "Отримати Allay"
@@ -2899,50 +2962,5 @@
   },
   "version.environment.unknown.title": {
     "message": "Невідоме середовище"
-  },
-  "landing.creator.feature.auto-tracking.title": {
-    "message": "Автоматичне відстеження"
-  },
-  "landing.creator.feature.auto-tracking.description": {
-    "message": "Ваш GitHub-репозиторій автоматично індексується. README, релізи, журнали змін та історія версій синхронізуються автоматично."
-  },
-  "landing.creator.feature.statistics.title": {
-    "message": "Статистика"
-  },
-  "landing.creator.feature.statistics.description": {
-    "message": "Відстежуйте популярність вашого плагіна за зірками GitHub, форками та кількістю завантажень релізів."
-  },
-  "landing.creator.feature.open-source.title": {
-    "message": "Відкритий код"
-  },
-  "landing.creator.feature.open-source.description": {
-    "message": "AllayHub повністю відкритий. Надсилайте плагіни через PR, робіть внесок у платформу та допомагайте розвивати екосистему AllayMC."
-  },
-  "layout.footer.allay": {
-    "message": "Allay"
-  },
-  "layout.footer.allay.server": {
-    "message": "Сервер Allay"
-  },
-  "layout.footer.allay.docs": {
-    "message": "Документація"
-  },
-  "layout.footer.products.plugins": {
-    "message": "Плагіни"
-  },
-  "layout.footer.resources.source-code": {
-    "message": "Вихідний код"
-  },
-  "layout.footer.community": {
-    "message": "Спільнота"
-  },
-  "layout.footer.community.discord": {
-    "message": "Discord"
-  },
-  "layout.footer.community.github": {
-    "message": "GitHub"
-  },
-  "layout.footer.social.twitter": {
-    "message": "Twitter"
   }
 }

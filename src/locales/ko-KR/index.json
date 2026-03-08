@@ -2454,10 +2454,10 @@
     "message": "AllayHub는 완전히 오픈 소스입니다. PR로 플러그인을 제출하고, 플랫폼에 기여하고, AllayMC 생태계 성장에 동참하세요."
   },
   "layout.footer.allay": {
-    "message": "Allay"
+    "message": "Nukkit-MOT"
   },
   "layout.footer.allay.server": {
-    "message": "Allay 서버"
+    "message": "Nukkit-MOT Server"
   },
   "layout.footer.allay.docs": {
     "message": "문서"

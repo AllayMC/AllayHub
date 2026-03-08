@@ -12,9 +12,10 @@ pub fn get_segmenter() -> &'static Segmenter {
 
         for line in UNIGRAMS_DATA.lines() {
             if let Some((word, count_str)) = line.split_once('\t')
-                && let Ok(count) = count_str.trim().parse::<f64>() {
-                    unigrams.insert(word.into(), count);
-                }
+                && let Ok(count) = count_str.trim().parse::<f64>()
+            {
+                unigrams.insert(word.into(), count);
+            }
         }
 
         let bigrams: Vec<((SmartString, SmartString), f64)> = Vec::new();

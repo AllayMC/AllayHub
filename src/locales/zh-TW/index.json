@@ -1121,8 +1121,17 @@
   "landing.button.discover-mods": {
     "message": "探索模組"
   },
+  "landing.button.discover-plugins": {
+    "message": "探索外掛"
+  },
   "landing.button.go-to-dashboard": {
     "message": "前往資訊主頁"
+  },
+  "landing.creator.feature.auto-tracking.description": {
+    "message": "你的 GitHub 儲存庫會被自動索引。README、發布版本、更新日誌和版本歷史會自動同步。"
+  },
+  "landing.creator.feature.auto-tracking.title": {
+    "message": "自動追蹤"
   },
   "landing.creator.feature.constantly-evolving.description": {
     "message": "透過 AllayHub 團隊持續不斷的更新，享受最佳的模組體驗"
@@ -1154,6 +1163,18 @@
   "landing.creator.feature.monetization.title": {
     "message": "營利"
   },
+  "landing.creator.feature.open-source.description": {
+    "message": "NukkitHub 完全開源。透過 PR 提交插件，為平台貢獻代碼，共同建設 AllayMC 生態。"
+  },
+  "landing.creator.feature.open-source.title": {
+    "message": "開源社區"
+  },
+  "landing.creator.feature.statistics.description": {
+    "message": "透過 GitHub stars、forks 和發布下載量追蹤你的插件熱度。"
+  },
+  "landing.creator.feature.statistics.title": {
+    "message": "數據統計"
+  },
   "landing.creator.feature.team-management.description": {
     "message": "輕鬆邀請你的團隊成員並管理角色與權限"
   },
@@ -1176,7 +1197,7 @@
     "message": "使用你偏好的啟動器遊玩"
   },
   "landing.feature.search.description": {
-    "message": "AllayHub 閃電般快速搜尋與強大的篩選功能，讓你在輸入時就能輕鬆找到所需內容。"
+    "message": "NukkitHub 閃電般快速搜尋與強大的篩選功能，讓你在輸入時就能輕鬆找到所需內容。"
   },
   "landing.feature.search.heading": {
     "message": "快速輕鬆地找到你想要的內容"
@@ -1370,6 +1391,27 @@
   "layout.footer.about.status": {
     "message": "狀態"
   },
+  "layout.footer.allay": {
+    "message": "Nukkit-MOT"
+  },
+  "layout.footer.allay.docs": {
+    "message": "文件"
+  },
+  "layout.footer.allay.server": {
+    "message": "Nukkit-MOT Server"
+  },
+  "layout.footer.allayhub-information": {
+    "message": "NukkitHub 資訊"
+  },
+  "layout.footer.community": {
+    "message": "社群"
+  },
+  "layout.footer.community.discord": {
+    "message": "Discord"
+  },
+  "layout.footer.community.github": {
+    "message": "GitHub"
+  },
   "layout.footer.legal": {
     "message": "法律"
   },
@@ -1403,11 +1445,17 @@
   "layout.footer.products.app": {
     "message": "AllayLauncher"
   },
+  "layout.footer.products.plugins": {
+    "message": "外掛程式"
+  },
   "layout.footer.products.plus": {
     "message": "AllayHub+"
   },
   "layout.footer.products.servers": {
     "message": "AllayHub Hosting"
+  },
+  "layout.footer.project-attribution": {
+    "message": "本專案基於<allayhub-link>AllayMC 的開源專案 AllayHub</allayhub-link>進行二次開發，並遵守 AGPL 協議開源於<nukkithub-link>MemoriesOfTime/NukkitHub</nukkithub-link>。"
   },
   "layout.footer.resources": {
     "message": "資源"
@@ -1420,6 +1468,9 @@
   },
   "layout.footer.resources.report-issues": {
     "message": "回報問題"
+  },
+  "layout.footer.resources.source-code": {
+    "message": "原始碼"
   },
   "layout.footer.resources.translate": {
     "message": "翻譯"
@@ -1435,6 +1486,9 @@
   },
   "layout.footer.social.mastodon": {
     "message": "Mastodon"
+  },
+  "layout.footer.social.twitter": {
+    "message": "Twitter"
   },
   "layout.footer.social.x": {
     "message": "X"
@@ -1457,6 +1511,12 @@
   "layout.nav.active-reports": {
     "message": "進行中的檢舉"
   },
+  "layout.nav.allay-launcher": {
+    "message": "啟動器"
+  },
+  "layout.nav.allayhub-home-page": {
+    "message": "NukkitHub 首頁"
+  },
   "layout.nav.analytics": {
     "message": "數據分析"
   },
@@ -1468,6 +1528,9 @@
   },
   "layout.nav.feature-flags": {
     "message": "功能旗標"
+  },
+  "layout.nav.get-allay-launcher": {
+    "message": "取得啟動器"
   },
   "layout.nav.get-modrinth-app": {
     "message": "取得 Allay"
@@ -1482,7 +1545,7 @@
     "message": "AllayLauncher"
   },
   "layout.nav.modrinth-home-page": {
-    "message": "AllayHub 首頁"
+    "message": "NukkitHub 首頁"
   },
   "layout.nav.my-servers": {
     "message": "我的伺服器"
@@ -2899,50 +2962,5 @@
   },
   "version.environment.unknown.title": {
     "message": "未知的執行環境"
-  },
-  "landing.creator.feature.auto-tracking.title": {
-    "message": "自動追蹤"
-  },
-  "landing.creator.feature.auto-tracking.description": {
-    "message": "你的 GitHub 儲存庫會被自動索引。README、發布版本、更新日誌和版本歷史會自動同步。"
-  },
-  "landing.creator.feature.statistics.title": {
-    "message": "數據統計"
-  },
-  "landing.creator.feature.statistics.description": {
-    "message": "透過 GitHub stars、forks 和發布下載量追蹤你的插件熱度。"
-  },
-  "landing.creator.feature.open-source.title": {
-    "message": "開源社區"
-  },
-  "landing.creator.feature.open-source.description": {
-    "message": "AllayHub 完全開源。透過 PR 提交插件，為平台貢獻代碼，共同建設 AllayMC 生態。"
-  },
-  "layout.footer.allay": {
-    "message": "Allay"
-  },
-  "layout.footer.allay.server": {
-    "message": "Allay 伺服器"
-  },
-  "layout.footer.allay.docs": {
-    "message": "文件"
-  },
-  "layout.footer.products.plugins": {
-    "message": "外掛程式"
-  },
-  "layout.footer.resources.source-code": {
-    "message": "原始碼"
-  },
-  "layout.footer.community": {
-    "message": "社群"
-  },
-  "layout.footer.community.discord": {
-    "message": "Discord"
-  },
-  "layout.footer.community.github": {
-    "message": "GitHub"
-  },
-  "layout.footer.social.twitter": {
-    "message": "Twitter"
   }
 }

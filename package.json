@@ -10,7 +10,7 @@
   ],
   "scripts": {
     "build": "NODE_OPTIONS=\"--max-old-space-size=8192\" nuxi build",
-    "build:search": "./allayindexer build",
+    "build:search": "([ -x ./allayindexer ] && ./allayindexer build) || cargo run --manifest-path indexer/Cargo.toml -- build",
     "dev": "bun run build:search && nuxi dev",
     "generate": "bun run build:search && nuxi generate",
     "preview": "nuxi preview",

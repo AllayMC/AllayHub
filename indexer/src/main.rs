@@ -122,6 +122,8 @@ fn cmd_update(args: &[String]) {
         process::exit(1);
     }
 
+    allayindexer::jenkins::init_jenkins();
+
     let dry_run = has_flag(args, "--dry-run");
     let force = has_flag(args, "--force");
     let index_dir = Path::new("NukkitHubIndex");
@@ -130,7 +132,6 @@ fn cmd_update(args: &[String]) {
         error!(path = ?index_dir, "Index directory not found");
         process::exit(1);
     }
-
 
     let plugins = {
         let _span = info_span!("load_plugins").entered();
@@ -233,6 +234,8 @@ fn cmd_discover(args: &[String]) {
         process::exit(1);
     }
 
+    allayindexer::jenkins::init_jenkins();
+
     let dry_run = has_flag(args, "--dry-run");
     let index_dir = Path::new("NukkitHubIndex");
 
@@ -240,7 +243,6 @@ fn cmd_discover(args: &[String]) {
         error!(path = ?index_dir, "Index directory not found");
         process::exit(1);
     }
-
 
     let plugins = {
         let _span = info_span!("load_plugins").entered();

@@ -59,7 +59,7 @@
       />
     </Categories>
     <div class="stats">
-      <div v-if="downloads" class="stat">
+      <div v-if="flags.showDownloadCounts && downloads" class="stat">
         <DownloadIcon aria-hidden="true" />
         <p>
           <strong>{{ $formatNumber(downloads) }}</strong
@@ -231,8 +231,9 @@ export default {
   },
   setup() {
     const formatRelativeTime = useRelativeTime()
+    const flags = useFeatureFlags()
 
-    return { formatRelativeTime }
+    return { formatRelativeTime, flags }
   },
   computed: {
     projectTypeDisplay() {

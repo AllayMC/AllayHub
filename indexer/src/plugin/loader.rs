@@ -25,11 +25,11 @@ fn load_plugins_recursive(dir: &Path, plugins: &mut Vec<Plugin>) {
             load_plugins_recursive(&path, plugins);
         } else if path.extension().is_some_and(|e| e == "json")
             && let Ok(content) = fs::read_to_string(&path) {
-                match parse_plugin_with_preserved_fields(&content) {
-                    Ok(plugin) => plugins.push(plugin),
-                    Err(e) => warn!(path = ?path, error = %e, "Failed to parse plugin"),
-                }
+            match parse_plugin_with_preserved_fields(&content) {
+                Ok(plugin) => plugins.push(plugin),
+                Err(e) => warn!(path = ?path, error = %e, "Failed to parse plugin"),
             }
+        }
     }
 }
 
@@ -54,8 +54,8 @@ fn parse_plugin_with_preserved_fields(content: &str) -> Result<Plugin, String> {
         }
     }
 
-    let mut plugin: Plugin = serde_json::from_value(serde_json::Value::Object(normalized))
-        .map_err(|e| e.to_string())?;
+    let mut plugin: Plugin =
+        serde_json::from_value(serde_json::Value::Object(normalized)).map_err(|e| e.to_string())?;
     plugin.preserved_fields = preserved_fields;
     Ok(plugin)
 }

@@ -36,14 +36,14 @@ jobs:
         with:
           app-id: ${{ vars.APP_ID }}
           private-key: ${{ secrets.APP_PRIVATE_KEY }}
-          owner: AllayMC
-          repositories: AllayHubIndex
+          owner: MemoriesOfTime
+          repositories: NukkitHubIndex
 
-      - name: Checkout AllayHubIndex
+      - name: Checkout NukkitHubIndex
         uses: actions/checkout@v6
         with:
-          repository: AllayMC/AllayHubIndex
-          path: AllayHubIndex
+          repository: MemoriesOfTime/NukkitHubIndex
+          path: NukkitHubIndex
           token: ${{ steps.app-token.outputs.token }}
 
       - name: Setup Bun
@@ -163,7 +163,7 @@ jobs:
       - name: Check for changes
         id: changes
         run: |
-          cd AllayHubIndex
+          cd NukkitHubIndex
           git add -A
           if git diff --staged --quiet; then
             echo "has_changes=false" >> $GITHUB_OUTPUT
@@ -176,7 +176,7 @@ jobs:
       - name: Commit and push changes
         if: steps.changes.outputs.has_changes == 'true'
         run: |
-          cd AllayHubIndex
+          cd NukkitHubIndex
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
           git commit -m "chore: sync plugin index"

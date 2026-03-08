@@ -48,7 +48,7 @@ async function onLocaleChange(newLocale: string) {
           :values="{ platform }"
         >
           <template #~crowdin-link="{ children }">
-            <a href="https://github.com/AllayMC/AllayHub">
+            <a href="https://github.com/MemoriesOfTime/NukkitHub">
               <component :is="() => children" />
             </a>
           </template>

@@ -65,6 +65,7 @@
         Published
       </div>
       <div
+        v-if="showDownloads"
         class="text-sm font-bold text-contrast max-sm:hidden sm:max-xl:collapse sm:max-xl:hidden"
       >
         Downloads
@@ -146,6 +147,7 @@
                 {{ formatRelativeTime(new Date(version.published_at)) }}
               </div>
               <div
+                v-if="showDownloads"
                 class="pointer-events-none z-[1] flex items-center gap-1 font-medium xl:self-center"
               >
                 <DownloadIcon class="xl:hidden" />
@@ -217,6 +219,7 @@ const props = withDefaults(
     }
     versions: Version[]
     showFiles?: boolean
+    showDownloads?: boolean
     currentMember?: boolean
     versionLink?: (version: Version) => string
     openModal?: () => void
@@ -226,6 +229,7 @@ const props = withDefaults(
   {
     baseId: undefined,
     showFiles: false,
+    showDownloads: true,
     currentMember: false,
     versionLink: undefined,
     hasMultipleEnvironments: false,

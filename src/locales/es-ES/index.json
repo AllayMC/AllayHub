@@ -716,6 +716,12 @@
   "dashboard.creator-withdraw-modal.muralpay-details.account-owner": {
     "message": "Dueño de la cuenta"
   },
+  "dashboard.creator-withdraw-modal.muralpay-details.bank-account-owner": {
+    "message": "Bank account owner"
+  },
+  "dashboard.creator-withdraw-modal.muralpay-details.bank-account-owner-description": {
+    "message": "Enter the name of the person authorized to operate this bank account on behalf of the business."
+  },
   "dashboard.creator-withdraw-modal.muralpay-details.coin": {
     "message": "Moneda"
   },
@@ -809,20 +815,137 @@
   "dashboard.creator-withdraw-modal.stage.tax-form": {
     "message": "Formulario fiscal"
   },
+  "dashboard.creator-withdraw-modal.stage.tremendous-details": {
+    "message": "Details"
+  },
   "dashboard.creator-withdraw-modal.tax-form-required.body": {
     "message": "Para retirar el saldo total <b>{available}</b> disponible, rellene el siguiente formulario. Es necesario para la declaración de impuestos y solo hay que hacerlo una vez."
+  },
+  "dashboard.creator-withdraw-modal.tax-form-required.body-with-limit": {
+    "message": "You must complete a W-9 or W-8 form for AllayHub's tax records so we remain compliant with tax regulations."
+  },
+  "dashboard.creator-withdraw-modal.tax-form-required.header": {
+    "message": "Tax form required"
+  },
+  "dashboard.creator-withdraw-modal.tremendous-details.available-denominations-label": {
+    "message": "Available denominations"
+  },
+  "dashboard.creator-withdraw-modal.tremendous-details.balance-worth-hint": {
+    "message": "Your balance of {usdBalance} is currently worth {localBalance}."
+  },
+  "dashboard.creator-withdraw-modal.tremendous-details.enter-amount-hint": {
+    "message": "Find gift cards near this value."
+  },
+  "dashboard.creator-withdraw-modal.tremendous-details.enter-denomination-placeholder": {
+    "message": "Enter amount"
   },
   "dashboard.creator-withdraw-modal.tremendous-details.payment-method": {
     "message": "Método de pago"
   },
+  "dashboard.creator-withdraw-modal.tremendous-details.reward": {
+    "message": "Reward"
+  },
+  "dashboard.creator-withdraw-modal.tremendous-details.reward-placeholder": {
+    "message": "Select reward"
+  },
+  "dashboard.creator-withdraw-modal.tremendous-details.reward-plural": {
+    "message": "Rewards"
+  },
+  "dashboard.creator-withdraw-modal.tremendous-details.search-amount-label": {
+    "message": "Search amount"
+  },
+  "dashboard.creator-withdraw-modal.tremendous-details.select-denomination-hint": {
+    "message": "Select a denomination:"
+  },
+  "dashboard.creator-withdraw-modal.tremendous-details.select-denomination-required": {
+    "message": "Please select a denomination to continue"
+  },
   "dashboard.creator-withdraw-modal.tremendous-details.unverified-email-header": {
     "message": "Email no verificado"
+  },
+  "dashboard.creator-withdraw-modal.tremendous-details.unverified-email-message": {
+    "message": "The delivery email you have entered is not associated with your AllayHub account. AllayHub cannot recover rewards sent to an incorrect email address."
+  },
+  "dashboard.creator-withdraw-modal.tremendous-details.usd-paypal-warning-header": {
+    "message": "Lower fees available"
+  },
+  "dashboard.creator-withdraw-modal.tremendous-details.usd-paypal-warning-message": {
+    "message": "You selected USD for PayPal International. <direct-paypal-link>Switch to direct PayPal</direct-paypal-link> for better fees (≈2% instead of ≈6%)."
   },
   "dashboard.creator-withdraw-modal.withdraw-button": {
     "message": "Retirada"
   },
+  "dashboard.creator-withdraw-modal.withdraw-limit": {
+    "message": "Withdraw limit"
+  },
+  "dashboard.creator-withdraw-modal.withdraw-limit-used": {
+    "message": "You've used up your <b>{withdrawLimit}</b> withdrawal limit. You must complete a tax form to withdraw more."
+  },
+  "dashboard.revenue.available-now": {
+    "message": "Available now"
+  },
+  "dashboard.revenue.balance": {
+    "message": "Balance"
+  },
+  "dashboard.revenue.estimated-tooltip.msg1": {
+    "message": "Estimated revenue may be subject to change until it is made available."
+  },
+  "dashboard.revenue.estimated-tooltip.msg2": {
+    "message": "Click to read about how AllayHub handles your revenue."
+  },
+  "dashboard.revenue.estimated-with-date": {
+    "message": "Estimated {date}"
+  },
+  "dashboard.revenue.processing": {
+    "message": "Processing"
+  },
+  "dashboard.revenue.processing.tooltip": {
+    "message": "Revenue stays in processing until the end of the month, then becomes available 60 days later."
+  },
+  "dashboard.revenue.stats.received": {
+    "message": "Received"
+  },
+  "dashboard.revenue.stats.transactions": {
+    "message": "Transactions"
+  },
+  "dashboard.revenue.stats.withdrawn": {
+    "message": "Withdrawn"
+  },
   "dashboard.revenue.tos": {
     "message": "Al subir proyectos a AllayHub y retirar dinero de tu cuenta, aceptas nuestros <terms-link>Términos del programa de recompensas</terms-link>. Más información sobre el <info-link>Programa de recompensas</info-link>."
+  },
+  "dashboard.revenue.transactions.btn.download-csv": {
+    "message": "Download as CSV"
+  },
+  "dashboard.revenue.transactions.header": {
+    "message": "Transactions"
+  },
+  "dashboard.revenue.transactions.none": {
+    "message": "No transactions"
+  },
+  "dashboard.revenue.transactions.none.desc": {
+    "message": "Your payouts and withdrawals will appear here."
+  },
+  "dashboard.revenue.transactions.see-all": {
+    "message": "See all"
+  },
+  "dashboard.revenue.withdraw.blocked-tin-mismatch": {
+    "message": "Your withdrawals are temporarily locked because your TIN or SSN didn't match IRS records. Please contact support to reset and resubmit your tax form."
+  },
+  "dashboard.revenue.withdraw.card.description": {
+    "message": "Withdraw from your available balance to any payout method."
+  },
+  "dashboard.revenue.withdraw.card.title": {
+    "message": "Withdraw"
+  },
+  "dashboard.revenue.withdraw.header": {
+    "message": "Withdraw"
+  },
+  "dashboard.withdraw.completion.account": {
+    "message": "Account"
+  },
+  "dashboard.withdraw.completion.amount": {
+    "message": "Amount"
   },
   "dashboard.withdraw.completion.close-button": {
     "message": "Cerrar"
@@ -833,11 +956,65 @@
   "dashboard.withdraw.completion.email-confirmation": {
     "message": "Recibirás un correo electrónico en <b>{email}</b> con instrucciones para canjear tu retirada."
   },
+  "dashboard.withdraw.completion.exchange-rate": {
+    "message": "Exchange rate"
+  },
+  "dashboard.withdraw.completion.fee": {
+    "message": "Fee"
+  },
   "dashboard.withdraw.completion.method": {
     "message": "Método"
   },
+  "dashboard.withdraw.completion.net-amount": {
+    "message": "Net amount"
+  },
+  "dashboard.withdraw.completion.recipient": {
+    "message": "Recipient"
+  },
+  "dashboard.withdraw.completion.title": {
+    "message": "Withdraw complete"
+  },
+  "dashboard.withdraw.completion.transactions-button": {
+    "message": "Transactions"
+  },
+  "dashboard.withdraw.completion.wallet": {
+    "message": "Wallet"
+  },
+  "dashboard.withdraw.error.generic.text": {
+    "message": "We were unable to submit your withdrawal request, please check your details or contact support.\n{error}"
+  },
+  "dashboard.withdraw.error.generic.title": {
+    "message": "Unable to withdraw"
+  },
+  "dashboard.withdraw.error.invalid-address.text": {
+    "message": "The address you provided could not be verified. Please check your address details."
+  },
+  "dashboard.withdraw.error.invalid-address.title": {
+    "message": "Address verification failed"
+  },
   "dashboard.withdraw.error.invalid-bank.text": {
     "message": ""
+  },
+  "dashboard.withdraw.error.invalid-bank.title": {
+    "message": "Invalid bank details"
+  },
+  "dashboard.withdraw.error.invalid-wallet.text": {
+    "message": "The crypto wallet address you provided is invalid. Please double-check and try again."
+  },
+  "dashboard.withdraw.error.invalid-wallet.title": {
+    "message": "Invalid wallet address"
+  },
+  "dashboard.withdraw.error.minimum-not-met.text": {
+    "message": "The withdrawal amount (after fees) doesn't meet the minimum requirement. Please increase your withdrawal amount."
+  },
+  "dashboard.withdraw.error.minimum-not-met.title": {
+    "message": "Amount too low"
+  },
+  "dashboard.withdraw.error.tax-form.text": {
+    "message": "You must complete a tax form to submit your withdrawal request."
+  },
+  "dashboard.withdraw.error.tax-form.title": {
+    "message": "Please complete tax form"
   },
   "error.collection.404.list_item.1": {
     "message": "Has escrito mal en enlace de esta colección."
@@ -932,6 +1109,9 @@
   "frog.altText": {
     "message": "Una pintura fotorrealista de un laberinto de ranas"
   },
+  "frog.froggedPeople": {
+    "message": "{count, plural, one {{count} more person} other {{count} more people}} were also frogged!"
+  },
   "frog.sinceOpened": {
     "message": "Esta página se abrió hace {ago}"
   },
@@ -941,8 +1121,17 @@
   "landing.button.discover-mods": {
     "message": "Descubrir mods"
   },
+  "landing.button.discover-plugins": {
+    "message": "Descubrir plugins"
+  },
   "landing.button.go-to-dashboard": {
     "message": "Ir al panel de control"
+  },
+  "landing.creator.feature.auto-tracking.description": {
+    "message": "Tu repositorio de GitHub se indexa automáticamente. README, lanzamientos, changelogs e historial de versiones se sincronizan automáticamente."
+  },
+  "landing.creator.feature.auto-tracking.title": {
+    "message": "Seguimiento automático"
   },
   "landing.creator.feature.constantly-evolving.description": {
     "message": "Disfruta de la mejor experiencia de modding posible con actualizaciones constantes del equipo de AllayHub"
@@ -973,6 +1162,18 @@
   },
   "landing.creator.feature.monetization.title": {
     "message": "Monetización"
+  },
+  "landing.creator.feature.open-source.description": {
+    "message": "AllayHub es completamente de código abierto. Envía plugins mediante PR, contribuye a la plataforma y ayuda a crecer el ecosistema AllayMC."
+  },
+  "landing.creator.feature.open-source.title": {
+    "message": "Código Abierto"
+  },
+  "landing.creator.feature.statistics.description": {
+    "message": "Rastrea la popularidad de tu plugin con estrellas de GitHub, forks y conteos de descargas de releases."
+  },
+  "landing.creator.feature.statistics.title": {
+    "message": "Estadísticas"
   },
   "landing.creator.feature.team-management.description": {
     "message": "Invita a tus compañeros de equipo y gestiona roles y permisos con facilidad"
@@ -1091,6 +1292,9 @@
   "layout.action.lookup-by-email": {
     "message": "Búsqueda por correo electrónico"
   },
+  "layout.action.manage-affiliates": {
+    "message": "Manage affiliate links"
+  },
   "layout.action.manage-server-notices": {
     "message": "Gestionar avisos del servidor"
   },
@@ -1102,6 +1306,15 @@
   },
   "layout.action.new-project": {
     "message": "Nuevo proyecto"
+  },
+  "layout.action.reports": {
+    "message": "Review reports"
+  },
+  "layout.action.review-projects": {
+    "message": "Project review"
+  },
+  "layout.action.tech-review": {
+    "message": "Tech review"
   },
   "layout.avatar.alt": {
     "message": "Tu avatar"
@@ -1178,6 +1391,27 @@
   "layout.footer.about.status": {
     "message": "Estado"
   },
+  "layout.footer.allay": {
+    "message": "Nukkit-MOT"
+  },
+  "layout.footer.allay.docs": {
+    "message": "Documentación"
+  },
+  "layout.footer.allay.server": {
+    "message": "Nukkit-MOT Server"
+  },
+  "layout.footer.allayhub-information": {
+    "message": "Información de NukkitHub"
+  },
+  "layout.footer.community": {
+    "message": "Comunidad"
+  },
+  "layout.footer.community.discord": {
+    "message": "Discord"
+  },
+  "layout.footer.community.github": {
+    "message": "GitHub"
+  },
   "layout.footer.legal": {
     "message": "Legal"
   },
@@ -1211,8 +1445,17 @@
   "layout.footer.products.app": {
     "message": "Aplicación AllayHub"
   },
+  "layout.footer.products.plugins": {
+    "message": "Plugins"
+  },
   "layout.footer.products.plus": {
     "message": "AllayHub+"
+  },
+  "layout.footer.products.servers": {
+    "message": "AllayHub Hosting"
+  },
+  "layout.footer.project-attribution": {
+    "message": "Este proyecto está basado en el proyecto de código abierto <allayhub-link>AllayHub de AllayMC</allayhub-link> y está disponible bajo la licencia AGPL en <nukkithub-link>MemoriesOfTime/NukkitHub</nukkithub-link>."
   },
   "layout.footer.resources": {
     "message": "Recursos"
@@ -1225,6 +1468,9 @@
   },
   "layout.footer.resources.report-issues": {
     "message": "Informar de problemas"
+  },
+  "layout.footer.resources.source-code": {
+    "message": "Código fuente"
   },
   "layout.footer.resources.translate": {
     "message": "Traducir"
@@ -1240,6 +1486,9 @@
   },
   "layout.footer.social.mastodon": {
     "message": "Mastodon"
+  },
+  "layout.footer.social.twitter": {
+    "message": "Twitter"
   },
   "layout.footer.social.x": {
     "message": "X"
@@ -1259,6 +1508,15 @@
   "layout.mobile.open-menu": {
     "message": "Abrir menú"
   },
+  "layout.nav.active-reports": {
+    "message": "Active reports"
+  },
+  "layout.nav.allay-launcher": {
+    "message": "Launcher"
+  },
+  "layout.nav.allayhub-home-page": {
+    "message": "Página principal de NukkitHub"
+  },
   "layout.nav.analytics": {
     "message": "Análisis"
   },
@@ -1270,6 +1528,9 @@
   },
   "layout.nav.feature-flags": {
     "message": "Banderas de características"
+  },
+  "layout.nav.get-allay-launcher": {
+    "message": "Obtener el launcher"
   },
   "layout.nav.get-modrinth-app": {
     "message": "Obtener Allay"
@@ -1331,6 +1592,9 @@
   "moderation.sort.by": {
     "message": "Ordenar por"
   },
+  "muralpay.account-type.checking": {
+    "message": "Checking"
+  },
   "muralpay.account-type.savings": {
     "message": "Guardando"
   },
@@ -1388,20 +1652,212 @@
   "muralpay.country.sk": {
     "message": "Eslovaquia"
   },
+  "muralpay.document-type.national-id": {
+    "message": "National ID"
+  },
   "muralpay.document-type.passport": {
     "message": "Pasaporte"
+  },
+  "muralpay.document-type.resident-id": {
+    "message": "Resident ID"
+  },
+  "muralpay.document-type.ruc": {
+    "message": "RUC"
+  },
+  "muralpay.document-type.tax-id": {
+    "message": "Tax ID"
+  },
+  "muralpay.field.account-number": {
+    "message": "Account number"
+  },
+  "muralpay.field.account-number-cbu-cvu": {
+    "message": "Account number (CBU/CVU)"
+  },
+  "muralpay.field.account-number-cci": {
+    "message": "Account number (CCI)"
+  },
+  "muralpay.field.account-number-type": {
+    "message": "Account number type"
+  },
+  "muralpay.field.account-type": {
+    "message": "Account type"
+  },
+  "muralpay.field.bank-account-number": {
+    "message": "Account number"
+  },
+  "muralpay.field.branch-code": {
+    "message": "Branch code"
+  },
+  "muralpay.field.clabe": {
+    "message": "CLABE"
   },
   "muralpay.field.country": {
     "message": "País"
   },
+  "muralpay.field.cpf-cnpj": {
+    "message": "CPF/CNPJ"
+  },
+  "muralpay.field.cuit-cuil": {
+    "message": "CUIT/CUIL"
+  },
+  "muralpay.field.document-type": {
+    "message": "Document type"
+  },
   "muralpay.field.iban": {
     "message": "IBAN"
+  },
+  "muralpay.field.phone-number": {
+    "message": "Phone number"
+  },
+  "muralpay.field.pix-email": {
+    "message": "PIX email"
+  },
+  "muralpay.field.pix-key-type": {
+    "message": "PIX key type"
+  },
+  "muralpay.field.pix-phone": {
+    "message": "PIX phone"
+  },
+  "muralpay.field.routing-number": {
+    "message": "Routing number"
+  },
+  "muralpay.field.swift-bic": {
+    "message": "SWIFT/BIC"
+  },
+  "muralpay.field.wallet-address": {
+    "message": "Wallet address"
+  },
+  "muralpay.help.cbu-cvu": {
+    "message": "Clave Bancaria Uniforme or Clave Virtual Uniforme"
   },
   "muralpay.help.cci": {
     "message": "Código de Cuenta Interbancaria"
   },
+  "muralpay.help.clabe": {
+    "message": "Clave Bancaria Estandarizada (Mexican bank account number)"
+  },
+  "muralpay.help.cpf-cnpj": {
+    "message": "Brazilian tax identification number"
+  },
+  "muralpay.help.cuit-cuil": {
+    "message": "Argentine tax ID"
+  },
+  "muralpay.help.iban": {
+    "message": "International Bank Account Number"
+  },
+  "muralpay.help.swift-bic": {
+    "message": "Bank Identifier Code"
+  },
+  "muralpay.pix-type.bank-account": {
+    "message": "Bank account"
+  },
+  "muralpay.pix-type.document": {
+    "message": "CPF/CNPJ"
+  },
   "muralpay.pix-type.email": {
     "message": "Correo electrónico"
+  },
+  "muralpay.pix-type.phone": {
+    "message": "Phone number"
+  },
+  "muralpay.placeholder.account-number": {
+    "message": "Enter account number"
+  },
+  "muralpay.placeholder.cbu-cvu": {
+    "message": "Enter CBU or CVU"
+  },
+  "muralpay.placeholder.cbu-cvu-type": {
+    "message": "CBU or CVU"
+  },
+  "muralpay.placeholder.cci": {
+    "message": "Enter 20-digit CCI"
+  },
+  "muralpay.placeholder.cuit-cuil": {
+    "message": "Enter CUIT or CUIL"
+  },
+  "muralpay.placeholder.enter-account-number": {
+    "message": "Enter account number"
+  },
+  "muralpay.placeholder.enter-branch-code": {
+    "message": "Enter branch code"
+  },
+  "muralpay.placeholder.enter-clabe": {
+    "message": "Enter 18-digit CLABE"
+  },
+  "muralpay.placeholder.enter-cpf-cnpj": {
+    "message": "Enter CPF or CNPJ"
+  },
+  "muralpay.placeholder.enter-iban": {
+    "message": "Enter IBAN"
+  },
+  "muralpay.placeholder.enter-pix-email": {
+    "message": "Enter PIX email"
+  },
+  "muralpay.placeholder.enter-routing-number": {
+    "message": "Enter 9-digit routing number"
+  },
+  "muralpay.placeholder.enter-swift-bic": {
+    "message": "Enter SWIFT/BIC code"
+  },
+  "muralpay.placeholder.iban-crc": {
+    "message": "Enter Costa Rican IBAN"
+  },
+  "muralpay.placeholder.phone-cop": {
+    "message": "+57..."
+  },
+  "muralpay.placeholder.pix-phone": {
+    "message": "+55..."
+  },
+  "muralpay.placeholder.wallet-address-eth": {
+    "message": "0x..."
+  },
+  "muralpay.rail.fiat-ars.name": {
+    "message": "Bank Transfer (ARS)"
+  },
+  "muralpay.rail.fiat-brl.name": {
+    "message": "PIX Transfer (BRL)"
+  },
+  "muralpay.rail.fiat-clp.name": {
+    "message": "Bank Transfer (CLP)"
+  },
+  "muralpay.rail.fiat-cop.name": {
+    "message": "Bank Transfer (COP)"
+  },
+  "muralpay.rail.fiat-crc.name": {
+    "message": "Bank Transfer (CRC)"
+  },
+  "muralpay.rail.fiat-eur.name": {
+    "message": "Bank Transfer (EUR)"
+  },
+  "muralpay.rail.fiat-mxn.name": {
+    "message": "Bank Transfer (MXN)"
+  },
+  "muralpay.rail.fiat-pen.name": {
+    "message": "Bank Transfer (PEN)"
+  },
+  "muralpay.rail.fiat-usd-peru.name": {
+    "message": "Bank Transfer (USD - Peru)"
+  },
+  "muralpay.rail.fiat-usd.name": {
+    "message": "Bank Transfer (USD)"
+  },
+  "muralpay.rail.fiat-zar.name": {
+    "message": "Bank Transfer (ZAR)"
+  },
+  "muralpay.rail.usdc-base.name": {
+    "message": "USDC (Base)"
+  },
+  "muralpay.rail.usdc-celo.name": {
+    "message": "USDC (Celo)"
+  },
+  "muralpay.rail.usdc-ethereum.name": {
+    "message": "USDC (Ethereum)"
+  },
+  "muralpay.rail.usdc-polygon.name": {
+    "message": "Crypto (USDC)"
+  },
+  "muralpay.warning.wallet-address": {
+    "message": "Double-check your wallet address. Funds sent to an incorrect address cannot be recovered."
   },
   "profile.bio.fallback.creator": {
     "message": "Creador en AllayHub."
@@ -1432,6 +1888,9 @@
   },
   "profile.details.label.email": {
     "message": "Correo electrónico"
+  },
+  "profile.details.label.email-verified": {
+    "message": "Email verified"
   },
   "profile.details.label.has-password": {
     "message": "Tiene contraseña"
@@ -1550,6 +2009,9 @@
   "project-moderation-nags.resubmit-for-review": {
     "message": "Reenviar para revisión"
   },
+  "project-moderation-nags.resubmit-for-review-desc": {
+    "message": "Your project has been {status, select, rejected {rejected} withheld {withheld} other {{status}}} by AllayHub's staff. In most cases, you can resubmit for review after addressing the staff's message."
+  },
   "project-moderation-nags.submit-checklist-tooltip": {
     "message": "¡Debes completar los pasos requeridos en la lista de verificación de publicación!"
   },
@@ -1649,6 +2111,9 @@
   "project.actions.review-project": {
     "message": "Revisar proyecto"
   },
+  "project.actions.servers-promo.description": {
+    "message": "AllayHub Hosting is the easiest way to play with your friends without hassle!"
+  },
   "project.actions.servers-promo.pricing": {
     "message": "A partir de {price}<small> / mes</small>"
   },
@@ -1727,6 +2192,9 @@
   "project.environment.migration.learn-more": {
     "message": "Más información sobre este cambio"
   },
+  "project.environment.migration.message": {
+    "message": "We've just overhauled the Environments system on AllayHub and new options are now available. Please verify that the metadata is correct."
+  },
   "project.environment.migration.review-button": {
     "message": "Revisar la configuración del entorno"
   },
@@ -1775,11 +2243,41 @@
   "project.settings.general.name.description": {
     "message": "Evite prefijos, sufijos, paréntesis o descripciones añadidas; utilice solo el nombre real del proyecto."
   },
+  "project.settings.general.name.placeholder.1": {
+    "message": "e.g. Nether Overhaul 2"
+  },
+  "project.settings.general.name.placeholder.2": {
+    "message": "e.g. Construction Equipment"
+  },
+  "project.settings.general.name.placeholder.3": {
+    "message": "e.g. Better than Caving"
+  },
+  "project.settings.general.name.placeholder.4": {
+    "message": "e.g. Enhanced Portals"
+  },
+  "project.settings.general.name.placeholder.5": {
+    "message": "e.g. Dangerous Mobs"
+  },
   "project.settings.general.name.title": {
     "message": "Nombre"
   },
   "project.settings.general.tagline.description": {
     "message": "Resuma su proyecto en una sola frase."
+  },
+  "project.settings.general.tagline.placeholder.1": {
+    "message": "e.g. Overhauls game progression to revolve around the Nether."
+  },
+  "project.settings.general.tagline.placeholder.2": {
+    "message": "e.g. Adds wearable construction gear."
+  },
+  "project.settings.general.tagline.placeholder.3": {
+    "message": "e.g. Adds realistic mineshaft-building mechanics."
+  },
+  "project.settings.general.tagline.placeholder.4": {
+    "message": "e.g. Improves how Nether portals link to each other."
+  },
+  "project.settings.general.tagline.placeholder.5": {
+    "message": "e.g. Adds powerful boss versions of the normal mobs to encounter in the night."
   },
   "project.settings.general.tagline.title": {
     "message": "Eslogan"
@@ -1793,11 +2291,23 @@
   "project.settings.visit-dashboard": {
     "message": "Visita el panel de proyectos"
   },
+  "project.stats.downloads-label": {
+    "message": "download{count, plural, one {} other {s}}"
+  },
+  "project.stats.followers-label": {
+    "message": "follower{count, plural, one {} other {s}}"
+  },
+  "project.status.archived.message": {
+    "message": "{title} has been archived. {title} will not receive any further updates unless the author decides to unarchive the project."
+  },
   "project.versions.title": {
     "message": "Versiones"
   },
   "report.already-reported": {
     "message": "Ya has reportado {title}"
+  },
+  "report.already-reported-description": {
+    "message": "You have an open report for this {item} already. You can add more details to your report if you have more information to add."
   },
   "report.back-to-item": {
     "message": "Volver a {item}"
@@ -1832,11 +2342,17 @@
   "report.not-for.bug-reports.description": {
     "message": "Puedes informar de los errores en su <issues-link>sistema de seguimiento de incidencias</issues-link>."
   },
+  "report.not-for.dmca": {
+    "message": "DMCA takedowns"
+  },
   "report.not-for.dmca.description": {
     "message": "Consulte nuestra <policy-link>Política de derechos de autor</policy-link>."
   },
   "report.note.copyright.1": {
     "message": "Tenga en cuenta que *no* está enviando una solicitud de retirada en virtud de la DMCA, sino un informe sobre contenido vuelto a subir."
+  },
+  "report.note.copyright.2": {
+    "message": "If you meant to file a DMCA takedown request (which is a legal action) instead, please see our <copyright-policy-link>Copyright Policy</copyright-policy-link>."
   },
   "report.note.malicious.1": {
     "message": "Los informes de contenido malicioso o engañoso deben incluir pruebas sustanciales del comportamiento, como muestras de código."
@@ -2435,49 +2951,16 @@
   "ui.latest-news-row.view-all": {
     "message": "Ver todas las noticias"
   },
-  "landing.creator.feature.auto-tracking.title": {
-    "message": "Seguimiento automático"
+  "version.environment.none.description": {
+    "message": "The environment for this version has not been specified."
   },
-  "landing.creator.feature.auto-tracking.description": {
-    "message": "Tu repositorio de GitHub se indexa automáticamente. README, lanzamientos, changelogs e historial de versiones se sincronizan automáticamente."
+  "version.environment.none.title": {
+    "message": "No environment set"
   },
-  "landing.creator.feature.statistics.title": {
-    "message": "Estadísticas"
+  "version.environment.unknown.description": {
+    "message": "The environment: \"{environment}\" is not recognized."
   },
-  "landing.creator.feature.statistics.description": {
-    "message": "Rastrea la popularidad de tu plugin con estrellas de GitHub, forks y conteos de descargas de releases."
-  },
-  "landing.creator.feature.open-source.title": {
-    "message": "Código Abierto"
-  },
-  "landing.creator.feature.open-source.description": {
-    "message": "AllayHub es completamente de código abierto. Envía plugins mediante PR, contribuye a la plataforma y ayuda a crecer el ecosistema AllayMC."
-  },
-  "layout.footer.allay": {
-    "message": "Allay"
-  },
-  "layout.footer.allay.server": {
-    "message": "Servidor Allay"
-  },
-  "layout.footer.allay.docs": {
-    "message": "Documentación"
-  },
-  "layout.footer.products.plugins": {
-    "message": "Plugins"
-  },
-  "layout.footer.resources.source-code": {
-    "message": "Código fuente"
-  },
-  "layout.footer.community": {
-    "message": "Comunidad"
-  },
-  "layout.footer.community.discord": {
-    "message": "Discord"
-  },
-  "layout.footer.community.github": {
-    "message": "GitHub"
-  },
-  "layout.footer.social.twitter": {
-    "message": "Twitter"
+  "version.environment.unknown.title": {
+    "message": "Unknown environment"
   }
 }

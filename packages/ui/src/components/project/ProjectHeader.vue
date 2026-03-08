@@ -17,6 +17,7 @@
     </template>
     <template #stats>
       <div
+        v-if="showDownloads"
         v-tooltip="
           `${formatNumber(project.downloads, false)} download${project.downloads !== 1 ? 's' : ''}`
         "
@@ -79,9 +80,11 @@ withDefaults(
   defineProps<{
     project: Project
     member?: boolean
+    showDownloads?: boolean
   }>(),
   {
     member: false,
+    showDownloads: true,
   },
 )
 </script>

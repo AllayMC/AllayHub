@@ -1161,7 +1161,7 @@
     "message": "Data and Statistics"
   },
   "landing.creator.feature.discovery.description": {
-    "message": "Get your project discovered by thousands of users through search, our home page, Discord server, and more ways to come in the future!"
+    "message": "Get your plugin discovered by Nukkit-MOT server owners through search, categories, and our home page."
   },
   "landing.creator.feature.discovery.title": {
     "message": "Discovery"
@@ -1200,13 +1200,13 @@
     "message": "Play with your favorite launcher"
   },
   "landing.feature.search.description": {
-    "message": "AllayHub's lightning-fast search and powerful filters let you find what you want as you type."
+    "message": "NukkitHub's lightning-fast search and powerful filters let you find what you want as you type."
   },
   "landing.feature.search.heading": {
     "message": "Find what you want, quickly and easily"
   },
   "landing.heading.the-place-for-minecraft": {
-    "message": "The place for Allay {content}"
+    "message": "The place for Nukkit-MOT {content}"
   },
   "landing.heading.the-place-for-minecraft.data-packs": {
     "message": "data packs"
@@ -1281,7 +1281,7 @@
     "message": "Discover over {count} creations"
   },
   "landing.subheading": {
-    "message": "Discover, play, and share Minecraft content through our open-source platform built for the community."
+    "message": "Discover and share Nukkit-MOT plugins through our open-source platform built for the community."
   },
   "layout.action.change-theme": {
     "message": "Change theme"
@@ -1416,7 +1416,7 @@
     "message": "Terms of Use"
   },
   "layout.footer.modrinth-information": {
-    "message": "AllayHub information"
+    "message": "NukkitHub information"
   },
   "layout.footer.open-source": {
     "message": "AllayHub is <github-link>open source</github-link>."
@@ -1506,7 +1506,7 @@
     "message": "AllayLauncher"
   },
   "layout.nav.modrinth-home-page": {
-    "message": "AllayHub home page"
+    "message": "NukkitHub home page"
   },
   "layout.nav.my-servers": {
     "message": "My servers"
@@ -2940,13 +2940,13 @@
     "message": "Open Source"
   },
   "landing.creator.feature.open-source.description": {
-    "message": "AllayHub is fully open source. Submit plugins via PR, contribute to the platform, and help grow the AllayMC ecosystem."
+    "message": "NukkitHub is fully open source. Submit plugins via PR, contribute to the platform, and help grow the Nukkit-MOT ecosystem."
   },
   "layout.footer.allay": {
-    "message": "Allay"
+    "message": "Nukkit-MOT"
   },
   "layout.footer.allay.server": {
-    "message": "Allay Server"
+    "message": "Nukkit-MOT Server"
   },
   "layout.footer.allay.docs": {
     "message": "Documentation"
@@ -2969,6 +2969,9 @@
   "layout.footer.social.twitter": {
     "message": "Twitter"
   },
+  "layout.footer.project-attribution": {
+    "message": "This project is a derivative work based on <allayhub-link>AllayMC's open-source project AllayHub</allayhub-link> and is open-sourced under the AGPL license at <nukkithub-link>MemoriesOfTime/NukkitHub</nukkithub-link>."
+  },
   "landing.button.discover-plugins": {
     "message": "Discover plugins"
   },
@@ -2979,9 +2982,9 @@
     "message": "Launcher"
   },
   "layout.nav.allayhub-home-page": {
-    "message": "AllayHub home page"
+    "message": "NukkitHub home page"
   },
   "layout.footer.allayhub-information": {
-    "message": "AllayHub information"
+    "message": "NukkitHub information"
   }
 }

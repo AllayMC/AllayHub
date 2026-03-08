@@ -189,7 +189,11 @@
       }"
     >
       <div class="normal-page__header relative my-4">
-        <ProjectHeader :project="project as never" :member="!!currentMember">
+        <ProjectHeader
+          :project="project as never"
+          :member="!!currentMember"
+          :show-downloads="flags.showDownloadCounts"
+        >
           <template #actions>
             <div class="contents sm:hidden">
               <ButtonStyled
@@ -226,8 +230,7 @@
       <div class="normal-page__sidebar">
         <ProjectSidebarCompatibility
           v-if="project.id"
-          :is-outdated="projectIsOutdated"
-          :uses-server-api="projectUsesServerApi"
+          :depends-on-nukkit-mot="projectDependsOnNukkitMot"
           class="card flex-card experimental-styles-within"
         />
         <ProjectSidebarLinks
@@ -400,8 +403,6 @@ import MessageBanner from '~/components/ui/MessageBanner.vue'
 import NavTabs from '~/components/ui/NavTabs.vue'
 import { usePlugin, useApiVersions } from '~/composables/usePlugins'
 import type AllayIndex from '~/types/allayhub-index'
-import { LATEST_API_VERSION } from '~/types/allayhub'
-import { isPluginOutdated } from '~/utils/version'
 
 const route = useNativeRoute()
 
@@ -804,13 +805,31 @@ function createMembersFromAuthors(
   plugin: AllayIndex.Plugin | null,
 ): AllayIndex.MemberView[] {
   if (!plugin) return []
-  return plugin.authors.map((author, index) => ({
+
+  const normalizedAuthors = plugin.authors
+    .map((author) => ({
+      name: author.name?.trim() || '',
+      avatar_url: author.avatar_url || '/placeholder.png',
+    }))
+    .filter((author) => author.name.length > 0)
+
+  const fallbackOwner = plugin.id.split('/')[0]?.trim()
+  if (normalizedAuthors.length === 0 && fallbackOwner) {
+    const fallbackAvatar =
+      plugin.icon_url || `https://github.com/${fallbackOwner}.png`
+    normalizedAuthors.push({
+      name: fallbackOwner,
+      avatar_url: fallbackAvatar,
+    })
+  }
+
+  return normalizedAuthors.map((author, index) => ({
     id: `member-${plugin.id}-${index}`,
     team_id: `team-${plugin.id}`,
     user: {
       id: `user-${index}`,
       username: author.name,
-      avatar_url: author.avatar_url || '/placeholder.png',
+      avatar_url: author.avatar_url,
     },
     role: index === 0 ? 'Owner' : 'Member',
     is_owner: index === 0,
@@ -930,11 +949,19 @@ const currentMember = computed(() => {
 
 const projectTypeDisplay = computed(() => formatProjectType('plugin'))
 
-// Compatibility warnings
-const projectIsOutdated = computed(() =>
-  isPluginOutdated(project.value.api_version, LATEST_API_VERSION),
-)
-const projectUsesServerApi = computed(() => !!project.value.server_version)
+function normalizeDependencyName(name: string): string {
+  return name.toLowerCase().replace(/[^a-z0-9]/g, '')
+}
+
+// Compatibility warning: check whether plugin depends on Nukkit-MOT.
+const projectDependsOnNukkitMot = computed(() => {
+  const dependencies = project.value.dependencies || []
+
+  return dependencies.some((dependency) => {
+    const normalized = normalizeDependencyName(dependency.plugin_id)
+    return normalized.includes('nukkitmot')
+  })
+})
 
 const title = computed(
   () => `${project.value.title} - Allay ${projectTypeDisplay.value}`,

@@ -5,6 +5,7 @@
       :project="project"
       :versions="versions as never"
       :show-files="flags.showVersionFilesInTable"
+      :show-downloads="flags.showDownloadCounts"
       :current-member="false"
       :game-versions="gameVersions"
       :base-id="baseDropdownId"

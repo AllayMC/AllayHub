@@ -58,8 +58,8 @@ bun.lockb
 
 !.gitkeep
 
-# AllayHubIndex
-/AllayHubIndex
+# NukkitHubIndex
+/NukkitHubIndex
 **/orama-index.bin
 allayindexer
 allayindexer.exe

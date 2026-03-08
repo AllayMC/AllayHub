@@ -4,9 +4,9 @@ import { defineNuxtConfig } from 'nuxt/config'
 import svgLoader from 'vite-svg-loader'
 
 const favicons = {
-  '(prefers-color-scheme:no-preference)': '/favicon.ico',
-  '(prefers-color-scheme:light)': '/favicon.ico',
-  '(prefers-color-scheme:dark)': '/favicon.ico',
+  '(prefers-color-scheme:no-preference)': '/favicon.png',
+  '(prefers-color-scheme:light)': '/favicon.png',
+  '(prefers-color-scheme:dark)': '/favicon.png',
 }
 
 export default defineNuxtConfig({
@@ -25,15 +25,15 @@ export default defineNuxtConfig({
       ],
       link: [
         ...Object.entries(favicons).map(([media, href]): object => {
-          return { rel: 'icon', type: 'image/x-icon', href, media }
+          return { rel: 'icon', type: 'image/png', href, media }
         }),
         ...Object.entries(favicons).map(([media, href]): object => {
           return {
             rel: 'apple-touch-icon',
-            type: 'image/x-icon',
+            type: 'image/png',
             href,
             media,
-            sizes: '64x64',
+            sizes: '256x256',
           }
         }),
         {
@@ -48,9 +48,7 @@ export default defineNuxtConfig({
   vite: {
     server: {
       fs: {
-        allow: [
-          "..",
-        ],
+        allow: ['..'],
       },
     },
     css: {
@@ -98,7 +96,10 @@ export default defineNuxtConfig({
         output: {
           manualChunks(id) {
             if (id.includes('node_modules')) {
-              if (id.includes('intl-messageformat') || id.includes('@formatjs')) {
+              if (
+                id.includes('intl-messageformat') ||
+                id.includes('@formatjs')
+              ) {
                 return 'vendor-i18n'
               }
               if (id.includes('highlight.js')) {
@@ -116,12 +117,6 @@ export default defineNuxtConfig({
             }
           },
         },
-      },
-    },
-    server: {
-      fs: {
-        // Allow access to test directory for mock data
-        allow: ['..'],
       },
     },
   },
@@ -161,8 +156,8 @@ export default defineNuxtConfig({
       production: isProduction(),
       featureFlagOverrides: getFeatureFlagOverrides(),
 
-      owner: process.env.VERCEL_GIT_REPO_OWNER || 'AllayMC',
-      slug: process.env.VERCEL_GIT_REPO_SLUG || 'AllayHub',
+      owner: process.env.VERCEL_GIT_REPO_OWNER || 'MemoriesOfTime',
+      slug: process.env.VERCEL_GIT_REPO_SLUG || 'NukkitHub',
       branch:
         process.env.VERCEL_GIT_COMMIT_REF ||
         process.env.CF_PAGES_BRANCH ||
@@ -210,7 +205,7 @@ export default defineNuxtConfig({
     langDir: '.',
     locales: LOCALES.map((locale) => ({
       ...locale,
-      file: 'locale-loader.ts',
+      file: 'locale-loader.js',
     })),
     strategy: 'no_prefix',
     detectBrowserLanguage: {
@@ -218,7 +213,7 @@ export default defineNuxtConfig({
       cookieKey: 'locale',
       fallbackLocale: 'en-US',
     },
-    vueI18n: './i18n.config.ts',
+    vueI18n: './i18n.config.js',
     bundle: {
       optimizeTranslationDirective: false,
     },
@@ -242,7 +237,7 @@ export default defineNuxtConfig({
     },
   },
   compatibilityDate: '2025-01-01',
-  telemetry: false,
+  telemetry: false
 })
 
 function isProduction() {
@@ -258,5 +253,5 @@ function getDomain() {
     const port = process.env.PORT || 3000
     return `http://localhost:${port}`
   }
-  return 'https://hub.allaymc.org'
+  return 'https://plugins.nukkit-mot.com'
 }

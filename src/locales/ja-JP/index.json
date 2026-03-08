@@ -1080,10 +1080,10 @@
     "message": "AllayHub は<github-link>オープンソース</github-link>です。"
   },
   "layout.footer.allay": {
-    "message": "Allay"
+    "message": "Nukkit-MOT"
   },
   "layout.footer.allay.server": {
-    "message": "Allay サーバー"
+    "message": "Nukkit-MOT Server"
   },
   "layout.footer.allay.docs": {
     "message": "ドキュメント"

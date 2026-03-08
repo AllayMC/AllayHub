@@ -37,13 +37,61 @@ fn get_license_type(license: &crate::plugin::License) -> &'static str {
     }
 }
 
-fn build_document(plugin: &Plugin, split_cache: &HashMap<String, Vec<String>>) -> OramaDocument {
+fn is_placeholder(s: &str) -> bool {
+    let trimmed = s.trim();
+    (trimmed.starts_with("${") && trimmed.ends_with('}') && trimmed.len() > 3)
+        || (trimmed.starts_with('@') && trimmed.ends_with('@') && trimmed.len() > 2)
+}
+
+fn repo_owner_from_id(id: &str) -> String {
+    id.split_once('/')
+        .map(|(owner, _)| owner.to_string())
+        .unwrap_or_default()
+}
+
+fn repo_name_from_id(id: &str) -> String {
+    id.split_once('/')
+        .map(|(_, repo)| repo.to_string())
+        .unwrap_or_else(|| id.to_string())
+}
+
+fn normalized_display_name(plugin: &Plugin) -> String {
+    let name = plugin.name.trim();
+    if name.is_empty() || is_placeholder(name) {
+        repo_name_from_id(&plugin.id)
+    } else {
+        name.to_string()
+    }
+}
+
+fn normalized_author(plugin: &Plugin) -> String {
     let author = plugin.get_author_name();
+    let author_trimmed = author.trim();
+    if author_trimmed.is_empty() || is_placeholder(author_trimmed) {
+        repo_owner_from_id(&plugin.id)
+    } else {
+        author_trimmed.to_string()
+    }
+}
+
+fn normalized_summary(plugin: &Plugin) -> String {
+    let summary = plugin.summary.trim();
+    if summary.is_empty() || is_placeholder(summary) {
+        String::new()
+    } else {
+        summary.to_string()
+    }
+}
+
+fn build_document(plugin: &Plugin, split_cache: &HashMap<String, Vec<String>>) -> OramaDocument {
+    let display_name = normalized_display_name(plugin);
+    let author = normalized_author(plugin);
+    let summary = normalized_summary(plugin);
 
     let name_tokens = split_cache
-        .get(&plugin.name)
+        .get(&display_name)
         .cloned()
-        .unwrap_or_else(|| vec![plugin.name.to_lowercase()]);
+        .unwrap_or_else(|| vec![display_name.to_lowercase()]);
 
     let owner_tokens = if author.is_empty() {
         vec![]
@@ -65,9 +113,9 @@ fn build_document(plugin: &Plugin, split_cache: &HashMap<String, Vec<String>>) -
         created_at: plugin.created_at,
         updated_at: plugin.updated_at,
         id: plugin.id.clone(),
-        display_name: plugin.name.clone(),
+        display_name,
         author,
-        summary: plugin.summary.clone(),
+        summary,
         icon_url: plugin.icon_url.clone(),
         gallery_url: plugin
             .gallery
@@ -81,17 +129,18 @@ pub fn build_orama_index(plugins: &[Plugin], output_path: &Path, builder_path: &
     let _span = info_span!("build_orama_index", plugins = plugins.len()).entered();
 
     if let Some(parent) = output_path.parent()
-        && let Err(e) = fs::create_dir_all(parent) {
-            error!(error = %e, "Failed to create output directory");
-            return false;
-        }
+        && let Err(e) = fs::create_dir_all(parent)
+    {
+        error!(error = %e, "Failed to create output directory");
+        return false;
+    }
 
     let segmenter = get_segmenter();
     let mut identifiers: HashSet<String> = HashSet::new();
 
     for p in plugins {
-        identifiers.insert(p.name.clone());
-        let author = p.get_author_name();
+        identifiers.insert(normalized_display_name(p));
+        let author = normalized_author(p);
         if !author.is_empty() {
             identifiers.insert(author);
         }
@@ -132,10 +181,11 @@ pub fn build_orama_index(plugins: &[Plugin], output_path: &Path, builder_path: &
     };
 
     if let Some(mut stdin) = child.stdin.take()
-        && let Err(e) = stdin.write_all(json.as_bytes()) {
-            error!(error = %e, "Failed to write to stdin");
-            return false;
-        }
+        && let Err(e) = stdin.write_all(json.as_bytes())
+    {
+        error!(error = %e, "Failed to write to stdin");
+        return false;
+    }
 
     match child.wait_with_output() {
         Ok(output) => {

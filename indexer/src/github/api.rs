@@ -17,7 +17,7 @@ const RATE_LIMIT_BUFFER: usize = 5;
 const USER_AGENT: &str = concat!(
     "AllayIndexer/",
     env!("CARGO_PKG_VERSION"),
-    " (+https://github.com/AllayMC/AllayHub)"
+    " (+https://github.com/MemoriesOfTime/NukkitHub)"
 );
 
 struct ResponseCache {
@@ -159,9 +159,10 @@ impl GitHubClient {
                 {
                     let cached = self.cached_token.read().unwrap();
                     if let Some((token, created)) = cached.as_ref()
-                        && created.elapsed() < TOKEN_REFRESH_MARGIN {
-                            return Ok(Some(token.clone()));
-                        }
+                        && created.elapsed() < TOKEN_REFRESH_MARGIN
+                    {
+                        return Ok(Some(token.clone()));
+                    }
                 }
                 let token = app.get_token()?;
                 let mut cached = self.cached_token.write().unwrap();

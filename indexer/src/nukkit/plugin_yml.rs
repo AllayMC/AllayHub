@@ -17,6 +17,10 @@ pub struct NukkitPluginYml {
     #[serde(default)]
     pub api: ApiVersion,
 
+    /// 单作者（常见于单人项目）
+    #[serde(default)]
+    pub author: Option<String>,
+
     /// 作者列表（支持单个字符串或数组）
     #[serde(default)]
     pub authors: Authors,
@@ -114,6 +118,28 @@ impl NukkitPluginYml {
         deps.extend(self.softdepend.clone());
         deps
     }
+
+    /// 获取所有作者（兼容 author + authors）
+    pub fn all_authors(&self) -> Vec<String> {
+        let mut merged: Vec<String> = Vec::new();
+
+        if let Some(author) = &self.author {
+            let trimmed = author.trim();
+            if !trimmed.is_empty() {
+                merged.push(trimmed.to_string());
+            }
+        }
+
+        for name in self.authors.as_vec() {
+            let trimmed = name.trim();
+            if trimmed.is_empty() || merged.iter().any(|x| x == trimmed) {
+                continue;
+            }
+            merged.push(trimmed.to_string());
+        }
+
+        merged
+    }
 }
 
 #[cfg(test)]
@@ -143,11 +169,11 @@ description: An example plugin
 name: TestPlugin
 version: 1.0.0
 main: com.test.TestPlugin
-authors: SingleAuthor
+author: SingleAuthor
 "#;
 
         let plugin = NukkitPluginYml::from_str(yaml).unwrap();
-        assert_eq!(plugin.authors.as_vec(), vec!["SingleAuthor"]);
+        assert_eq!(plugin.all_authors(), vec!["SingleAuthor"]);
     }
 
     #[test]
@@ -160,7 +186,21 @@ authors: ["Author1", "Author2"]
 "#;
 
         let plugin = NukkitPluginYml::from_str(yaml).unwrap();
-        assert_eq!(plugin.authors.as_vec(), vec!["Author1", "Author2"]);
+        assert_eq!(plugin.all_authors(), vec!["Author1", "Author2"]);
+    }
+
+    #[test]
+    fn test_parse_author_and_authors_merge() {
+        let yaml = r#"
+name: TestPlugin
+version: 1.0.0
+main: com.test.TestPlugin
+author: Author1
+authors: ["Author1", "Author2"]
+"#;
+
+        let plugin = NukkitPluginYml::from_str(yaml).unwrap();
+        assert_eq!(plugin.all_authors(), vec!["Author1", "Author2"]);
     }
 
     #[test]
@@ -176,7 +216,10 @@ softdepend: ["PluginB", "PluginC"]
         let plugin = NukkitPluginYml::from_str(yaml).unwrap();
         assert_eq!(plugin.depend, vec!["PluginA"]);
         assert_eq!(plugin.softdepend, vec!["PluginB", "PluginC"]);
-        assert_eq!(plugin.all_dependencies(), vec!["PluginA", "PluginB", "PluginC"]);
+        assert_eq!(
+            plugin.all_dependencies(),
+            vec!["PluginA", "PluginB", "PluginC"]
+        );
     }
 
     #[test]

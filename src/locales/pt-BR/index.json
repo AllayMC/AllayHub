@@ -1121,8 +1121,17 @@
   "landing.button.discover-mods": {
     "message": "Descubra mods"
   },
+  "landing.button.discover-plugins": {
+    "message": "Descobrir plugins"
+  },
   "landing.button.go-to-dashboard": {
     "message": "Visitar painel"
+  },
+  "landing.creator.feature.auto-tracking.description": {
+    "message": "Seu repositório GitHub é indexado automaticamente. README, releases, changelogs e histórico de versões são sincronizados automaticamente."
+  },
+  "landing.creator.feature.auto-tracking.title": {
+    "message": "Rastreamento automático"
   },
   "landing.creator.feature.constantly-evolving.description": {
     "message": "Obtenha a melhor experiência possível de mods com atualizações constantes da equipe do AllayHub"
@@ -1153,6 +1162,18 @@
   },
   "landing.creator.feature.monetization.title": {
     "message": "Monetização"
+  },
+  "landing.creator.feature.open-source.description": {
+    "message": "AllayHub é totalmente open source. Envie plugins via PR, contribua para a plataforma e ajude a crescer o ecossistema AllayMC."
+  },
+  "landing.creator.feature.open-source.title": {
+    "message": "Código Aberto"
+  },
+  "landing.creator.feature.statistics.description": {
+    "message": "Acompanhe a popularidade do seu plugin com estrelas do GitHub, forks e contagens de downloads das releases."
+  },
+  "landing.creator.feature.statistics.title": {
+    "message": "Estatísticas"
   },
   "landing.creator.feature.team-management.description": {
     "message": "Convide seus colegas de equipe e gerencie cargos e permissões com facilidade"
@@ -1370,6 +1391,27 @@
   "layout.footer.about.status": {
     "message": "Status"
   },
+  "layout.footer.allay": {
+    "message": "Nukkit-MOT"
+  },
+  "layout.footer.allay.docs": {
+    "message": "Documentação"
+  },
+  "layout.footer.allay.server": {
+    "message": "Nukkit-MOT Server"
+  },
+  "layout.footer.allayhub-information": {
+    "message": "Informações do NukkitHub"
+  },
+  "layout.footer.community": {
+    "message": "Comunidade"
+  },
+  "layout.footer.community.discord": {
+    "message": "Discord"
+  },
+  "layout.footer.community.github": {
+    "message": "GitHub"
+  },
   "layout.footer.legal": {
     "message": "Termos e Políticas"
   },
@@ -1403,11 +1445,17 @@
   "layout.footer.products.app": {
     "message": "AllayLauncher"
   },
+  "layout.footer.products.plugins": {
+    "message": "Plugins"
+  },
   "layout.footer.products.plus": {
     "message": "AllayHub+"
   },
   "layout.footer.products.servers": {
     "message": "AllayHub Hosting"
+  },
+  "layout.footer.project-attribution": {
+    "message": "Este projeto é baseado no projeto de código aberto <allayhub-link>AllayHub da AllayMC</allayhub-link> e está disponível sob a licença AGPL em <nukkithub-link>MemoriesOfTime/NukkitHub</nukkithub-link>."
   },
   "layout.footer.resources": {
     "message": "Recursos"
@@ -1420,6 +1468,9 @@
   },
   "layout.footer.resources.report-issues": {
     "message": "Relatar problemas"
+  },
+  "layout.footer.resources.source-code": {
+    "message": "Código fonte"
   },
   "layout.footer.resources.translate": {
     "message": "Tradução"
@@ -1435,6 +1486,9 @@
   },
   "layout.footer.social.mastodon": {
     "message": "Mastodon"
+  },
+  "layout.footer.social.twitter": {
+    "message": "Twitter"
   },
   "layout.footer.social.x": {
     "message": "X"
@@ -1457,6 +1511,12 @@
   "layout.nav.active-reports": {
     "message": "Relatórios ativos"
   },
+  "layout.nav.allay-launcher": {
+    "message": "Launcher"
+  },
+  "layout.nav.allayhub-home-page": {
+    "message": "Página inicial do NukkitHub"
+  },
   "layout.nav.analytics": {
     "message": "Estatísticas"
   },
@@ -1468,6 +1528,9 @@
   },
   "layout.nav.feature-flags": {
     "message": "Sinalização de recursos"
+  },
+  "layout.nav.get-allay-launcher": {
+    "message": "Baixar o launcher"
   },
   "layout.nav.get-modrinth-app": {
     "message": "Obter Allay"
@@ -2899,50 +2962,5 @@
   },
   "version.environment.unknown.title": {
     "message": "Ambiente desconhecido"
-  },
-  "landing.creator.feature.auto-tracking.title": {
-    "message": "Rastreamento automático"
-  },
-  "landing.creator.feature.auto-tracking.description": {
-    "message": "Seu repositório GitHub é indexado automaticamente. README, releases, changelogs e histórico de versões são sincronizados automaticamente."
-  },
-  "landing.creator.feature.statistics.title": {
-    "message": "Estatísticas"
-  },
-  "landing.creator.feature.statistics.description": {
-    "message": "Acompanhe a popularidade do seu plugin com estrelas do GitHub, forks e contagens de downloads das releases."
-  },
-  "landing.creator.feature.open-source.title": {
-    "message": "Código Aberto"
-  },
-  "landing.creator.feature.open-source.description": {
-    "message": "AllayHub é totalmente open source. Envie plugins via PR, contribua para a plataforma e ajude a crescer o ecossistema AllayMC."
-  },
-  "layout.footer.allay": {
-    "message": "Allay"
-  },
-  "layout.footer.allay.server": {
-    "message": "Servidor Allay"
-  },
-  "layout.footer.allay.docs": {
-    "message": "Documentação"
-  },
-  "layout.footer.products.plugins": {
-    "message": "Plugins"
-  },
-  "layout.footer.resources.source-code": {
-    "message": "Código fonte"
-  },
-  "layout.footer.community": {
-    "message": "Comunidade"
-  },
-  "layout.footer.community.discord": {
-    "message": "Discord"
-  },
-  "layout.footer.community.github": {
-    "message": "GitHub"
-  },
-  "layout.footer.social.twitter": {
-    "message": "Twitter"
   }
 }

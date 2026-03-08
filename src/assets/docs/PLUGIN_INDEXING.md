@@ -56,7 +56,7 @@ Frontend URLs follow the same pattern: `/plugin/{owner}/{name}`.
 
 ### AllayGradle DSL (Recommended)
 
-Define plugin metadata directly in `build.gradle.kts` using [AllayGradle](https://github.com/AllayMC/AllayGradle):
+Define plugin metadata directly in `build.gradle.kts` using [AllayGradle](https://github.com/MemoriesOfTime/ExamplePlugin-Maven):
 
 ```kotlin
 allay {

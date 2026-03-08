@@ -90,7 +90,7 @@
           <h4>Version number</h4>
           <span>{{ version.version }}</span>
         </div>
-        <div>
+        <div v-if="flags.showDownloadCounts">
           <h4>Downloads</h4>
           <span>{{ version.downloads }}</span>
         </div>
@@ -123,6 +123,7 @@ const props = defineProps<{
   versions: AllayIndex.Version[]
 }>()
 
+const flags = useFeatureFlags()
 const emit = defineEmits(['onDownload'])
 const route = useNativeRoute()
 const router = useNativeRouter()
@@ -174,10 +175,12 @@ function getPreviousLabel() {
 const title = computed(
   () => `${version.value?.name || 'Version'} - ${props.project.title}`,
 )
-const description = computed(
-  () =>
-    `Download ${props.project.title} ${version.value?.version || ''} on AllayHub. ${version.value?.downloads || 0} downloads.`,
-)
+const description = computed(() => {
+  if (!flags.value.showDownloadCounts) {
+    return `Download ${props.project.title} ${version.value?.version || ''} on AllayHub.`
+  }
+  return `Download ${props.project.title} ${version.value?.version || ''} on AllayHub. ${version.value?.downloads || 0} downloads.`
+})
 
 useSeoMeta({
   title,

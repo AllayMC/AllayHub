@@ -4,22 +4,13 @@
       <ProjectPageDescription :description="project.body" />
     </div>
     <p v-else class="ml-2">
-      No description provided. Visit
-      <NuxtLink :to="`${route.fullPath}/settings/description`">
-        <span class="font-medium text-green hover:underline"
-          >project settings</span
-        >
-        to
-      </NuxtLink>
-      add your description.
+      No description has been provided for this project yet.
     </p>
   </section>
 </template>
 
 <script setup lang="ts">
 import { ProjectPageDescription } from '@modrinth/ui'
-
-const route = useRoute()
 
 defineProps<{
   project: AllayIndex.ProjectView

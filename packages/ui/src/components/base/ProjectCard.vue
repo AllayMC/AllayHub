@@ -49,7 +49,7 @@
       />
     </Categories>
     <div class="stats">
-      <div v-if="downloads" class="stat">
+      <div v-if="showDownloads && downloads" class="stat">
         <DownloadIcon aria-hidden="true" />
         <p>
           <strong>{{ formatNumber(downloads) }}</strong
@@ -131,6 +131,11 @@ const props = defineProps({
   downloads: {
     type: String,
     default: null,
+    required: false,
+  },
+  showDownloads: {
+    type: Boolean,
+    default: true,
     required: false,
   },
   follows: {

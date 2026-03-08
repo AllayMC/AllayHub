@@ -1176,13 +1176,13 @@
     "message": "与你喜欢的启动器协同并行"
   },
   "landing.feature.search.description": {
-    "message": "AllayHub 的搜索快如闪电，配合强大的筛选功能，心仪内容就在弹指一挥间。"
+    "message": "NukkitHub 的搜索快如闪电，配合强大的筛选功能，心仪内容就在弹指一挥间。"
   },
   "landing.feature.search.heading": {
     "message": "查找迅速，轻松锁定"
   },
   "landing.heading.the-place-for-minecraft": {
-    "message": "汇聚 Allay 各类 {content}"
+    "message": "汇聚 Nukkit-MOT 各类 {content}"
   },
   "landing.heading.the-place-for-minecraft.data-packs": {
     "message": "数据包"
@@ -1482,7 +1482,7 @@
     "message": "AllayLauncher"
   },
   "layout.nav.modrinth-home-page": {
-    "message": "AllayHub 首页"
+    "message": "NukkitHub 首页"
   },
   "layout.nav.my-servers": {
     "message": "我的服务器"
@@ -2916,13 +2916,13 @@
     "message": "开源社区"
   },
   "landing.creator.feature.open-source.description": {
-    "message": "AllayHub 完全开源。通过 PR 提交插件，为平台贡献代码，共同建设 AllayMC 生态。"
+    "message": "NukkitHub 完全开源。通过 PR 提交插件，为平台贡献代码，共同建设 Nukkit 生态。"
   },
   "layout.footer.allay": {
-    "message": "Allay"
+    "message": "Nukkit-MOT"
   },
   "layout.footer.allay.server": {
-    "message": "Allay 服务端"
+    "message": "Nukkit-MOT Server"
   },
   "layout.footer.allay.docs": {
     "message": "文档"
@@ -2945,6 +2945,9 @@
   "layout.footer.social.twitter": {
     "message": "Twitter"
   },
+  "layout.footer.project-attribution": {
+    "message": "本项目基于<allayhub-link>AllayMC 的开源项目 AllayHub</allayhub-link>进行二次开发，并遵守 AGPL 协议开源于<nukkithub-link>MemoriesOfTime/NukkitHub</nukkithub-link>。"
+  },
   "landing.button.discover-plugins": {
     "message": "探索插件"
   },
@@ -2955,9 +2958,9 @@
     "message": "启动器"
   },
   "layout.nav.allayhub-home-page": {
-    "message": "AllayHub 主页"
+    "message": "NukkitHub 主页"
   },
   "layout.footer.allayhub-information": {
-    "message": "AllayHub 信息"
+    "message": "NukkitHub 信息"
   }
 }

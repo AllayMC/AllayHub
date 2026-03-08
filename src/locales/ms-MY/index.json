@@ -1121,8 +1121,17 @@
   "landing.button.discover-mods": {
     "message": "Temui mod"
   },
+  "landing.button.discover-plugins": {
+    "message": "Terokai plugin"
+  },
   "landing.button.go-to-dashboard": {
     "message": "Pergi ke papan pemuka"
+  },
+  "landing.creator.feature.auto-tracking.description": {
+    "message": "Repositori GitHub anda diindeks secara automatik. README, keluaran, log perubahan dan sejarah versi disegerakkan secara automatik."
+  },
+  "landing.creator.feature.auto-tracking.title": {
+    "message": "Penjejakan automatik"
   },
   "landing.creator.feature.constantly-evolving.description": {
     "message": "Dapatkan pengalaman pengubahsuaian terbaik yang mungkin dengan kemas kini berterusan daripada pasukan AllayHub"
@@ -1153,6 +1162,18 @@
   },
   "landing.creator.feature.monetization.title": {
     "message": "Pengewangan"
+  },
+  "landing.creator.feature.open-source.description": {
+    "message": "NukkitHub sepenuhnya sumber terbuka. Hantar plugin melalui PR, sumbangkan kod kepada platform, dan bina ekosistem Nukkit bersama-sama."
+  },
+  "landing.creator.feature.open-source.title": {
+    "message": "Komuniti sumber terbuka"
+  },
+  "landing.creator.feature.statistics.description": {
+    "message": "Jejaki populariti plugin anda melalui bintang, fork dan muat turun keluaran GitHub."
+  },
+  "landing.creator.feature.statistics.title": {
+    "message": "Statistik"
   },
   "landing.creator.feature.team-management.description": {
     "message": "Jemput rakan sepasukan anda dan uruskan peranan serta kebenaran dengan mudah"
@@ -1370,6 +1391,27 @@
   "layout.footer.about.status": {
     "message": "Status"
   },
+  "layout.footer.allay": {
+    "message": "Nukkit-MOT"
+  },
+  "layout.footer.allay.docs": {
+    "message": "Dokumentasi"
+  },
+  "layout.footer.allay.server": {
+    "message": "Nukkit-MOT Server"
+  },
+  "layout.footer.allayhub-information": {
+    "message": "Maklumat NukkitHub"
+  },
+  "layout.footer.community": {
+    "message": "Komuniti"
+  },
+  "layout.footer.community.discord": {
+    "message": "Discord"
+  },
+  "layout.footer.community.github": {
+    "message": "GitHub"
+  },
   "layout.footer.legal": {
     "message": "Undang-undang"
   },
@@ -1403,11 +1445,17 @@
   "layout.footer.products.app": {
     "message": "AllayLauncher"
   },
+  "layout.footer.products.plugins": {
+    "message": "Plugin"
+  },
   "layout.footer.products.plus": {
     "message": "AllayHub+"
   },
   "layout.footer.products.servers": {
     "message": "AllayHub Hosting"
+  },
+  "layout.footer.project-attribution": {
+    "message": "Projek ini berdasarkan projek sumber terbuka <allayhub-link>AllayHub oleh AllayMC</allayhub-link> dan tersedia di bawah lesen AGPL di <nukkithub-link>MemoriesOfTime/NukkitHub</nukkithub-link>."
   },
   "layout.footer.resources": {
     "message": "Sumber"
@@ -1420,6 +1468,9 @@
   },
   "layout.footer.resources.report-issues": {
     "message": "Laporkan isu"
+  },
+  "layout.footer.resources.source-code": {
+    "message": "Kod sumber"
   },
   "layout.footer.resources.translate": {
     "message": "Terjemah"
@@ -1435,6 +1486,9 @@
   },
   "layout.footer.social.mastodon": {
     "message": "Mastodon"
+  },
+  "layout.footer.social.twitter": {
+    "message": "Twitter"
   },
   "layout.footer.social.x": {
     "message": "X"
@@ -1457,6 +1511,12 @@
   "layout.nav.active-reports": {
     "message": "Laporan yang aktif"
   },
+  "layout.nav.allay-launcher": {
+    "message": "Pelancar"
+  },
+  "layout.nav.allayhub-home-page": {
+    "message": "Laman utama NukkitHub"
+  },
   "layout.nav.analytics": {
     "message": "Analitik"
   },
@@ -1468,6 +1528,9 @@
   },
   "layout.nav.feature-flags": {
     "message": "Penetapan ciri"
+  },
+  "layout.nav.get-allay-launcher": {
+    "message": "Dapatkan pelancar"
   },
   "layout.nav.get-modrinth-app": {
     "message": "Dapatkan Allay"
